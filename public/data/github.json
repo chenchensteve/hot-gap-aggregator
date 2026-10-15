@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T04:45:18.489670+00:00",
+  "generated_at": "2026-10-15T01:45:24.879064+00:00",
   "source": "github",
   "status": {
     "source": "github",
     "status": "ok",
-    "item_count": 8,
-    "duration_ms": 863,
+    "item_count": 12,
+    "duration_ms": 2011,
     "error": null,
-    "run_at": "2026-10-12T04:45:18.489670+00:00"
+    "run_at": "2026-10-15T01:45:24.879064+00:00"
   },
   "items": [
     {
@@ -16,7 +16,7 @@
       "title": "morluto/rea",
       "title_zh": "morluto/rea",
       "url": "https://github.com/morluto/rea",
-      "hot_value": "25,599 stars today",
+      "hot_value": "41,034 stars today",
       "summary_zh": "用智能体逆向工程应用行为到原生二进制，值得看。",
       "thumbnail": null,
       "published_at": null,
@@ -24,28 +24,12 @@
         "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
         "language": "TypeScript"
       },
-      "days_on_board": 3,
+      "days_on_board": 1,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "85347f276c40",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-06T16:45:23.211195+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-07T01:45:04.910198+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-07T10:45:19.993440+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-08T04:45:23.032721+00:00",
-          "rank": 1
-        },
         {
           "run_at": "2026-10-10T01:45:27.562959+00:00",
           "rank": 1
@@ -56,6 +40,10 @@
         },
         {
           "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 1
         }
       ]
@@ -63,53 +51,25 @@
     {
       "source": "github",
       "rank": 2,
-      "title": "boykopovar/AnyPS5",
-      "title_zh": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "hot_value": "3,952 stars today",
-      "summary_zh": "自动把PS5游戏移植到Linux和Windows的工具。",
+      "title": "debpalash/VoiceStudio",
+      "title_zh": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "hot_value": "3,538 stars today",
+      "summary_zh": "开源本地语音克隆工具，支持646种语言，替代ElevenLabs。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-        "language": "C++"
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "language": "Python"
       },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "2054e0f42ff7",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "bf2187938399",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-06T01:45:25.842668+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-06T16:45:23.211195+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-07T01:45:04.910198+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-07T10:45:19.993440+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-08T04:45:23.032721+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-10T01:45:27.562959+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-11T01:44:41.597505+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 2
         }
       ]
@@ -117,33 +77,29 @@
     {
       "source": "github",
       "rank": 3,
-      "title": "storytold/artcraft",
-      "title_zh": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "hot_value": "2,957 stars today",
-      "summary_zh": "ArtCraft：面向艺术家设计师的创意制作引擎。",
+      "title": "mksglu/context-mode",
+      "title_zh": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "hot_value": "947 stars today",
+      "summary_zh": "压缩工具输出98%，跨17平台路由，AI编程上下文优化。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-        "language": "Rust"
+        "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "language": "TypeScript"
       },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "bc372ea24df2",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cfa894e51a51",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-10T01:45:27.562959+00:00",
-          "rank": 9
-        },
-        {
           "run_at": "2026-10-11T01:44:41.597505+00:00",
-          "rank": 3
+          "rank": 5
         },
         {
-          "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 3
         }
       ]
@@ -151,49 +107,25 @@
     {
       "source": "github",
       "rank": 4,
-      "title": "cathrynlavery/diagram-design",
-      "title_zh": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "hot_value": "1,083 stars today",
-      "summary_zh": "为Claude Code等AI编程工具提供44种编辑级图表设计，纯HTML+SV",
+      "title": "nvm-sh/nvm",
+      "title_zh": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "hot_value": "52 stars today",
+      "summary_zh": "Node.js版本管理工具，方便切换版本。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-        "language": "HTML"
+        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "language": "Shell"
       },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "d8c839d8efba",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "59cd05c72d2c",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-06T16:45:23.211195+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-07T01:45:04.910198+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-07T10:45:19.993440+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-08T04:45:23.032721+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-10T01:45:27.562959+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-11T01:44:41.597505+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 4
         }
       ]
@@ -201,25 +133,25 @@
     {
       "source": "github",
       "rank": 5,
-      "title": "bilawalsidhu/gods-eye-view",
-      "title_zh": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "hot_value": "886 stars today",
-      "summary_zh": "浏览器间谍卫星模拟器，数据真实，可看实时开源空间情报。",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "title_zh": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "hot_value": "163 stars today",
+      "summary_zh": "AI科学家技能库，覆盖多领域数据库。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-        "language": "JavaScript"
+        "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "language": "Python"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "aa541bd60e83",
+      "cluster_id": "dc17abca205a",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 5
         }
       ]
@@ -227,29 +159,25 @@
     {
       "source": "github",
       "rank": 6,
-      "title": "pytorch/pytorch",
-      "title_zh": "pytorch/pytorch",
-      "url": "https://github.com/pytorch/pytorch",
-      "hot_value": "315 stars today",
-      "summary_zh": "PyTorch提供张量和动态神经网络，GPU加速强劲，深度学习研究首选框架。",
+      "title": "HKUDS/CLI-Anything",
+      "title_zh": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "hot_value": "103 stars today",
+      "summary_zh": "让所有软件变成智能体原生，提供CLI-Hub入口。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
         "language": "Python"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 4,
-      "cluster_id": "52a7e1839c28",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "2c630d391e68",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-11T01:44:41.597505+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 6
         }
       ]
@@ -257,25 +185,25 @@
     {
       "source": "github",
       "rank": 7,
-      "title": "lyogavin/airllm",
-      "title_zh": "lyogavin/airllm",
-      "url": "https://github.com/lyogavin/airllm",
-      "hot_value": "548 stars today",
-      "summary_zh": "AirLLM让70B大模型在单张4GB显卡上推理，大幅降低硬件门槛。",
+      "title": "ifixai-ai/iFixAi",
+      "title_zh": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "hot_value": "2,109 stars today",
+      "summary_zh": "AI代理独立审计工具，快速验证代理行为。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "AirLLM 70B inference with single 4GB GPU",
-        "language": "Jupyter Notebook"
+        "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+        "language": "Python"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "0c522de95be7",
+      "cluster_id": "911ff1641a84",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 7
         }
       ]
@@ -283,26 +211,130 @@
     {
       "source": "github",
       "rank": 8,
-      "title": "chrislgarry/Apollo-11",
-      "title_zh": "chrislgarry/Apollo-11",
-      "url": "https://github.com/chrislgarry/Apollo-11",
-      "hot_value": "466 stars today",
-      "summary_zh": "阿波罗11号制导计算机原始源码，见证人类登月的历史性代码。",
+      "title": "vxcontrol/pentagi",
+      "title_zh": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "hot_value": "1,025 stars today",
+      "summary_zh": "全自主AI智能体系统，能执行复杂渗透测试任务。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-        "language": "Assembly"
+        "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+        "language": "Go"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "af2441f90b1c",
+      "cluster_id": "c9e493e38eeb",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-12T04:45:18.489670+00:00",
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
           "rank": 8
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 9,
+      "title": "rust-lang/rust",
+      "title_zh": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "hot_value": "207 stars today",
+      "summary_zh": "Rust编程语言，高效可靠。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Empowering everyone to build reliable and efficient software.",
+        "language": "Rust"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "2be5ea641e34",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 10,
+      "title": "xtool-org/xtool",
+      "title_zh": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "hot_value": "1,502 stars today",
+      "summary_zh": "Xcode替代工具，跨平台iOS应用开发。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+        "language": "Swift"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7e5dabc12c5f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 11,
+      "title": "ntdevlabs/tiny11builder",
+      "title_zh": "ntdevlabs/tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder",
+      "hot_value": "139 stars today",
+      "summary_zh": "Windows 11定制镜像构建工具。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "WinUI app for building smaller, customized Windows 11 images.",
+        "language": "C#"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d70f352ac456",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 12,
+      "title": "NationalSecurityAgency/ghidra",
+      "title_zh": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "hot_value": "1,008 stars today",
+      "summary_zh": "Ghidra是NSA开源的逆向工程框架，功能强大免费。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Ghidra is a software reverse engineering (SRE) framework",
+        "language": "Java"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "a5de21bf7703",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-15T01:45:24.879064+00:00",
+          "rank": 12
         }
       ]
     }
