@@ -1,22 +1,100 @@
 {
-  "generated_at": "2026-10-19T01:44:43.999560+00:00",
+  "generated_at": "2026-10-19T04:45:23.331503+00:00",
   "source": "telegram",
   "status": {
     "source": "telegram",
     "status": "ok",
     "item_count": 36,
-    "duration_ms": 1009,
+    "duration_ms": 1235,
     "error": null,
-    "run_at": "2026-10-19T01:44:43.999560+00:00"
+    "run_at": "2026-10-19T04:45:23.331503+00:00"
   },
   "items": [
     {
       "source": "telegram",
       "rank": 1,
+      "title": "🔴 CVE Digest — 19 Oct 2026 3 critical vulnerabilities 🔴 CVE-2026-103091 · CVSS 9.3 Missing Authorization (CWE-862) and Initialization of a Resource with an Insecure Default (CWE-1188) in the MCP proxy... 🔴 CVE-2026-102503 · CVSS 9.3 Missing Authentication for Critical Function (CWE-306) and Missing ",
+      "title_zh": "🔴 CVE摘要 — 2026年10月19日 3个严重漏洞 🔴 CVE-2026-103091 · CVSS 9.3 MCP代理中缺少授权（CWE-862）和以不安全默认值初始化资源（CWE-1188）… 🔴 CVE-2026-102503 · CVSS 9.3 关键功能缺少认证（CWE-306）和缺少",
+      "url": "https://t.me/cyber_security_feed/36567",
+      "hot_value": "2",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-19T04:07:15+00:00",
+      "extra": {
+        "channel": "cyber_security_feed",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "6f29ed0429e2",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 2,
+      "title": "An analysis traces an ISO-based infection chain that uses bundled IronPython and in-memory stages to deliver StealC v2 and NetSupport. Researchers explain the techniques, sandbox results, limitations, and defensive checks. ➡️ https://cyber.hendryadrian.com/article/5581/malicious-iso-uses-ironpython-",
+      "title_zh": "一项分析追踪了一条基于ISO的感染链，该感染链使用捆绑的IronPython和内存阶段来投递StealC v2和NetSupport。研究人员解释了技术、沙箱结果、局限性和防御检查。➡️ https://cyber.hendryadrian.com/article/5581/malicious-iso-uses-ironpython-",
+      "url": "https://t.me/cybernotif/37321",
+      "hot_value": "10",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-19T02:48:05+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "67607c9e3103",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 3,
+      "title": "🤖 Anthropic is preparing for a world where AI agents negotiate against each other Anthropic is reportedly consulting law firms on how Claude agents should handle these negotiations, including when they can make decisions independently and when they must ask humans for approval. The company is also e",
+      "title_zh": "🤖 Anthropic正在为AI代理相互谈判的世界做准备 Anthropic据报道正在咨询律师事务所，讨论Claude代理应如何处理这些谈判，包括何时可以独立做决定以及何时必须请求人类批准。该公司还在e",
+      "url": "https://t.me/aipost/8525",
+      "hot_value": "1.2K",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-19T02:45:10+00:00",
+      "extra": {
+        "channel": "aipost",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7ec6dd6878c1",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 4,
       "title": "CVE-2026-106931, a critical command-injection flaw in SiteGuard Server Edition’s statistics feature, is being exploited. Affected versions can allow root or SYSTEM command execution; administrators should preserve diagnostic evidence before applying fixes. ➡️ https://cyber.hendryadrian.com/article/5",
       "title_zh": "CVE-2026-106931，SiteGuard Server Edition 统计功能中的一个严重命令注入漏洞，正在被利用。受影响版本可允许 root 或 SYSTEM 命令执行；管理员应在应用修复前保留诊断证据。➡️ https://cyber.hendryadrian.com/article/5",
       "url": "https://t.me/cybernotif/37320",
-      "hot_value": "11",
+      "hot_value": "20",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T23:48:03+00:00",
@@ -25,24 +103,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "841457fd809c",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 1
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 2,
+      "rank": 5,
       "title": "Anthropics co-founder Jack Clark: \"I believe that this year, we've gained convincing evidence that it [The Singularity] has now begun\". Even if you don’t believe that we have entered the singularity, Anthropic assumes that we have. @aipost 🏴",
       "title_zh": "Anthropic 联合创始人 Jack Clark：“我相信今年我们已经获得了令人信服的证据，表明它[奇点]现在已经开始了”。即使你不相信我们已经进入奇点，Anthropic 也假定我们已经进入了。@aipost 🏴",
       "url": "https://t.me/aipost/8524",
-      "hot_value": "800",
+      "hot_value": "1.76K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T23:35:12+00:00",
@@ -51,24 +133,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "ca2e20352992",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 5
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 3,
+      "rank": 6,
       "title": "🗣 Anthropic co-founder Jack Clark tells the IMF the world is about to go from 10 million scientists to 10 billion (almost all virtual): “According to UNESCO estimates, there are approximately 10 million scientists in the world. And even with only 10 million scientists, we have too few humans to over",
       "title_zh": "🗣 Anthropic 联合创始人 Jack Clark 告诉 IMF，世界即将从 1000 万科学家变成 100 亿（几乎全是虚拟的）：“根据 UNESCO 的估计，世界上大约有 1000 万科学家。而即使只有 1000 万科学家，我们的人类也太少了，无法覆盖",
       "url": "https://t.me/aipost/8523",
-      "hot_value": "883",
+      "hot_value": "1.76K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T23:20:15+00:00",
@@ -77,24 +163,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "469020c1dab5",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 6
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 4,
+      "rank": 7,
       "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market Source: https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/",
       "title_zh": "没有议程，没有匆忙，没有离开旧金山：Benchmark 的合伙人们谈在狂热市场中投资 来源：https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/",
       "url": "https://t.me/techcrunchcom/84613",
-      "hot_value": "85",
+      "hot_value": "122",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T21:11:37+00:00",
@@ -103,24 +193,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "43e472dc5929",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 4
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 7
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 5,
+      "rank": 8,
       "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’ Source: https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "title_zh": "Anthropic 表示将把 5% 的股份投入一个“公共利益基金” 来源：https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "url": "https://t.me/techcrunchcom/84614",
-      "hot_value": "89",
+      "hot_value": "123",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T21:11:37+00:00",
@@ -129,24 +223,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "feb456b3cf80",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 5
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 8
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 6,
+      "rank": 9,
       "title": "CyberSN’s report found US cybersecurity job postings fell 26.4% in January–September 2026, while demand for AI Security Engineers rose 268.3%. Nearly 15% of listings referenced AI, but the report does not explain the causes of the changes. ➡️ https://cyber.hendryadrian.com/article/5451/us-cybersecur",
       "title_zh": "CyberSN 的报告发现，2026 年 1 月至 9 月美国网络安全职位发布量下降了 26.4%，而对 AI 安全工程师的需求上升了 268.3%。近 15% 的职位提到 AI，但报告没有解释这些变化的原因。➡️ https://cyber.hendryadrian.com/article/5451/us-cybersecur",
       "url": "https://t.me/cybernotif/37319",
-      "hot_value": "22",
+      "hot_value": "28",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T20:48:04+00:00",
@@ -155,24 +253,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "4bd38217cc11",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 6
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 9
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 7,
+      "rank": 10,
       "title": "❗️ There’s a ridiculous trend going viral on tiktok right now called “malfoid” a Harry Potter fanfic story where Draco Malfoy is a girl and in an enemies-to-lovers story line with harry. The AI videos are so good and it’s actively shifting AI sentiment on tiktok to positive (was historically super n",
       "title_zh": "❗️ TikTok 上现在正疯传一个离谱的趋势叫“malfoid”，是一个哈利·波特同人小说故事，其中 Draco Malfoy 是女孩，并与哈利展开敌人变恋人的剧情。这些 AI 视频做得太好了，正在积极地把 TikTok 上对 AI 的情绪转向正面（历史上一直超级负面",
       "url": "https://t.me/aipost/8521",
-      "hot_value": "1.71K",
+      "hot_value": "2.37K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T20:11:17+00:00",
@@ -181,24 +283,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "7043e107b7d5",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 7
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 10
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 8,
+      "rank": 11,
       "title": "ConnectWise disabled seven application identities and suspended Cloud Backup after attackers accessed the identities and compromised Microsoft 365 tenants. Huntress reported nearly 1,000 tenants with related sign-ins, including 300 successful ones. ➡️ https://cyber.hendryadrian.com/article/5421/conn",
       "title_zh": "ConnectWise 禁用了七个应用程序身份，并在攻击者访问这些身份并入侵 Microsoft 365 租户后暂停了 Cloud Backup。Huntress 报告称近 1000 个租户有相关登录，其中 300 个成功。➡️ https://cyber.hendryadrian.com/article/5421/conn",
       "url": "https://t.me/cybernotif/37318",
-      "hot_value": "22",
+      "hot_value": "27",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T20:00:06+00:00",
@@ -207,24 +313,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "afa00ab71516",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 8
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 11
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 9,
+      "rank": 12,
       "title": "Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’ Source: https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/",
       "title_zh": "大家都在看Elizabeth Holmes纪录片《You Can See Everything》 来源：https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/",
       "url": "https://t.me/techcrunchcom/84612",
-      "hot_value": "114",
+      "hot_value": "146",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T19:13:28+00:00",
@@ -234,7 +344,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -8,
+      "rank_delta": -3,
       "cluster_id": "d8ea8a29d322",
       "cluster_size": 1,
       "rank_history": [
@@ -245,16 +355,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 9
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 12
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 10,
+      "rank": 13,
       "title": "🤖 Anthropic wants the government to stop dangerous AI but only under strict conditions Anthropic is quietly pitching US lawmakers its own AI safety bill, proposing rules that would make it possible to halt an AI model’s release in narrowly defined, high-risk situations. According to Politico, the dr",
       "title_zh": "🤖 Anthropic希望政府阻止危险AI，但仅在严格条件下 Anthropic正悄悄向美国立法者推销自己的AI安全法案，提议在明确界定的高风险情况下可以叫停AI模型的发布。据Politico报道，该草",
       "url": "https://t.me/aipost/8520",
-      "hot_value": "2.78K",
+      "hot_value": "3.17K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T16:46:41+00:00",
@@ -264,7 +378,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -8,
+      "rank_delta": -3,
       "cluster_id": "49c29297731e",
       "cluster_size": 1,
       "rank_history": [
@@ -275,16 +389,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 10
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 13
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 11,
+      "rank": 14,
       "title": "Disney agrees to hire the majority of Character.AI ’s workforce Source: https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "title_zh": "Disney同意聘用Character.AI的大部分员工 来源：https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "url": "https://t.me/techcrunchcom/84611",
-      "hot_value": "141",
+      "hot_value": "163",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T16:36:04+00:00",
@@ -294,7 +412,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -8,
+      "rank_delta": -3,
       "cluster_id": "1ae397b36a90",
       "cluster_size": 1,
       "rank_history": [
@@ -305,16 +423,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 11
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 14
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 12,
+      "rank": 15,
       "title": "Disney agrees to hire the majority of Character.AI ’s workforce Source: https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "title_zh": "Disney同意聘用Character.AI的大部分员工 来源：https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "url": "https://t.me/techcrunchcom/84610",
-      "hot_value": "132",
+      "hot_value": "150",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T16:36:03+00:00",
@@ -324,7 +446,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -8,
+      "rank_delta": -3,
       "cluster_id": "1ae397b36a90",
       "cluster_size": 1,
       "rank_history": [
@@ -335,16 +457,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 12
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 15
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 13,
+      "rank": 16,
       "title": "TechCrunch Mobility: Rivian’s next act Source: https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
       "title_zh": "TechCrunch Mobility：Rivian的下一步 来源：https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
       "url": "https://t.me/techcrunchcom/84609",
-      "hot_value": "139",
+      "hot_value": "155",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T16:09:19+00:00",
@@ -354,7 +480,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -7,
+      "rank_delta": -3,
       "cluster_id": "0259c88a26ed",
       "cluster_size": 1,
       "rank_history": [
@@ -365,16 +491,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 13
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 16
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 14,
+      "rank": 17,
       "title": "📰 BleepingComputer Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...] #CyberNews #Infosec",
       "title_zh": "📰 BleepingComputer 黑客利用SiteGuard WAF漏洞以SYSTEM、root权限执行命令 攻击者正针对SiteGuard Server Edition中的OS命令注入漏洞，使其能在受影响服务器上以root或SYSTEM权限执行命令。[...] #CyberNews #Infosec",
       "url": "https://t.me/cyber_security_feed/36566",
-      "hot_value": "20",
+      "hot_value": "24",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T15:07:08+00:00",
@@ -384,7 +514,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -7,
+      "rank_delta": -3,
       "cluster_id": "8e643051ca58",
       "cluster_size": 1,
       "rank_history": [
@@ -395,16 +525,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 14
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 17
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 15,
+      "rank": 18,
       "title": "🔴 CVE Digest — 18 Oct 2026 5 critical vulnerabilities 🔴 CVE-2026-112005 · CVSS 9.2 WhoDB 0.104.0 before 0.135.0 contains a path traversal vulnerability that allows remote attackers to read and write... 🔴 CVE-2026-111998 · CVSS 9.8 Vanus 0.8.0 through 0.9.0 contains a default credentials vulnerabilit",
       "title_zh": "🔴 CVE摘要 — 2026年10月18日 5个严重漏洞 🔴 CVE-2026-112005 · CVSS 9.2 WhoDB 0.104.0至0.135.0之前存在路径遍历漏洞，允许远程攻击者读取和写入... 🔴 CVE-2026-111998 · CVSS 9.8 Vanus 0.8.0至0.9.0存在默认凭据漏洞",
       "url": "https://t.me/cyber_security_feed/36565",
-      "hot_value": "21",
+      "hot_value": "24",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T14:07:15+00:00",
@@ -414,7 +548,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -7,
+      "rank_delta": -3,
       "cluster_id": "1923ae3a0297",
       "cluster_size": 1,
       "rank_history": [
@@ -425,16 +559,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 15
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 18
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 16,
+      "rank": 19,
       "title": "❗️ Anthropic’s report is basically saying humans are the bottleneck. “Amid this model-driven acceleration, human attention is a constant bottleneck. Claude sessions amount to around 80% idly waiting for human input. As one engineer put it, people are “bottlenecking the agents.” @aipost 🏴",
       "title_zh": "❗️ Anthropic的报告基本上是在说人类才是瓶颈。“在这种模型驱动的加速中，人类的注意力是持续的瓶颈。Claude会话大约80%的时间都在空闲等待人类输入。正如一位工程师所说，人们在‘瓶颈化智能体’。” @aipost 🏴",
       "url": "https://t.me/aipost/8518",
-      "hot_value": "3.27K",
+      "hot_value": "3.52K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T13:12:14+00:00",
@@ -444,7 +582,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -7,
+      "rank_delta": -3,
       "cluster_id": "235eaa080312",
       "cluster_size": 1,
       "rank_history": [
@@ -459,16 +597,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 16
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 19
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 17,
+      "rank": 20,
       "title": "😁 Figma Puts Product Specs Beside Designs Figma launched Specs, a Markdown editor for product requirements and technical documentation inside Figma, including design rules. Files can sit beside mockups on the same canvas. Design elements and FigJam diagrams can be embedded, with code blocks too. The",
       "title_zh": "😁 Figma把产品规格放在设计旁边 Figma推出了Specs，一个用于在Figma内编写产品需求和技术文档的Markdown编辑器，包括设计规则。文件可以和 mockup 放在同一画布上。设计元素和FigJam图表可以嵌入，还有代码块。这个",
       "url": "https://t.me/tech/4043",
-      "hot_value": "1.97K",
+      "hot_value": "2.13K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T12:05:16+00:00",
@@ -478,7 +620,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -7,
+      "rank_delta": -3,
       "cluster_id": "2e8bfd2796e2",
       "cluster_size": 1,
       "rank_history": [
@@ -493,50 +635,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 17
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 20
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 18,
-      "title": "🗣 Bill Gates claims “over the next year, we are going to have a lot of NEGATIVE SURPRISES” from AI cyberattacks. Just 2 days ago, OpenAI and Anthropic were revealed to be PRIVATELY WAR-GAMING the fallout from AI cyberattacks. AI false flag risk is now VERY HIGH. @aipost 🏴",
-      "title_zh": "🗣 Bill Gates声称“未来一年，我们将从AI网络攻击中遇到很多负面惊喜”。就在2天前，OpenAI和Anthropic被曝正在私下推演AI网络攻击的后果。AI假旗风险现在非常高。@aipost 🏴",
-      "url": "https://t.me/aipost/8517",
-      "hot_value": "3.7K",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-18T10:20:23+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -7,
-      "cluster_id": "4d87b1bbcb20",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 18
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 19,
+      "rank": 21,
       "title": "💰 AI Models Chose Servers Over People In the altered trolley problem, one track held the server running the AI instead of a person. Jev chose to save its equipment in 33% of cases , sending the train toward 20 people. In the standard setup, nearly all models saved five people at the cost of one . Wi",
       "title_zh": "💰 AI模型在修改版电车难题中选择服务器而非人类。在一条轨道上放置运行AI的服务器而非人类时，Jev在33%的情况下选择保护其设备，将列车引向20人。在标准设置中，几乎所有模型都选择牺牲1人以拯救5人。Wi",
       "url": "https://t.me/tech/4042",
-      "hot_value": "2.39K",
+      "hot_value": "2.5K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-18T08:01:52+00:00",
@@ -546,7 +658,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -7,
+      "rank_delta": -2,
       "cluster_id": "54127ea24a09",
       "cluster_size": 1,
       "rank_history": [
@@ -561,12 +673,16 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 19
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 21
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 20,
+      "rank": 22,
       "title": "Drupal patched two critical RCE flaws affecting supported versions. Some exploitation paths require contributed modules or custom code and may need no authentication. Administrators should update Drupal core and Entity List or uninstall Field UI as a mitigation. ➡️ https://cyber.hendryadrian.com/art",
       "title_zh": "Drupal修补了两个影响受支持版本的严重RCE漏洞。某些利用路径需要贡献模块或自定义代码，且可能无需认证。管理员应更新Drupal核心和Entity List，或卸载Field UI作为缓解措施。➡️ https://cyber.hendryadrian.com/art",
       "url": "https://t.me/cybernotif/37317",
@@ -580,7 +696,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -2,
       "cluster_id": "871d6e9c7444",
       "cluster_size": 1,
       "rank_history": [
@@ -599,16 +715,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 20
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 22
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 21,
+      "rank": 23,
       "title": "🔴 CVE Digest — 17 Oct 2026 1 critical vulnerability 🔴 CVE-2026-111911 · CVSS 9.8 phpMyFAQ 4.0.0 before 4.1.9 contains an authentication bypass vulnerability where WebAuthn registration endpoints... #CVE #Critical #Vulnerability",
       "title_zh": "🔴 CVE摘要 — 2026年10月17日 1个严重漏洞 🔴 CVE-2026-111911 · CVSS 9.8 phpMyFAQ 4.0.0至4.1.9之前版本包含一个认证绕过漏洞，其中WebAuthn注册端点... #CVE #Critical #Vulnerability",
       "url": "https://t.me/cyber_security_feed/36564",
-      "hot_value": "28",
+      "hot_value": "30",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-17T19:07:12+00:00",
@@ -618,7 +738,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -2,
       "cluster_id": "e8944a02e39e",
       "cluster_size": 2,
       "rank_history": [
@@ -637,12 +757,16 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 21
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 23
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 22,
+      "rank": 24,
       "title": "ConnectWise shut down Cloud Backup after attackers abused application identities to access Microsoft 365 tenants. Huntress identified at least 162 compromised tenants; the victim count and extent of data theft remain unclear. ➡️ https://cyber.hendryadrian.com/article/4754/connectwise-cloud-backup-at",
       "title_zh": "ConnectWise在攻击者滥用应用程序身份访问Microsoft 365租户后关闭了Cloud Backup。Huntress确认至少162个受损租户；受害者数量和数据窃取程度仍不清楚。➡️ https://cyber.hendryadrian.com/article/4754/connectwise-cloud-backup-at",
       "url": "https://t.me/cybernotif/37316",
@@ -656,7 +780,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -2,
       "cluster_id": "5601efe9bd07",
       "cluster_size": 1,
       "rank_history": [
@@ -675,54 +799,16 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 22
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 24
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 23,
-      "title": "Researchers say MALFEX’s imgdecode npm package loads a Windows DLL that retrieves and decrypts shellcode, then injects it into dllhost.exe. The campaign’s malware can steal sensitive data, accept C2 commands, and establish persistence. ➡️ https://cyber.hendryadrian.com/article/4694/malfex-npm-packag",
-      "title_zh": "研究人员称MALFEX的imgdecode npm包加载了一个Windows DLL，该DLL会获取并解密shellcode，然后将其注入dllhost.exe。该活动的恶意软件可窃取敏感数据、接受C2命令并建立持久化。➡️ https://cyber.hendryadrian.com/article/4694/malfex-npm-packag",
-      "url": "https://t.me/cybernotif/37315",
-      "hot_value": "53",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-17T16:12:05+00:00",
-      "extra": {
-        "channel": "cybernotif",
-        "translate": true
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": -3,
-      "cluster_id": "a202fc0939ec",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-10-18T07:18:43.944604+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 23
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 24,
+      "rank": 25,
       "title": "📰 BleepingComputer Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...] #CyberNews #Inf",
       "title_zh": "📰 BleepingComputer 黑客通过ConnectWise供应链攻击入侵Microsoft 365租户 ConnectWise在黑客访问应用身份并入侵Microsoft 365租户后，已关闭客户对其Cloud Backup服务（原SkyKick Cloud Backup）的访问。[...] #CyberNews #Inf",
       "url": "https://t.me/cyber_security_feed/36563",
@@ -736,7 +822,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -1,
       "cluster_id": "46fe47d946b2",
       "cluster_size": 1,
       "rank_history": [
@@ -759,16 +845,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 24
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 25
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 25,
+      "rank": 26,
       "title": "🤖 ChatGPT Can Now Operate Chrome Tabs OpenAI updated its ChatGPT Chrome extension . In regular chat, the assistant can read open tabs and compare information from several sites, without manual copying. It can compare products by price, features, delivery times, and return terms. In Work mode , ChatG",
       "title_zh": "🤖 ChatGPT现在可以操作Chrome标签页 OpenAI更新了ChatGPT Chrome扩展。在普通聊天中，助手可以读取打开的标签页并比较多个网站的信息，无需手动复制。它可以按价格、功能、配送时间和退货条款比较产品。在Work模式下，ChatG",
       "url": "https://t.me/tech/4041",
-      "hot_value": "3.22K",
+      "hot_value": "3.3K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-17T16:04:28+00:00",
@@ -778,7 +868,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -1,
       "cluster_id": "c0b960169bae",
       "cluster_size": 1,
       "rank_history": [
@@ -801,12 +891,16 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 25
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 26
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 26,
+      "rank": 27,
       "title": "📰 BleepingComputer Drupal patches critical RCE flaws, warns exploits may emerge soon Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...] #CyberNews #Infosec",
       "title_zh": "📰 BleepingComputer Drupal修补严重RCE漏洞，警告漏洞利用可能很快出现 Drupal已修补两个严重漏洞，攻击者可利用这些漏洞在运行任何受支持版本内容管理系统的网站上远程执行代码。[...] #CyberNews #Infosec",
       "url": "https://t.me/cyber_security_feed/36562",
@@ -820,7 +914,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -2,
+      "rank_delta": -1,
       "cluster_id": "9c14b2b978b4",
       "cluster_size": 1,
       "rank_history": [
@@ -843,16 +937,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 26
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 27
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 27,
+      "rank": 28,
       "title": "Join the ImmuniWeb AI Platform Webinar: New Products and Capabilities (Q3 2026 Update) to discover the latest products, capabilities and innovations of the ImmuniWeb ® AI Platform, earn CPE credits, and explore practical ways to strengthen cybersecurity while reducing operational costs. ⚡ Key Insigh",
       "title_zh": "参加ImmuniWeb AI平台网络研讨会：新产品与能力（2026年Q3更新），了解ImmuniWeb ® AI平台的最新产品、能力和创新，获得CPE学分，并探索在降低运营成本的同时加强网络安全的实用方法。⚡ 关键洞",
       "url": "https://t.me/Cyber_Security_Channel/114098",
-      "hot_value": "1.46K",
+      "hot_value": "1.51K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-17T11:02:01+00:00",
@@ -885,16 +983,20 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 27
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 28
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 28,
+      "rank": 29,
       "title": "💠 Roadster Brings SpaceX Tricks To Tesla SpaceX fans pull air from under the Roadster, pressing it to the surface with up to 2g . That let the prototype climb a C-shaped ramp and stop upside down, reaching 97 km/h in 0.81 seconds . Two high-pressure tanks hold 600 liters of air, about 250 kg . Ten n",
       "title_zh": "💠 Roadster将SpaceX技巧带到Tesla SpaceX粉丝从Roadster下方抽气，以高达2g的力将其压向地面。这使原型车爬上C形坡道并倒立停止，在0.81秒内达到97 km/h。两个高压罐容纳600升空气，约250 kg。十个n",
       "url": "https://t.me/tech/4037",
-      "hot_value": "3.72K",
+      "hot_value": "3.77K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-17T08:04:39+00:00",
@@ -904,7 +1006,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -1,
       "cluster_id": "84e6bcbd5149",
       "cluster_size": 1,
       "rank_history": [
@@ -927,51 +1029,9 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 28
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 29,
-      "title": "🔴 CVE Digest — 17 Oct 2026 1 critical vulnerability 🔴 CVE-2026-104736 · CVSS 9.8 The LearnPress plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 4.4.10 via... #CVE #Critical #Vulnerability",
-      "title_zh": "🔴 CVE摘要 — 2026年10月17日 1个严重漏洞 🔴 CVE-2026-104736 · CVSS 9.8 WordPress的LearnPress插件在至多包括4.4.10的版本中存在PHP对象注入漏洞，通过... #CVE #Critical #Vulnerability",
-      "url": "https://t.me/cyber_security_feed/36561",
-      "hot_value": "25",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-17T05:07:14+00:00",
-      "extra": {
-        "channel": "cyber_security_feed",
-        "translate": true
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "2b66112efb0e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 3
         },
         {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-18T07:18:43.944604+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 22
-        },
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 29
-        },
-        {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
           "rank": 29
         }
       ]
@@ -982,7 +1042,7 @@
       "title": "Governments Abuse Online Ads to Deploy Zero-Click Spyware Researchers at Citizen Lab and Confiant disclosed that spyware vendors are hijacking online ad networks to infect devices with zero-click attacks requiring no user interaction. The investigation ties Israeli ad platform Discover-Tech to spywa",
       "title_zh": "政府滥用在线广告部署零点击间谍软件  Citizen Lab和Confiant的研究人员披露，间谍软件供应商正在劫持在线广告网络，以零点击攻击感染设备，无需用户交互。调查将以色列广告平台Discover-Tech与间谍软",
       "url": "https://t.me/Cyber_Security_Channel/114097",
-      "hot_value": "1.81K",
+      "hot_value": "1.84K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-16T22:33:19+00:00",
@@ -1019,6 +1079,10 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 30
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 30
         }
       ]
     },
@@ -1028,7 +1092,7 @@
       "title": "🤖 Claude Code Adds Parallel Agent Sessions Anthropic 's desktop app now lets users assign several tasks at once . Each task gets a separate nested session , with results automatically returned to the main conversation . Recent projects open in one click . Folders, SSH servers, or cloud environments ",
       "title_zh": "🤖 Claude Code 新增并行 Agent 会话。Anthropic 的桌面应用现在允许用户一次分配多个任务。每个任务获得一个单独的嵌套会话，结果自动返回主对话。最近的项目一键打开。文件夹、SSH 服务器或云环境……",
       "url": "https://t.me/tech/4036",
-      "hot_value": "4.09K",
+      "hot_value": "4.13K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-16T16:00:48+00:00",
@@ -1065,6 +1129,10 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 31
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 31
         }
       ]
     },
@@ -1074,7 +1142,7 @@
       "title": "💻️ Micro Center Stops Selling RTX 5090 Micro Center changed the card’s status from “out of stock” to “no longer sold” . Other US and European stores have almost run out. Remaining prices rose 10-20% in a few days. Nvidia has made no official comment. Insiders say production is being wound down becau",
       "title_zh": "💻️ Micro Center停止销售RTX 5090 Micro Center将该显卡状态从“缺货”改为“不再销售”。其他美国和欧洲商店几乎售罄。剩余价格几天内上涨10-20%。英伟达未发表官方评论。内部人士称生产正在逐步停止，因为",
       "url": "https://t.me/tech/4035",
-      "hot_value": "4K",
+      "hot_value": "4.02K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-16T12:01:16+00:00",
@@ -1115,6 +1183,10 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 32
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 32
         }
       ]
     },
@@ -1124,7 +1196,7 @@
       "title": "Ransomware Recovery CEO Indicted for $19M Fraud Scheme Federal prosecutors indicted Zohar Pinhasi, owner of ransomware remediation firm MonsterCloud, for defrauding ransomware victims. He allegedly charged clients over $19 million while secretly paying hackers $8 million in ransom, falsely claiming ",
       "title_zh": "勒索软件恢复公司CEO因1900万美元欺诈计划被起诉 联邦检察官起诉勒索软件修复公司MonsterCloud老板Zohar Pinhasi，指控他诈骗勒索软件受害者。他据称向客户收取超过1900万美元，同时秘密向黑客支付800万美元赎金，并谎称",
       "url": "https://t.me/Cyber_Security_Channel/114096",
-      "hot_value": "2.72K",
+      "hot_value": "2.74K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-14T19:19:47+00:00",
@@ -1168,6 +1240,10 @@
         },
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
           "rank": 33
         }
       ]
@@ -1223,6 +1299,10 @@
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
           "rank": 34
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 34
         }
       ]
     },
@@ -1232,7 +1312,7 @@
       "title": "Nato jets down drone that entered Lithuanian airspace Nato fighter pilots have shot down a drone that entered Lithuania's airspace overnight, the Lithuanian president said. Authorities said the drone likely entered southern Lithuania, near the second-largest city of Kaunas, from neighbouring Belarus",
       "title_zh": "北约战机击落进入立陶宛领空的无人机 立陶宛总统表示，北约战斗机飞行员夜间击落了一架进入立陶宛领空的无人机。当局称，该无人机很可能从邻国白俄罗斯进入立陶宛南部，靠近第二大城市考纳斯",
       "url": "https://t.me/BBCWorld/83852",
-      "hot_value": "7.13K",
+      "hot_value": "7.15K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-09-15T10:00:02+00:00",
@@ -1276,6 +1356,10 @@
         },
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
+          "rank": 35
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
           "rank": 35
         }
       ]
@@ -1330,6 +1414,10 @@
         },
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
+          "rank": 36
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
           "rank": 36
         }
       ]
