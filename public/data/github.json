@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-20T07:44:18.336727+00:00",
+  "generated_at": "2026-10-20T10:44:44.660629+00:00",
   "source": "github",
   "status": {
     "source": "github",
     "status": "ok",
-    "item_count": 12,
-    "duration_ms": 1792,
+    "item_count": 15,
+    "duration_ms": 2109,
     "error": null,
-    "run_at": "2026-10-20T07:44:18.336727+00:00"
+    "run_at": "2026-10-20T10:44:44.660629+00:00"
   },
   "items": [
     {
@@ -81,71 +81,35 @@
         {
           "run_at": "2026-10-20T07:44:18.336727+00:00",
           "rank": 1
+        },
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 1
         }
       ]
     },
     {
       "source": "github",
       "rank": 2,
-      "title": "anomalyco/opencode",
-      "title_zh": "anomalyco/opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "hot_value": "1,311 stars today",
-      "summary_zh": "开源编程智能体，代码任务自动化。",
+      "title": "cloudflare/security-audit-skill",
+      "title_zh": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "hot_value": "849 stars today",
+      "summary_zh": "Cloudflare安全审计技能，多阶段审计并输出可验证机器可读结果。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "The open source coding agent.",
-        "language": "TypeScript"
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": "JavaScript"
       },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "9293bbcfea15",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "18b811ab0d7d",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-10-18T07:18:43.944604+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-19T07:55:51.065184+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-20T07:44:18.336727+00:00",
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
           "rank": 2
         }
       ]
@@ -153,61 +117,69 @@
     {
       "source": "github",
       "rank": 3,
-      "title": "akitaonrails/ai-memory",
-      "title_zh": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "hot_value": "666 stars today",
-      "summary_zh": "AI代理长期记忆方案，助不同代理间交接，值得关注。",
+      "title": "stablyai/orca",
+      "title_zh": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "hot_value": "1,590 stars today",
+      "summary_zh": "Orca是管理多AI代理的平台，支持自带订阅运行编码代理。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-        "language": "Rust"
+        "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+        "language": "TypeScript"
       },
-      "days_on_board": 3,
+      "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "735aa0a46068",
+      "rank_delta": 3,
+      "cluster_id": "b77273232505",
       "cluster_size": 1,
       "rank_history": [
         {
+          "run_at": "2026-10-17T16:45:08.456916+00:00",
+          "rank": 7
+        },
+        {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
-          "rank": 6
+          "rank": 8
         },
         {
           "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 6
+          "rank": 7
         },
         {
           "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 6
+          "rank": 7
         },
         {
           "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 6
+          "rank": 7
         },
         {
           "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 6
+          "rank": 7
         },
         {
           "run_at": "2026-10-19T07:55:51.065184+00:00",
-          "rank": 6
+          "rank": 8
         },
         {
           "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 3
+          "rank": 6
         },
         {
           "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 3
+          "rank": 6
         },
         {
           "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 3
+          "rank": 6
         },
         {
           "run_at": "2026-10-20T07:44:18.336727+00:00",
+          "rank": 6
+        },
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
           "rank": 3
         }
       ]
@@ -215,6 +187,32 @@
     {
       "source": "github",
       "rank": 4,
+      "title": "DietrichGebert/ponytail",
+      "title_zh": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "hot_value": "1,007 stars today",
+      "summary_zh": "让AI像懒程序员，少写代码更高效。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "language": "JavaScript"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "34631a444fa3",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 5,
       "title": "Comfy-Org/ComfyUI",
       "title_zh": "Comfy-Org/ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
@@ -228,7 +226,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -1,
       "cluster_id": "e2694c1d1e14",
       "cluster_size": 1,
       "rank_history": [
@@ -267,12 +265,16 @@
         {
           "run_at": "2026-10-20T07:44:18.336727+00:00",
           "rank": 4
+        },
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 5
         }
       ]
     },
     {
       "source": "github",
-      "rank": 5,
+      "rank": 6,
       "title": "ruvnet/ruflo",
       "title_zh": "ruvnet/ruflo",
       "url": "https://github.com/ruvnet/ruflo",
@@ -286,7 +288,7 @@
       },
       "days_on_board": 5,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -1,
       "cluster_id": "85ccfa929afd",
       "cluster_size": 1,
       "rank_history": [
@@ -341,71 +343,9 @@
         {
           "run_at": "2026-10-20T07:44:18.336727+00:00",
           "rank": 5
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 6,
-      "title": "stablyai/orca",
-      "title_zh": "stablyai/orca",
-      "url": "https://github.com/stablyai/orca",
-      "hot_value": "1,590 stars today",
-      "summary_zh": "Orca是管理多AI代理的平台，支持自带订阅运行编码代理。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "b77273232505",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 7
         },
         {
-          "run_at": "2026-10-18T07:18:43.944604+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-19T07:55:51.065184+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-20T07:44:18.336727+00:00",
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
           "rank": 6
         }
       ]
@@ -413,6 +353,158 @@
     {
       "source": "github",
       "rank": 7,
+      "title": "Graphify-Labs/graphify",
+      "title_zh": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "hot_value": "751 stars today",
+      "summary_zh": "将代码库文档等转为可查询知识图谱，本地解析无需向量库。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c05ac07ca545",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 8,
+      "title": "YuJunZhiXue/dsh-purge",
+      "title_zh": "YuJunZhiXue/dsh-purge",
+      "url": "https://github.com/YuJunZhiXue/dsh-purge",
+      "hot_value": "1,168 stars today",
+      "summary_zh": "DeepSeek破甲工具，可换提示词让各模型越狱，求Star收藏。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+        "language": "JavaScript"
+      },
+      "days_on_board": 2,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "9026b0113b08",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-19T07:55:51.065184+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 9,
+      "title": "anomalyco/opencode",
+      "title_zh": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "hot_value": "1,311 stars today",
+      "summary_zh": "开源编程智能体，代码任务自动化。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "The open source coding agent.",
+        "language": "TypeScript"
+      },
+      "days_on_board": 4,
+      "is_new": false,
+      "rank_delta": -7,
+      "cluster_id": "9293bbcfea15",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-17T16:45:08.456916+00:00",
+          "rank": 10
+        },
+        {
+          "run_at": "2026-10-18T07:18:43.944604+00:00",
+          "rank": 11
+        },
+        {
+          "run_at": "2026-10-18T13:44:54.605001+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-18T19:45:33.826204+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-19T01:44:43.999560+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-19T07:55:51.065184+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-19T13:45:24.120769+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-19T16:45:16.691204+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-19T22:45:52.772978+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-20T07:44:18.336727+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 10,
+      "title": "msitarzewski/agency-agents",
+      "title_zh": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "hot_value": "590 stars today",
+      "summary_zh": "一站式AI代理团队，各司其职完成专业任务。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+        "language": "Shell"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "967867f58381",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 11,
       "title": "headroomlabs-ai/headroom",
       "title_zh": "headroomlabs-ai/headroom",
       "url": "https://github.com/headroomlabs-ai/headroom",
@@ -426,7 +518,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -4,
       "cluster_id": "d02da011ad31",
       "cluster_size": 1,
       "rank_history": [
@@ -445,225 +537,9 @@
         {
           "run_at": "2026-10-20T07:44:18.336727+00:00",
           "rank": 7
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 8,
-      "title": "withmarbleapp/os-taxonomy",
-      "title_zh": "withmarbleapp/os-taxonomy",
-      "url": "https://github.com/withmarbleapp/os-taxonomy",
-      "hot_value": "284 stars today",
-      "summary_zh": "开源税务分类体系，便于统一税务数据建模与检索。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "",
-        "language": "JavaScript"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "610749fc6050",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 8
         },
         {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-20T07:44:18.336727+00:00",
-          "rank": 8
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 9,
-      "title": "Kruk2/jasna",
-      "title_zh": "Kruk2/jasna",
-      "url": "https://github.com/Kruk2/jasna",
-      "hot_value": "498 stars today",
-      "summary_zh": "视频修复工具，可修复老视频画质，值得需要修复影像的人一看。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Video restoration tool",
-        "language": "Python"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "970ad82c96d4",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-19T07:55:51.065184+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-20T07:44:18.336727+00:00",
-          "rank": 9
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 10,
-      "title": "HKUDS/CLI-Anything",
-      "title_zh": "HKUDS/CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "hot_value": "606 stars today",
-      "summary_zh": "让所有软件变成智能体原生，提供CLI-Hub入口。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-        "language": "Python"
-      },
-      "days_on_board": 6,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "2c630d391e68",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-15T01:45:24.879064+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-16T13:44:56.570215+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-18T07:18:43.944604+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-18T13:44:54.605001+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-19T07:55:51.065184+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-10-20T07:44:18.336727+00:00",
-          "rank": 10
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 11,
-      "title": "anthropics/claude-code",
-      "title_zh": "anthropics/claude-code",
-      "url": "https://github.com/anthropics/claude-code",
-      "hot_value": "167 stars today",
-      "summary_zh": "Claude Code终端AI编程助手，理解代码库并执行开发任务。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "0dfb1ea08365",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-18T07:18:43.944604+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-10-20T07:44:18.336727+00:00",
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
           "rank": 11
         }
       ]
@@ -671,6 +547,58 @@
     {
       "source": "github",
       "rank": 12,
+      "title": "anthropics/knowledge-work-plugins",
+      "title_zh": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "hot_value": "262 stars today",
+      "summary_zh": "Anthropic知识工作插件库，供Claude Cowork知识工作者使用。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f6035c0a4632",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 13,
+      "title": "sickn33/agentic-awesome-skills",
+      "title_zh": "sickn33/agentic-awesome-skills",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "hot_value": "58 stars today",
+      "summary_zh": "本地智能体控制平面，含2600+技能，支持发现选择与规划。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7ab79d189ca5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 14,
       "title": "shiyu-coder/Kronos",
       "title_zh": "shiyu-coder/Kronos",
       "url": "https://github.com/shiyu-coder/Kronos",
@@ -684,7 +612,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "095a0d831847",
       "cluster_size": 1,
       "rank_history": [
@@ -703,6 +631,36 @@
         {
           "run_at": "2026-10-20T07:44:18.336727+00:00",
           "rank": 12
+        },
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 15,
+      "title": "vllm-project/vllm",
+      "title_zh": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "hot_value": "98 stars today",
+      "summary_zh": "高吞吐省内存的大模型推理与服务引擎。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "af7034c8605e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 15
         }
       ]
     }
