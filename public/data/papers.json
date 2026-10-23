@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23T07:48:04.270268+00:00",
+  "generated_at": "2026-10-23T10:44:58.760583+00:00",
   "source": "papers",
   "status": {
     "source": "papers",
     "status": "ok",
     "item_count": 83,
-    "duration_ms": 15983,
+    "duration_ms": 16269,
     "error": null,
-    "run_at": "2026-10-23T07:48:04.270268+00:00"
+    "run_at": "2026-10-23T10:44:58.760583+00:00"
   },
   "items": [
     {
@@ -89,6 +89,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 1
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 1
         }
       ]
     },
@@ -128,10 +132,6 @@
       "cluster_id": "03b7db24d7bc",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 2
-        },
         {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 2
@@ -247,12 +247,127 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 2
         }
       ]
     },
     {
       "source": "papers",
       "rank": 3,
+      "title": "4D-atlas: a multi-species four-dimensional spatiotemporal transcriptomics database spanning development, regeneration, and disease",
+      "title_zh": "4D-atlas：一个涵盖发育、再生和疾病的多物种四维时空转录组学数据库",
+      "url": "https://doi.org/10.1093/nar/gkag1039",
+      "hot_value": null,
+      "summary_zh": "摘要 四维（4D）空间转录组学同时捕捉三维（3D）组织结构与时间进程中的分子图谱，对于解析发育、再生和疾病进展等动态生物过程至关重要。在此，我们推出4D-atlas（https://bio-bigdata.hrbmu.edu.cn/4D-Atlas 或 https://4d-atlas.bio-database.com/），这是首个公开可访问的、专注于多物种4D时空转录组图谱的数据库。4D-atlas收集并标准化了来自六个物种15个代表性数据集的1629个空间切片，涵盖88个不同时间点（每个数据集2–41个），包含超过2220万个细胞或空间位点，涵盖胚胎发育、组织再生和疾病进展。除数据收集外，4D-atlas提供七个交互式分析模块，支持对组织形态发生、空间基因模块、通路活性、调控网络、细胞间通讯、发育轨迹和时间表达模式进行4D（3D空间+时间）探索。通过统一的分析流程整合离散生物阶段的3D",
+      "thumbnail": null,
+      "published_at": "2026-10-23",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Nucleic Acids Research",
+        "mode": "filter",
+        "issn": "1362-4962",
+        "doi": "10.1093/nar/gkag1039",
+        "description": "Abstract Four-dimensional (4D) spatial transcriptomics, which captures molecular landscapes across both three-dimensional (3D) tissue architecture and temporal progression, is essential for deciphering dynamic biological processes such as development, regeneration, and disease progression. Here, we present 4D-atlas (https://bio-bigdata.hrbmu.edu.cn/4D-Atlas or https://4d-atlas.bio-database.com/), the first publicly accessible database dedicated to multi-species 4D spatiotemporal transcriptomic atlases. 4D-atlas collects and standardizes 1629 spatial slices spanning 88 distinct time points with 2–41 per dataset and over 22.2 million cells or spatial spots from 15 representative datasets across six species, encompassing embryonic development, tissue regeneration, and disease progression. Beyond data collection, 4D-atlas provides seven interactive analytical modules that enable 4D (3D space + time) exploration of tissue morphogenesis, spatial gene modules, pathway activities, regulatory networks, cell–cell communication, developmental trajectories, and temporal expression patterns. Using a unified analytical pipeline to integrate 3D spatial architecture and molecular information across discrete biological stages, 4D-atlas enables systematic investigation of tissue morphogenesis and dynamic regulatory programs across time and space.",
+        "dedupe_key": "doi:10.1093/nar/gkag1039",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c246c6912689",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 4,
+      "title": "scSpatial: an atlas for single-cell spatial omics",
+      "title_zh": "scSpatial：单细胞空间组学图谱",
+      "url": "https://doi.org/10.1093/nar/gkag993",
+      "hot_value": null,
+      "summary_zh": "摘要 单细胞空间组学（SCSO）通过在单细胞分辨率下同时实现分子表征和空间定位，重塑了空间分析，为在原生生物背景下理解细胞身份和组织结构提供了洞见。通过整合空间坐标与分子谱和细胞身份，SCSO数据集已被广泛用于构建空间分辨的细胞图谱、表征疾病相关组织重塑以及绘制疾病相关细胞群体。然而，这些SCSO数据集仍分散于各独立出版物中，全面的SCSO资源仍然缺乏。因此，我们开发了scSpatial，一个具有专家策展细胞注释和高分辨率空间映射的SCSO图谱。当前版本的scSpatial策展了大规模SCSO数据集合，包含来自630个项目的1800多个组织切片，使用16种空间技术生成；提供超过2000万个空间分辨细胞，注释为173个标准化Cell Ontology类型；并提供SCSO定制分析和交互式可视化，包括空间基因表达图谱、细胞类型分布图、空间可变基因、基因表达相关性和通路级空间活性谱。scSpati",
+      "thumbnail": null,
+      "published_at": "2026-10-23",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Nucleic Acids Research",
+        "mode": "filter",
+        "issn": "1362-4962",
+        "doi": "10.1093/nar/gkag993",
+        "description": "Abstract Single-cell spatial omics (SCSO) has reshaped spatial profiling by enabling simultaneous molecular characterization and spatial mapping at single-cell resolution, providing insights into cellular identities and tissue architecture within native biological contexts. By integrating spatial coordinates with molecular profiles and cell identities, SCSO datasets have been widely used to construct spatially resolved cell atlases, characterize disease-associated tissue remodeling, and map disease-relevant cell populations. However, these SCSO datasets remain fragmented across individual publications, and comprehensive SCSO resources are still lacking. Here, scSpatial was therefore developed as an atlas for SCSO with expert-curated cell annotations and high-resolution spatial mappings. The current release of scSpatial curates a large-scale collection of SCSO data, comprising over 1800 tissue sections from 630 projects generated using 16 spatial technologies; provides &gt;20 million spatially resolved cells annotated into 173 standardized Cell Ontology types; and offers SCSO-tailored analyses and interactive visualizations, including spatial gene expression atlases, cell type distribution maps, spatially variable genes, gene expression correlations, and pathway-level spatial activity profiles. scSpatial is freely accessible to all users without requiring login at https://idrblab.org/scspatial/.",
+        "dedupe_key": "doi:10.1093/nar/gkag993",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "b79ed9283360",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 5,
+      "title": "scTraitReg: a single-cell multi-omic database of trait-relevant transcription factor eRegulons.",
+      "title_zh": "scTraitReg：性状相关转录因子eRegulon的单细胞多组学数据库",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42908284/",
+      "hot_value": null,
+      "summary_zh": "全基因组关联研究（GWAS）识别与人类疾病和疾病相关性状相关的位点，但与这些信号相关的调控因子和细胞背景仍难以解析。我们推出scTraitReg，一个单细胞分辨率的性状相关转录因子（TF）eRegulon数据库——即TF及其靶基因和关联的顺式调控区域。scTraitReg整合了655套策展的GWAS汇总统计（涵盖122个MeSH疾病术语）与111个人类单细胞多组学数据集（在同一细胞中分析RNA和染色质可及性）。该资源涵盖34种组织、252种细胞类型、2,081,538个细胞和2208个策展的GWAS-单细胞分析配对。在这些分析中，它包含886个调控因子的2,840,939条TF-细胞类型记录；67,666条记录满足全部三项标准——细胞类型特异性、遗传相关性和性状相关调控子评分——被纳入候选性状相关eRegulon记录。每条记录链接到TF-靶基因调控网络及其顺式调控区域、细胞类型分辨的证据、",
+      "thumbnail": null,
+      "published_at": "2026-10-22",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nucleic acids research",
+        "doi": "10.1093/nar/gkag1017",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Genome-wide association studies (GWAS) identify loci associated with human diseases and disease-related traits, but the regulators and cellular contexts linked to these signals remain difficult to resolve. We present scTraitReg, a database of trait-relevant transcription factor (TF) eRegulons-TFs with their target genes and linked cis-regulatory regions-at single-cell resolution. scTraitReg integrates 655 sets of curated GWAS summary statistics covering 122 Medical Subject Headings (MeSH) disease terms with 111 human single-cell multi-omic datasets profiling RNA and chromatin accessibility in the same cells. The resource spans 34 tissues, 252 cell types, 2 081 538 cells, and 2208 curated GWAS-single-cell analysis pairs. Across these analyses, it contains 2 840 939 TF-cell-type records for 886 regulators; 67 666 records met all three criteria-cell-type specificity, genetic relevance, and the trait-associated regulon score-and were included as candidate trait-relevant eRegulon records. Each record links to the TF-target regulatory network with its cis-regulatory regions, cell-type-resolved evidence, per-cell regulon module scores, and target-gene enrichment, all available as downloadable tables. Users can search by disease, tissue, cell type, or regulator and examine these associations through interactive visualizations. scTraitReg thus provides a searchable and reusable resource linking genetic associations to cell-type-specific regulatory programs, and is freely available at https://www.sctraitreg.bio/.",
+        "identifier": "42908284",
+        "dedupe_key": "doi:10.1093/nar/gkag1017",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "eba88ad4a680",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 6,
       "title": "A kinematic interpretation of spatial expression gradients from single-snapshot spatial transcriptomics",
       "title_zh": "单快照空间转录组学中空间表达梯度的运动学解释",
       "url": "https://doi.org/10.1186/s12859-026-06707-6",
@@ -277,7 +392,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -3,
       "cluster_id": "eff4a527cc85",
       "cluster_size": 1,
       "rank_history": [
@@ -312,12 +427,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 6
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 4,
+      "rank": 7,
       "title": "Stage-resolved multi-omics reveals broad developmental preservation and localized molecular remodeling in cold-shock-induced triploid fish embryos",
       "title_zh": "阶段分辨的多组学揭示冷休克诱导三倍体鱼胚胎中广泛的发育保守性和局部分子重塑",
       "url": "https://doi.org/10.1186/s12864-026-13490-4",
@@ -342,7 +461,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -3,
       "cluster_id": "6cdb04982e46",
       "cluster_size": 1,
       "rank_history": [
@@ -377,77 +496,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 4
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 7
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 5,
-      "title": "scTraitReg: a single-cell multi-omic database of trait-relevant transcription factor eRegulons",
-      "title_zh": "scTraitReg：性状相关转录因子eRegulon的单细胞多组学数据库",
-      "url": "https://doi.org/10.1093/nar/gkag1017",
-      "hot_value": null,
-      "summary_zh": "摘要 全基因组关联研究（GWAS）识别与人类疾病和疾病相关性状相关的位点，但与这些信号相关的调控因子和细胞背景仍难以解析。我们提出scTraitReg，一个单细胞分辨率的性状相关转录因子（TF）eRegulon数据库——包含TF及其靶基因和连锁顺式调控区域。scTraitReg整合了655套 curated GWAS汇总统计，覆盖122个医学主题词（MeSH）疾病术语，以及111个人类单细胞多组学数据集，这些数据集在同一细胞中分析RNA和染色质可及性。该资源涵盖34种组织、252种细胞类型、2 081 538个细胞和2208对 curated GWAS—单细胞分析配对。在这些分析中，它包含886个调控因子的2 840 939条TF–细胞类型记录；67 666条记录满足全部三项标准——细胞类型特异性、遗传相关性和性状相关调控子评分——并被纳入候选性状相关eRegulon记录。每条记录链接到T",
-      "thumbnail": null,
-      "published_at": "2026-10-22",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Nucleic Acids Research",
-        "mode": "filter",
-        "issn": "1362-4962",
-        "doi": "10.1093/nar/gkag1017",
-        "description": "Abstract Genome-wide association studies (GWAS) identify loci associated with human diseases and disease-related traits, but the regulators and cellular contexts linked to these signals remain difficult to resolve. We present scTraitReg, a database of trait-relevant transcription factor (TF) eRegulons—TFs with their target genes and linked cis-regulatory regions—at single-cell resolution. scTraitReg integrates 655 sets of curated GWAS summary statistics covering 122 Medical Subject Headings (MeSH) disease terms with 111 human single-cell multi-omic datasets profiling RNA and chromatin accessibility in the same cells. The resource spans 34 tissues, 252 cell types, 2 081 538 cells, and 2208 curated GWAS—single-cell analysis pairs. Across these analyses, it contains 2 840 939 TF–cell-type records for 886 regulators; 67 666 records met all three criteria—cell-type specificity, genetic relevance, and the trait-associated regulon score—and were included as candidate trait-relevant eRegulon records. Each record links to the TF—target regulatory network with its cis-regulatory regions, cell-type-resolved evidence, per-cell regulon module scores, and target-gene enrichment, all available as downloadable tables. Users can search by disease, tissue, cell type, or regulator and examine these associations through interactive visualizations. scTraitReg thus provides a searchable and reusable resource linking genetic associations to cell-type-specific regulatory programs, and is freely available at https://www.sctraitreg.bio/.",
-        "dedupe_key": "doi:10.1093/nar/gkag1017",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "eba88ad4a680",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 5
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 6,
+      "rank": 8,
       "title": "Ten simple rules for responsible use of AI and LLMs in computational biology",
       "title_zh": "在计算生物学中负责任使用 AI 和 LLM 的十条简单规则",
       "url": "https://doi.org/10.1371/journal.pcbi.1014882",
@@ -472,7 +530,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "6dfe007794aa",
       "cluster_size": 1,
       "rank_history": [
@@ -495,12 +553,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 6
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 8
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 7,
+      "rank": 9,
       "title": "A single archaeon couples long-chain fatty acid oxidation to methanogenesis.",
       "title_zh": "单一古菌将长链脂肪酸氧化与产甲烷作用耦合。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42907509/",
@@ -525,7 +587,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "13ae2d8e32fb",
       "cluster_size": 1,
       "rank_history": [
@@ -536,12 +598,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 7
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 9
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 8,
+      "rank": 10,
       "title": "Gut microbiota and multi-omics analysis identify candidate gut-muscle associations underlying breast muscle quality differences between Mimas pigeon and pigeon Tianxiang 1 strain",
       "title_zh": "肠道微生物群和多组学分析确定了Mimas鸽和鸽子Tianxiang 1品系之间胸肌品质差异背后的候选肠-肌关联",
       "url": "https://doi.org/10.1186/s12864-026-13480-6",
@@ -566,7 +632,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "cec146dc9f56",
       "cluster_size": 1,
       "rank_history": [
@@ -625,12 +691,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 8
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 10
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 9,
+      "rank": 11,
       "title": "SADRP: A structurally aware multi-modal framework for drug response prediction",
       "title_zh": "SADRP：一个用于药物反应预测的结构感知多模态框架",
       "url": "https://doi.org/10.1371/journal.pcbi.1014861",
@@ -655,7 +725,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "21808358a1d9",
       "cluster_size": 1,
       "rank_history": [
@@ -702,12 +772,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 9
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 11
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 10,
+      "rank": 12,
       "title": "ImmunEscpMap: a gene-centered knowledgebase for immune escape in cancer and viral infection",
       "title_zh": "ImmunEscpMap：一个以基因为中心的癌症和病毒感染免疫逃逸知识库",
       "url": "https://doi.org/10.1093/nar/gkag1013",
@@ -732,7 +806,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "8910a49b28e0",
       "cluster_size": 1,
       "rank_history": [
@@ -791,12 +865,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 10
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 12
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 11,
+      "rank": 13,
       "title": "Computational deconvolution of drug sensitivity via single-cell–to–bulk transcriptome mapping",
       "title_zh": "通过单细胞到 bulk 转录组映射进行药物敏感性的计算去卷积",
       "url": "https://doi.org/10.1371/journal.pcbi.1014862",
@@ -821,14 +899,10 @@
       },
       "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "adb7e8700204",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 12
-        },
         {
           "run_at": "2026-10-17T16:45:08.456916+00:00",
           "rank": 10
@@ -944,12 +1018,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 11
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 13
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 12,
+      "rank": 14,
       "title": "CoMeDA: an integrated platform for compositional analysis of metabarcoding data with batch correction",
       "title_zh": "CoMeDA：一个用于 metabarcoding 数据组成分析并带批次校正的集成平台",
       "url": "https://doi.org/10.1186/s12859-026-06705-8",
@@ -974,14 +1052,10 @@
       },
       "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "dc9ef037c9b5",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 11
-        },
         {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 11
@@ -1097,12 +1171,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 12
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 14
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 13,
+      "rank": 15,
       "title": "stMCP: spatial transcriptomics with a Model Context Protocol server",
       "title_zh": "stMCP：使用 Model Context Protocol 服务器的空间转录组学",
       "url": "https://doi.org/10.1186/s12859-026-06693-9",
@@ -1127,14 +1205,10 @@
       },
       "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "f63c1c1b3d60",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 12
-        },
         {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 12
@@ -1250,12 +1324,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 13
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 15
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 14,
+      "rank": 16,
       "title": "Degree-restricted minimum spanning trees for binary cell trajectory inference in single-cell RNA-seq data",
       "title_zh": "用于单细胞 RNA-seq 数据中二元细胞轨迹推断的度限制最小生成树",
       "url": "https://doi.org/10.1186/s12859-026-06674-y",
@@ -1280,14 +1358,10 @@
       },
       "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "12cd85d904f6",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 13
-        },
         {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 13
@@ -1403,12 +1477,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 14
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 16
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 15,
+      "rank": 17,
       "title": "Disentangling batch effects and biological signals across conditions in single-cell transcriptome",
       "title_zh": "在單細胞轉錄組中區分跨條件的批次效應與生物信號",
       "url": "https://doi.org/10.1016/j.patter.2026.101638",
@@ -1433,7 +1511,7 @@
       },
       "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": -2,
       "cluster_id": "26ff873a2237",
       "cluster_size": 1,
       "rank_history": [
@@ -1552,12 +1630,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 15
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 17
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 16,
+      "rank": 18,
       "title": "DestinyNet: A deep-learning framework for cell-fate analysis from lineage-tracing single-cell RNA sequencing data",
       "title_zh": "DestinyNet：从谱系追踪单细胞RNA测序数据进行细胞命运分析的深度学习框架",
       "url": "https://doi.org/10.1016/j.patter.2026.101692",
@@ -1582,7 +1664,7 @@
       },
       "days_on_board": 7,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": -2,
       "cluster_id": "f197af43617f",
       "cluster_size": 1,
       "rank_history": [
@@ -1693,12 +1775,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 16
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 18
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 17,
+      "rank": 19,
       "title": "Programmable design of functional proteins from natural language.",
       "title_zh": "从自然语言可编程设计功能蛋白。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42907516/",
@@ -1723,7 +1809,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "f2fbd197d75c",
       "cluster_size": 1,
       "rank_history": [
@@ -1734,12 +1820,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 17
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 19
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 18,
+      "rank": 20,
       "title": "The anatomy of a personal health agent.",
       "title_zh": "个人健康智能体的解剖。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42907512/",
@@ -1764,7 +1854,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "5c30ac120f9b",
       "cluster_size": 1,
       "rank_history": [
@@ -1775,146 +1865,9 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 18
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 19,
-      "title": "A new explainable AI pipeline for cancer cell segmentation and classification for microscopy images",
-      "title_zh": "一种用于显微镜图像中癌细胞分割和分类的新型可解释 AI 流水线",
-      "url": "https://doi.org/10.1186/s12859-026-06680-0",
-      "hot_value": null,
-      "summary_zh": "摘要 背景 开发针对癌症的新型治疗方法需要大量时间和人力，尤其是对于罕见癌症（例如来源于间充质的癌症）。此外，这些罕见癌症通常获得的 research 关注较少，但仍需要充分分析。例如，对组织样本进行可信分析以识别癌症进展和细胞对候选疗法的反应，是开发某些治疗方法和药物的一项任务。因此，本研究工作开发了一种新的可解释深度学习流水线，用于从大规模荧光显微镜图像中准确、高通量且自主地识别转移细胞，可用于以低成本和高可信度评估细胞反应，并促进治疗方法的开发。结果 该流水线包括预训练且领域泛化的分割以识别单细胞，训练最新的自监督 transformer：基于 DINO 的模型以提供正常或转移分类，并利用可解释 AI 方法生成具有生物学意义的模型解释，以提升模型预测的可信度；这在未来临床应用中至关重要。与基于监督学习的模型相比，DINO 在仅训练分类器时实现了最佳可预测性（F1 加权分数超过 97%",
-      "thumbnail": null,
-      "published_at": "2026-10-21",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06680-0",
-        "description": "Abstract Background The development of novel therapeutic approaches to cancers requires significant time and labour, especially for uncommon cancers (e.g. of mesenchymal origin). In addition, these rare cancers typically receive less research attention but still need sufficient analysis. For example, a trustworthy analysis of tissue samples to identify cancer progression and cell response to candidate therapies is a task to develop certain treatments and drugs. Thus, this research work develops a new explainable Deep Learning pipeline for accurate, high-throughput and autonomous recognition of metastasising cells from large-scale fluorescence microscopy images, which can be used to evaluate cell response with low cost and high trustworthiness, and facilitate the therapeutic approaches development. Results The pipeline includes pre-trained and domain-generalised segmentation to identify single cells, training the latest self-supervised transformers: DINO-based models to provide normal or metastasising classification, and leveraging Explainable AI methods to produce biologically meaningful model explanations towards the trustworthiness of model predictions; this is crucial in future clinical applications. Compared to supervised learning-based models, DINO achieves the best predictability (over 97% F1-weighted score) when only training the classifier, and the most efficient downstream adaptation. Besides, all DINO-based models can classify successfully when finetuning the entire model (DINOv3 achieves the highest F1-weighted score with 98.35%). We have also used an additional cross-magnification test and a self- / weakly-supervised model comparison to discuss the generalisation ability and superiority of DINO-based models. Biologically accurate model explanations are produced via heatmaps and analysed through quantitative metrics and qualitative evaluation; the important cell regions in the model decision-making process align well with biological consensus. We also demonstrate that biologically meaningful cytoskeletal features can be detected and exploited by the developed pipeline for cancer cell classification, which facilitates the development of cytoskeleton-based diagnosis. Conclusion We develop a precise, efficient, and trustworthy pipeline that can facilitate the development of effective and bespoke cancer treatments via AI-assisted testing of the response of cancer cells to various treatments and drugs.",
-        "dedupe_key": "doi:10.1186/s12859-026-06680-0",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "self-supervised",
-          "deep learning",
-          "attention"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "0ccffda43a3f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 17
         },
         {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 19
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 20,
-      "title": "HGACL-DRP: Heterogeneous graph attention dual-perturbation contrastive learning network for drug response prediction",
-      "title_zh": "HGACL-DRP：用于药物反应预测的异构图注意力双扰动对比学习网络",
-      "url": "https://doi.org/10.1186/s12859-026-06723-6",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-21",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06723-6",
-        "description": "",
-        "dedupe_key": "doi:10.1186/s12859-026-06723-6",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "contrastive learning",
-          "attention"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "e47f3bb8b6e3",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T10:45:23.588837+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 20
         }
       ]
@@ -2048,6 +2001,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 21
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 21
         }
       ]
     },
@@ -2087,10 +2044,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 22
-        },
-        {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 22
         },
@@ -2204,6 +2157,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 22
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 22
         }
       ]
@@ -2243,10 +2200,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 23
-        },
-        {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 23
         },
@@ -2360,6 +2313,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 23
         }
       ]
@@ -2397,10 +2354,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 24
-        },
-        {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 24
         },
@@ -2514,6 +2467,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 24
         }
       ]
@@ -2551,10 +2508,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 25
-        },
-        {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 25
         },
@@ -2668,6 +2621,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 25
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 25
         }
       ]
@@ -2705,10 +2662,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T16:45:08.456916+00:00",
-          "rank": 26
-        },
-        {
           "run_at": "2026-10-18T07:18:43.944604+00:00",
           "rank": 26
         },
@@ -2823,6 +2776,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 26
         }
       ]
     },
@@ -2857,10 +2814,6 @@
       "cluster_id": "df5e12bc430c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 27
-        },
         {
           "run_at": "2026-10-17T16:45:08.456916+00:00",
           "rank": 27
@@ -2975,6 +2928,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 27
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 27
         }
       ]
@@ -3011,10 +2968,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 28
-        },
-        {
           "run_at": "2026-10-17T16:45:08.456916+00:00",
           "rank": 28
         },
@@ -3128,6 +3081,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 28
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 28
         }
       ]
@@ -3164,10 +3121,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 29
-        },
-        {
           "run_at": "2026-10-17T16:45:08.456916+00:00",
           "rank": 29
         },
@@ -3281,6 +3234,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 29
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 29
         }
       ]
@@ -3317,10 +3274,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 30
-        },
-        {
           "run_at": "2026-10-17T16:45:08.456916+00:00",
           "rank": 30
         },
@@ -3434,6 +3387,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 30
         }
       ]
@@ -3565,6 +3522,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 31
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 31
         }
       ]
     },
@@ -3694,6 +3655,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 32
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 32
         }
       ]
@@ -3826,6 +3791,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 33
         }
       ]
     },
@@ -3955,6 +3924,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 34
         }
       ]
@@ -4086,6 +4059,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 35
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 35
         }
       ]
     },
@@ -4215,6 +4192,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 36
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 36
         }
       ]
@@ -4346,6 +4327,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 37
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 37
         }
       ]
     },
@@ -4471,6 +4456,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 38
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 38
         }
       ]
     },
@@ -4595,6 +4584,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 39
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 39
         }
       ]
@@ -4730,6 +4723,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 40
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 40
         }
       ]
     },
@@ -4764,8 +4761,8 @@
         ]
       },
       "days_on_board": 2,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "4c2b11b79b20",
       "cluster_size": 1,
       "rank_history": [
@@ -4800,6 +4797,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 41
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 41
         }
       ]
     },
@@ -4832,8 +4833,8 @@
         ]
       },
       "days_on_board": 3,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "527ee66cb476",
       "cluster_size": 1,
       "rank_history": [
@@ -4888,6 +4889,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 42
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 42
         }
       ]
     },
@@ -4919,8 +4924,8 @@
         ]
       },
       "days_on_board": 4,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "2b2ff691b120",
       "cluster_size": 1,
       "rank_history": [
@@ -4995,6 +5000,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 43
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 43
         }
       ]
     },
@@ -5026,8 +5035,8 @@
         ]
       },
       "days_on_board": 8,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "5afd86ccbad7",
       "cluster_size": 1,
       "rank_history": [
@@ -5142,6 +5151,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 44
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 44
         }
       ]
     },
@@ -5173,8 +5186,8 @@
         ]
       },
       "days_on_board": 9,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "2d49da85e0df",
       "cluster_size": 1,
       "rank_history": [
@@ -5289,6 +5302,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 45
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 45
         }
       ]
     },
@@ -5318,8 +5335,8 @@
         "keyword_hit": []
       },
       "days_on_board": 3,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "5f729cda872f",
       "cluster_size": 1,
       "rank_history": [
@@ -5374,6 +5391,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 46
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 46
         }
       ]
     },
@@ -5403,8 +5424,8 @@
         "keyword_hit": []
       },
       "days_on_board": 3,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "8a82675c23be",
       "cluster_size": 1,
       "rank_history": [
@@ -5463,6 +5484,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 47
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 47
         }
       ]
     },
@@ -5492,8 +5517,8 @@
         "keyword_hit": []
       },
       "days_on_board": 4,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "9079fa5c914f",
       "cluster_size": 1,
       "rank_history": [
@@ -5568,6 +5593,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 48
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 48
         }
       ]
     },
@@ -5597,8 +5626,8 @@
         "keyword_hit": []
       },
       "days_on_board": 9,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "e90940ba50de",
       "cluster_size": 1,
       "rank_history": [
@@ -5713,6 +5742,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 49
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 49
         }
       ]
     },
@@ -5742,8 +5775,8 @@
         "keyword_hit": []
       },
       "days_on_board": 9,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "fdd42f99753c",
       "cluster_size": 1,
       "rank_history": [
@@ -5858,6 +5891,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 50
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 50
         }
       ]
     },
@@ -5887,8 +5924,8 @@
         "keyword_hit": []
       },
       "days_on_board": 9,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "9070c60e520a",
       "cluster_size": 1,
       "rank_history": [
@@ -5999,6 +6036,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 51
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 51
         }
       ]
     },
@@ -6029,7 +6070,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -11,
+      "rank_delta": 0,
       "cluster_id": "3f23c7a27381",
       "cluster_size": 1,
       "rank_history": [
@@ -6039,6 +6080,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 52
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 52
         }
       ]
@@ -6070,7 +6115,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -11,
+      "rank_delta": 0,
       "cluster_id": "fa356ea93a53",
       "cluster_size": 1,
       "rank_history": [
@@ -6080,6 +6125,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 53
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 53
         }
       ]
@@ -6112,7 +6161,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -11,
+      "rank_delta": 0,
       "cluster_id": "ad3baeda4bcb",
       "cluster_size": 1,
       "rank_history": [
@@ -6122,6 +6171,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 54
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 54
         }
       ]
@@ -6153,7 +6206,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -11,
+      "rank_delta": 0,
       "cluster_id": "d8348af2b759",
       "cluster_size": 1,
       "rank_history": [
@@ -6163,6 +6216,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 55
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 55
         }
       ]
@@ -6194,7 +6251,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -11,
+      "rank_delta": 0,
       "cluster_id": "c3107459df5f",
       "cluster_size": 1,
       "rank_history": [
@@ -6204,6 +6261,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 56
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 56
         }
       ]
@@ -6235,7 +6296,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -11,
+      "rank_delta": 0,
       "cluster_id": "79738bfe00e1",
       "cluster_size": 1,
       "rank_history": [
@@ -6245,6 +6306,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 57
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 57
         }
       ]
@@ -6275,7 +6340,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "8174a724d51a",
       "cluster_size": 1,
       "rank_history": [
@@ -6289,6 +6354,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 58
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 58
         }
       ]
@@ -6319,7 +6388,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "a0b409c594a2",
       "cluster_size": 1,
       "rank_history": [
@@ -6333,6 +6402,10 @@
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 59
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 59
         }
       ]
@@ -6361,7 +6434,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "787139016379",
       "cluster_size": 1,
       "rank_history": [
@@ -6376,12 +6449,76 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 60
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 60
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 36,
+      "rank": 28,
+      "title": "Elusive snow leopards and evasive particles: Books in brief",
+      "title_zh": "难以捉摸的雪豹与难以捕捉的粒子：书籍简评",
+      "url": "https://www.nature.com/articles/d41586-026-03395-3",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年10月23日；doi:10.1038/d41586-026-03395-3 Andrew Robinson评论五本最佳科学精选。",
+      "thumbnail": null,
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 23 October 2026; doi:10.1038/d41586-026-03395-3 Andrew Robinson reviews five of the best science picks.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03395-3"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "6bcffbe407e0",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 28
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 29,
+      "title": "Benchmarking segmentation methods for spatial transcriptomics",
+      "title_zh": "空间转录组学分割方法基准测试",
+      "url": "https://www.nature.com/articles/s41592-026-03272-x",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年10月23日；doi:10.1038/s41592-026-03272-x 本分析对不同数据集的分割方法进行基准测试，并提出Nextflow——一个用于空间转录组学标准化方法选择的流程。",
+      "thumbnail": null,
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 23 October 2026; doi:10.1038/s41592-026-03272-x This Analysis benchmarks segmentation methods across different datasets and presents Nextflow, a pipeline for standardized method selection for spatial transcriptomics.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03272-x"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "eedc33ee3891",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 29
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 50,
       "title": "Can a 'lullaby' save coral reefs from extinction?",
       "title_zh": "一首“摇篮曲”能拯救珊瑚礁免于灭绝吗？",
       "url": "https://www.nature.com/articles/d41586-026-03414-3",
@@ -6399,7 +6536,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -14,
       "cluster_id": "ec2bcd13f2a4",
       "cluster_size": 1,
       "rank_history": [
@@ -6426,12 +6563,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 36
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 50
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 37,
+      "rank": 51,
       "title": "A first for CRISPR: powerful prime editing alters DNA directly in the human body",
       "title_zh": "CRISPR首次：强大的先导编辑直接在人体内改变DNA",
       "url": "https://www.nature.com/articles/d41586-026-03371-x",
@@ -6449,7 +6590,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -14,
       "cluster_id": "5c5f09ec2d33",
       "cluster_size": 1,
       "rank_history": [
@@ -6468,12 +6609,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 37
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 51
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 38,
+      "rank": 52,
       "title": "Teen depression and anxiety predicted by childhood brain development",
       "title_zh": "青少年抑郁和焦虑可通过童年大脑发育预测",
       "url": "https://www.nature.com/articles/d41586-026-03357-9",
@@ -6491,7 +6636,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -14,
       "cluster_id": "1414b8a3cc1d",
       "cluster_size": 1,
       "rank_history": [
@@ -6538,12 +6683,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 38
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 52
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 39,
+      "rank": 53,
       "title": "Can maths survive AI? Fields medallist Terence Tao calls for a ‘Maths 2.0’ world",
       "title_zh": "数学能在 AI 中幸存吗？菲尔兹奖得主 Terence Tao 呼吁“数学 2.0”世界",
       "url": "https://www.nature.com/articles/d41586-026-03389-1",
@@ -6561,7 +6710,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -14,
       "cluster_id": "ac1be0e10541",
       "cluster_size": 1,
       "rank_history": [
@@ -6584,12 +6733,46 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 39
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 53
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 40,
+      "rank": 54,
+      "title": "Daily briefing: The tell-tale features of a Denisovan",
+      "title_zh": "每日简报：丹尼索瓦人的特征性面貌",
+      "url": "https://www.nature.com/articles/d41586-026-03438-9",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年10月22日；doi:10.1038/d41586-026-03438-9 看看是什么赋予了丹尼索瓦人独特的外貌。另外，刚果民主共和国的埃博拉疫苗试验可能本周启动，以及什么造就了出色的气候图表。",
+      "thumbnail": null,
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 22 October 2026; doi:10.1038/d41586-026-03438-9 See what gave Denisovans their distinct look. Plus, a vaccine trial for Ebola could kick off this week in the Democratic Republic of the Congo and what makes a great climate graphic.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03438-9"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "bb96df05d1d6",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 54
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 55,
       "title": "Current-Driven Molecular Machine with Rotation-Enhanced Conductance",
       "title_zh": "具有旋转增强电导的电流驱动分子机器",
       "url": "https://www.nature.com/articles/s41586-026-11312-x",
@@ -6607,7 +6790,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -15,
       "cluster_id": "2cd9bad47bd7",
       "cluster_size": 1,
       "rank_history": [
@@ -6634,12 +6817,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 40
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 55
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 41,
+      "rank": 56,
       "title": "Tracing causal cascades underlying biological state changes",
       "title_zh": "追踪生物状态变化背后的因果级联",
       "url": "https://www.nature.com/articles/s41592-026-03273-w",
@@ -6657,7 +6844,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -15,
       "cluster_id": "977a27e4507f",
       "cluster_size": 1,
       "rank_history": [
@@ -6684,12 +6871,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 41
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 56
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 42,
+      "rank": 57,
       "title": "OpenDVP: an experimental and computational framework for community-empowered deep visual proteomics",
       "title_zh": "OpenDVP：一个社区赋能的深度视觉蛋白质组学实验与计算框架",
       "url": "https://www.nature.com/articles/s41592-026-03262-z",
@@ -6707,7 +6898,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -15,
       "cluster_id": "362cc30b3999",
       "cluster_size": 1,
       "rank_history": [
@@ -6734,12 +6925,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 42
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 57
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 43,
+      "rank": 58,
       "title": "CauTrigger: deciphering biological system state transitions by hierarchical causal decomposition",
       "title_zh": "CauTrigger：通过分层因果分解破译生物系统状态转换",
       "url": "https://www.nature.com/articles/s41592-026-03274-9",
@@ -6757,7 +6952,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": -15,
       "cluster_id": "fbc9cfdf739b",
       "cluster_size": 1,
       "rank_history": [
@@ -6784,12 +6979,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 43
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 58
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 54,
+      "rank": 65,
       "title": "De novo design of enantioselective artificial metalloenzyme photocatalysts",
       "title_zh": "对映选择性人工金属酶光催化剂的从头设计",
       "url": "https://www.nature.com/articles/s41586-026-11317-6",
@@ -6807,7 +7006,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -11,
       "cluster_id": "db377f1b027c",
       "cluster_size": 1,
       "rank_history": [
@@ -6858,12 +7057,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 54
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 65
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 55,
+      "rank": 66,
       "title": "Scientists put a salt marsh in a giant wave-machine: here's what they learned",
       "title_zh": "科学家把盐沼放进巨型造波机：他们发现了什么",
       "url": "https://www.nature.com/articles/d41586-026-03376-6",
@@ -6881,7 +7084,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -11,
       "cluster_id": "4bf42baab3b7",
       "cluster_size": 1,
       "rank_history": [
@@ -6932,12 +7135,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 55
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 66
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 56,
+      "rank": 67,
       "title": "Author Correction: Catalyst-free, microdroplet-mediated waste plastic conversion to diacids",
       "title_zh": "作者更正：无催化剂、微液滴介导的废塑料转化为二酸",
       "url": "https://www.nature.com/articles/s41586-026-11252-6",
@@ -6955,7 +7162,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -11,
       "cluster_id": "239026b38a61",
       "cluster_size": 1,
       "rank_history": [
@@ -7014,12 +7221,46 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 56
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 67
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 57,
+      "rank": 68,
+      "title": "AI doctors’ orders come with a sky-high bill",
+      "title_zh": "AI医生的医嘱账单高得离谱",
+      "url": "https://www.nature.com/articles/d41586-026-03320-8",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年10月21日；doi:10.1038/d41586-026-03320-8 大型语言模型比人类医生建议更多的检查、转诊和药物，推高了医疗成本。",
+      "thumbnail": null,
+      "published_at": "2026-10-21T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 21 October 2026; doi:10.1038/d41586-026-03320-8 Large language models suggest more tests, referrals and medications than human physicians do, driving up the cost of care.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03320-8"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "8f30593e32e6",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 68
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 69,
       "title": "Surprise! White dwarf stars come in a rainbow of colours",
       "title_zh": "惊喜！白矮星有彩虹般的颜色",
       "url": "https://www.nature.com/articles/d41586-026-03319-1",
@@ -7037,7 +7278,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -12,
       "cluster_id": "b6f0956752ed",
       "cluster_size": 1,
       "rank_history": [
@@ -7084,12 +7325,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 57
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 69
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 58,
+      "rank": 70,
       "title": "To heal sick cities, scientists and residents must work together",
       "title_zh": "要治愈病态城市，科学家和居民必须携手合作",
       "url": "https://www.nature.com/articles/d41586-026-03161-5",
@@ -7107,7 +7352,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -12,
       "cluster_id": "c60bcdc35654",
       "cluster_size": 1,
       "rank_history": [
@@ -7158,12 +7403,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 58
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 70
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 59,
+      "rank": 71,
       "title": "An AI tool improves weather forecasts up to a month ahead",
       "title_zh": "AI工具将天气预报提前至多一个月",
       "url": "https://www.nature.com/articles/d41586-026-03077-0",
@@ -7181,7 +7430,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -12,
       "cluster_id": "17f17e00a011",
       "cluster_size": 1,
       "rank_history": [
@@ -7232,12 +7481,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 59
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 71
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 60,
+      "rank": 72,
       "title": "Using AI to offer personalized health advice",
       "title_zh": "利用AI提供个性化健康建议",
       "url": "https://www.nature.com/articles/d41586-026-03065-4",
@@ -7255,7 +7508,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -12,
       "cluster_id": "d6d7d4d1e84f",
       "cluster_size": 1,
       "rank_history": [
@@ -7306,246 +7559,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 60
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 72
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 61,
-      "title": "Global emissions slow — but world hurtles towards 2 °C of warming",
-      "title_zh": "全球排放放缓——但世界正冲向2°C升温",
-      "url": "https://www.nature.com/articles/d41586-026-03355-x",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年10月21日；doi:10.1038/d41586-026-03355-x 联合国最新气候报告严峻地提醒我们，将升温限制在最安全水平现在可能已遥不可及。",
-      "thumbnail": null,
-      "published_at": "2026-10-21T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 21 October 2026; doi:10.1038/d41586-026-03355-x The United Nations’ latest climate report is a stark reminder that limiting warming to the safest levels is now likely out of reach.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03355-x"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": -3,
-      "cluster_id": "eba7c8cb1f4b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 22
-        },
-        {
-          "run_at": "2026-10-21T10:45:23.588837+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 47
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 47
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 61
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 65
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 65
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 66
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 61
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 62,
-      "title": "Huge mapping study reveals how your brain tracks what your body is feeling",
-      "title_zh": "大型映射研究揭示大脑如何追踪身体感受",
-      "url": "https://www.nature.com/articles/d41586-026-03334-2",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年10月21日；doi:10.1038/d41586-026-03334-2 大脑深处岛叶区域的信号可让人感到发热、刺痛和恶心。",
-      "thumbnail": null,
-      "published_at": "2026-10-21T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 21 October 2026; doi:10.1038/d41586-026-03334-2 Signals in the insula region, deep in the brain, can make people feel hot, tingly and nauseous.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03334-2"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": -3,
-      "cluster_id": "3d4a75951e4e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 41
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 41
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 48
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 48
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 62
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 66
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 66
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 67
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 62
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 63,
-      "title": "Plastics embedded with enzymes degrade readily in the sea",
-      "title_zh": "嵌入酶的塑料在海中易于降解",
-      "url": "https://www.nature.com/articles/d41586-026-03282-x",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年10月21日；doi:10.1038/d41586-026-03282-x 将分解酯键的酶嵌入可堆肥聚酯中，即使在微生物稀少的环境中也能实现快速完全生物降解。该方法在从沿海海水到深海的海洋地点均有效，因此可有助于解决全球塑料污染问题。",
-      "thumbnail": null,
-      "published_at": "2026-10-21T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 21 October 2026; doi:10.1038/d41586-026-03282-x Embedding enzymes that break down ester bonds into compostable polyesters enables rapid and complete biodegradation even in microbe-scarce environments. This method is effective in marine sites ranging from coastal sea water to the deep sea, and could therefore contribute towards solving the global plastic pollution problem.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03282-x"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": -3,
-      "cluster_id": "423a3637bb40",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 42
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 42
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 49
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 49
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 63
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 61
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 67
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 67
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 68
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 63
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 70,
+      "rank": 76,
       "title": "Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
       "title_zh": "多浸没斜平面显微镜（miOPM）：用于高分辨率光片荧光显微镜的可重构平台",
       "url": "https://www.nature.com/articles/s41592-026-03245-0",
@@ -7563,7 +7586,7 @@
       },
       "days_on_board": 5,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": -6,
       "cluster_id": "fda338562f00",
       "cluster_size": 1,
       "rank_history": [
@@ -7650,12 +7673,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 70
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 76
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 71,
+      "rank": 77,
       "title": "Recent developments of fluorescent proteins and biosensors driven by cross-disciplinary insights",
       "title_zh": "跨学科洞见驱动的荧光蛋白和生物传感器最新进展",
       "url": "https://www.nature.com/articles/s41592-026-03268-7",
@@ -7673,7 +7700,7 @@
       },
       "days_on_board": 6,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": -6,
       "cluster_id": "9a030c7586ea",
       "cluster_size": 1,
       "rank_history": [
@@ -7776,12 +7803,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 71
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 77
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 72,
+      "rank": 78,
       "title": "AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
       "title_zh": "AmpliconSuite：分析癌症基因组局灶性扩增的端到端工作流",
       "url": "https://www.nature.com/articles/s41592-026-03264-x",
@@ -7799,7 +7830,7 @@
       },
       "days_on_board": 6,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": -6,
       "cluster_id": "c7385af27d12",
       "cluster_size": 1,
       "rank_history": [
@@ -7902,12 +7933,16 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 72
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 78
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 73,
+      "rank": 79,
       "title": "Integrating sex as a biological variable into one’s science",
       "title_zh": "将性别作为生物学变量纳入科学研究",
       "url": "https://www.nature.com/articles/s41592-026-03266-9",
@@ -7925,7 +7960,7 @@
       },
       "days_on_board": 6,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": -6,
       "cluster_id": "7a8b38df9d15",
       "cluster_size": 1,
       "rank_history": [
@@ -8028,132 +8063,10 @@
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 73
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 74,
-      "title": "LoL-align: sensitive and fast probabilistic protein structure alignment",
-      "title_zh": "LoL-align：灵敏快速的概率性蛋白质结构比对",
-      "url": "https://www.nature.com/articles/s41592-026-03249-w",
-      "hot_value": null,
-      "summary_zh": "Nature Methods，在线发表：2026年10月14日；doi:10.1038/s41592-026-03249-w LoL-align是一种基于距离的概率性蛋白质结构比对算法，迭代优化局部对数几率得分，对远缘同源物比现有方法灵敏度更高、比对质量更好。",
-      "thumbnail": null,
-      "published_at": "2026-10-14T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature Methods",
-        "tab": "papers",
-        "route": "https://www.nature.com/nmeth.rss",
-        "translate": true,
-        "description": "Nature Methods, Published online: 14 October 2026; doi:10.1038/s41592-026-03249-w LoL-align is a probabilistic, distance-based protein structure alignment algorithm that iteratively optimizes a local log-odds score, achieving higher sensitivity for remote homologs and better alignment quality than available methods.",
-        "dedupe_key": "https://www.nature.com/articles/s41592-026-03249-w"
-      },
-      "days_on_board": 6,
-      "is_new": false,
-      "rank_delta": -1,
-      "cluster_id": "6ac20d74a785",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-18T19:45:33.826204+00:00",
-          "rank": 75
         },
         {
-          "run_at": "2026-10-19T01:44:43.999560+00:00",
-          "rank": 71
-        },
-        {
-          "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 75
-        },
-        {
-          "run_at": "2026-10-19T07:55:51.065184+00:00",
-          "rank": 73
-        },
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 37
-        },
-        {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-20T07:44:18.336727+00:00",
-          "rank": 70
-        },
-        {
-          "run_at": "2026-10-20T10:44:44.660629+00:00",
-          "rank": 72
-        },
-        {
-          "run_at": "2026-10-20T13:44:57.131116+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-10-20T19:46:36.905038+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 73
-        },
-        {
-          "run_at": "2026-10-21T10:45:23.588837+00:00",
-          "rank": 74
-        },
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 70
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
           "rank": 79
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 79
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 79
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 79
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 73
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 74
         }
       ]
     }
