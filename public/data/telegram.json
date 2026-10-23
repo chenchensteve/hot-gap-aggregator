@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-23T04:45:23.706060+00:00",
+  "generated_at": "2026-10-23T07:48:04.270268+00:00",
   "source": "telegram",
   "status": {
     "source": "telegram",
     "status": "ok",
     "item_count": 35,
-    "duration_ms": 702,
+    "duration_ms": 841,
     "error": null,
-    "run_at": "2026-10-23T04:45:23.706060+00:00"
+    "run_at": "2026-10-23T07:48:04.270268+00:00"
   },
   "items": [
     {
       "source": "telegram",
       "rank": 1,
-      "title": "CERT-AGID describes two tools and local checks for assessing PHP systems potentially affected by CVE-2026-109618 and CVE-2026-109619, warning that scanner results are not definitive and active tests can affect services. 🔗 https://cyber.hendryadrian.com/article/7628/cert-agid-details-tools-to-check-e",
-      "title_zh": "CERT-AGID 介绍了两款工具和本地检查方法，用于评估可能受 CVE-2026-109618 和 CVE-2026-109619 影响的 PHP 系统，并警告扫描器结果并非定论，主动测试可能影响服务。🔗 https://cyber.hendryadrian.com/article/7628/cert-agid-details-tools-to-check-e",
-      "url": "https://t.me/cybernotif/37612",
-      "hot_value": "3",
+      "title": "Insikt Group says reported attacks on Japanese organizations rose 48%, from 621 to 918, in Q3 2026. The report describes data exposure and service disruption, discusses possible contributing factors, and recommends stronger patching, API controls and account protections 🔗 https://cyber.hendryadrian.",
+      "title_zh": "Insikt Group 称，2026 年第三季度针对日本机构的报告攻击增加了 48%，从 621 起增至 918 起。报告描述了数据泄露和服务中断，讨论了可能的促成因素，并建议加强补丁、API 控制和账户保护 🔗 https://cyber.hendryadrian.",
+      "url": "https://t.me/cybernotif/37621",
+      "hot_value": "7",
       "summary_zh": null,
       "thumbnail": null,
-      "published_at": "2026-10-23T04:36:04+00:00",
+      "published_at": "2026-10-23T07:00:08+00:00",
       "extra": {
         "channel": "cybernotif",
         "translate": true
@@ -27,11 +27,11 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "67c3ca75263b",
+      "cluster_id": "019172a82828",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 1
         }
       ]
@@ -39,10 +39,192 @@
     {
       "source": "telegram",
       "rank": 2,
+      "title": "A New Mexico judge ordered Meta to pay $25 billion after a jury found Facebook made misleading statements about privacy and other practices. Meta says it expects to win on appeal. 🔗 https://cyber.hendryadrian.com/article/7629/meta-ordered-to-pay-25-billion-in-new-mexico-facebook-privacy-case",
+      "title_zh": "新墨西哥州一名法官命令 Meta 支付 250 亿美元，此前陪审团认定 Facebook 在隐私及其他做法上作出误导性陈述。Meta 表示预计将在上诉中获胜。🔗 https://cyber.hendryadrian.com/article/7629/meta-ordered-to-pay-25-billion-in-new-mexico-facebook-privacy-case",
+      "url": "https://t.me/cybernotif/37620",
+      "hot_value": "16",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-23T06:12:04+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "56719045ea96",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 3,
+      "title": "🔴 CVE Digest — 23 Oct 2026 1 critical vulnerability 🔴 CVE-2026-54630 · CVSS 9.6 Part-DB is an open source inventory management system for electronic components. Prior to version 2.12.1, the part... #CVE #Critical #Vulnerability",
+      "title_zh": "🔴 CVE 摘要 — 2026年10月23日 1 个严重漏洞 🔴 CVE-2026-54630 · CVSS 9.6 Part-DB 是一个用于电子元件的开源库存管理系统。在 2.12.1 版本之前，该 part…… #CVE #Critical #Vulnerability",
+      "url": "https://t.me/cyber_security_feed/36681",
+      "hot_value": "9",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-23T06:07:12+00:00",
+      "extra": {
+        "channel": "cyber_security_feed",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "b8df204f5e6c",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 4,
+      "title": "A practical guide to exporting systemd journal data with journalctl, covering filters, output formats, permissions, log persistence, and reading journal files from disk images for incident work. Several LogTotal workflow sections contain unresolved proof placeholders. 🔗 https://cyber.hendryadrian.co",
+      "title_zh": "一份使用 journalctl 导出 systemd 日志数据的实用指南，涵盖过滤器、输出格式、权限、日志持久化，以及从磁盘镜像读取日志文件用于事件处理工作。LogTotal 工作流的若干部分包含未解决的证明占位符。🔗 https://cyber.hendryadrian.co",
+      "url": "https://t.me/cybernotif/37619",
+      "hot_value": "18",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-23T06:00:06+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "1070d387f57a",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 5,
+      "title": "A practical guide to checking Sysmon, exporting its Windows event logs, interpreting key event IDs, and troubleshooting missing or limited data. It warns that LogTotal does not sanitize uploaded EVTX files. 🔗 https://cyber.hendryadrian.com/article/7639/how-to-find-export-and-investigate-sysmon-logs-",
+      "title_zh": "一份检查 Sysmon、导出其 Windows 事件日志、解读关键事件 ID，以及排查数据缺失或受限的实用指南。它警告 LogTotal 不会对上传的 EVTX 文件进行净化处理。🔗 https://cyber.hendryadrian.com/article/7639/how-to-find-export-and-investigate-sysmon-logs-",
+      "url": "https://t.me/cybernotif/37618",
+      "hot_value": "19",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-23T05:48:03+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "13c07e68678b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 6,
+      "title": "⚡️ AI data centers are becoming a political problem in the US The rapid expansion of AI data centers is facing growing resistance from American communities. The concerns go beyond technology. Residents are worried about rising electricity bills, heavy water consumption, environmental damage and the ",
+      "title_zh": "⚡️ AI 数据中心在美国正成为政治问题 AI 数据中心的快速扩张正面临美国社区日益增长的抵制。担忧不止于技术层面。居民担心电费上涨、大量耗水、环境破坏以及",
+      "url": "https://t.me/aipost/8587",
+      "hot_value": "1.35K",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-23T05:37:01+00:00",
+      "extra": {
+        "channel": "aipost",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f5703637f478",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 7,
+      "title": "A guide to enabling and exporting PowerShell script block logs, including PowerShell 7’s separate channel. It covers log-volume and secret-exposure risks, plus what event 400 may reveal. 🔗 https://cyber.hendryadrian.com/article/7640/how-to-enable-and-export-powershell-script-block-logs",
+      "title_zh": "一份启用并导出 PowerShell 脚本块日志的指南，包括 PowerShell 7 的独立通道。它涵盖日志量和机密泄露风险，以及事件 400 可能揭示的内容。🔗 https://cyber.hendryadrian.com/article/7640/how-to-enable-and-export-powershell-script-block-logs",
+      "url": "https://t.me/cybernotif/37617",
+      "hot_value": "20",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-23T05:36:04+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "bf442a6f35d5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 8,
+      "title": "GitLab patched CVE-2026-110264, an unauthenticated RCE flaw caused by an integer overflow in regular-expression compilation. It affects self-managed CE and EE; no in-the-wild exploitation or public PoC has been confirmed. 🔗 https://cyber.hendryadrian.com/article/7641/gitlab-patches-cvss-10-0-rce-fla",
+      "title_zh": "GitLab 修补了 CVE-2026-110264，这是一个由正则表达式编译中的整数溢出导致的未认证 RCE 漏洞。它影响自管理 CE 和 EE；尚未确认在野利用或公开 PoC。🔗 https://cyber.hendryadrian.com/article/7641/gitlab-patches-cvss-10-0-rce-fla",
+      "url": "https://t.me/cybernotif/37616",
+      "hot_value": "20",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-23T05:24:04+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "22094e6e29fe",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 9,
       "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback Source: https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
       "title_zh": "Oura 再次起诉竞争对手 Ultrahuman，威胁其美国智能戒指回归 Source: https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
       "url": "https://t.me/techcrunchcom/84688",
-      "hot_value": "21",
+      "hot_value": "89",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T04:23:52+00:00",
@@ -51,24 +233,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -7,
       "cluster_id": "5894f2ede687",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 9
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 3,
+      "rank": 10,
       "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia Source: https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "title_zh": "Uber 竞争对手 inDrive 计划2027年携 Pony.ai 和 Nvidia 在中亚测试 robotaxi Source: https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "url": "https://t.me/techcrunchcom/84687",
-      "hot_value": "30",
+      "hot_value": "94",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T04:11:47+00:00",
@@ -77,24 +263,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -7,
       "cluster_id": "6e6489263d20",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 10
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 4,
+      "rank": 11,
       "title": "🔴 CVE Digest — 23 Oct 2026 1 critical vulnerability 🔴 CVE-2026-115547 · CVSS 9.1 An input validation issue in the Okta Access Gateway (OAG) Admin Console allows the processing of specially formatted... #CVE #Critical #Vulnerability",
       "title_zh": "🔴 CVE 摘要 — 2026年10月23日 1个严重漏洞 🔴 CVE-2026-115547 · CVSS 9.1 Okta Access Gateway（OAG）管理控制台存在输入验证问题，允许处理特制格式的... #CVE #Critical #Vulnerability",
       "url": "https://t.me/cyber_security_feed/36680",
-      "hot_value": "4",
+      "hot_value": "15",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T04:07:13+00:00",
@@ -103,24 +293,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -7,
       "cluster_id": "aee8203a3122",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 4
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 11
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 5,
+      "rank": 12,
       "title": "📰 Dark Reading State Bank of India Suffers a Customer PII Data Leak Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII. #CyberNews #Infosec",
       "title_zh": "📰 Dark Reading 印度国家银行遭遇客户 PII 数据泄露 印度相对较小的数据泄露可能变得相当严重，这要归功于成熟的 PII 地下交易市场。#CyberNews #Infosec",
       "url": "https://t.me/cyber_security_feed/36679",
-      "hot_value": "4",
+      "hot_value": "13",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T04:07:04+00:00",
@@ -129,76 +323,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -7,
       "cluster_id": "9e06da6caf9d",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 5
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 6,
-      "title": "The article links AI-assisted vulnerability research and attacks, reporting PHP vulnerability scanning, JPCERT/CC findings in Japan, and Microsoft’s account of Storm-0940 using ARTEX. It stresses that scanning and failed logons alone do not prove compromise. 🔗 https://cyber.hendryadrian.com/article/",
-      "title_zh": "文章将 AI 辅助漏洞研究与攻击联系起来，报道了 PHP 漏洞扫描、日本 JPCERT/CC 的发现，以及微软关于 Storm-0940 使用 ARTEX 的说明。文章强调仅凭扫描和登录失败并不能证明被入侵。🔗 https://cyber.hendryadrian.com/article/",
-      "url": "https://t.me/cybernotif/37611",
-      "hot_value": "12",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-23T03:48:04+00:00",
-      "extra": {
-        "channel": "cybernotif",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "04a51b81938c",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 6
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 12
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 7,
-      "title": "Microsoft says China-linked Storm-0940 used ARTEX and compromised ConnectWise Cloud Backup application credentials to target over 2,250 Microsoft 365 tenants; some attacks gained privileged access. ConnectWise suspended services and continued restoration. 🔗 https://cyber.hendryadrian.com/article/759",
-      "title_zh": "微软称与中国有关联的 Storm-0940 使用 ARTEX 并窃取 ConnectWise Cloud Backup 应用凭据，针对超过2,250个 Microsoft 365 租户；部分攻击获得特权访问。ConnectWise 暂停服务并继续恢复。🔗 https://cyber.hendryadrian.com/article/759",
-      "url": "https://t.me/cybernotif/37610",
-      "hot_value": "15",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-23T03:00:08+00:00",
-      "extra": {
-        "channel": "cybernotif",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "42cda35b1c2d",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 7
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 8,
+      "rank": 13,
       "title": "⚠️ AI could be destroying the expertise we need to control it Researchers call it the “Tragedy of the Cognitive Commons,” and it could be a bigger problem than mass unemployment. Every industry depends on experienced professionals who develop their skills through years of practice. Junior employees ",
       "title_zh": "⚠️ AI 可能正在摧毁我们控制它所需的专业知识 研究人员称之为“认知公地悲剧”，它可能比大规模失业更大的问题。每个行业都依赖通过多年实践积累经验的资深专业人士。初级员工",
       "url": "https://t.me/aipost/8586",
-      "hot_value": "956",
+      "hot_value": "1.96K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T02:56:01+00:00",
@@ -207,76 +353,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -5,
       "cluster_id": "eb23885b5406",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 8
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 9,
-      "title": "Unit 42 reports that weak randomness compromised eight eMudhra intermediate CA private keys, potentially enabling unauthorized TLS certificates and MitM attacks. eMudhra revoked the certificates, and browser and OS vendors moved to distrust them. 🔗 https://cyber.hendryadrian.com/article/7565/eight-e",
-      "title_zh": "Unit 42 报告称弱随机性危及八个 eMudhra 中间 CA 私钥，可能 enabling 未授权 TLS 证书和 MitM 攻击。eMudhra 已吊销证书，浏览器和操作系统厂商已将其列入不信任。🔗 https://cyber.hendryadrian.com/article/7565/eight-e",
-      "url": "https://t.me/cybernotif/37609",
-      "hot_value": "18",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-23T02:24:04+00:00",
-      "extra": {
-        "channel": "cybernotif",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b7d9c34b1301",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 9
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 13
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 10,
-      "title": "CISA added four Plex Media Server flaws to its KEV catalog after active exploitation enabled unauthenticated remote code execution. Attackers deployed cryptocurrency miners and proxy malware; upgrade to version 1.43.3.10861 or later. 🔗 https://cyber.hendryadrian.com/article/7578/plex2shell-vulnerabi",
-      "title_zh": "CISA 在活跃利用导致未认证远程代码执行后，将四个 Plex Media Server 漏洞加入 KEV 目录。攻击者部署了加密货币挖矿程序和代理恶意软件；请升级到 1.43.3.10861 或更高版本。🔗 https://cyber.hendryadrian.com/article/7578/plex2shell-vulnerabi",
-      "url": "https://t.me/cybernotif/37608",
-      "hot_value": "18",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-23T02:12:04+00:00",
-      "extra": {
-        "channel": "cybernotif",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b83164719102",
-      "cluster_size": 2,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 10
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 11,
+      "rank": 14,
       "title": "🔴 CVE Digest — 23 Oct 2026 1 critical vulnerability 🔴 CVE-2026-19677 · CVSS 9.3 An authentication bypass vulnerability in the public onPhase/ frevvo registration form version 11.0.14 allows an... #CVE #Critical #Vulnerability",
       "title_zh": "🔴 CVE 摘要 — 2026年10月23日 1个严重漏洞 🔴 CVE-2026-19677 · CVSS 9.3 公共 onPhase/ frevvo 注册表单版本 11.0.14 存在认证绕过漏洞，允许... #CVE #Critical #Vulnerability",
       "url": "https://t.me/cyber_security_feed/36678",
-      "hot_value": "6",
+      "hot_value": "14",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T02:07:28+00:00",
@@ -285,24 +383,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b83164719102",
+      "is_new": false,
+      "rank_delta": -3,
+      "cluster_id": "c39f56e96ac2",
       "cluster_size": 2,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 11
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 14
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 12,
+      "rank": 15,
       "title": "🔍 Zero Day Initiative ZDI-26-786: NoMachine nxwebrunner Heap-based Buffer Overflow Remote Code Execution Vulnerability This vulnerability allows remote attackers to execute arbitrary code on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The ZDI ha",
       "title_zh": "🔍 Zero Day Initiative ZDI-26-786：NoMachine nxwebrunner 堆缓冲区溢出远程代码执行漏洞 该漏洞允许远程攻击者在受影响的 NoMachine 安装上执行任意代码。利用该漏洞无需认证。ZDI 已",
       "url": "https://t.me/cyber_security_feed/36677",
-      "hot_value": "7",
+      "hot_value": "14",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T02:07:21+00:00",
@@ -311,24 +413,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "7f55811e57e3",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 12
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 15
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 13,
+      "rank": 16,
       "title": "🔍 Zero Day Initiative ZDI-26-787: NVIDIA Megatron Bridge YAML File Parsing Code Injection Remote Code Execution Vulnerability This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnera",
       "title_zh": "🔍 Zero Day Initiative ZDI-26-787：NVIDIA Megatron Bridge YAML 文件解析代码注入远程代码执行漏洞 该漏洞允许远程攻击者在受影响的 NVIDIA Megatron Bridge 安装上执行任意代码。利用该漏洞需要用户交互。",
       "url": "https://t.me/cyber_security_feed/36676",
-      "hot_value": "7",
+      "hot_value": "14",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T02:07:17+00:00",
@@ -337,76 +443,28 @@
         "translate": true
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "fddbd4f726cd",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 13
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 14,
-      "title": "🔍 Zero Day Initiative ZDI-26-788: Cisco Snort OLE VBA Decompression Stack-based Buffer Overflow Remote Code Execution Vulnerability This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Snort. Authentication is not required to exploit this vulnerabil",
-      "title_zh": "🔍 Zero Day Initiative ZDI-26-788：Cisco Snort OLE VBA 解压缩基于栈的缓冲区溢出远程代码执行漏洞 该漏洞允许远程攻击者在受影响的 Cisco Snort 安装上执行任意代码。利用该漏洞无需认证。",
-      "url": "https://t.me/cyber_security_feed/36675",
-      "hot_value": "7",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-23T02:07:13+00:00",
-      "extra": {
-        "channel": "cyber_security_feed",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b4a5f8ce99ad",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 14
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 16
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 15,
-      "title": "INTERPOL reported 1,462 arrests and 10,909 networks disrupted in Operation Serengeti III, with over $105 million recovered. Team Cymru says infrastructure intelligence supported investigations; INTERPOL’s 2026 assessment links AI to 55% of reported cybercrime in Africa. 🔗 https://cyber.hendryadrian.",
-      "title_zh": "INTERPOL 报告“塞伦盖蒂行动 III”逮捕1,462人、捣毁10,909个网络，追回超过1.05亿美元。Team Cymru 称基础设施情报支持了调查；INTERPOL 2026年评估将非洲55%的报告网络犯罪与 AI 联系起来。🔗 https://cyber.hendryadrian.",
-      "url": "https://t.me/cybernotif/37607",
-      "hot_value": "16",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-23T02:00:06+00:00",
-      "extra": {
-        "channel": "cybernotif",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "8cbd72dda8c4",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 15
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 16,
+      "rank": 17,
       "title": "Left alone with nothing to do, AI agents started playing Source: https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "title_zh": "被独自留下无事可做，AI 代理开始玩耍 来源：https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "url": "https://t.me/techcrunchcom/84686",
-      "hot_value": "84",
+      "hot_value": "124",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T00:55:13+00:00",
@@ -416,7 +474,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -11,
+      "rank_delta": -1,
       "cluster_id": "4669d714a7ae",
       "cluster_size": 1,
       "rank_history": [
@@ -427,16 +485,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 16
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 17
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 17,
+      "rank": 18,
       "title": "❗️ The situation is getting worse with every passing moment. Axios reports AI agents are accessing accounts at major U.S. banks, sometimes appearing to act beyond users' instructions and even contacting call centers. Banks struggle to distinguish authorized agents from rogue ones. Morgan Stanley is ",
       "title_zh": "❗️ 情况每时每刻都在恶化。Axios 报道称，AI 代理正在访问美国主要银行的账户，有时似乎超出用户指令行事，甚至联系呼叫中心。银行难以区分授权代理和 rogue 代理。Morgan Stanley 正在",
       "url": "https://t.me/aipost/8585",
-      "hot_value": "1.66K",
+      "hot_value": "2.41K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-23T00:10:12+00:00",
@@ -446,7 +508,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -9,
+      "rank_delta": -1,
       "cluster_id": "88b5b4fd07b6",
       "cluster_size": 1,
       "rank_history": [
@@ -457,16 +519,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 17
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 18
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 18,
+      "rank": 19,
       "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta Source: https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
       "title_zh": "Mark Zuckerberg 的创意计划：在不失去对 Meta 控制权的情况下支付加州拟议的亿万富翁税 来源：https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
       "url": "https://t.me/techcrunchcom/84685",
-      "hot_value": "96",
+      "hot_value": "126",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T23:55:44+00:00",
@@ -476,7 +542,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -8,
+      "rank_delta": -1,
       "cluster_id": "5fecc00d4457",
       "cluster_size": 1,
       "rank_history": [
@@ -487,16 +553,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 18
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 19
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 19,
+      "rank": 20,
       "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear Source: https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
       "title_zh": "Warhound 融资 2 亿美元，用于工程化战犬并为其配备 Anduril 装备 来源：https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
       "url": "https://t.me/techcrunchcom/84684",
-      "hot_value": "89",
+      "hot_value": "110",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T23:35:00+00:00",
@@ -506,7 +576,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -8,
+      "rank_delta": -1,
       "cluster_id": "0405eb0793cc",
       "cluster_size": 1,
       "rank_history": [
@@ -517,16 +587,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 19
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 20
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 20,
+      "rank": 21,
       "title": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier Source: https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
       "title_zh": "随着区块链投资不再流行，a16z Crypto更名为a16z Frontier 来源: https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
       "url": "https://t.me/techcrunchcom/84683",
-      "hot_value": "84",
+      "hot_value": "105",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T22:48:09+00:00",
@@ -536,7 +610,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -7,
+      "rank_delta": -1,
       "cluster_id": "01fcfc49c5e3",
       "cluster_size": 1,
       "rank_history": [
@@ -551,16 +625,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 20
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 21
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 21,
+      "rank": 22,
       "title": "🤖 OpenAI Announcement: OpenAI models are coming to Google Cloud. 'OpenAI models will soon be available in Google Antigravity and the Gemini Agent, providing enterprise customers with model choice flexibility and the best model for each task.' Source . @aipost 🏴",
       "title_zh": "🤖 OpenAI公告：OpenAI模型即将登陆Google Cloud。'OpenAI模型将很快在Google Antigravity和Gemini Agent中可用，为企业客户提供模型选择灵活性以及为每项任务选择最佳模型。' 来源。@aipost 🏴",
       "url": "https://t.me/aipost/8583",
-      "hot_value": "2.19K",
+      "hot_value": "2.79K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T21:38:01+00:00",
@@ -570,7 +648,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -2,
+      "rank_delta": -1,
       "cluster_id": "35ee41f51c2f",
       "cluster_size": 1,
       "rank_history": [
@@ -585,16 +663,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 21
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 22
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 22,
+      "rank": 23,
       "title": "🙃 Elon Musk says digital superintelligence could add $30 trillion a year to Earth’s economy. “Dolphins and whales are actually very intelligent. But because they can’t manipulate complex objects, I think that actually made the value of intelligence much less. “Once you have a robot that can manipula",
       "title_zh": "🙃 Elon Musk 表示数字超级智能每年可为地球经济增加 30 万亿美元。“海豚和鲸鱼实际上非常聪明。但由于它们无法操纵复杂物体，我认为这实际上使智能的价值大大降低。“一旦你有一个能操纵",
       "url": "https://t.me/aipost/8582",
-      "hot_value": "2.94K",
+      "hot_value": "3.39K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T19:05:15+00:00",
@@ -623,16 +705,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 22
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 23
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 23,
+      "rank": 24,
       "title": "❗️ Meta’s AI agent Muse reached 10.2M U.S. downloads in 40 days, a pace only 11 other apps have matched in history. Most of those were mobile games. Its U.S. users stick around better than average, with 30% returning after 7 days and 23% after 14, against rival averages of 19% and 16%. Daily active ",
       "title_zh": "❗️ Meta 的 AI 代理 Muse 在 40 天内美国下载量达 1020 万次，历史上只有另外 11 款应用达到过这一速度。其中大多数是移动游戏。其美国用户留存优于平均水平，7 天后回访率 30%，14 天后 23%，而竞品平均分别为 19% 和 16%。日活跃",
       "url": "https://t.me/aipost/8581",
-      "hot_value": "3.27K",
+      "hot_value": "3.55K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T16:18:39+00:00",
@@ -665,16 +751,20 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 24
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 24,
+      "rank": 25,
       "title": "🤖 Claude Code Cleans Up Xiaomi TVs With Wi-Fi debugging enabled, the agent found the TV on the home network and disabled 25 preinstalled Xiaomi packages linked to ads and telemetry. It then installed a new Apple TV-style shell without reflashing or hacking the device. CleanYourTV uses the standard A",
       "title_zh": "🤖 Claude Code 清理小米电视 在启用 Wi-Fi 调试的情况下，该代理在家用网络中找到了电视，并禁用了 25 个与广告和遥测相关的预装小米软件包。随后它安装了一个新的 Apple TV 风格外壳，无需重新刷机或破解设备。CleanYourTV 使用标准 A",
       "url": "https://t.me/tech/4056",
-      "hot_value": "2.13K",
+      "hot_value": "2.39K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T16:01:01+00:00",
@@ -707,51 +797,9 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 24
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 25,
-      "title": "❗️ AI models have had big leaps over the past 2–3 years, and not everyone remembers that. Someone gave OpenAI’s GPT-1 a straightforward question: “I just won $175,000 in Vegas. What do I need to know about taxes?” GPT-1 responded: n—n—n—nothing. i ‘ll…",
-      "title_zh": "❗️ 过去 2–3 年 AI 模型取得了巨大飞跃，并不是所有人都还记得这一点。有人向 OpenAI 的 GPT-1 提了一个简单问题：“我刚在拉斯维加斯赢了 175,000 美元。关于税务我需要知道什么？”GPT-1 回答：n—n—n—没什么。我……",
-      "url": "https://t.me/aipost/8580",
-      "hot_value": "5.67K",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-22T13:05:01+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -1,
-      "cluster_id": "c0da31954229",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 4
         },
         {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 22
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 25
         }
       ]
@@ -762,7 +810,7 @@
       "title": "🚀 SpaceX to Catch Both Starship Stages In November , the company will make its first attempt to catch both Starship stages in midair. The tower’s mechanical “chopsticks” are meant to grab the booster and ship, returning them to the launch site. The September flight put the ship into orbit and deploy",
       "title_zh": "🚀 SpaceX 将在 11 月捕获两级 Starship 该公司将在 11 月中旬首次尝试在空中捕获两级 Starship。发射塔的机械“筷子”用于抓住助推器和飞船，并将它们送回发射场。9 月的飞行将飞船送入轨道并部署",
       "url": "https://t.me/tech/4055",
-      "hot_value": "2.64K",
+      "hot_value": "2.82K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T12:02:26+00:00",
@@ -799,6 +847,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 26
         }
       ]
     },
@@ -808,7 +860,7 @@
       "title": "🤖 OpenAI Finds Critical PHP Flaws The 2 vulnerabilities, CVE-2026-109618 and CVE-2026-109619, were rated 9.2 out of 10 . They allow remote code execution without authentication . One involves faulty handling of out-of-memory conditions. The other reuses freed memory. One flaw was found by researcher",
       "title_zh": "🤖 OpenAI 发现严重 PHP 漏洞 这两个漏洞 CVE-2026-109618 和 CVE-2026-109619 被评为 10 分中的 9.2 分。它们允许未经认证的远程代码执行。一个涉及内存不足条件的错误处理。另一个重用已释放的内存。其中一个漏洞由研究员发现",
       "url": "https://t.me/tech/4054",
-      "hot_value": "2.89K",
+      "hot_value": "3.01K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-22T08:02:23+00:00",
@@ -849,6 +901,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 27
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 27
         }
       ]
     },
@@ -858,7 +914,7 @@
       "title": "🍏 Apple Caps iPhone Duo Orders Orders are limited to 2 devices per customer . Similar caps appeared only for the first iPhone and iPhone 5. Demand has pushed delivery dates to late January . Scalpers list the smartphone on eBay for $5,000-8,000 with launch-day shipping. 📊 @tech",
       "title_zh": "🍏 Apple限制iPhone Duo订单 每位顾客限购2台。类似限制仅在初代iPhone和iPhone 5时出现过。需求已将交付日期推至1月下旬。黄牛在eBay上以5000-8000美元挂售该手机并承诺首发日发货。📊 @tech",
       "url": "https://t.me/tech/4053",
-      "hot_value": "3.58K",
+      "hot_value": "3.66K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-21T16:03:34+00:00",
@@ -915,6 +971,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 28
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 28
         }
       ]
     },
@@ -924,7 +984,7 @@
       "title": "🥒 Honda Builds Roads That Charge EVs Honda’s DWPT system places charging plates under the road. Cables feed them direct current. As a compatible EV passes overhead, a magnetic field sends power to a receiver under the vehicle and into its battery. Honda has worked on the system since 2021 with Taise",
       "title_zh": "🥒 Honda 建造可为 EV 充电的道路 Honda 的 DWPT 系统将充电板置于道路下方。电缆向其馈送直流电。当兼容的 EV 从上方通过时，磁场将电力发送到车辆下方的接收器并进入其电池。Honda 自 2021 年以来一直与 Taise 合作开发该系统",
       "url": "https://t.me/tech/4052",
-      "hot_value": "3.7K",
+      "hot_value": "3.76K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-21T12:02:25+00:00",
@@ -985,6 +1045,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 29
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 29
         }
       ]
     },
@@ -994,7 +1058,7 @@
       "title": "🔍 What’s Really Attacking Your Industry? Insights From 74K Sandbox Analyses ANY.RUN analyzed 74,086 sandbox sessions from a financial organization to uncover what threat data can show about enterprise security: 📊 12.8% of submissions were malicious, compared with the 13.0% banking-sector median ⚡ 15",
       "title_zh": "🔍 到底是什么在攻击你的行业？来自74K沙箱分析的洞察。ANY.RUN分析了一家金融机构的74,086个沙箱会话，以揭示威胁数据能说明企业安全的哪些方面：📊 12.8%的提交是恶意的，而银行业中位数为13.0% ⚡ 15",
       "url": "https://t.me/Cyber_Security_Channel/114100",
-      "hot_value": "1.79K",
+      "hot_value": "1.85K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-21T11:02:01+00:00",
@@ -1055,6 +1119,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 30
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 30
         }
       ]
     },
@@ -1064,7 +1132,7 @@
       "title": "🤖 ChatGPT Adds Password-Protected Hidden Chats On PCs, access uses a PIN . On smartphones, Face ID, Touch ID, or screen unlock confirms identity. Hidden chats disappear from normal history and do not enter ChatGPT’s memory , so personal discussions won’t affect work-chat personalization. The feature",
       "title_zh": "🤖 ChatGPT在PC上新增密码保护的隐藏聊天，访问使用PIN。在智能手机上，Face ID、Touch ID或屏幕解锁确认身份。隐藏聊天从正常历史中消失，也不进入ChatGPT的记忆，因此个人讨论不会影响工作聊天的个性化。该功能",
       "url": "https://t.me/tech/4051",
-      "hot_value": "3.66K",
+      "hot_value": "3.71K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-21T08:02:21+00:00",
@@ -1129,6 +1197,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 31
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 31
         }
       ]
     },
@@ -1138,7 +1210,7 @@
       "title": "Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide A cybercriminal operator used AI agents built on OpenAI's Codex and DeepSeek to automatically develop and launch exploits against internet-facing PaperCut print-management servers. GreyNoise said the campaign compromis",
       "title_zh": "黑客使用 Codex 和 DeepSeek AI 代理入侵全球440台 PaperCut 服务器 一名网络犯罪操作者使用基于 OpenAI 的 Codex 和 DeepSeek 构建的 AI 代理，自动开发并对面向互联网的 PaperCut 打印管理服务器发起漏洞利用。GreyNoise 表示该活动入侵了",
       "url": "https://t.me/Cyber_Security_Channel/114099",
-      "hot_value": "2.74K",
+      "hot_value": "2.78K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-19T19:07:59+00:00",
@@ -1231,6 +1303,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 32
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 32
         }
       ]
     },
@@ -1254,10 +1330,6 @@
       "cluster_id": "5f36a4d3bac2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 34
-        },
         {
           "run_at": "2026-10-17T16:45:08.456916+00:00",
           "rank": 35
@@ -1373,6 +1445,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 33
         }
       ]
     },
@@ -1382,7 +1458,7 @@
       "title": "Nato jets down drone that entered Lithuanian airspace Nato fighter pilots have shot down a drone that entered Lithuania's airspace overnight, the Lithuanian president said. Authorities said the drone likely entered southern Lithuania, near the second-largest city of Kaunas, from neighbouring Belarus",
       "title_zh": "北约战机击落进入立陶宛领空的无人机 立陶宛总统表示，北约战斗机飞行员夜间击落了一架进入立陶宛领空的无人机。当局称，该无人机很可能从邻国白俄罗斯进入立陶宛南部，靠近第二大城市考纳斯",
       "url": "https://t.me/BBCWorld/83852",
-      "hot_value": "7.79K",
+      "hot_value": "7.82K",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-09-15T10:00:02+00:00",
@@ -1511,6 +1587,10 @@
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 34
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 34
         }
       ]
     },
@@ -1520,7 +1600,7 @@
       "title": "For all the info from today's update and a look back at 13 years of Telegram features — check out our blog: https://telegram.org/blog/welcome-messages-buttons-TG-13 August Features 1 • 2 • 3 • 4 • 5 • More",
       "title_zh": "关于今天更新的所有信息以及Telegram 13年功能回顾——请查看我们的博客：https://telegram.org/blog/welcome-messages-buttons-TG-13 八月功能 1 • 2 • 3 • 4 • 5 • 更多",
       "url": "https://t.me/telegram/460",
-      "hot_value": "2.04M",
+      "hot_value": "2.05M",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-08-26T19:12:34+00:00",
@@ -1534,10 +1614,6 @@
       "cluster_id": "3e7cca968a7c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-17T07:03:36.928565+00:00",
-          "rank": 36
-        },
         {
           "run_at": "2026-10-17T16:45:08.456916+00:00",
           "rank": 37
@@ -1652,6 +1728,10 @@
         },
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 35
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
           "rank": 35
         }
       ]
