@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T07:40:26.523995+00:00",
+  "generated_at": "2026-10-25T07:44:49.868176+00:00",
   "source": "papers",
   "status": {
     "source": "papers",
     "status": "ok",
     "item_count": 83,
-    "duration_ms": 19166,
+    "duration_ms": 19788,
     "error": null,
-    "run_at": "2026-10-25T07:40:26.523995+00:00"
+    "run_at": "2026-10-25T07:44:49.868176+00:00"
   },
   "items": [
     {
@@ -157,170 +157,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 1
         }
       ]
     },
     {
       "source": "papers",
       "rank": 2,
-      "title": "CALT-GNN: a graph neural network with cross-attention and long-tail experts for multi-omics cancer subtype classification",
-      "title_zh": "CALT-GNN：一种用于多组学癌症亚型分类的交叉注意力和长尾专家图神经网络",
-      "url": "https://doi.org/10.1186/s12859-026-06683-x",
-      "hot_value": null,
-      "summary_zh": "摘要 基于分子特征的癌症亚型分类对于表征肿瘤异质性、评估患者预后和支持精准治疗很重要。多组学整合提供了基因组、表观基因组、转录组和蛋白质组层面的互补分子信息。然而，多组学数据的高维性、复杂的跨组学关系和不平衡的亚型分布仍是主要挑战。为解决这些问题，我们提出CALT-GNN，一种图神经网络框架，整合患者相似性图学习、基于交叉注意力的组学整合、长尾专家分类和可学习预测融合。该框架首先构建组学特异性患者相似性图，使用图卷积网络学习潜在患者表示，并通过相似性网络融合获得统一图。交叉注意力分支将CNA和DNA甲基化作为源模态，mRNA表达作为目标模态，建模互补关系。并行地，长尾专家分支使用主要和次要专家，配合原型引导路由，执行类别分布感知分类。两个分支的输出随后使用可学习全局权重组合。在八个TCGA多组学队列上的实验表明，CALT-GNN相对于代表性基线方法取得了有竞争力或可比的分类性能，并在对类别",
-      "thumbnail": null,
-      "published_at": "2026-10-05",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06683-x",
-        "description": "Abstract Cancer subtype classification based on molecular features is important for characterizing tumor heterogeneity, evaluating patient prognosis, and supporting precision treatment. Multi-omics integration provides complementary molecular information across genomic, epigenomic, transcriptomic, and proteomic levels. However, the high dimensionality of multi-omics data, complex cross-omics relationships, and imbalanced subtype distributions remain major challenges. To address these issues, we propose CALT-GNN, a graph neural network framework that integrates patient-similarity graph learning, cross-attention-based omics integration, long-tail expert classification, and learnable prediction fusion. The framework first constructs omics-specific patient-similarity graphs, learns latent patient representations using graph convolutional networks, and obtains a unified graph through similarity network fusion. A cross-attention branch models complementary relationships between CNA and DNA methylation as source modalities and mRNA expression as the target modality. In parallel, a long-tail expert branch uses Major and Minor Experts with prototype-guided routing to perform class-distribution-aware classification. The outputs of the two branches are subsequently combined using a learnable global weight. Experiments on eight TCGA multi-omics cohorts showed that CALT-GNN achieved competitive or comparable classification performance relative to representative baseline methods and stable performance on Macro-F1 and MCC, which are sensitive to class imbalance. Ablation and subtype-level analyses further supported the complementary contributions of cross-omics interaction modeling and adaptive long-tail expert routing, although the magnitude of the improvements varied across cohorts and subtypes. These results suggest that CALT-GNN provides a methodological framework for multi-omics cancer subtype classification under complex cross-omics relationships and imbalanced subtype distributions.",
-        "dedupe_key": "doi:10.1186/s12859-026-06683-x",
-        "topic_hit": [
-          "稀有细胞",
-          "生物信息"
-        ],
-        "priority_rank": 1,
-        "keyword_hit": [
-          "graph neural network",
-          "GNN",
-          "attention"
-        ]
-      },
-      "days_on_board": 11,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "03b7db24d7bc",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 3,
       "title": "AbLWR: A Context-Aware Listwise Ranking Framework for Antibody-Antigen Binding Affinity Prediction via Positive-Unlabeled Learning.",
       "title_zh": "AbLWR：一种通过Positive-Unlabeled Learning进行抗体-抗原结合亲和力预测的上下文感知Listwise Ranking框架。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42925410/",
@@ -346,20 +192,24 @@
         ]
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 1,
       "cluster_id": "b20d429fbe41",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 2
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 4,
+      "rank": 3,
       "title": "Benchmarking segmentation methods for spatial transcriptomics.",
       "title_zh": "空间转录组学分割方法的基准测试。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42919952/",
@@ -386,7 +236,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 1,
       "cluster_id": "cbf6e97fedf9",
       "cluster_size": 2,
       "rank_history": [
@@ -421,12 +271,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 4
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 5,
+      "rank": 4,
       "title": "4D-atlas: a multi-species four-dimensional spatiotemporal transcriptomics database spanning development, regeneration, and disease.",
       "title_zh": "4D-atlas：一个涵盖发育、再生和疾病的多物种四维时空转录组学数据库。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42922375/",
@@ -450,20 +304,24 @@
         "keyword_hit": []
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 1,
       "cluster_id": "c246c6912689",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 5
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 6,
+      "rank": 5,
       "title": "scSpatial: an atlas for single-cell spatial omics.",
       "title_zh": "scSpatial：单细胞空间组学图谱。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42922359/",
@@ -487,20 +345,24 @@
         "keyword_hit": []
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 1,
       "cluster_id": "b79ed9283360",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 6
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 5
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 7,
+      "rank": 6,
       "title": "LRP2: A proteogenomics pipeline for long-read informed protein isoform analysis and discovery.",
       "title_zh": "LRP2：一种用于长读长信息蛋白质异构体分析和发现的蛋白质基因组学流程。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42922195/",
@@ -524,20 +386,24 @@
         "keyword_hit": []
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 1,
       "cluster_id": "ecaef42e6ebb",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 7
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 6
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 8,
+      "rank": 7,
       "title": "From SELEX to Sequencing: Uncovering enriched Aptamers with Next-Generation Sequencing and Bioinformatics.",
       "title_zh": "从SELEX到测序：利用Next-Generation Sequencing和生物信息学揭示富集Aptamers。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42921901/",
@@ -561,153 +427,24 @@
         "keyword_hit": []
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 1,
       "cluster_id": "10f38bb70c71",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 8
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 7
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 9,
-      "title": "A kinematic interpretation of spatial expression gradients from single-snapshot spatial transcriptomics",
-      "title_zh": "单快照空间转录组学中空间表达梯度的运动学解释",
-      "url": "https://doi.org/10.1186/s12859-026-06707-6",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-22",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06707-6",
-        "description": "",
-        "dedupe_key": "doi:10.1186/s12859-026-06707-6",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "eff4a527cc85",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 9
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 10,
+      "rank": 8,
       "title": "Stage-resolved multi-omics reveals broad developmental preservation and localized molecular remodeling in cold-shock-induced triploid fish embryos",
       "title_zh": "阶段分辨的多组学揭示冷休克诱导三倍体鱼胚胎中广泛的发育保守性和局部分子重塑",
       "url": "https://doi.org/10.1186/s12864-026-13490-4",
@@ -732,7 +469,7 @@
       },
       "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "6cdb04982e46",
       "cluster_size": 1,
       "rank_history": [
@@ -831,12 +568,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 10
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 8
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 11,
+      "rank": 9,
       "title": "scTraitReg: a single-cell multi-omic database of trait-relevant transcription factor eRegulons",
       "title_zh": "scTraitReg：性状相关转录因子eRegulon的单细胞多组学数据库",
       "url": "https://doi.org/10.1093/nar/gkag1017",
@@ -861,7 +602,7 @@
       },
       "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "eba88ad4a680",
       "cluster_size": 1,
       "rank_history": [
@@ -940,12 +681,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 11
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 9
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 12,
+      "rank": 10,
       "title": "Ten simple rules for responsible use of AI and LLMs in computational biology",
       "title_zh": "在计算生物学中负责任使用 AI 和 LLM 的十条简单规则",
       "url": "https://doi.org/10.1371/journal.pcbi.1014882",
@@ -970,7 +715,7 @@
       },
       "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "6dfe007794aa",
       "cluster_size": 1,
       "rank_history": [
@@ -1061,12 +806,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 12
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 10
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 13,
+      "rank": 11,
       "title": "Gut microbiota and multi-omics analysis identify candidate gut-muscle associations underlying breast muscle quality differences between Mimas pigeon and pigeon Tianxiang 1 strain",
       "title_zh": "肠道微生物群和多组学分析确定了Mimas鸽和鸽子Tianxiang 1品系之间胸肌品质差异背后的候选肠-肌关联",
       "url": "https://doi.org/10.1186/s12864-026-13480-6",
@@ -1091,14 +840,10 @@
       },
       "days_on_board": 5,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "cec146dc9f56",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 11
-        },
         {
           "run_at": "2026-10-21T10:45:23.588837+00:00",
           "rank": 7
@@ -1214,12 +959,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 13
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 11
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 14,
+      "rank": 12,
       "title": "SADRP: A structurally aware multi-modal framework for drug response prediction",
       "title_zh": "SADRP：一个用于药物反应预测的结构感知多模态框架",
       "url": "https://doi.org/10.1371/journal.pcbi.1014861",
@@ -1244,7 +993,7 @@
       },
       "days_on_board": 5,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "21808358a1d9",
       "cluster_size": 1,
       "rank_history": [
@@ -1359,12 +1108,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 14
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 12
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 15,
+      "rank": 13,
       "title": "ImmunEscpMap: a gene-centered knowledgebase for immune escape in cancer and viral infection",
       "title_zh": "ImmunEscpMap：一个以基因为中心的癌症和病毒感染免疫逃逸知识库",
       "url": "https://doi.org/10.1093/nar/gkag1013",
@@ -1389,14 +1142,10 @@
       },
       "days_on_board": 5,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "8910a49b28e0",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 14
-        },
         {
           "run_at": "2026-10-21T10:45:23.588837+00:00",
           "rank": 10
@@ -1512,12 +1261,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 15
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 13
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 16,
+      "rank": 14,
       "title": "Computational deconvolution of drug sensitivity via single-cell–to–bulk transcriptome mapping",
       "title_zh": "通过单细胞到 bulk 转录组映射进行药物敏感性的计算去卷积",
       "url": "https://doi.org/10.1371/journal.pcbi.1014862",
@@ -1542,15 +1295,11 @@
       },
       "days_on_board": 9,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "adb7e8700204",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 10
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 12
         },
@@ -1665,471 +1414,16 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 16
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 14
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 17,
-      "title": "CoMeDA: an integrated platform for compositional analysis of metabarcoding data with batch correction",
-      "title_zh": "CoMeDA：一个用于 metabarcoding 数据组成分析并带批次校正的集成平台",
-      "url": "https://doi.org/10.1186/s12859-026-06705-8",
-      "hot_value": null,
-      "summary_zh": "摘要 背景 由 16S rRNA 和内部转录间隔区（ITS）扩增子测序产生的 metabarcoding 数据本质上是组成性的，观察到的丰度代表相对而非绝对信息。忽略这种组成结构可能导致下游分析中的虚假结果。此外，多队列研究经常遭受由样本处理或测序平台差异引起的批次效应，如果处理不当，可能混淆真实生物信号。尽管有多种微生物组分析平台可用，但这些分析考虑并不总是作为用户可访问工作流的核心组件整合在一起。结果 我们开发了 CoMeDA，一个集成网络平台，将 metabarcoding 数据的组成结构和批次效应作为单一分析工作流的协调组件处理。该平台支持原始 FASTQ 文件和预分类分类单元表，使其兼容短读长和长读长测序技术。CoMeDA 通过概率估计进行零值处理，并应用中心对数比（CLR）变换作为默认归一化策略，随后进行自动批次效应校正，去除技术变异同时保留生物信号。下游分析，包括使用组成适当",
-      "thumbnail": null,
-      "published_at": "2026-10-14",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06705-8",
-        "description": "Abstract Background Metabarcoding data generated from 16S rRNA and internal transcribed spacer (ITS) amplicon sequencing are inherently compositional, with observed abundances representing relative rather than absolute information. Ignoring this compositional structure can lead to spurious results in downstream analyses. In addition, multi-cohort studies frequently suffer from batch effects arising from differences in sample processing or sequencing platforms, which may confound true biological signals if not properly addressed. Despite the availability of multiple microbiome analysis platforms, these analytical considerations are not always incorporated together as central components of user-accessible workflows. Results We developed CoMeDA, an integrated web-based platform that treats the compositional structure of metabarcoding data and batch effects as coordinated components of a single analytical workflow. The platform supports both raw FASTQ files and pre-classified taxa tables, making it compatible with both short-read and long-read sequencing technologies. CoMeDA performs zero handling through probabilistic estimation and applies centered log-ratio (CLR) transformation as the default normalization strategy, followed by automated batch effect correction that removes technical variation while preserving biological signals. Downstream analyses, comprising diversity assessment using compositionally appropriate metrics, differential abundance analysis with effect size estimation, co-occurrence network inference, and functional prediction for both bacterial and fungal communities, are performed within the same compositional framework. CoMeDA also implements split-CLR transformation for cross-dataset analyses, enabling cross-kingdom and paired-condition correlation analyses while reducing spurious correlations introduced by directly combining datasets with different compositional structures. Using simulated datasets and a mock community with known ground truth, we evaluated the contribution of individual analytical components, the behavior of the automated batch-correction strategy, and taxonomic classification accuracy. We further reanalyzed a published multi-cohort gout dataset, a pediatric Crohn’s disease bacterial-fungal dataset, and a PacBio long-read periodontitis dataset. Using these datasets, CoMeDA recovered biologically coherent patterns while also highlighting additional literature-supported findings across different study designs. Conclusions CoMeDA provides a compositionally coherent workflow in which normalization, batch correction, and downstream analysis follow a consistent analytical logic. The platform features an interactive web interface and requires no programming expertise. CoMeDA is freely available online without registration, and a standalone Docker image is provided for local deployment.",
-        "dedupe_key": "doi:10.1186/s12859-026-06705-8",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 9,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "dc9ef037c9b5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 17
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 18,
-      "title": "stMCP: spatial transcriptomics with a Model Context Protocol server",
-      "title_zh": "stMCP：使用 Model Context Protocol 服务器的空间转录组学",
-      "url": "https://doi.org/10.1186/s12859-026-06693-9",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-07",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06693-9",
-        "description": "",
-        "dedupe_key": "doi:10.1186/s12859-026-06693-9",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 9,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "f63c1c1b3d60",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 18
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 19,
-      "title": "Degree-restricted minimum spanning trees for binary cell trajectory inference in single-cell RNA-seq data",
-      "title_zh": "用于单细胞 RNA-seq 数据中二元细胞轨迹推断的度限制最小生成树",
-      "url": "https://doi.org/10.1186/s12859-026-06674-y",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-06",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06674-y",
-        "description": "",
-        "dedupe_key": "doi:10.1186/s12859-026-06674-y",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 9,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "12cd85d904f6",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 19
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 20,
+      "rank": 15,
       "title": "Disentangling batch effects and biological signals across conditions in single-cell transcriptome",
       "title_zh": "在單細胞轉錄組中區分跨條件的批次效應與生物信號",
       "url": "https://doi.org/10.1016/j.patter.2026.101638",
@@ -2154,14 +1448,10 @@
       },
       "days_on_board": 9,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 5,
       "cluster_id": "26ff873a2237",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 20
-        },
         {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 20
@@ -2276,6 +1566,335 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 16,
+      "title": "DestinyNet: A deep-learning framework for cell-fate analysis from lineage-tracing single-cell RNA sequencing data",
+      "title_zh": "DestinyNet：从谱系追踪单细胞RNA测序数据进行细胞命运分析的深度学习框架",
+      "url": "https://doi.org/10.1016/j.patter.2026.101692",
+      "hot_value": null,
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-01",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Patterns",
+        "mode": "filter",
+        "issn": "2666-3899",
+        "doi": "10.1016/j.patter.2026.101692",
+        "description": "",
+        "dedupe_key": "doi:10.1016/j.patter.2026.101692",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 9,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f197af43617f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-19T22:45:52.772978+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-20T10:44:44.660629+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-20T13:44:57.131116+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-20T19:46:36.905038+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-21T10:45:23.588837+00:00",
+          "rank": 14
+        },
+        {
+          "run_at": "2026-10-21T13:45:38.187440+00:00",
+          "rank": 16
+        },
+        {
+          "run_at": "2026-10-21T16:45:38.160975+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-21T22:45:52.282614+00:00",
+          "rank": 16
+        },
+        {
+          "run_at": "2026-10-22T01:44:50.676078+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-22T07:44:43.196605+00:00",
+          "rank": 19
+        },
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 19
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 16
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 19
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 19
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 17,
+      "title": "Ultrafast single-qubit gates through multi-photon transition removal.",
+      "title_zh": "通过去除多光子跃迁实现超快单量子比特门。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42919865/",
+      "hot_value": null,
+      "summary_zh": "快速量子比特控制对可扩展量子计算至关重要。然而，所需的强驱动可能引起计算子空间的显著泄漏，尤其是在弱非简谐量子比特中。我们在transmon量子比特上演示了总泄漏误差始终低于2.0 × 10-5的单量子比特门，并在6.8 ns脉冲持续时间下，X和X/2门均获得高于99.98%的保真度。这是通过双重递归应用绝热门导数去除脉冲形状，去除最近邻能级之外的直接跃迁实现的。我们还引入了可直接测量低至10-6泄漏误差的放大泄漏误差序列。我们使用多种基准测试方法测试了一系列脉冲持续时间下的单量子比特门，以揭示误差通道。所提出的方法可被其他平台直接采用。",
+      "thumbnail": null,
+      "published_at": "2026-10-23",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nature communications",
+        "doi": "10.1038/s41467-026-78373-4",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Fast qubit control is essential for scalable quantum computing. However, the strong driving that is required can induce significant leakage from the computational subspace, particularly in weakly anharmonic qubits. We demonstrate single qubit gates with a total leakage error consistently below 2.0 × 10-5 on a transmon qubit, and obtain fidelities above 99.98% at 6.8 ns pulse duration in both X and X/2 gates. This is achieved by removing direct transitions beyond nearest-neighbor levels using double recursive applications of Derivative Removal by Adiabatic Gate pulse shape. We also introduce the amplified leakage error sequence which can directly measure the leakage error down to 10-6. We test single qubit gates across a range of pulse durations using multiple benchmarking methods to reveal the error channels. The presented approach can be straightforwardly adapted by other platforms.",
+        "identifier": "42919865",
+        "dedupe_key": "doi:10.1038/s41467-026-78373-4",
+        "topic_hit": [],
+        "priority_rank": 999,
+        "keyword_hit": [
+          "benchmark"
+        ]
+      },
+      "days_on_board": 2,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "08ada2d6a8b8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 18,
+      "title": "G4All: a database of experimentally confirmed G-quadruplex-forming sequences",
+      "title_zh": "G4All：实验确认的G-四链体形成序列数据库",
+      "url": "https://doi.org/10.1093/nar/gkag981",
+      "hot_value": null,
+      "summary_zh": "摘要 G-四链体（G4）是非经典核酸结构，在基因调控、基因组稳定性和疾病中具有关键作用，使其成为治疗和生物技术应用的主要靶标。然而，缺乏一个 curated、集中、实验验证的短（主要是合成）G4形成序列库，并配有适当的单链或发夹对照，限制了可重复性并阻碍了该领域的进展。在这里，我们介绍G4All，一个全面的、curated的G4形成短DNA和RNA序列数据库，辅以严格选择的非G4对照，所有研究均在大致相似的实验条件下进行（通常约100 mM钾和接近中性pH）。G4All整合了通过多种实验方法验证的序列，包括圆二色性、NMR、UV光谱，并附有拓扑、热稳定性和实验条件的注释。通过提供阳性和阴性数据集，G4All支持严格的比较分析、测定基准测试和预测模型的开发。该数据库支持广泛的应用，从G4生物物理学的基础研究到适配体的合理设计，以及预测算法的基准测试。未来发展将扩展G4All以包括用户提交的数",
+      "thumbnail": null,
+      "published_at": "2026-10-21",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Nucleic Acids Research",
+        "mode": "filter",
+        "issn": "1362-4962",
+        "doi": "10.1093/nar/gkag981",
+        "description": "Abstract G-quadruplexes (G4s) are non-canonical nucleic acid structures with critical roles in gene regulation, genomic stability, and disease, making them prime targets for therapeutic and biotechnological applications. However, the absence of a curated, centralized, experimentally validated repository of short (mostly synthetic) G4-forming sequences, paired with appropriate single-stranded or hairpin controls, has limited reproducibility and hindered progress in the field. Here, we introduce G4All, a comprehensive, curated database of G4-forming short DNA and RNA sequences, complemented by rigorously selected non-G4 controls, all studied under roughly similar experimental conditions (generally around 100 mM potassium and near neutral pH). G4All consolidates sequences validated by diverse experimental methods, including circular dichroism, NMR, UV spectroscopy, with annotations for topology, thermal stability, and experimental conditions. By providing both positive and negative datasets, G4All enables rigorous comparative analyses, assay benchmarking, and the development of predictive models. The database supports a broad range of applications, from fundamental studies of G4 biophysics to the rational design of aptamers, as well as benchmarking prediction algorithms. Future developments will expand G4All to include user-submitted datasets and more RNA sequences. Freely accessible at https://g4-all.streamlit.app/, G4All offers a searchable interface and downloadable datasets, establishing a community-driven hub to accelerate discovery and standardization in G4 research.",
+        "dedupe_key": "doi:10.1093/nar/gkag981",
+        "topic_hit": [],
+        "priority_rank": 999,
+        "keyword_hit": [
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d9b5686e6346",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-21T10:45:23.588837+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 19,
+      "title": "Spatio-temporal machine learning for multi-horizon prediction of bluetongue outbreaks",
+      "title_zh": "用于蓝舌病疫情多时段预测的时空机器学习",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014870",
+      "hot_value": null,
+      "summary_zh": "传染病疫情的可靠早期预警仍是监测系统面临的重大挑战，尤其是虫媒病原体，其传播取决于宿主、媒介和对气候敏感的环境条件之间的相互作用。数据驱动预测为利用监测和环境数据预测疫情风险提供了一种有前景的方法。本研究开发了一种logit加权集成（LWE）机器学习框架，利用常规可获得的疫情通报和网格化气候数据，在行政单元—月尺度上预测未来1–6个月的疫情发生。蓝舌病病毒（BTV）是一种由库蠓叮咬传播的反刍动物虫媒病毒，其传播受气候强烈影响，是一个特征明确的系统，适合应用和检验该方法。该框架使用2005年至2024年间从法国、希腊和意大利收集的监测数据进行评估，这些国家因其长期且高质量的疫情监测记录而被选中。在这三个国家中，LWE在侧重召回率的评估下取得了最强且最稳定的预测性能，该评估优先正确识别疫情月份。它优于或匹配14个基准模型，且差异在更长提前期（第+3个月起）更为明显，此时预测不确定性更大且疫情相",
+      "thumbnail": null,
+      "published_at": "2026-10-21",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "PLOS Computational Biology",
+        "mode": "all",
+        "issn": "1553-7358",
+        "doi": "10.1371/journal.pcbi.1014870",
+        "description": "Reliable early warning of infectious disease outbreaks remains a major challenge for surveillance systems, particularly for vector-borne pathogens whose transmission depends on interactions among hosts, vectors, and climate-sensitive environmental conditions. Data-driven forecasting offers a promising approach for predicting outbreak risk using surveillance and environmental data. This study develops a logit-weighted ensemble (LWE), a machine-learning framework that predicts outbreak occurrence 1–6 months ahead at the administrative unit–month scale using routinely available outbreak notifications and gridded climate data. Bluetongue virus (BTV), an arbovirus of ruminants transmitted by Culicoides biting midges, provides a well-characterised system in which transmission is strongly shaped by climate, making it a useful system for applying and testing this approach. The framework is evaluated using surveillance data collected between 2005 and 2024 from France, Greece, and Italy, selected for their long-running and high-quality outbreak surveillance records. Across all three countries, the LWE achieved the strongest and most stable predictive performance under a recall-focused evaluation that prioritises correctly identifying outbreak months. It outperformed or matched 14 benchmark models, with differences becoming more pronounced at longer lead times (month +3 onward), when predictions are more uncertain and outbreaks are relatively rare. Predictability varied across countries, with the highest performance in Greece, strong performance in France, and lower, more variable performance in Italy, reflecting differences in how consistently outbreaks occur and spread across regions. Overall, the results demonstrate that horizon-aware, climate-informed forecasting can reliably identify months and locations at elevated risk of outbreak occurrence up to six months in advance, supporting surveillance planning and preparedness across heterogeneous European settings. The ensemble framework provides a robust and portable strategy for outbreak prediction using routinely collected surveillance and environmental data.",
+        "dedupe_key": "doi:10.1371/journal.pcbi.1014870",
+        "topic_hit": [],
+        "priority_rank": 999,
+        "keyword_hit": [
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ee3956b23ec8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 20,
+      "title": "scDAEC: deep clustering of single-cell data based on dual autoencoder",
+      "title_zh": "scDAEC：基于双自编码器的单细胞数据深度聚类",
+      "url": "https://doi.org/10.1186/s12864-026-13261-1",
+      "hot_value": null,
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-17",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "BMC Genomics",
+        "mode": "filter",
+        "issn": "1471-2164",
+        "doi": "10.1186/s12864-026-13261-1",
+        "description": "",
+        "dedupe_key": "doi:10.1186/s12864-026-13261-1",
+        "topic_hit": [],
+        "priority_rank": 999,
+        "keyword_hit": [
+          "autoencoder"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "47a88053b4e3",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-19T01:44:43.999560+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-19T04:45:23.331503+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-19T07:55:51.065184+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 20
         }
       ]
@@ -2315,10 +1934,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 21
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 21
         },
@@ -2432,6 +2047,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 21
         }
       ]
@@ -2472,10 +2091,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 22
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 22
         },
@@ -2589,6 +2204,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 22
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 22
         }
       ]
@@ -2628,10 +2247,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 23
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 23
         },
@@ -2745,6 +2360,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 23
         }
       ]
@@ -2782,10 +2401,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 24
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 24
         },
@@ -2899,6 +2514,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 24
         }
       ]
@@ -2936,10 +2555,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 25
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 25
         },
@@ -3053,6 +2668,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 25
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 25
         }
       ]
@@ -3090,10 +2709,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 26
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 26
         },
@@ -3208,6 +2823,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 26
         }
       ]
     },
@@ -3242,10 +2861,6 @@
       "cluster_id": "df5e12bc430c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T10:45:23.588837+00:00",
-          "rank": 27
-        },
         {
           "run_at": "2026-10-21T13:45:38.187440+00:00",
           "rank": 27
@@ -3360,6 +2975,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 27
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 27
         }
       ]
@@ -3396,10 +3015,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T10:45:23.588837+00:00",
-          "rank": 28
-        },
-        {
           "run_at": "2026-10-21T13:45:38.187440+00:00",
           "rank": 28
         },
@@ -3513,6 +3128,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 28
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 28
         }
       ]
@@ -3549,10 +3168,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T10:45:23.588837+00:00",
-          "rank": 29
-        },
-        {
           "run_at": "2026-10-21T13:45:38.187440+00:00",
           "rank": 29
         },
@@ -3666,6 +3281,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 29
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 29
         }
       ]
@@ -3702,10 +3321,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T10:45:23.588837+00:00",
-          "rank": 30
-        },
-        {
           "run_at": "2026-10-21T13:45:38.187440+00:00",
           "rank": 30
         },
@@ -3819,6 +3434,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 30
         }
       ]
@@ -3856,10 +3475,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 31
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 31
         },
@@ -3974,6 +3589,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 31
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 31
         }
       ]
     },
@@ -4009,10 +3628,6 @@
       "cluster_id": "0a03583c4319",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 32
-        },
         {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 32
@@ -4127,6 +3742,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 32
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 32
         }
       ]
@@ -4165,10 +3784,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 33
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 33
         },
@@ -4283,6 +3898,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 33
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 33
         }
       ]
     },
@@ -4318,10 +3937,6 @@
       "cluster_id": "37e0646f80a9",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 34
-        },
         {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 34
@@ -4437,6 +4052,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 34
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 34
         }
       ]
     },
@@ -4472,10 +4091,6 @@
       "cluster_id": "af270db7ba55",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 35
-        },
         {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 35
@@ -4591,6 +4206,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 35
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 35
         }
       ]
     },
@@ -4626,10 +4245,6 @@
       "cluster_id": "a5bcd2968fd2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 36
-        },
         {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 36
@@ -4745,6 +4360,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 36
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 36
         }
       ]
     },
@@ -4780,10 +4399,6 @@
       "cluster_id": "070afe233bb8",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 37
-        },
         {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 37
@@ -4899,6 +4514,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 37
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 37
         }
       ]
     },
@@ -4933,10 +4552,6 @@
       "cluster_id": "93eea8bf2bea",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 38
-        },
         {
           "run_at": "2026-10-21T10:45:23.588837+00:00",
           "rank": 38
@@ -5052,6 +4667,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 38
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 38
         }
       ]
     },
@@ -5086,10 +4705,6 @@
       "cluster_id": "94a534adfec7",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 39
-        },
         {
           "run_at": "2026-10-21T10:45:23.588837+00:00",
           "rank": 39
@@ -5204,6 +4819,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 39
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 39
         }
       ]
@@ -5245,10 +4864,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T13:45:38.187440+00:00",
-          "rank": 40
-        },
-        {
           "run_at": "2026-10-21T16:45:38.160975+00:00",
           "rank": 40
         },
@@ -5362,6 +4977,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 40
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 40
         }
       ]
@@ -5496,6 +5115,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 41
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 41
         }
       ]
@@ -5649,6 +5272,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 42
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 42
         }
       ]
     },
@@ -5685,10 +5312,6 @@
       "cluster_id": "2b2ff691b120",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 42
-        },
         {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 42
@@ -5803,6 +5426,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 43
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 43
         }
       ]
@@ -5841,10 +5468,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 43
-        },
-        {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 43
         },
@@ -5958,6 +5581,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 44
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 44
         }
       ]
@@ -5996,10 +5623,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 44
-        },
-        {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 44
         },
@@ -6113,6 +5736,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 45
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 45
         }
       ]
@@ -6157,6 +5784,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 46
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 46
         }
       ]
@@ -6307,6 +5938,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 47
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 47
         }
       ]
     },
@@ -6341,10 +5976,6 @@
       "cluster_id": "8a82675c23be",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 45
-        },
         {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 46
@@ -6459,6 +6090,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 48
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 48
         }
       ]
@@ -6495,10 +6130,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 47
-        },
-        {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 48
         },
@@ -6612,6 +6243,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 49
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 49
         }
       ]
@@ -6648,10 +6283,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 48
-        },
-        {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 49
         },
@@ -6765,6 +6396,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 50
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 50
         }
       ]
@@ -6801,10 +6436,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 49
-        },
-        {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 50
         },
@@ -6918,6 +6549,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 51
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 51
         }
       ]
@@ -6954,10 +6589,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 50
-        },
-        {
           "run_at": "2026-10-21T07:46:05.533146+00:00",
           "rank": 51
         },
@@ -7071,6 +6702,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 52
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 52
         }
       ]
@@ -7181,6 +6816,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 53
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 53
         }
       ]
     },
@@ -7289,6 +6928,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 54
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 54
         }
       ]
@@ -7400,6 +7043,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 55
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 55
         }
       ]
     },
@@ -7508,6 +7155,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 56
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 56
         }
       ]
@@ -7618,6 +7269,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 57
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 57
         }
       ]
     },
@@ -7727,6 +7382,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 58
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 58
         }
       ]
     },
@@ -7772,6 +7431,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 59
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 59
         }
       ]
     },
@@ -7814,6 +7477,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 60
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 60
         }
       ]
     },
@@ -7836,13 +7503,17 @@
         "dedupe_key": "https://www.nature.com/articles/s41586-026-11328-3"
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "9841efbc3b05",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 16
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 16
         }
       ]
@@ -7867,7 +7538,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "d6ca6e3d5b75",
       "cluster_size": 1,
       "rank_history": [
@@ -7926,6 +7597,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 46
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 46
         }
       ]
     },
@@ -7949,7 +7624,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "6bcffbe407e0",
       "cluster_size": 1,
       "rank_history": [
@@ -8016,6 +7691,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 47
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 47
         }
       ]
     },
@@ -8039,7 +7718,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "217912111c3c",
       "cluster_size": 1,
       "rank_history": [
@@ -8102,6 +7781,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 48
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 48
         }
       ]
     },
@@ -8125,7 +7808,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "19c8bf03f42f",
       "cluster_size": 1,
       "rank_history": [
@@ -8184,6 +7867,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 49
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 49
         }
       ]
     },
@@ -8207,7 +7894,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "8edf34e526aa",
       "cluster_size": 1,
       "rank_history": [
@@ -8266,6 +7953,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 50
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 50
         }
       ]
     },
@@ -8289,7 +7980,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "59e760597783",
       "cluster_size": 1,
       "rank_history": [
@@ -8344,6 +8035,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 51
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 51
         }
       ]
     },
@@ -8367,7 +8062,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "0b075e0aea0e",
       "cluster_size": 1,
       "rank_history": [
@@ -8430,6 +8125,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 52
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 52
         }
       ]
     },
@@ -8453,7 +8152,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "ed6f3850e479",
       "cluster_size": 1,
       "rank_history": [
@@ -8516,6 +8215,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 53
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 53
         }
       ]
     },
@@ -8539,7 +8242,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "ffe817ab901a",
       "cluster_size": 1,
       "rank_history": [
@@ -8598,6 +8301,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 54
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 54
         }
       ]
     },
@@ -8621,7 +8328,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "cbf6e97fedf9",
       "cluster_size": 2,
       "rank_history": [
@@ -8679,6 +8386,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 55
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 55
         }
       ]
@@ -8794,6 +8505,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 63
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 63
         }
       ]
     },
@@ -8899,6 +8614,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 64
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 64
         }
       ]
@@ -9034,6 +8753,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 65
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 65
         }
       ]
     },
@@ -9144,6 +8867,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 66
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 66
         }
       ]
     },
@@ -9234,6 +8961,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 67
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 67
         }
       ]
     },
@@ -9257,7 +8988,7 @@
       },
       "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": 0,
       "cluster_id": "977a27e4507f",
       "cluster_size": 1,
       "rank_history": [
@@ -9340,6 +9071,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 68
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 68
         }
       ]
     },
@@ -9363,7 +9098,7 @@
       },
       "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": 0,
       "cluster_id": "362cc30b3999",
       "cluster_size": 1,
       "rank_history": [
@@ -9446,6 +9181,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 69
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 69
         }
       ]
     },
@@ -9469,7 +9208,7 @@
       },
       "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": 0,
       "cluster_id": "fbc9cfdf739b",
       "cluster_size": 1,
       "rank_history": [
@@ -9552,6 +9291,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 70
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 70
         }
       ]
     },
@@ -9575,7 +9318,7 @@
       },
       "days_on_board": 6,
       "is_new": false,
-      "rank_delta": 2,
+      "rank_delta": 0,
       "cluster_id": "fda338562f00",
       "cluster_size": 1,
       "rank_history": [
@@ -9693,6 +9436,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 74
         }
       ]
@@ -9836,6 +9583,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 77
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 77
         }
       ]
     },
@@ -9978,6 +9729,10 @@
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 78
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 78
         }
       ]
     },
@@ -10119,6 +9874,10 @@
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 79
         }
       ]
