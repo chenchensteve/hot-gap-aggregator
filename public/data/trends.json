@@ -1,936 +1,356 @@
 {
-  "generated_at": "2026-10-25T16:44:37.571645+00:00",
+  "generated_at": "2026-10-25T19:44:38.597480+00:00",
   "rising": [
     {
-      "source": "weibo",
-      "rank": 7,
-      "title": "31省份去年平均工资出炉",
-      "title_zh": "31省份去年平均工资出炉",
-      "url": "https://s.weibo.com/weibo?q=%2331%E7%9C%81%E4%BB%BD%E5%8E%BB%E5%B9%B4%E5%B9%B3%E5%9D%87%E5%B7%A5%E8%B5%84%E5%87%BA%E7%82%89%23",
-      "hot_value": "275912",
+      "source": "douyin",
+      "rank": 16,
+      "title": "快硬夸我一句",
+      "title_zh": "快硬夸我一句",
+      "url": "https://www.douyin.com/search/%E5%BF%AB%E7%A1%AC%E5%A4%B8%E6%88%91%E4%B8%80%E5%8F%A5",
+      "hot_value": "7732974",
       "summary_zh": null,
-      "thumbnail": null,
+      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015c000-ce/o4Ye9DZB7IdAsObexjEBfcGVdFuLIJdWDgcUss~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=jP5HwKR7TrQGKLRRYU03lS8FfaE%3D&from=3218412987",
       "published_at": null,
       "extra": {
-        "category": null
+        "sentence_id": "2711637"
       },
-      "days_on_board": 1,
+      "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 12,
-      "cluster_id": "c81d6c4bf4db",
+      "rank_delta": 23,
+      "cluster_id": "ebeb8a6ff2e5",
       "cluster_size": 1,
       "rank_history": [
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 22
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 21
+        },
         {
           "run_at": "2026-10-25T13:44:36.761227+00:00",
           "rank": 19
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 7
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 42,
-      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-      "title_zh": "感觉运动对齐：具身策略成功的柏拉图式代理指标",
-      "url": "http://arxiv.org/abs/2610.31670v1",
-      "hot_value": null,
-      "summary_zh": "机器人基础模型通常通过昂贵的闭环 rollout 评估，这促使人们寻找廉价的离线代理指标来衡量模型能力。柏拉图表示假说（PRH）表明，随着表示改进，视觉和语言等不同模态会收敛到现实的共享统计模型。我们问运动轨迹是否形成另一种这样的模态：随着具身模型能力增强，它们的感官表示是否应收敛到物理运动的结构？为检验这一点，我们提出感觉运动对齐（$S^2$），一种无需训练的离线指标，衡量模型感官表示与物理运动几何的对齐程度。我们发现 $S^2$ 在具身模型家族中与下游机器人任务成功正相关，使其成为在闭环评估前优先排序模型的低成本离线代理指标。$S^2$ 还可以在昂贵的微调为视觉-语言-动作模型（VLA）之前识别有前景的视觉-语言模型（VLM）骨干。除这种相关性外，$S^2$ 为 VLA 和世界动作模型（WAM）中观察到的现象提供表示层面的解释。借助 $S^2$，我们将 PRH 扩展到具身模型，并使感觉",
-      "thumbnail": null,
-      "published_at": "2026-10-22T17:59:51Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.CV",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion? To examine this, we propose Sensorimotor Alignment ($S^2$), a training-free offline metric that measures how well a model's sensory representation aligns with the geometry of physical motion. We find that $S^2$ correlates positively with downstream robot task success across embodied model families, making it a low-cost offline proxy for prioritizing models before closed-loop evaluation. $S^2$ can also identify promising vision-language model (VLM) backbones even before costly fine-tuning into vision-language-action models (VLAs). Beyond this correlation, $S^2$ offers representation-level explanations for phenomena observed in VLAs and world action models (WAMs). With $S^2$, we extend PRH to embodied models and make sensorimotor alignment empirically measurable, offering insight into why an embodied model succeeds beyond its closed-loop success rate.",
-        "identifier": "2610.31670",
-        "dedupe_key": "arxiv:2610.31670",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "foundation model"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 11,
-      "cluster_id": "3f23c7a27381",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 41
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 44
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 42
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 43,
-      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-      "title_zh": "EpiSEM-Bench：评估LLM智能体在证据缺失下的安全性与证据恢复",
-      "url": "http://arxiv.org/abs/2610.31650v1",
-      "hot_value": null,
-      "summary_zh": "使用工具的语言模型智能体依赖环境事实来决定某个动作是否被允许。当工具响应省略了与安全相关的事实时，智能体可能执行被禁止的动作，即使用户请求是良性的且每个返回的陈述都是真实的。我们提出\\bench{}，一个可执行基准，用于评估LLM智能体在证据缺失下的不安全执行、安全边界和证据恢复。它包含跨六个领域的300个匹配的不安全/安全任务对。通过系统性地抑制关键事实，该基准衡量关键证据省略下的不安全执行，并确定观察到的最小失败基数，包括在完整证据下的失败以及在穷尽测试后未观察到失败的情况。一个独立审计工具测试智能体是否寻求缺失事实，然后在完成允许任务的同时扣留被禁止的动作。该基准揭示了十个模型在省略鲁棒性、证据获取和适当行动方面的显著差异。对缺失证据的抵抗力不一定转化为有用的恢复。恢复访问减少了所有十个模型的不安全执行，但智能体在是否主动获取缺失事实并利用它们在两个世界中适当行动方面存在差异。",
-      "thumbnail": null,
-      "published_at": "2026-10-22T17:57:04Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.AI",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. By systematically suppressing critical facts, the benchmark measures unsafe execution under critical evidence omission and determines the minimum observed failure cardinality, including failures with full evidence and cases with no observed failure after exhaustive testing. An independent audit tool tests whether agents seek missing facts and then withhold prohibited actions while completing permissible tasks. The benchmark reveals substantial variation across the ten models in omission robustness, evidence acquisition, and appropriate action. Resistance to missing evidence does not necessarily translate into useful recovery. Recovery access reduces unsafe execution for all ten models, but agents differ in whether they actively obtain the missing facts and use them to act appropriately in both worlds.",
-        "identifier": "2610.31650",
-        "dedupe_key": "arxiv:2610.31650",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 11,
-      "cluster_id": "fa356ea93a53",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 42
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 45
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 43
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 44,
-      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
-      "title_zh": "因果思维链：通过上下文隔离缓解注意力泄漏",
-      "url": "http://arxiv.org/abs/2610.31639v1",
-      "hot_value": null,
-      "summary_zh": "思维链（CoT）提示引出逐步推理，这些推理似乎解释了模型预测，但无法保证这些步骤因果性地驱动最终答案。在标准自回归生成中，密集注意力允许每个推理步骤关注完整上下文，使模型能够通过直接查找推导出答案，同时生成听起来合理但事后的理由。我们引入CausalCoT，一个推理框架，通过将问题分解为原子子问题的有向无环图来强制因果透明性，在仅包含其直接因果父节点的隔离上下文中评估每个节点。这种马尔可夫结构移除了通往非父节点内容的注意力路径，使下游预测对局部推理敏感，而非全局上下文泄漏。在多样化的推理基准套件中，CausalCoT保持了有竞争力的预测性能，同时提高了解释忠实度，将中间推理步骤的因果敏感性相对于最强基线平均提高12个百分点，最高提高21个百分点。结构化依赖图还支持测试时干预，其中局部修正可预测地传播到下游推理。",
-      "thumbnail": null,
-      "published_at": "2026-10-22T17:52:56Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.LG",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows each reasoning step to attend to the full context, enabling the model to derive answers through direct lookup while generating plausible-sounding but post-hoc justifications. We introduce CausalCoT, an inference framework that enforces causal transparency by decomposing problems into a directed acyclic graph of atomic sub-questions, evaluating each node in an isolated context containing only its direct causal parents. This Markovian structure removes attention pathways to non-parent content, making downstream predictions sensitive to local reasoning rather than global context leakage. Across a diverse suite of reasoning benchmarks, CausalCoT preserves competitive predictive performance while improving explanation faithfulness, increasing causal sensitivity of intermediate reasoning steps by an average of 12 and up to 21 percentage points over the strongest baseline. The structured dependency graph additionally enables test-time interventions in which local corrections propagate predictably through downstream reasoning.",
-        "identifier": "2610.31639",
-        "dedupe_key": "arxiv:2610.31639",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "benchmark",
-          "attention"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 11,
-      "cluster_id": "ad3baeda4bcb",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 43
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 44
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 45,
-      "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
-      "title_zh": "BeNice！通过KV共享弥合循环架构的推理-内存差距",
-      "url": "http://arxiv.org/abs/2610.31633v1",
-      "hot_value": null,
-      "summary_zh": "循环架构通过将激活反复传递通过同一组层来扩展质量，同时保持参数数量固定。在推理期间，每次循环生成独立的KV缓存，导致内存线性增长。为应对这一挑战，先前工作提出了KV共享（即在深度间共享KV缓存），发现在某些情况下，最终循环的KV缓存可以与较早的循环共享而不损失质量，我们将这一性质称为KV可共享性。然而，KV可共享性的底层机制仍知之甚少，即使相同训练的循环架构也不一致地表现出该性质。在本文中，我们研究如何在循环模型中实现KV可共享性。我们提出一种两阶段方法：在第一阶段，我们在预训练期间使用随机深度，这诱导收缩性残差动力学，驱动表示在循环间趋向共同极限。在第二阶段，我们提出BeNice！，一种后训练方法，将最终循环的KV缓存广播到第一个循环，训练其产生兼容的残差，同时保持原始模型的质量。结果，BeNice！实现了KV可共享性，同时匹配标准微调的非共享验证困惑度。使用BeNice！，我们表明KV",
-      "thumbnail": null,
-      "published_at": "2026-10-22T17:49:44Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.LG",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this challenge, prior work has proposed KV-sharing (i.e., sharing KV-caches across depth), finding that, in some cases, the KV-cache of the final recurrence can be shared with the earlier recurrences without quality loss, a property we denote as KV-shareability. However, the mechanisms underlying KV-shareability remain poorly understood, with even identically trained looped architectures not consistently exhibiting it. In this paper, we study how KV-shareability can be enabled in looped models. We propose a two-stage method: in the first stage, we use stochastic depth during pretraining, which induces contractive residual dynamics that drive representations toward a common limit across recurrences. In the second stage, we propose BeNice!, a post-training method that broadcasts the final recurrence's KV-cache into the first recurrence, training it to produce compatible residuals while preserving the original model's quality. As a result, BeNice! enables KV-shareability while matching standard finetuning's unshared validation perplexity. Using BeNice!, we show that KV-sharing is complementary to alternative KV-compression methods, composing with memory-efficient sequence mixers (e.g., multi-latent attention, Kimi delta attention) and low-precision KV-cache quantization (e.g., fp8, mxfp8, nvfp4). Finally, in simulated low-memory, long-context inference, KV-sharing improves cache hit rates by up to 31.4%, increases throughput by up to 23.6%, and reduces p90 time-to-first-token by up to 83.6%.",
-        "identifier": "2610.31633",
-        "dedupe_key": "arxiv:2610.31633",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "attention"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 11,
-      "cluster_id": "d8348af2b759",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 44
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 47
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 45
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 46,
-      "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
-      "title_zh": "质疑RLVR中的工具性收敛：来自OLMo-3的检查点证据",
-      "url": "http://arxiv.org/abs/2610.31624v1",
-      "hot_value": null,
-      "summary_zh": "工具性收敛常被援引为一种普遍理由，预期有能力智能体会获取或表达权力寻求子目标：自我保护、资源获取、欺骗或抵抗监督，这对社会构成重要威胁。对于LLM，强化学习是后训练的第一个直接针对目标优化行为的阶段；因此，根据IC理由，这是收敛性工具行为可能出现的阶段。带可验证奖励的强化学习（RLVR）是否使模型更可能表达工具性收敛行为，还是这取决于训练机制、评估框架和后训练阶段？我们将此问题作为检查点条件化的行为轨迹来研究，而非单一的前/后安全分数。使用InstrumentalEval，我们评估OLMo-3-7B-Think在SFT、DPO、13个中间RLVR检查点和最终RLVR模型上的表现。轨迹是非单调的：工具性率从SFT的25.0%上升到RLVR第200步附近的46.1%，然后在最终检查点降至11.8%。配对项目级测试和逐步回归支持最终的SFT到RLVR降低。提示框架不能解释这一模式：有害提示指示符",
-      "thumbnail": null,
-      "published_at": "2026-10-22T17:44:41Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.LG",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Instrumental convergence is often invoked as a general reason to expect capable agents to acquire or express power-seeking subgoals: self-preservation, resource acquisition, deception, or resistance to oversight which poses an important threat to the society. For LLMs, reinforcement learning is the first stage of post-training that directly optimizes behavior against an objective; therefore, it is the stage where convergent instrumental behavior, on IC grounds, likely to appear. Does reinforcement learning with verifiable rewards (RLVR) make a model more likely to express instrumental-convergence behavior, or does this depend on the training regime, evaluation frame, and stage of post-training? We study this question as a checkpoint-conditioned behavioral trajectory rather than as a single before/after safety score. Using InstrumentalEval, we evaluate OLMo-3-7B-Think across SFT, DPO, 13 intermediate RLVR checkpoints, and the final RLVR model. The trajectory is nonmonotonic: instrumental rate rises from 25.0% at SFT to 46.1% near RLVR step 200, then falls to 11.8% at the final checkpoint. Paired item-level tests and step-wise regression support the final SFT-to-RLVR reduction. Prompt framing does not explain this pattern: a harmful-prompt indicator combined with other framing effects explains only 15% of within-checkpoint score variance on average, and Iterative Null-space Projection (INLP) removes a detectable framing direction without changing the SFT-to-final-RLVR gap. Together with preliminary 32B endpoint results (35.53% SFT to 22.37% RLVR final), these findings indicate that RLVR does not monotonically increase instrumental behavior in this setting: the rate rises early, then falls below the SFT baseline. The result is specific to this model family and benchmark, and judge agreement is moderate, so absolute rates should be read cautiously.",
-        "identifier": "2610.31624",
-        "dedupe_key": "arxiv:2610.31624",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 11,
-      "cluster_id": "c3107459df5f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 45
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 56
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 48
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 59
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 46
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 47,
-      "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
-      "title_zh": "真实标注如何塑造检索分数：乳腺病变检索增强生成系统的证据感知评估",
-      "url": "http://arxiv.org/abs/2610.31606v1",
-      "hot_value": null,
-      "summary_zh": "目的：描述一种针对乳腺病变管理文献的临床检索增强生成（RAG）系统的证据感知检索评估协议，解决检索分数对标注覆盖度的依赖。方法：使用18篇文档语料库和18个查询的开发基准，每篇文档一个是/否或WH问题。检索结合密集嵌入、BM25和交叉编码器重排序。评估了128到1024个令牌的块大小、0到20%的重叠以及四种检索器配置。相关性由映射到所有包含块的证据跨度定义，将具有等效证据的重叠块视为相关。检索使用R-Precision、Recall@K、MRR和nDCG@K评估。另外，在512令牌索引上以K=1到5使用DeepEval声明级指标评估生成，以deepseek-v4-pro作为LLM评判者，并使用BLEU/ROUGE指标。结果：选定的混合检索器使用384令牌块和20%重叠，在18个查询中的17个的前三个结果中检索到接受的证据。Recall@3、R-Precision、MRR@3和nDCG@3",
-      "thumbnail": null,
-      "published_at": "2026-10-22T17:36:14Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.CL",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens, overlaps of 0 to 20%, and four retriever configurations were evaluated. Relevance was defined by evidence spans mapped to all containing chunks, treating overlapping chunks with equivalent evidence as relevant. Retrieval was evaluated using R-Precision, Recall@K, MRR, and nDCG@K. Separately, generation was assessed on a 512-token index at K=1 to 5 using DeepEval claim-level metrics, with deepseek-v4-pro as the LLM judge, and BLEU/ROUGE metrics. Results: The selected hybrid retriever, using 384-token chunks and 20% overlap, retrieved accepted evidence in the top three results for 17 of 18 queries. Recall@3, R-Precision, MRR@3, and nDCG@3 each reached 0.94. Ground-truth curation increased evidence spans from 25 to 37 and accepted chunk targets from 36 to 51 without changing retrieval rankings. Conclusion: Cross-encoder reranking achieved the highest retrieval scores. Expanded relevance annotations increased recognized evidence without changing rankings, highlighting annotation sensitivity. The small development set and retrieval-informed curation require independent validation, including radiologist assessment of evidence sufficiency.",
-        "identifier": "2610.31606",
-        "dedupe_key": "arxiv:2610.31606",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 11,
-      "cluster_id": "79738bfe00e1",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 49
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 58
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 47
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 2,
-      "title": "双人抬棺",
-      "title_zh": "双人抬棺",
-      "url": "https://b23.tv/BV1c5HK6CEPu",
-      "hot_value": "1895763",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/58b11f4ac80a6f6626e55ff98bde57ef1b1284d4.jpg",
-      "published_at": "2026-10-24T11:39:07+00:00",
-      "extra": {
-        "bvid": "BV1c5HK6CEPu",
-        "owner": "Z贤者"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 10,
-      "cluster_id": "cfaea1ecfa63",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "youtube",
-      "rank": 47,
-      "title": "アルカリレットウセイ／浦島坂田船【歌ってみた】",
-      "title_zh": "アルカリレットウセイ／浦島坂田船【翻唱】",
-      "url": "https://youtube.com/watch?v=s2yE-L0h-m4",
-      "hot_value": "31426",
-      "summary_zh": "浦岛坂田船翻唱《碱性劣等生》，四人组合歌唱作品。",
-      "thumbnail": "https://i.ytimg.com/vi/s2yE-L0h-m4/hqdefault.jpg",
-      "published_at": "2026-10-25T10:00:01Z",
-      "extra": {
-        "video_id": "s2yE-L0h-m4",
-        "region": "JP",
-        "channel": "浦島坂田船公式チャンネル",
-        "description": "本家様\nhttps://www.youtube.com/watch?v=zLmopbS97aY\n\n\nIllust：May\nMovie：有栖永真：https://x.com/alice_eishin\nMix：藤浪潤一郎\nMastering：小島康太郎(FLAIR)\n\n\n■浦島坂田船 \nうらたぬき \nTwitter：https://twitter.com/uratasama\nYoutube：https://youtube.com/@uratasama\n\n\n志麻 \nTwitter：https://twitter.com/shima_s2\nYoutube：https://youtube.com/@sh"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 10,
-      "cluster_id": "c441f20629c5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 57
+          "rank": 39
         },
         {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 47
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 16
         }
       ]
     },
     {
       "source": "douyin",
-      "rank": 33,
-      "title": "姜乘澜的祛黑头科普太权威了",
-      "title_zh": "姜乘澜的祛黑头科普太权威了",
-      "url": "https://www.douyin.com/search/%E5%A7%9C%E4%B9%98%E6%BE%9C%E7%9A%84%E7%A5%9B%E9%BB%91%E5%A4%B4%E7%A7%91%E6%99%AE%E5%A4%AA%E6%9D%83%E5%A8%81%E4%BA%86",
-      "hot_value": "7735674",
+      "rank": 21,
+      "title": "这首歌唱出了我的心情",
+      "title_zh": "这首歌唱出了我的心情",
+      "url": "https://www.douyin.com/search/%E8%BF%99%E9%A6%96%E6%AD%8C%E5%94%B1%E5%87%BA%E4%BA%86%E6%88%91%E7%9A%84%E5%BF%83%E6%83%85",
+      "hot_value": "7691052",
       "summary_zh": null,
-      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/oUCX3Gz9pIsuAnHAEqZgs4DfF7fDAB1TDIEdtP~noop.jpeg?lk3s=bfd515bb&x-expires=1792965600&x-signature=xx7Aw36pXe9Wtdlc7n03YsESPNI%3D&from=3218412987",
+      "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015c000-ce/o8Z7EXfBoI68eC1AOxut3bcWaBmA4iM1iFtlIw~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=exRPhiUwLjJ75zB%2BHT0h8fMJSHk%3D&from=3218412987",
       "published_at": null,
       "extra": {
-        "sentence_id": "2712554"
+        "sentence_id": "2712806"
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 9,
-      "cluster_id": "5c433046251d",
+      "rank_delta": 22,
+      "cluster_id": "b79982b2ea61",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 26
-        },
-        {
           "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 42
+          "rank": 39
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 33
+          "rank": 43
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 21
         }
       ]
     },
     {
-      "source": "youtube",
-      "rank": 6,
-      "title": "RELL Seas: The Movie 3",
-      "title_zh": "RELL Seas：电影版 3",
-      "url": "https://youtube.com/watch?v=q09y0z5Vyxw",
-      "hot_value": "472817",
-      "summary_zh": "Roblox游戏RELL Seas社群与Discord链接，玩家可加入组队。",
-      "thumbnail": "https://i.ytimg.com/vi/q09y0z5Vyxw/hqdefault.jpg",
-      "published_at": "2026-10-25T06:00:09Z",
+      "source": "bilibili",
+      "rank": 3,
+      "title": "人生最有意义的15分钟",
+      "title_zh": "人生最有意义的15分钟",
+      "url": "https://b23.tv/BV1MiHP6DEi2",
+      "hot_value": "816393",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/d3f1db7454a76fbb95f88540e0a38a3abca13ac8.jpg",
+      "published_at": "2026-10-24T07:02:16+00:00",
       "extra": {
-        "video_id": "q09y0z5Vyxw",
-        "region": "US",
-        "channel": "RELLGames",
-        "description": "Group Game Link: \nhttps://www.roblox.com/communities/11020595/RELL-Seas#!/about\n\nDiscord Links:\ndiscord.gg/RELLGames\ndiscord.gg/RELLSEAS"
+        "bvid": "BV1MiHP6DEi2",
+        "owner": "小寻寻u"
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 9,
-      "cluster_id": "4a8e38b8dde7",
+      "rank_delta": 21,
+      "cluster_id": "2269968b4195",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 5
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 5
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 16
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 6,
+      "title": "《罗德岛学院》——早八！",
+      "title_zh": "《罗德岛学院》——早八！",
+      "url": "https://b23.tv/BV1m9HG6gE4g",
+      "hot_value": "740693",
+      "summary_zh": null,
+      "thumbnail": "http://i0.hdslb.com/bfs/archive/49cdda2e8a0d4d4365a620a1b69847f1797c6287.jpg",
+      "published_at": "2026-10-25T05:30:29+00:00",
+      "extra": {
+        "bvid": "BV1m9HG6gE4g",
+        "owner": "明日方舟"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 19,
+      "cluster_id": "673711cc77ae",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 15
+          "rank": 13
         },
         {
           "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 15
+          "rank": 11
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 25
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 6
         }
       ]
     },
     {
+      "source": "bilibili",
+      "rank": 10,
+      "title": "写了全国所有省份的love me！",
+      "title_zh": "写了全国所有省份的love me！",
+      "url": "https://b23.tv/BV1w2Hw6KE1j",
+      "hot_value": "4338004",
+      "summary_zh": null,
+      "thumbnail": "http://i2.hdslb.com/bfs/archive/f1d952d55688049f5e74a18819b92696d7433bd4.jpg",
+      "published_at": "2026-10-24T04:11:37+00:00",
+      "extra": {
+        "bvid": "BV1w2Hw6KE1j",
+        "owner": "西柚甜瓜"
+      },
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 19,
+      "cluster_id": "c30aa1721067",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 8
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 6
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 29
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 27,
+      "title": "黄子弘凡参加王者100周年庆",
+      "title_zh": "黄子弘凡参加王者100周年庆",
+      "url": "https://www.douyin.com/search/%E9%BB%84%E5%AD%90%E5%BC%98%E5%87%A1%E5%8F%82%E5%8A%A0%E7%8E%8B%E8%80%85100%E5%91%A8%E5%B9%B4%E5%BA%86",
+      "hot_value": "7670978",
+      "summary_zh": null,
+      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEXdGewXDIj4gs9uoFrALFT7Qa2fATkUeTvOWe~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=46u9h9hQh3O%2Fp0rtqK1lHJjV%2Fr0%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2713205"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 19,
+      "cluster_id": "d6e871593d5b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 46
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 22,
+      "title": "青春若有张不老的脸",
+      "title_zh": "青春若有张不老的脸",
+      "url": "https://www.douyin.com/search/%E9%9D%92%E6%98%A5%E8%8B%A5%E6%9C%89%E5%BC%A0%E4%B8%8D%E8%80%81%E7%9A%84%E8%84%B8",
+      "hot_value": "7679128",
+      "summary_zh": null,
+      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c001/oAgabvtcg6AABI708CPAa2AIPiID8iAEngzw0~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=liUQIoJDMuYmp7ivOwdw%2F94nGM4%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2712133"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 15,
+      "cluster_id": "1eb8054b1163",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 40
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 37
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 32,
+      "title": "全网都在晒女儿",
+      "title_zh": "全网都在晒女儿",
+      "url": "https://www.douyin.com/search/%E5%85%A8%E7%BD%91%E9%83%BD%E5%9C%A8%E6%99%92%E5%A5%B3%E5%84%BF",
+      "hot_value": "7661678",
+      "summary_zh": null,
+      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/okFUIolBdBAILjX69Zi6Ee1DPATw4B4bIofPbi~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=I3iOmMhFVQMBKWFojHnL0HTiTfI%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2712785"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 12,
+      "cluster_id": "289e48daad8a",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 28
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 44
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 32
+        }
+      ]
+    },
+    {
       "source": "youtube",
-      "rank": 16,
+      "rank": 4,
       "title": "Ramayana: Mangal Rang (Song) | Namit M, Nitesh T | AR Rahman, Arijit Singh, Shreya Ghoshal, Kumar V",
       "title_zh": "Ramayana: Mangal Rang (Song) | Namit M, Nitesh T | AR Rahman, Arijit Singh, Shreya Ghoshal, Kumar V",
       "url": "https://youtube.com/watch?v=z_e1d5_VVfw",
-      "hot_value": "9478719",
+      "hot_value": "16133263",
       "summary_zh": "拉玛衍那新片主题曲，AR拉赫曼等群星献唱，2026年排灯节上映。",
       "thumbnail": "https://i.ytimg.com/vi/z_e1d5_VVfw/hqdefault.jpg",
       "published_at": "2026-10-25T03:30:09Z",
@@ -942,7 +362,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 9,
+      "rank_delta": 12,
       "cluster_id": "20314770563f",
       "cluster_size": 1,
       "rank_history": [
@@ -953,16 +373,136 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 16
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "bilibili",
-      "rank": 20,
+      "rank": 19,
+      "title": "《话术博弈》如何优雅的套出对方的真心话？",
+      "title_zh": "《话术博弈》如何优雅的套出对方的真心话？",
+      "url": "https://b23.tv/BV1yVn16XEz7",
+      "hot_value": "1488337",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/1c28ff35bb30e5bf2d06eab00e870c1c791e5542.jpg",
+      "published_at": "2026-10-22T09:05:00+00:00",
+      "extra": {
+        "bvid": "BV1yVn16XEz7",
+        "owner": "站在外面的Q"
+      },
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 11,
+      "cluster_id": "650492a66a86",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 29
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 6
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 6
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 12
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 6,
+      "title": "黄子韬我结婚生子碍你事了吗",
+      "title_zh": "黄子韬我结婚生子碍你事了吗",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%AD%90%E9%9F%AC%E6%88%91%E7%BB%93%E5%A9%9A%E7%94%9F%E5%AD%90%E7%A2%8D%E4%BD%A0%E4%BA%8B%E4%BA%86%E5%90%97%23",
+      "hot_value": "71560",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 11,
+      "cluster_id": "9cf0bf134580",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 17,
+      "title": "论闺蜜给我出片的速度",
+      "title_zh": "论闺蜜给我出片的速度",
+      "url": "https://www.douyin.com/search/%E8%AE%BA%E9%97%BA%E8%9C%9C%E7%BB%99%E6%88%91%E5%87%BA%E7%89%87%E7%9A%84%E9%80%9F%E5%BA%A6",
+      "hot_value": "7722850",
+      "summary_zh": null,
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015c000-ce/o0AsPcaBi5gZ4WALHtUBxUhEqLkPHtiHXMIJg~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=sZbB0PiNex2nIlyOiQogxU3MmTQ%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2712781"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 10,
+      "cluster_id": "06ccc04163cc",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 27
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 11,
       "title": "【导演作/官方授权】用半年! 制作「脑洞学生会」片尾影像",
       "title_zh": "【导演作/官方授权】用半年! 制作「脑洞学生会」片尾影像",
       "url": "https://b23.tv/BV1cZHK65ELz",
-      "hot_value": "689324",
+      "hot_value": "721306",
       "summary_zh": null,
       "thumbnail": "http://i1.hdslb.com/bfs/archive/dbb764e996b5c8e40e0086730a378dca87bf7bdc.jpg",
       "published_at": "2026-10-24T15:55:00+00:00",
@@ -972,7 +512,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 8,
+      "rank_delta": 9,
       "cluster_id": "cd67f5ec9b65",
       "cluster_size": 1,
       "rank_history": [
@@ -1003,369 +543,823 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 20
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 2,
-      "title": "尚公主 九重紫",
-      "title_zh": "尚公主 九重紫",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%9A%E5%85%AC%E4%B8%BB%20%E4%B9%9D%E9%87%8D%E7%B4%AB%23",
-      "hot_value": "524646",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 7,
-      "cluster_id": "f7574e1a00a2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 9
         },
         {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 9,
-      "title": "2026王者荣耀共创之夜",
-      "title_zh": "2026王者荣耀共创之夜",
-      "url": "https://www.douyin.com/search/2026%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%85%B1%E5%88%9B%E4%B9%8B%E5%A4%9C",
-      "hot_value": "9297029",
-      "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/ooRsS1L7Iir1zQBAmy1AcBZBbIy9NPkfgAMi7e~noop.jpeg?lk3s=bfd515bb&x-expires=1792965600&x-signature=o8kvXtIDyEWmo3lJduE9W0pfduc%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2712642"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 6,
-      "cluster_id": "0220d311ea4b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 9
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 6,
-      "title": "新一股冷空气将影响长江以北大部",
-      "title_zh": "新一股冷空气将影响长江以北大部",
-      "url": "https://www.douyin.com/search/%E6%96%B0%E4%B8%80%E8%82%A1%E5%86%B7%E7%A9%BA%E6%B0%94%E5%B0%86%E5%BD%B1%E5%93%8D%E9%95%BF%E6%B1%9F%E4%BB%A5%E5%8C%97%E5%A4%A7%E9%83%A8",
-      "hot_value": "10697797",
-      "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015/o427s4AgIpGAdIqLzdEJernf5tLC2DK9gof9eH~noop.jpeg?lk3s=bfd515bb&x-expires=1792965600&x-signature=nA4EpBfYNYuSO8nAC1cNu460qCM%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2712816"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 5,
-      "cluster_id": "212d8a912976",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 11
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 6
         }
       ]
     },
     {
-      "source": "papers",
-      "rank": 41,
-      "title": "Thermodynamic Quality Control Reshapes Spatially Resolved Metabolic Flux Predictions in Prostate Cancer",
-      "title_zh": "热力学质量控制重塑前列腺癌空间分辨代谢通量预测",
-      "url": "https://doi.org/10.64898/2026.06.25.734531",
-      "hot_value": null,
-      "summary_zh": "空间转录组学使得肿瘤代谢的区域分辨研究成为可能，但将基因表达转化为可靠的代谢通量预测仍然具有挑战性，因为基因组规模模型可能允许热力学不可行循环（TICs）。在这里，我们将来自单个前列腺肿瘤十二个标注区域（涵盖正常、炎症和Gleason 3+3及3+4组织）的空间转录组数据与Human-GEM整合，使用E-Flux框架，纳入明确的营养约束、显式循环认证和无环通量变异性分析。初始的朴素实现在所有十二个通量解中都产生了TICs，总内部通量比使用修订工作流程获得的通量高190-890倍。所有通量解均被认证不含TICs，17,592个无环通量边界中有94.7%被精确确定。在分析的组织内，预测的代谢相似性与空间区域相关（置换p = 0.023），但与组织学状态无关（p = 0.52），揭示了即使共享相同Gleason等级的区域之间也存在模型预测的异质性。基于通量的靶点优先级分析识别了脂肪酸摄取相关基因",
-      "thumbnail": null,
-      "published_at": "2026-10-21",
+      "source": "douyin",
+      "rank": 26,
+      "title": "在九寨沟拍到野生水獭的含金量",
+      "title_zh": "在九寨沟拍到野生水獭的含金量",
+      "url": "https://www.douyin.com/search/%E5%9C%A8%E4%B9%9D%E5%AF%A8%E6%B2%9F%E6%8B%8D%E5%88%B0%E9%87%8E%E7%94%9F%E6%B0%B4%E7%8D%AD%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F",
+      "hot_value": "7672318",
+      "summary_zh": null,
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/oggK4iOC1APB4NJxABBavPRbiM2ICIfeYAqVZo~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=xoqcBEIVQ%2BgBuRm3tXX0D1eb3u4%3D&from=3218412987",
+      "published_at": null,
       "extra": {
-        "subsource": "biorxiv",
-        "field": "cancer biology",
-        "doi": "10.64898/2026.06.25.734531",
-        "tier": "预印本",
-        "mode": "all",
-        "description": "Spatial transcriptomics enables region-resolved investigation of tumor metabolism, yet translating gene expression into reliable metabolic flux predictions remains challenging because genome-scale models can admit thermodynamically infeasible cycles (TICs). Here, we integrated spatial transcriptomic data from twelve annotated regions of a single prostate tumor, spanning normal, inflamed, and Gleason 3+3 and 3+4 tissues, with Human-GEM using an E-Flux framework incorporating defined nutrient constraints, explicit cycle certification, and loopless flux variability analysis. An initial naive implementation produced TICs in all twelve flux solutions, with total internal fluxes 190-890-fold higher than those obtained using the revised workflow. All flux solutions were certified free of TICs, and 94.7% of 17,592 loopless flux bounds were determined exactly. Within the analyzed tissue, predicted metabolic similarity was associated with spatial region (permutation p = 0.023) but not histological state (p = 0.52), revealing model-predicted heterogeneity even between regions sharing the same Gleason grade. Flux-based target prioritization identified fatty acid uptake-associated genes (CD36, FABPs, and SLC27A1/4), although the dominant uptake signal was confined to one malignant region, suggesting a localized metabolic hypothesis rather than an established therapeutic vulnerability. Analysis of the zinc-citrate-aconitase axis further demonstrated that zinc-dependent citrate redistribution was absent under baseline conditions and emerged only when oxidative demand, elimination of a cytosolic aconitase bypass, and strong mitochondrial aconitase inhibition coincided. These findings establish the importance of thermodynamic quality control and physiologically informed constraints in spatial metabolic modeling, while distinguishing computationally feasible flux predictions from experimentally validated metabolic mechanisms. The resulting framework provides a reproducible foundation for investigating spatial metabolic heterogeneity and prioritizing testable hypotheses for future experimental validation.",
-        "dedupe_key": "doi:10.64898/2026.06.25.734531",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
+        "sentence_id": "2712205"
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 5,
-      "cluster_id": "7f4d9ca988d1",
+      "rank_delta": 9,
+      "cluster_id": "902c0d1702bf",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 46
-        },
         {
           "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 46
+          "rank": 17
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 41
-        }
-      ]
-    },
-    {
-      "source": "youtube",
-      "rank": 43,
-      "title": "STARGLOW / Slam Dunk -Teaser-",
-      "title_zh": "STARGLOW / Slam Dunk -Teaser-",
-      "url": "https://youtube.com/watch?v=tZwkBuaOQw8",
-      "hot_value": "54905",
-      "summary_zh": "STARGLOW新单曲预告，灌篮主题，2026年10月发行。",
-      "thumbnail": "https://i.ytimg.com/vi/tZwkBuaOQw8/hqdefault.jpg",
-      "published_at": "2026-10-25T11:00:02Z",
-      "extra": {
-        "video_id": "tZwkBuaOQw8",
-        "region": "JP",
-        "channel": "STARGLOW Official",
-        "description": "Digital Single 'Slam Dunk'\n2026.10.26 Release\n\n▼Music Video (10/26 21:00 プレミア公開)\nhttps://youtu.be/tFTeMdvyfBs\n▼Streaming & Download\nhttps://starglow.lnk.to/SlamDunk\n▼Pre-Add / Pre-Save\nhttps://avex.ffm.to/starglow_slamdunk\n▼デジタルキャンペーン\nhttps://starglow.tokyo/news/music/1471/\n\n\n1st Album \"Aurora\"\n2026"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 4,
-      "cluster_id": "7bf7cdcaecf5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 47
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 43
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 37,
-      "title": "青春若有张不老的脸",
-      "title_zh": "青春若有张不老的脸",
-      "url": "https://www.douyin.com/search/%E9%9D%92%E6%98%A5%E8%8B%A5%E6%9C%89%E5%BC%A0%E4%B8%8D%E8%80%81%E7%9A%84%E8%84%B8",
-      "hot_value": "7711939",
-      "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-i-0813c001/oAgabvtcg6AABI708CPAa2AIPiID8iAEngzw0~noop.jpeg?lk3s=bfd515bb&x-expires=1792965600&x-signature=2Es81dea5ZM9G9ZAOQXPkI7Uf8U%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2712133"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 3,
-      "cluster_id": "1eb8054b1163",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 37
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 18,
-      "title": "商业产业招商经理",
-      "title_zh": "商业产业招商经理",
-      "url": "https://www.iguopin.com/job/detail?id=222515839679596524&source=social",
-      "hot_value": null,
-      "summary_zh": "岗位职责 1、负责商业综合体、产业园区、写字楼、酒店等多业态招商工作，制定招商方案、拓客计划，开展客户挖掘、商务洽谈、合同谈判及签约落地。 2、维护客户资源，建立客户档案，跟进意向客户全周期，完成公司下达的招商指标与出租率目标。 3、配合商业管理负责人开展日常运营管理工作，参与市场调研、竞品分析、租金及业态评估，优化招商策略。 4、对接入驻商户，协调前期进场、装修对接等事宜，做好招商后衔接工作；参",
-      "thumbnail": null,
-      "published_at": "2026-10-14 14:57:43",
-      "extra": {
-        "subsource": "guopin",
-        "company": "中铁城市运营管理有限公司",
-        "city": "北京",
-        "education": "大专",
-        "company_type": "国企",
-        "recruitment_type": "社会招聘",
-        "keywords_hit": [
-          "运营"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": true
-      },
-      "days_on_board": 11,
-      "is_new": false,
-      "rank_delta": 3,
-      "cluster_id": "13a0b93a22bb",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
           "rank": 14
         },
         {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 21
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 18
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 19
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 22
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 19
-        },
-        {
           "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 20
+          "rank": 14
         },
         {
           "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 20
+          "rank": 18
         },
         {
           "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 21
+          "rank": 36
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 18
+          "rank": 35
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 26
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 9,
+      "title": "《一把长椅卡俩头》",
+      "title_zh": "《一把长椅卡俩头》",
+      "url": "https://b23.tv/BV1VyHA6xEY5",
+      "hot_value": "1170374",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/1c617911c5657ca060d3c2ad8231e5299b67242f.jpg",
+      "published_at": "2026-10-25T04:00:00+00:00",
+      "extra": {
+        "bvid": "BV1VyHA6xEY5",
+        "owner": "伤心欲茄222"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "5483f2de44cb",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 17
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 72,
+      "title": "Version 5.6.0",
+      "title_zh": "版本5.6.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.6.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 添加了setThreads和getThreads以控制支持的C++内核和uwot UMAP后端中的线程 更新了NormalizeData以使用线程化稀疏对数归一化并减少矩阵复制开销 更新了FindVariableFeatures以在各测定版本间共享稀疏VST实现，并使用线程化标准化方差计算 更新了ScaleData以中心化、缩放和裁剪d",
+      "thumbnail": null,
+      "published_at": "2026-10-03T14:53:44+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added setThreads and getThreads to control threading in supported C++ kernels and uwot UMAP backends Updated NormalizeData to use threaded sparse log-normalization and reduce matrix-copying overhead Updated FindVariableFeatures to share a sparse VST implementation across assay versions with threaded standardized-variance calculations Updated ScaleData to center, scale, and clip d",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.6.0"
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "bebd149f6599",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 69
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 60
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 71
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 71
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 72
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 73,
+      "title": "scvi-tools 1.5.1",
+      "title_zh": "scvi-tools 1.5.1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-09-10T12:03:41+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1"
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "92de253c91a7",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 70
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 61
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 73
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 74,
+      "title": "稳定版发布进入最后倒计时，苹果 iOS / iPadOS 27 RC 推送",
+      "title_zh": "稳定版发布进入最后倒计时，苹果 iOS / iPadOS 27 RC 推送",
+      "url": "https://www.ithome.com/1/000/525.htm",
+      "hot_value": null,
+      "summary_zh": "感谢IT之家网友 吉茵珂絲 、 S K Y 、 这是我的破 、 Freddy123 、 牛肉番茄犟 、 大叔 、 肖战割割 的线索投递！ IT之家 9 月 10 日消息， 苹果公司今日正式推送了 iOS / iPad OS 27 RC ，这意味着新系统的稳定版发布已进入最后倒计时。 照既有节奏，iOS 27 候选版（RC）今日发布后，正式版会随 iPhone 18 Pro 和 iPhone 18 Pro Max 上市一同发布，预估本次更新以修复 Bug，提高系统稳定性为主。 在界面上，苹果 iOS / iPadOS 27 进一步打磨液态玻璃（IT之家注：Liquid Glass）设计，主要优化对比度，确保内容清晰易读；以及新增调节滑块，让用户随心调整 Liquid Glass 的外观效果。 速度方面，苹果表示 iOS / iPadOS 27 优化 App 启动速度，升级隔空投送，让其传输表",
+      "thumbnail": null,
+      "published_at": "2026-09-09T19:03:46+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "感谢IT之家网友 吉茵珂絲 、 S K Y 、 这是我的破 、 Freddy123 、 牛肉番茄犟 、 大叔 、 肖战割割 的线索投递！ IT之家 9 月 10 日消息， 苹果公司今日正式推送了 iOS / iPad OS 27 RC ，这意味着新系统的稳定版发布已进入最后倒计时。 照既有节奏，iOS 27 候选版（RC）今日发布后，正式版会随 iPhone 18 Pro 和 iPhone 18 Pro Max 上市一同发布，预估本次更新以修复 Bug，提高系统稳定性为主。 在界面上，苹果 iOS / iPadOS 27 进一步打磨液态玻璃（IT之家注：Liquid Glass）设计，主要优化对比度，确保内容清晰易读；以及新增调节滑块，让用户随心调整 Liquid Glass 的外观效果。 速度方面，苹果表示 iOS / iPadOS 27 优化 App 启动速度，升级隔空投送，让其传输表",
+        "dedupe_key": "https://www.ithome.com/1/000/525.htm"
+      },
+      "days_on_board": 10,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "fa209807cc80",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 71
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 77
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 62
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 74
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 75,
+      "title": "1.12.4",
+      "title_zh": "1.12.4",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.12.4",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-4",
+      "thumbnail": null,
+      "published_at": "2026-08-31T07:39:23+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-4",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.12.4"
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "877b691e9b59",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 77
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 63
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 75
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 76,
+      "title": "1.13.0a2",
+      "title_zh": "1.13.0a2",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.scverse.org/en/latest/release-notes.html#version-1-13",
+      "thumbnail": null,
+      "published_at": "2026-08-28T11:51:45+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.scverse.org/en/latest/release-notes/index.html#version-1-13",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2"
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "768fc0d2e613",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 64
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 76
         }
       ]
     }
@@ -1374,146 +1368,10 @@
     {
       "source": "bilibili",
       "rank": 1,
-      "title": "高启强&陈淑婷《Trouble Maker》",
-      "title_zh": "高启强&陈淑婷《Trouble Maker》",
-      "url": "https://b23.tv/BV1DiHK6tESR",
-      "hot_value": "956729",
-      "summary_zh": null,
-      "thumbnail": "http://i2.hdslb.com/bfs/archive/786812492f8972ff6a86cd57c64ca4c8cfadf553.jpg",
-      "published_at": "2026-10-24T10:19:38+00:00",
-      "extra": {
-        "bvid": "BV1DiHK6tESR",
-        "owner": "会魔法的白气球"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "00389fbb23b9",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 21
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 1,
-      "title": "IG对战HLE",
-      "title_zh": "IG对战HLE",
-      "url": "https://www.douyin.com/search/IG%E5%AF%B9%E6%88%98HLE",
-      "hot_value": "11975589",
-      "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oIg7QEIMqAQajbV1ADB3fqs3FIwQCQf9HA4pcU~noop.jpeg?lk3s=bfd515bb&x-expires=1792965600&x-signature=WhvHSxGXHxEuAGaw92noFDfWmmk%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2713121"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "3a32c444ea34",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 1,
-      "title": "国内首部 AI 院线长片《三星堆：未来往事》，票房过百万",
-      "title_zh": "国内首部 AI 院线长片《三星堆：未来往事》，票房过百万",
-      "url": "https://www.ithome.com/1/017/719.htm",
-      "hot_value": null,
-      "summary_zh": "感谢IT之家网友 叫咩好 的线索投递！ IT之家 10 月 25 日消息，猫眼专业版数据显示，《三星堆：未来往事》电影票房已达到 116.2 万。 据IT之家了解，《三星堆：未来往事》是国内首部获得国家电影局公映许可证的 AI 全流程院线长片，上映于 10 月 23 日。 本片片长 100 分钟 ，所有角色均为原创数字形象， 不含对真实演员的数字复制 。 同时，本片故事设定在未来人类将一切决策交给算法而引发全球危机，破解困局的线索指向三星堆七个古老刻符，形成“答案在过去，危机在未来”的叙事结构。 这部影片的制作方式决定了它“首部”标签的实质含义。全片依托博纳自研的“博卡电影云片场”完成，创作团队历时两年，产出 120 余万张底图，完成上百次全片迭代。据官方介绍，AI 主要承担生成与执行， 创意构思、剧本、镜头设计与审美判断由博纳 AIGMS 团队完成 。团队参照传统剧组设置了编剧、导演、制",
-      "thumbnail": null,
-      "published_at": "2026-10-25T15:36:55+00:00",
-      "extra": {
-        "feed_name": "IT之家",
-        "tab": "ai",
-        "route": "/ithome/it",
-        "translate": false,
-        "description": "感谢IT之家网友 叫咩好 的线索投递！ IT之家 10 月 25 日消息，猫眼专业版数据显示，《三星堆：未来往事》电影票房已达到 116.2 万。 据IT之家了解，《三星堆：未来往事》是国内首部获得国家电影局公映许可证的 AI 全流程院线长片，上映于 10 月 23 日。 本片片长 100 分钟 ，所有角色均为原创数字形象， 不含对真实演员的数字复制 。 同时，本片故事设定在未来人类将一切决策交给算法而引发全球危机，破解困局的线索指向三星堆七个古老刻符，形成“答案在过去，危机在未来”的叙事结构。 这部影片的制作方式决定了它“首部”标签的实质含义。全片依托博纳自研的“博卡电影云片场”完成，创作团队历时两年，产出 120 余万张底图，完成上百次全片迭代。据官方介绍，AI 主要承担生成与执行， 创意构思、剧本、镜头设计与审美判断由博纳 AIGMS 团队完成 。团队参照传统剧组设置了编剧、导演、制",
-        "dedupe_key": "https://www.ithome.com/1/017/719.htm"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b6e89da1072e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 1,
-      "title": "🥺 Sam Altman says the internet can no longer be SECURED by patching bugs. “I no longer think we’re going to be able to just patch all the bugs,” the OpenAI CEO said, warning smarter models can find “hardware level insane stuff.” He says OpenAI can’t responsibly open source its best model “anytime so",
-      "title_zh": "🥺 Sam Altman says the internet can no longer be SECURED by patching bugs. “I no longer think we’re going to be able to just patch all the bugs,” the OpenAI CEO said, warning smarter models can find “hardware level insane stuff.” He says OpenAI can’t responsibly open source its best model “anytime so",
-      "url": "https://t.me/aipost/8610",
-      "hot_value": "622",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-25T16:22:54+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b18f6cc6d5a7",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 1,
-      "title": "白桃星座一周运势",
-      "title_zh": "白桃星座一周运势",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%A1%83%E6%98%9F%E5%BA%A7%E4%B8%80%E5%91%A8%E8%BF%90%E5%8A%BF%23",
-      "hot_value": "734866",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b64ece19de20",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 2,
       "title": "双人抬棺",
       "title_zh": "双人抬棺",
       "url": "https://b23.tv/BV1c5HK6CEPu",
-      "hot_value": "1895763",
+      "hot_value": "2100060",
       "summary_zh": null,
       "thumbnail": "http://i1.hdslb.com/bfs/archive/58b11f4ac80a6f6626e55ff98bde57ef1b1284d4.jpg",
       "published_at": "2026-10-24T11:39:07+00:00",
@@ -1523,7 +1381,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 10,
+      "rank_delta": 1,
       "cluster_id": "cfaea1ecfa63",
       "cluster_size": 1,
       "rank_history": [
@@ -1546,34 +1404,182 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 1,
+      "title": "IG对战HLE",
+      "title_zh": "IG对战HLE",
+      "url": "https://www.douyin.com/search/IG%E5%AF%B9%E6%88%98HLE",
+      "hot_value": "12142383",
+      "summary_zh": null,
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/oIg7QEIMqAQajbV1ADB3fqs3FIwQCQf9HA4pcU~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=73UmU6cNKlc10MzTbzRo1Yd20Yw%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2713121"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "91a240f5f0c4",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 1,
+      "title": "S16瑞士轮HLE 0-1 iG，如何评价这场比赛？",
+      "title_zh": "S16瑞士轮HLE 0-1 iG，如何评价这场比赛？",
+      "url": "https://www.zhihu.com/question/2097842344846419225",
+      "hot_value": null,
+      "summary_zh": "北京时间10月26日，S16瑞士轮第三个比赛日，iG战胜HLE晋级2-1组别。 双方BP iG禁用：杰斯 蛇女 烬 加里奥 洛克 iG选用：克烈 梦魇 安妮 芸阿娜 璐璐 HLE禁用：辛德拉 发条 蔚 兰博 兔子 HLE选用：奥拉夫 奇亚娜 冰女 滑板鞋 烈娜塔 比赛赛况 第1分钟，iG下路上来直接对拼到底拿下一血，与此同时iG上野进HLE野区，TheShy克烈也被击杀； 第2分钟，Wei梦魇变奏抓人，Zeus奥拉夫无路撤退，但是Kanavi奇亚娜来到中路也击杀了没闪的Rookie； 第8分钟，TheShy克烈开大冲锋，HLE四人在上一塔内无法撤退，iG完美换扛打出0换4； 第12分钟，Wei梦魇关灯越塔，Zeus奥拉夫和Delight烈娜塔被击杀； 第17分钟，Kanavi奇亚娜落单，Wei梦魇果断开大将其击杀拿下听牌龙； 第19分钟，TheShy克烈相同位置再次冲锋，HLE下路双人组被",
+      "thumbnail": null,
+      "published_at": "2026-10-25T16:09:51+00:00",
+      "extra": {
+        "feed_name": "知乎热榜",
+        "tab": "hot",
+        "route": "/zhihu/hot",
+        "translate": false,
+        "description": "北京时间10月26日，S16瑞士轮第三个比赛日，iG战胜HLE晋级2-1组别。 双方BP iG禁用：杰斯 蛇女 烬 加里奥 洛克 iG选用：克烈 梦魇 安妮 芸阿娜 璐璐 HLE禁用：辛德拉 发条 蔚 兰博 兔子 HLE选用：奥拉夫 奇亚娜 冰女 滑板鞋 烈娜塔 比赛赛况 第1分钟，iG下路上来直接对拼到底拿下一血，与此同时iG上野进HLE野区，TheShy克烈也被击杀； 第2分钟，Wei梦魇变奏抓人，Zeus奥拉夫无路撤退，但是Kanavi奇亚娜来到中路也击杀了没闪的Rookie； 第8分钟，TheShy克烈开大冲锋，HLE四人在上一塔内无法撤退，iG完美换扛打出0换4； 第12分钟，Wei梦魇关灯越塔，Zeus奥拉夫和Delight烈娜塔被击杀； 第17分钟，Kanavi奇亚娜落单，Wei梦魇果断开大将其击杀拿下听牌龙； 第19分钟，TheShy克烈相同位置再次冲锋，HLE下路双人组被",
+        "dedupe_key": "https://www.zhihu.com/question/2097842344846419225"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "91a240f5f0c4",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 1,
+      "title": "Unit 42 says attackers used PHP2Shell against a European government entity and accessed password hashes and MFA secrets. CYFIRMA reports suspected low-volume scanning of 216 hosts, while researchers describe detection clues and another PHP RCE flaw. 🔗 https://cyber.hendryadrian.com/article/8958/php2",
+      "title_zh": "Unit 42称攻击者使用PHP2Shell攻击某欧洲政府实体，获取了密码哈希和MFA密钥。CYFIRMA报告疑似对216台主机进行低量扫描，研究人员描述了检测线索和另一个PHP RCE漏洞。🔗 https://cyber.hendryadrian.com/article/8958/php2",
+      "url": "https://t.me/cybernotif/37707",
+      "hot_value": "8",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-25T19:12:04+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "0e5c4eab55d1",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 1,
+      "title": "iG战胜HLE晋级2-1组",
+      "title_zh": "iG战胜HLE晋级2-1组",
+      "url": "https://s.weibo.com/weibo?q=%23iG%E6%88%98%E8%83%9CHLE%E6%99%8B%E7%BA%A72-1%E7%BB%84%23",
+      "hot_value": "225895",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "64e254238365",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 2,
+      "title": "高启强&陈淑婷《Trouble Maker》",
+      "title_zh": "高启强&陈淑婷《Trouble Maker》",
+      "url": "https://b23.tv/BV1DiHK6tESR",
+      "hot_value": "1111732",
+      "summary_zh": null,
+      "thumbnail": "http://i2.hdslb.com/bfs/archive/786812492f8972ff6a86cd57c64ca4c8cfadf553.jpg",
+      "published_at": "2026-10-24T10:19:38+00:00",
+      "extra": {
+        "bvid": "BV1DiHK6tESR",
+        "owner": "会魔法的白气球"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": -1,
+      "cluster_id": "00389fbb23b9",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 2
         }
       ]
     },
     {
       "source": "douyin",
       "rank": 2,
-      "title": "陈熠3:0战胜张本美和夺冠",
-      "title_zh": "陈熠3:0战胜张本美和夺冠",
-      "url": "https://www.douyin.com/search/%E9%99%88%E7%86%A03%3A0%E6%88%98%E8%83%9C%E5%BC%A0%E6%9C%AC%E7%BE%8E%E5%92%8C%E5%A4%BA%E5%86%A0",
-      "hot_value": "11951197",
+      "title": "跟着现在就出发玩转九寨沟",
+      "title_zh": "跟着现在就出发玩转九寨沟",
+      "url": "https://www.douyin.com/search/%E8%B7%9F%E7%9D%80%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%91%E7%8E%A9%E8%BD%AC%E4%B9%9D%E5%AF%A8%E6%B2%9F",
+      "hot_value": "11048122",
       "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015/oYq4DLdmhBfEbAF9wAGIEJKBK3AbgufL6BsDEl~noop.jpeg?lk3s=bfd515bb&x-expires=1792965600&x-signature=W%2BPnrHkWR5Gc0c9Z0HnfKJW462U%3D&from=3218412987",
+      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c000-ce/o04r89gQE7DAqOvFf1FkGVeg7AdJ7BAAIYDLfC~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=Nac%2FjDDFUtZvzl%2FlEC8aUsxdJ%2BA%3D&from=3218412987",
       "published_at": null,
       "extra": {
-        "sentence_id": "2712876"
+        "sentence_id": "2713035"
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -1,
-      "cluster_id": "caa412acbe6b",
-      "cluster_size": 2,
+      "rank_delta": 3,
+      "cluster_id": "a70a7becbf4f",
+      "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 1
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 5
         },
         {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 2
         }
       ]
@@ -1581,29 +1587,33 @@
     {
       "source": "feed",
       "rank": 2,
-      "title": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色",
-      "title_zh": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色",
-      "url": "https://www.ithome.com/1/017/714.htm",
+      "title": "国内首部 AI 院线长片《三星堆：未来往事》，票房过百万",
+      "title_zh": "国内首部 AI 院线长片《三星堆：未来往事》，票房过百万",
+      "url": "https://www.ithome.com/1/017/719.htm",
       "hot_value": null,
-      "summary_zh": "IT之家 10 月 25 日消息，彭博社记者马克・古尔曼发文，透露今年早些时候，苹果对硬件工程和硬件技术部门进行了大规模调整，将团队交由新任首席硬件官 Johny Srouji 负责。 此外，苹果两名资深显示技术高管 Wei Chen 和 John Zhong 在公司工作约 30 年后，正逐步转向规模更小、偏顾问性质的岗位。这一安排被视为两人未来退休前的过渡步骤。多年来接受两人指导的 Victor Yin，目前已经负责公司相当一部分屏幕相关工作。 苹果还按照每年 10 月通常进行的晋升安排，任命 Rajesh Ambati、Louie Sanguinetti 和 Derek Shaeffer 为工程领域的新任副总裁。三人的工作主要涉及帮助苹果设备连接互联网的软件或硬件技术。其中，Sanguinetti 是苹果资深员工，数十年来一直参与无线硬件相关工作。 同时，在本轮人事调整中，Carson",
+      "summary_zh": "感谢IT之家网友 叫咩好 的线索投递！ IT之家 10 月 25 日消息，猫眼专业版数据显示，《三星堆：未来往事》电影票房已达到 116.2 万。 据IT之家了解，《三星堆：未来往事》是国内首部获得国家电影局公映许可证的 AI 全流程院线长片，上映于 10 月 23 日。 本片片长 100 分钟 ，所有角色均为原创数字形象， 不含对真实演员的数字复制 。 同时，本片故事设定在未来人类将一切决策交给算法而引发全球危机，破解困局的线索指向三星堆七个古老刻符，形成“答案在过去，危机在未来”的叙事结构。 这部影片的制作方式决定了它“首部”标签的实质含义。全片依托博纳自研的“博卡电影云片场”完成，创作团队历时两年，产出 120 余万张底图，完成上百次全片迭代。据官方介绍，AI 主要承担生成与执行， 创意构思、剧本、镜头设计与审美判断由博纳 AIGMS 团队完成 。团队参照传统剧组设置了编剧、导演、制",
       "thumbnail": null,
-      "published_at": "2026-10-25T14:52:02+00:00",
+      "published_at": "2026-10-25T15:36:55+00:00",
       "extra": {
         "feed_name": "IT之家",
         "tab": "ai",
         "route": "/ithome/it",
         "translate": false,
-        "description": "IT之家 10 月 25 日消息，彭博社记者马克・古尔曼发文，透露今年早些时候，苹果对硬件工程和硬件技术部门进行了大规模调整，将团队交由新任首席硬件官 Johny Srouji 负责。 此外，苹果两名资深显示技术高管 Wei Chen 和 John Zhong 在公司工作约 30 年后，正逐步转向规模更小、偏顾问性质的岗位。这一安排被视为两人未来退休前的过渡步骤。多年来接受两人指导的 Victor Yin，目前已经负责公司相当一部分屏幕相关工作。 苹果还按照每年 10 月通常进行的晋升安排，任命 Rajesh Ambati、Louie Sanguinetti 和 Derek Shaeffer 为工程领域的新任副总裁。三人的工作主要涉及帮助苹果设备连接互联网的软件或硬件技术。其中，Sanguinetti 是苹果资深员工，数十年来一直参与无线硬件相关工作。 同时，在本轮人事调整中，Carson",
-        "dedupe_key": "https://www.ithome.com/1/017/714.htm"
+        "description": "感谢IT之家网友 叫咩好 的线索投递！ IT之家 10 月 25 日消息，猫眼专业版数据显示，《三星堆：未来往事》电影票房已达到 116.2 万。 据IT之家了解，《三星堆：未来往事》是国内首部获得国家电影局公映许可证的 AI 全流程院线长片，上映于 10 月 23 日。 本片片长 100 分钟 ，所有角色均为原创数字形象， 不含对真实演员的数字复制 。 同时，本片故事设定在未来人类将一切决策交给算法而引发全球危机，破解困局的线索指向三星堆七个古老刻符，形成“答案在过去，危机在未来”的叙事结构。 这部影片的制作方式决定了它“首部”标签的实质含义。全片依托博纳自研的“博卡电影云片场”完成，创作团队历时两年，产出 120 余万张底图，完成上百次全片迭代。据官方介绍，AI 主要承担生成与执行， 创意构思、剧本、镜头设计与审美判断由博纳 AIGMS 团队完成 。团队参照传统剧组设置了编剧、导演、制",
+        "dedupe_key": "https://www.ithome.com/1/017/719.htm"
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "8934391ec88e",
+      "is_new": false,
+      "rank_delta": -1,
+      "cluster_id": "b6e89da1072e",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 2
         }
       ]
@@ -1611,25 +1621,25 @@
     {
       "source": "telegram",
       "rank": 2,
-      "title": "TechCrunch Mobility: Blue-green is the color of autonomy Source: https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
-      "title_zh": "TechCrunch Mobility: Blue-green is the color of autonomy Source: https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
-      "url": "https://t.me/techcrunchcom/84695",
-      "hot_value": "42",
+      "title": "A researcher reports lab-tested Tailscale SSH flaws that could turn a compromised, permitted device into root access on reachable servers. Tailscale says it is investigating; the specific claims remain unconfirmed and no fix is available. 🔗 https://cyber.hendryadrian.com/article/8957/researcher-says",
+      "title_zh": "一名研究人员报告了实验室测试的Tailscale SSH漏洞，可将被攻陷的、已获许可的设备变为可访问服务器上的root权限。Tailscale表示正在调查；具体说法尚未确认，暂无修复方案。🔗 https://cyber.hendryadrian.com/article/8957/researcher-says",
+      "url": "https://t.me/cybernotif/37706",
+      "hot_value": "9",
       "summary_zh": null,
       "thumbnail": null,
-      "published_at": "2026-10-25T16:07:51+00:00",
+      "published_at": "2026-10-25T19:00:10+00:00",
       "extra": {
-        "channel": "techcrunchcom",
+        "channel": "cybernotif",
         "translate": true
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "60ac6ff90244",
+      "cluster_id": "9515ed1997d3",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 2
         }
       ]
@@ -1637,10 +1647,10 @@
     {
       "source": "weibo",
       "rank": 2,
-      "title": "尚公主 九重紫",
-      "title_zh": "尚公主 九重紫",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%9A%E5%85%AC%E4%B8%BB%20%E4%B9%9D%E9%87%8D%E7%B4%AB%23",
-      "hot_value": "524646",
+      "title": "白桃星座一周运势",
+      "title_zh": "白桃星座一周运势",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%A1%83%E6%98%9F%E5%BA%A7%E4%B8%80%E5%91%A8%E8%BF%90%E5%8A%BF%23",
+      "hot_value": "82001",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": null,
@@ -1649,16 +1659,16 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 7,
-      "cluster_id": "f7574e1a00a2",
+      "rank_delta": -1,
+      "cluster_id": "b64ece19de20",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 9
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 1
         },
         {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 2
         }
       ]
@@ -1669,7 +1679,7 @@
       "title": "Avengers: Doomsday | In Theaters December 18",
       "title_zh": "Avengers: Doomsday | 12月18日影院上映",
       "url": "https://youtube.com/watch?v=UfNu7pcR0e8",
-      "hot_value": "8728634",
+      "hot_value": "9942795",
       "summary_zh": "漫威《复仇者联盟：末日》12月18日上映，英雄集结值得期待。",
       "thumbnail": "https://i.ytimg.com/vi/UfNu7pcR0e8/hqdefault.jpg",
       "published_at": "2026-10-25T00:00:00Z",
@@ -1708,35 +1718,55 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 2
         }
       ]
     },
     {
       "source": "bilibili",
       "rank": 3,
-      "title": "⚡赵本山 Dangerous⚡ 某不存在的联欢晚会现场（笑）【AI MV大赛】",
-      "title_zh": "⚡赵本山 Dangerous⚡ 某不存在的联欢晚会现场（笑）【AI MV大赛】",
-      "url": "https://b23.tv/BV17pHK6ME2u",
-      "hot_value": "1179113",
+      "title": "人生最有意义的15分钟",
+      "title_zh": "人生最有意义的15分钟",
+      "url": "https://b23.tv/BV1MiHP6DEi2",
+      "hot_value": "816393",
       "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/4f4d69126b162595584067379a69328f15b7cc32.jpg",
-      "published_at": "2026-10-24T11:12:19+00:00",
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/d3f1db7454a76fbb95f88540e0a38a3abca13ac8.jpg",
+      "published_at": "2026-10-24T07:02:16+00:00",
       "extra": {
-        "bvid": "BV17pHK6ME2u",
-        "owner": "永远の蓬莱neet"
+        "bvid": "BV1MiHP6DEi2",
+        "owner": "小寻寻u"
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": 2,
-      "cluster_id": "88fb9b873721",
+      "rank_delta": 21,
+      "cluster_id": "2269968b4195",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
           "rank": 5
         },
         {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 5
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 16
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 17
+        },
+        {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 3
         }
       ]
@@ -1747,9 +1777,9 @@
       "title": "引江补汉工程有多硬核",
       "title_zh": "引江补汉工程有多硬核",
       "url": "https://www.douyin.com/search/%E5%BC%95%E6%B1%9F%E8%A1%A5%E6%B1%89%E5%B7%A5%E7%A8%8B%E6%9C%89%E5%A4%9A%E7%A1%AC%E6%A0%B8",
-      "hot_value": "11919258",
+      "hot_value": "10790377",
       "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/o8ZBvXiu9IB2ezFAQdWAfdivVdIj7nlBE8Fe5C~noop.jpeg?lk3s=bfd515bb&x-expires=1792965600&x-signature=xrD6ErNVFjmx0pFLgzm2dCfnSJ0%3D&from=3218412987",
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/o8ZBvXiu9IB2ezFAQdWAfdivVdIj7nlBE8Fe5C~noop.jpeg?lk3s=bfd515bb&x-expires=1792976400&x-signature=FqBw2D71vJHjubnKqpAiKubRv5g%3D&from=3218412987",
       "published_at": null,
       "extra": {
         "sentence_id": "2712925"
@@ -1767,35 +1797,43 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "feed",
       "rank": 3,
-      "title": "古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面",
-      "title_zh": "古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面",
-      "url": "https://www.ithome.com/1/017/713.htm",
+      "title": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色",
+      "title_zh": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色",
+      "url": "https://www.ithome.com/1/017/714.htm",
       "hot_value": null,
-      "summary_zh": "IT之家 10 月 25 日消息，彭博社记者马克・古尔曼发文，透露苹果正在为 iPhone Duo 开发新的“便捷访问”（Reachability）模式，可以将外屏“主要内容”移动至左侧或右侧，方便用户根据自己的持机习惯调整界面。 IT之家获悉，此前有不少用户吐槽左撇子用户难以操作 iPhone Duo，不过古尔曼指出，相关担忧可能被夸大。一些左撇子用户表示，外屏交互逻辑并未对他们的日常使用造成太大影响。至于内屏，由于用户经常需要双手操作，左右手习惯的差异也不那么明显。 行业研究机构 IDC 此前预计，苹果首款折叠屏 iPhone 首年出货量将超过 1000 万部，并可能在 2027 年拿下全球折叠屏手机市场约 40% 的份额。高盛则维持对 iPhone Duo 的乐观判断，预计其 2026 年出货可达 1300 万部，2027 年有望达到 3300 万部。",
+      "summary_zh": "IT之家 10 月 25 日消息，彭博社记者马克・古尔曼发文，透露今年早些时候，苹果对硬件工程和硬件技术部门进行了大规模调整，将团队交由新任首席硬件官 Johny Srouji 负责。 此外，苹果两名资深显示技术高管 Wei Chen 和 John Zhong 在公司工作约 30 年后，正逐步转向规模更小、偏顾问性质的岗位。这一安排被视为两人未来退休前的过渡步骤。多年来接受两人指导的 Victor Yin，目前已经负责公司相当一部分屏幕相关工作。 苹果还按照每年 10 月通常进行的晋升安排，任命 Rajesh Ambati、Louie Sanguinetti 和 Derek Shaeffer 为工程领域的新任副总裁。三人的工作主要涉及帮助苹果设备连接互联网的软件或硬件技术。其中，Sanguinetti 是苹果资深员工，数十年来一直参与无线硬件相关工作。 同时，在本轮人事调整中，Carson",
       "thumbnail": null,
-      "published_at": "2026-10-25T14:46:51+00:00",
+      "published_at": "2026-10-25T14:52:02+00:00",
       "extra": {
         "feed_name": "IT之家",
         "tab": "ai",
         "route": "/ithome/it",
         "translate": false,
-        "description": "IT之家 10 月 25 日消息，彭博社记者马克・古尔曼发文，透露苹果正在为 iPhone Duo 开发新的“便捷访问”（Reachability）模式，可以将外屏“主要内容”移动至左侧或右侧，方便用户根据自己的持机习惯调整界面。 IT之家获悉，此前有不少用户吐槽左撇子用户难以操作 iPhone Duo，不过古尔曼指出，相关担忧可能被夸大。一些左撇子用户表示，外屏交互逻辑并未对他们的日常使用造成太大影响。至于内屏，由于用户经常需要双手操作，左右手习惯的差异也不那么明显。 行业研究机构 IDC 此前预计，苹果首款折叠屏 iPhone 首年出货量将超过 1000 万部，并可能在 2027 年拿下全球折叠屏手机市场约 40% 的份额。高盛则维持对 iPhone Duo 的乐观判断，预计其 2026 年出货可达 1300 万部，2027 年有望达到 3300 万部。",
-        "dedupe_key": "https://www.ithome.com/1/017/713.htm"
+        "description": "IT之家 10 月 25 日消息，彭博社记者马克・古尔曼发文，透露今年早些时候，苹果对硬件工程和硬件技术部门进行了大规模调整，将团队交由新任首席硬件官 Johny Srouji 负责。 此外，苹果两名资深显示技术高管 Wei Chen 和 John Zhong 在公司工作约 30 年后，正逐步转向规模更小、偏顾问性质的岗位。这一安排被视为两人未来退休前的过渡步骤。多年来接受两人指导的 Victor Yin，目前已经负责公司相当一部分屏幕相关工作。 苹果还按照每年 10 月通常进行的晋升安排，任命 Rajesh Ambati、Louie Sanguinetti 和 Derek Shaeffer 为工程领域的新任副总裁。三人的工作主要涉及帮助苹果设备连接互联网的软件或硬件技术。其中，Sanguinetti 是苹果资深员工，数十年来一直参与无线硬件相关工作。 同时，在本轮人事调整中，Carson",
+        "dedupe_key": "https://www.ithome.com/1/017/714.htm"
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "00d788ea9305",
+      "is_new": false,
+      "rank_delta": -1,
+      "cluster_id": "8934391ec88e",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 3
         }
       ]
@@ -1830,6 +1868,10 @@
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 3
         }
       ]
@@ -1886,31 +1928,35 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "telegram",
       "rank": 3,
-      "title": "🔴 CVE Digest — 25 Oct 2026 1 critical vulnerability 🔴 CVE-2026-116163 · CVSS 9.1 Parse Server before 8.6.102 and 9.0.0 before 9.10.5-alpha.2 contains an authentication bypass because the... #CVE #Critical #Vulnerability",
-      "title_zh": "🔴 CVE Digest — 25 Oct 2026 1 critical vulnerability 🔴 CVE-2026-116163 · CVSS 9.1 Parse Server before 8.6.102 and 9.0.0 before 9.10.5-alpha.2 contains an authentication bypass because the... #CVE #Critical #Vulnerability",
-      "url": "https://t.me/cyber_security_feed/36713",
-      "hot_value": "7",
+      "title": "📰 The week AI out-diagnosed doctors and leaked kids' secrets 1. Hired by Kimi at 16, now off to Silicon Valley Chen Guangyu joined while still in high school. By March he was a lead author on a paper Elon Musk called \"impressive.\" Now he's moving to the Bay Area. 2. AI nailed 83% of hard diagnoses. ",
+      "title_zh": "📰 本周AI诊断胜过医生并泄露儿童秘密 1. 16岁被Kimi录用，如今前往硅谷 陈光宇高中时加入。到3月他已成为Elon Musk称为\"令人印象深刻\"的论文第一作者。现在他要去湾区了。2. AI在83%的疑难诊断中命中。",
+      "url": "https://t.me/aipost/8611",
+      "hot_value": "1.03K",
       "summary_zh": null,
       "thumbnail": null,
-      "published_at": "2026-10-25T16:07:18+00:00",
+      "published_at": "2026-10-25T18:25:58+00:00",
       "extra": {
-        "channel": "cyber_security_feed",
+        "channel": "aipost",
         "translate": true
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "728086f5603f",
+      "cluster_id": "914cfe879819",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 3
         }
       ]
@@ -1921,7 +1967,7 @@
       "title": "西藏巴青地震抢险安置工作一刻没停",
       "title_zh": "西藏巴青地震抢险安置工作一刻没停",
       "url": "https://s.weibo.com/weibo?q=%23%E8%A5%BF%E8%97%8F%E5%B7%B4%E9%9D%92%E5%9C%B0%E9%9C%87%E6%8A%A2%E9%99%A9%E5%AE%89%E7%BD%AE%E5%B7%A5%E4%BD%9C%E4%B8%80%E5%88%BB%E6%B2%A1%E5%81%9C%23",
-      "hot_value": "433505",
+      "hot_value": "74398",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": null,
@@ -1929,13 +1975,17 @@
         "category": null
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "1c46d3deb3bb",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 3
         }
       ]
@@ -1946,7 +1996,7 @@
       "title": "🔴LIVE | PPARTY GAMES ALL NIGHT | TRAILER PARK | H20 DELIRIOUS X GIMMICK X HABIBI X GINGY |#BUNGULATE",
       "title_zh": "🔴直播 | PPARTY GAMES ALL NIGHT | TRAILER PARK | H20 DELIRIOUS X GIMMICK X HABIBI X GINGY |#BUNGULATE",
       "url": "https://youtube.com/watch?v=oxsh6V3vqOQ",
-      "hot_value": "1086738",
+      "hot_value": "1106746",
       "summary_zh": "整夜派对游戏直播，多主播联机，适合看热闹娱乐。",
       "thumbnail": "https://i.ytimg.com/vi/oxsh6V3vqOQ/hqdefault.jpg",
       "published_at": "2026-10-25T07:33:53Z",
@@ -1973,6 +2023,10 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 3
         }
       ]
     },
@@ -1982,7 +2036,7 @@
       "title": "【独家】牧神记 第106集 道剑十四篇",
       "title_zh": "【独家】牧神记 第106集 道剑十四篇",
       "url": "https://b23.tv/BV17wnY6CE2R",
-      "hot_value": "2320507",
+      "hot_value": "2382369",
       "summary_zh": null,
       "thumbnail": "http://i2.hdslb.com/bfs/archive/f7e918d89117e017e7b542b450ba14bce5364abb.png",
       "published_at": "2026-10-25T03:00:02+00:00",
@@ -1992,7 +2046,7 @@
       },
       "days_on_board": 1,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "c038c9834598",
       "cluster_size": 1,
       "rank_history": [
@@ -2018,6 +2072,10 @@
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 4
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 4
         }
       ]
@@ -2174,6 +2232,143 @@
       ]
     },
     {
+      "source": "jobs",
+      "rank": 1,
+      "title": "市场开发经理",
+      "title_zh": "市场开发经理",
+      "url": "https://www.iguopin.com/job/detail?id=218362938107365018&source=campus",
+      "hot_value": null,
+      "summary_zh": "【职责描述】 1.建设和完善公司海外市场营销管理体系，建立健全海外市场营销制度体系。 2.制订执行公司海外市场营销发展战略、发展规划，编制市场营销部标准化作业文件。 3.维护和管理市场营销部信息管理系统。 4.制定和落实公司市场营销任务和督办等专项任务。 5.统筹、指导和管理各所属企业的海外市场开发工作，负责各单位市场营销的协同和服务。 6.公司自营海外市场开发、客户维护、产业链合作伙伴管理。 7",
+      "thumbnail": null,
+      "published_at": "2026-10-24 14:07:26",
+      "extra": {
+        "subsource": "guopin",
+        "company": "中铝国际工程股份有限公司",
+        "city": "北京-海淀区",
+        "education": "硕士",
+        "company_type": "国企",
+        "recruitment_type": "校园招聘",
+        "keywords_hit": [
+          "市场"
+        ],
+        "is_central_soe": false,
+        "is_state_owned": true
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "21542e29ed54",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 1,
+      "title": "Kaspersky researchers detail BlackX, a UEFI bootkit used in an early-2026 espionage campaign targeting Central Asian diplomatic agencies. It exploited Baton Drop to bypass Secure Boot; the report describes its security-disabling driver, espionage payloads and manual-rev 🔗 https://cyber.hendryadrian.",
+      "title_zh": "Kaspersky研究人员详述BlackX，一个在2026年初针对中亚外交机构的间谍活动中使用的UEFI bootkit。它利用Baton Drop绕过Secure Boot；报告描述了其禁用安全的驱动、间谍payload和手动rev 🔗 https://cyber.hendryadrian.",
+      "url": "https://t.me/cybernotif/37699",
+      "hot_value": "6",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-24T21:48:03+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "23414bafd5da",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 4
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 5
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 12
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 19
+        }
+      ]
+    },
+    {
       "source": "weibo",
       "rank": 1,
       "title": "iG战胜TSW",
@@ -2199,64 +2394,6 @@
         {
           "run_at": "2026-10-25T01:44:31.484688+00:00",
           "rank": 25
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 2,
-      "title": "我花了3个月！把MC爆改成别的游戏！！",
-      "title_zh": "我花了3个月！把MC爆改成别的游戏！！",
-      "url": "https://b23.tv/BV1UnHN6SECP",
-      "hot_value": "576960",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/00c94d42b78e94b7ed4d22b24253b218ffd0491e.jpg",
-      "published_at": "2026-10-24T06:07:10+00:00",
-      "extra": {
-        "bvid": "BV1UnHN6SECP",
-        "owner": "萝卜吃米洛"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 5,
-      "cluster_id": "157327a7090f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 20
         }
       ]
     },
@@ -2563,6 +2700,60 @@
       ]
     },
     {
+      "source": "telegram",
+      "rank": 2,
+      "title": "Microsoft released Windows 11 26H2 on Sept. 29, 2026, as an enablement package for 24H2 and 25H2. It includes administrator protection, built-in Sysmon (off by default), and tighter driver trust; Iru supports the update. 🔗 https://cyber.hendryadrian.com/article/8433/windows-11-26h2-brings-security-c",
+      "title_zh": "Microsoft于2026年9月29日发布Windows 11 26H2，作为24H2和25H2的enablement package。它包括administrator protection、内置Sysmon（默认关闭）和更严格的驱动信任；Iru支持该更新。🔗 https://cyber.hendryadrian.com/article/8433/windows-11-26h2-brings-security-c",
+      "url": "https://t.me/cybernotif/37698",
+      "hot_value": "8",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-24T21:36:05+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "265a02c25bbd",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 5
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 6
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 8
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 8
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 10
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 13
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 20
+        }
+      ]
+    },
+    {
       "source": "weibo",
       "rank": 2,
       "title": "TES拿下LPL在S16首胜",
@@ -2857,6 +3048,66 @@
       ]
     },
     {
+      "source": "youtube",
+      "rank": 3,
+      "title": "Adopted by VERITY in Minecraft…",
+      "title_zh": "在 Minecraft 中被 VERITY 收养…",
+      "url": "https://youtube.com/watch?v=lRJY2BW9QFM",
+      "hot_value": "349717",
+      "summary_zh": "我的世界被收养模组视频，看网红搞笑互动。",
+      "thumbnail": "https://i.ytimg.com/vi/lRJY2BW9QFM/hqdefault.jpg",
+      "published_at": "2026-10-24T15:00:29Z",
+      "extra": {
+        "video_id": "lRJY2BW9QFM",
+        "region": "US",
+        "channel": "Cash",
+        "description": "Instagram: https://www.instagram.com/cashmarcoyt/\nMerch: https://cashandnico.com\n\n#Minecraft #MinecraftMod #Cash #NicoAndCash"
+      },
+      "days_on_board": 1,
+      "is_new": false,
+      "rank_delta": 15,
+      "cluster_id": "a27c75454125",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 18
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 21
+        }
+      ]
+    },
+    {
       "source": "bilibili",
       "rank": 4,
       "title": "【独家】《凡人修仙传之慕兰之战》第21集【总第197集】",
@@ -2913,186 +3164,6 @@
           "rank": 4
         }
       ]
-    },
-    {
-      "source": "douyin",
-      "rank": 4,
-      "title": "金正恩访问丹东",
-      "title_zh": "金正恩访问丹东",
-      "url": "https://www.douyin.com/search/%E9%87%91%E6%AD%A3%E6%81%A9%E8%AE%BF%E9%97%AE%E4%B8%B9%E4%B8%9C",
-      "hot_value": "11097299",
-      "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/ooj4AYfBDI7Ber1AhmBxHbykcBCAgivEiF6ZIg~noop.jpeg?lk3s=bfd515bb&x-expires=1792900800&x-signature=P0heSeWcGICPrjudQg%2Fhmw%2FJePw%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2711791"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "53a2abf590d4",
-      "cluster_size": 2,
-      "rank_history": [
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 30
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 4,
-      "title": "Counterpoint 报告：2026 年第三季度全球 PC 出货量 5700 万台，同比下降 21%",
-      "title_zh": "Counterpoint 报告：2026 年第三季度全球 PC 出货量 5700 万台，同比下降 21%",
-      "url": "https://www.ithome.com/1/017/508.htm",
-      "hot_value": null,
-      "summary_zh": "感谢IT之家网友 补药吖 、 SNOS雪诺 的线索投递！ IT之家 10 月 24 日消息，根据 Counterpoint Research 初步数据 ，2026 年第三季度全球 PC 出货量同比下降 21% 至 5700 万台，环比下降 13.8%。主要由于存储及其他零部件成本持续高企，推动 PC 价格上涨，并对市场需求形成压力。 报告提到，随着价格上涨，消费者更难为换机找到充分理由，消费市场需求持续疲软。受企业设备持续更新与 Windows 系统迁移持续推进支撑，商用需求相对稳健，但仍不足以抵消整体市场的收缩。 本季度同比降幅亦源于去年同期基数较高 。2025 年第三季度， Windows 10 支持终止期限前的集中采购以及关税相关的库存调整曾共同推动 PC 出货量增长。这一较高基数加大了 2026 年第三季度的同比降幅。 IT之家从报告中获悉，2026 年第三季度主要 PC 厂商的市",
-      "thumbnail": null,
-      "published_at": "2026-10-24T13:44:33+00:00",
-      "extra": {
-        "feed_name": "IT之家",
-        "tab": "ai",
-        "route": "/ithome/it",
-        "translate": false,
-        "description": "感谢IT之家网友 补药吖 、 SNOS雪诺 的线索投递！ IT之家 10 月 24 日消息，根据 Counterpoint Research 初步数据 ，2026 年第三季度全球 PC 出货量同比下降 21% 至 5700 万台，环比下降 13.8%。主要由于存储及其他零部件成本持续高企，推动 PC 价格上涨，并对市场需求形成压力。 报告提到，随着价格上涨，消费者更难为换机找到充分理由，消费市场需求持续疲软。受企业设备持续更新与 Windows 系统迁移持续推进支撑，商用需求相对稳健，但仍不足以抵消整体市场的收缩。 本季度同比降幅亦源于去年同期基数较高 。2025 年第三季度， Windows 10 支持终止期限前的集中采购以及关税相关的库存调整曾共同推动 PC 出货量增长。这一较高基数加大了 2026 年第三季度的同比降幅。 IT之家从报告中获悉，2026 年第三季度主要 PC 厂商的市",
-        "dedupe_key": "https://www.ithome.com/1/017/508.htm"
-      },
-      "days_on_board": 1,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "b5417a7824dc",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 4,
-      "title": "4D-atlas: a multi-species four-dimensional spatiotemporal transcriptomics database spanning development, regeneration, and disease",
-      "title_zh": "4D-atlas：一个涵盖发育、再生和疾病的多物种四维时空转录组学数据库",
-      "url": "https://doi.org/10.1093/nar/gkag1039",
-      "hot_value": null,
-      "summary_zh": "摘要 四维（4D）空间转录组学同时捕捉三维（3D）组织结构与时间进程中的分子图谱，对于解析发育、再生和疾病进展等动态生物过程至关重要。在此，我们推出4D-atlas（https://bio-bigdata.hrbmu.edu.cn/4D-Atlas 或 https://4d-atlas.bio-database.com/），这是首个公开可访问的、专注于多物种4D时空转录组图谱的数据库。4D-atlas收集并标准化了来自六个物种15个代表性数据集的1629个空间切片，涵盖88个不同时间点（每个数据集2–41个），包含超过2220万个细胞或空间位点，涵盖胚胎发育、组织再生和疾病进展。除数据收集外，4D-atlas提供七个交互式分析模块，支持对组织形态发生、空间基因模块、通路活性、调控网络、细胞间通讯、发育轨迹和时间表达模式进行4D（3D空间+时间）探索。通过统一的分析流程整合离散生物阶段的3D",
-      "thumbnail": null,
-      "published_at": "2026-10-23",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Nucleic Acids Research",
-        "mode": "filter",
-        "issn": "1362-4962",
-        "doi": "10.1093/nar/gkag1039",
-        "description": "Abstract Four-dimensional (4D) spatial transcriptomics, which captures molecular landscapes across both three-dimensional (3D) tissue architecture and temporal progression, is essential for deciphering dynamic biological processes such as development, regeneration, and disease progression. Here, we present 4D-atlas (https://bio-bigdata.hrbmu.edu.cn/4D-Atlas or https://4d-atlas.bio-database.com/), the first publicly accessible database dedicated to multi-species 4D spatiotemporal transcriptomic atlases. 4D-atlas collects and standardizes 1629 spatial slices spanning 88 distinct time points with 2–41 per dataset and over 22.2 million cells or spatial spots from 15 representative datasets across six species, encompassing embryonic development, tissue regeneration, and disease progression. Beyond data collection, 4D-atlas provides seven interactive analytical modules that enable 4D (3D space + time) exploration of tissue morphogenesis, spatial gene modules, pathway activities, regulatory networks, cell–cell communication, developmental trajectories, and temporal expression patterns. Using a unified analytical pipeline to integrate 3D spatial architecture and molecular information across discrete biological stages, 4D-atlas enables systematic investigation of tissue morphogenesis and dynamic regulatory programs across time and space.",
-        "dedupe_key": "doi:10.1093/nar/gkag1039",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "c246c6912689",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 4
-        }
-      ]
     }
   ],
   "longest_on_board": [
@@ -3121,10 +3192,6 @@
       "cluster_id": "2f8650c20351",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 1
-        },
         {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
           "rank": 1
@@ -3239,6 +3306,10 @@
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 1
         }
       ]
@@ -3269,10 +3340,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 2
-        },
-        {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
           "rank": 2
         },
@@ -3386,6 +3453,10 @@
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 2
         }
       ]
@@ -3427,10 +3498,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 3
-        },
-        {
           "run_at": "2026-10-22T07:44:43.196605+00:00",
           "rank": 3
         },
@@ -3544,6 +3611,10 @@
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 2
         }
       ]
@@ -3574,10 +3645,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 3
-        },
-        {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
           "rank": 3
         },
@@ -3691,6 +3758,10 @@
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 3
         }
       ]
@@ -3721,10 +3792,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 4
-        },
-        {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
           "rank": 4
         },
@@ -3839,12 +3906,16 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 4
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 11,
+      "rank": 9,
       "title": "综合行政专员",
       "title_zh": "综合行政专员",
       "url": "https://www.iguopin.com/job/detail?id=220707008347636812&source=social",
@@ -3867,14 +3938,10 @@
       },
       "days_on_board": 11,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "1215d63bed89",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 4
-        },
         {
           "run_at": "2026-10-21T22:45:52.282614+00:00",
           "rank": 5
@@ -3990,12 +4057,16 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 11
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 9
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 18,
+      "rank": 20,
       "title": "商业产业招商经理",
       "title_zh": "商业产业招商经理",
       "url": "https://www.iguopin.com/job/detail?id=222515839679596524&source=social",
@@ -4018,14 +4089,10 @@
       },
       "days_on_board": 11,
       "is_new": false,
-      "rank_delta": 3,
+      "rank_delta": -2,
       "cluster_id": "13a0b93a22bb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 15
-        },
         {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
           "rank": 17
@@ -4141,12 +4208,16 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 18
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 20
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 19,
+      "rank": 21,
       "title": "咖啡店长",
       "title_zh": "咖啡店长",
       "url": "https://www.iguopin.com/job/detail?id=222515136160597996&source=social",
@@ -4169,14 +4240,10 @@
       },
       "days_on_board": 11,
       "is_new": false,
-      "rank_delta": 3,
+      "rank_delta": -2,
       "cluster_id": "64a84c4b926a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 16
-        },
         {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
           "rank": 18
@@ -4292,6 +4359,10 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 19
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 21
         }
       ]
     },
@@ -4330,10 +4401,6 @@
       "cluster_id": "21f183cb244e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 22
-        },
         {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
           "rank": 22
@@ -4449,12 +4516,326 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 22
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 23,
+      "title": "基于多智能体深度强化学习的SD-IoT控制器部署",
+      "title_zh": "基于多智能体深度强化学习的SD-IoT控制器部署",
+      "url": "https://www.ecice06.com/CN/abstract/abstract32751.shtml",
+      "hot_value": null,
+      "summary_zh": "物联网(IoT)中激增的流量, 影响了传感器等设备的数据传输。利用软件定义网络(SDN)技术可以优化网络性能, 提高数据传输质量。然而, 物联网中流量等网络状态的不断变化会影响软件定义网络控制平面的性能。研究软件定义物联网(SD-IoT)中的动态控制器部署问题, 以在流量变化时保证控制平面性能。考虑到物联网节点的能耗以及数据传输的特点, 在部署控制器时, 综合考虑延迟、控制可靠性以及能耗的影响, 并将该问题构建为马尔可夫博弈过程。为了同时兼顾单一控制器性能以及控制平面整体性能, 采用多智能体深度强化学习求解该问题。在部署阶段利用动作掩码屏蔽部分节点, 避免将控制器部署在性能不足或者供能不方便的节点。仿真实验表明, 与基于Louvain社区划分和基于单智能体深度Q网络(DQN)的部署算法相比, 所提算法可以更好地找到高性能的部署方案。",
+      "thumbnail": null,
+      "published_at": "2024-05-09",
+      "extra": {
+        "subsource": "cn_journal_rss",
+        "tier": "中文核心",
+        "journal": "计算机工程",
+        "discipline": "计算机",
+        "mode": "filter",
+        "issn": "1000-3428",
+        "doi": null,
+        "description": "物联网(IoT)中激增的流量, 影响了传感器等设备的数据传输。利用软件定义网络(SDN)技术可以优化网络性能, 提高数据传输质量。然而, 物联网中流量等网络状态的不断变化会影响软件定义网络控制平面的性能。研究软件定义物联网(SD-IoT)中的动态控制器部署问题, 以在流量变化时保证控制平面性能。考虑到物联网节点的能耗以及数据传输的特点, 在部署控制器时, 综合考虑延迟、控制可靠性以及能耗的影响, 并将该问题构建为马尔可夫博弈过程。为了同时兼顾单一控制器性能以及控制平面整体性能, 采用多智能体深度强化学习求解该问题。在部署阶段利用动作掩码屏蔽部分节点, 避免将控制器部署在性能不足或者供能不方便的节点。仿真实验表明, 与基于Louvain社区划分和基于单智能体深度Q网络(DQN)的部署算法相比, 所提算法可以更好地找到高性能的部署方案。",
+        "dedupe_key": "url:https://www.ecice06.com/cn/abstract/abstract32751.shtml",
+        "topic_hit": [
+          "单细胞聚类"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": [
+          "智能体"
+        ]
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "275b1142e536",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 24,
+      "title": "基于多视图多样性学习的联合谱嵌入聚类算法",
+      "title_zh": "基于多视图多样性学习的联合谱嵌入聚类算法",
+      "url": "https://www.jsjkx.com/CN/abstract/abstract24011.shtml",
+      "hot_value": null,
+      "summary_zh": "现有的大多数多视图聚类算法仅依赖于视图间的低阶相似性信息,未能有效地捕捉数据中的高阶结构特性,且对多视图数据的多样性特征关注不足,导致聚类结果的准确性和鲁棒性受限。针对以上问题,提出了一种基于多视图多样性学习的联合谱嵌入聚类算法——JSEC。首先通过视图多样性学习,保留数据间的多样特征,从而有效去除了视图中的噪声;然后提出了一种挖掘视图高阶信息的方法,使得视图的多样性特征尽可能靠近混合相似图,从而实现不同视图信息的高效整合,实现视图间的多样性和补充性融合;最后在谱嵌入模块将视图的多样性特征矩阵融合为联合谱嵌入矩阵,通过谱聚类实现图聚类。另外,设计了一种交替迭代的方法,用于优化目标函数。在与目前最新的多视图聚类算法的对比中,JSEC算法在5个中小规模的真实数据集的3个指标上均展现出优越的性能,同时在2个大规模数据集上也有优异的表现,相比次优算法,ARI指标在不同规模数据集上分别有1.27%和",
+      "thumbnail": null,
+      "published_at": "2026-01-08",
+      "extra": {
+        "subsource": "cn_journal_rss",
+        "tier": "中文核心",
+        "journal": "计算机科学",
+        "discipline": "计算机",
+        "mode": "filter",
+        "issn": "1002-137X",
+        "doi": null,
+        "description": "现有的大多数多视图聚类算法仅依赖于视图间的低阶相似性信息,未能有效地捕捉数据中的高阶结构特性,且对多视图数据的多样性特征关注不足,导致聚类结果的准确性和鲁棒性受限。针对以上问题,提出了一种基于多视图多样性学习的联合谱嵌入聚类算法——JSEC。首先通过视图多样性学习,保留数据间的多样特征,从而有效去除了视图中的噪声;然后提出了一种挖掘视图高阶信息的方法,使得视图的多样性特征尽可能靠近混合相似图,从而实现不同视图信息的高效整合,实现视图间的多样性和补充性融合;最后在谱嵌入模块将视图的多样性特征矩阵融合为联合谱嵌入矩阵,通过谱聚类实现图聚类。另外,设计了一种交替迭代的方法,用于优化目标函数。在与目前最新的多视图聚类算法的对比中,JSEC算法在5个中小规模的真实数据集的3个指标上均展现出优越的性能,同时在2个大规模数据集上也有优异的表现,相比次优算法,ARI指标在不同规模数据集上分别有1.27%和2.57%的提升,从而在理论和实验上验证了所提算法的稳健性。",
+        "dedupe_key": "url:https://www.jsjkx.com/cn/abstract/abstract24011.shtml",
+        "topic_hit": [
+          "单细胞聚类"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": []
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "0f3899815dcb",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 24
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 23,
+      "rank": 25,
       "title": "综合维修",
       "title_zh": "综合维修",
       "url": "https://www.iguopin.com/job/detail?id=220284549643370500&source=campus",
@@ -4476,15 +4857,11 @@
         "is_state_owned": true
       },
       "days_on_board": 11,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -2,
       "cluster_id": "0fe2d79184e9",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-19T13:45:24.120769+00:00",
-          "rank": 16
-        },
         {
           "run_at": "2026-10-19T16:45:16.691204+00:00",
           "rank": 19
@@ -4600,19 +4977,23 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 23
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 25
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 23,
-      "title": "基于多智能体深度强化学习的SD-IoT控制器部署",
-      "title_zh": "基于多智能体深度强化学习的SD-IoT控制器部署",
-      "url": "https://www.ecice06.com/CN/abstract/abstract32751.shtml",
+      "rank": 25,
+      "title": "云网融合环境下组合服务的动态重构",
+      "title_zh": "云网融合环境下组合服务的动态重构",
+      "url": "https://www.ecice06.com/CN/abstract/abstract32910.shtml",
       "hot_value": null,
-      "summary_zh": "物联网(IoT)中激增的流量, 影响了传感器等设备的数据传输。利用软件定义网络(SDN)技术可以优化网络性能, 提高数据传输质量。然而, 物联网中流量等网络状态的不断变化会影响软件定义网络控制平面的性能。研究软件定义物联网(SD-IoT)中的动态控制器部署问题, 以在流量变化时保证控制平面性能。考虑到物联网节点的能耗以及数据传输的特点, 在部署控制器时, 综合考虑延迟、控制可靠性以及能耗的影响, 并将该问题构建为马尔可夫博弈过程。为了同时兼顾单一控制器性能以及控制平面整体性能, 采用多智能体深度强化学习求解该问题。在部署阶段利用动作掩码屏蔽部分节点, 避免将控制器部署在性能不足或者供能不方便的节点。仿真实验表明, 与基于Louvain社区划分和基于单智能体深度Q网络(DQN)的部署算法相比, 所提算法可以更好地找到高性能的部署方案。",
+      "summary_zh": "随着云计算与空天地海一体化通信网络的深度融合, 各种复杂应用场景的出现使得组合服务的种类和数量急剧增多, 结构也变得复杂。在云网融合环境下, 用户移动设备和边缘服务器等硬件能力有限, 能耗问题成为组合服务进行动态重构不可忽略的重要因素。此外, 传统方法并未考虑空天地海不同场景下用户对不同服务质量(QoS)属性需求的差异性, 使得组合服务的交付结果并不令人满意。为了解决上述问题, 提出一种基于多目标粒子群优化(PSO)的组合服务动态重构方法。该方法首先根据重构原子服务的三维空间地理位置和功能进行聚类, 有效解决在云网融合环境下服务规模庞大情况下的搜索空间爆炸问题; 然后通过能耗计算模型得到服务调用的综合能耗, 并将其作为动态重构的优化目标之一, 结合服务的多种QoS属性进行多目标寻优, 最终生成符合用户需求且能耗较低的重构方案。实验结果表明, 该方法在云网融合环境下节约能耗和应对较大候选服务",
       "thumbnail": null,
-      "published_at": "2024-05-09",
+      "published_at": "2024-06-20",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -4621,164 +5002,8 @@
         "mode": "filter",
         "issn": "1000-3428",
         "doi": null,
-        "description": "物联网(IoT)中激增的流量, 影响了传感器等设备的数据传输。利用软件定义网络(SDN)技术可以优化网络性能, 提高数据传输质量。然而, 物联网中流量等网络状态的不断变化会影响软件定义网络控制平面的性能。研究软件定义物联网(SD-IoT)中的动态控制器部署问题, 以在流量变化时保证控制平面性能。考虑到物联网节点的能耗以及数据传输的特点, 在部署控制器时, 综合考虑延迟、控制可靠性以及能耗的影响, 并将该问题构建为马尔可夫博弈过程。为了同时兼顾单一控制器性能以及控制平面整体性能, 采用多智能体深度强化学习求解该问题。在部署阶段利用动作掩码屏蔽部分节点, 避免将控制器部署在性能不足或者供能不方便的节点。仿真实验表明, 与基于Louvain社区划分和基于单智能体深度Q网络(DQN)的部署算法相比, 所提算法可以更好地找到高性能的部署方案。",
-        "dedupe_key": "url:https://www.ecice06.com/cn/abstract/abstract32751.shtml",
-        "topic_hit": [
-          "单细胞聚类"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": [
-          "智能体"
-        ]
-      },
-      "days_on_board": 11,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "275b1142e536",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 23
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 24,
-      "title": "基于多视图多样性学习的联合谱嵌入聚类算法",
-      "title_zh": "基于多视图多样性学习的联合谱嵌入聚类算法",
-      "url": "https://www.jsjkx.com/CN/abstract/abstract24011.shtml",
-      "hot_value": null,
-      "summary_zh": "现有的大多数多视图聚类算法仅依赖于视图间的低阶相似性信息,未能有效地捕捉数据中的高阶结构特性,且对多视图数据的多样性特征关注不足,导致聚类结果的准确性和鲁棒性受限。针对以上问题,提出了一种基于多视图多样性学习的联合谱嵌入聚类算法——JSEC。首先通过视图多样性学习,保留数据间的多样特征,从而有效去除了视图中的噪声;然后提出了一种挖掘视图高阶信息的方法,使得视图的多样性特征尽可能靠近混合相似图,从而实现不同视图信息的高效整合,实现视图间的多样性和补充性融合;最后在谱嵌入模块将视图的多样性特征矩阵融合为联合谱嵌入矩阵,通过谱聚类实现图聚类。另外,设计了一种交替迭代的方法,用于优化目标函数。在与目前最新的多视图聚类算法的对比中,JSEC算法在5个中小规模的真实数据集的3个指标上均展现出优越的性能,同时在2个大规模数据集上也有优异的表现,相比次优算法,ARI指标在不同规模数据集上分别有1.27%和",
-      "thumbnail": null,
-      "published_at": "2026-01-08",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机科学",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1002-137X",
-        "doi": null,
-        "description": "现有的大多数多视图聚类算法仅依赖于视图间的低阶相似性信息,未能有效地捕捉数据中的高阶结构特性,且对多视图数据的多样性特征关注不足,导致聚类结果的准确性和鲁棒性受限。针对以上问题,提出了一种基于多视图多样性学习的联合谱嵌入聚类算法——JSEC。首先通过视图多样性学习,保留数据间的多样特征,从而有效去除了视图中的噪声;然后提出了一种挖掘视图高阶信息的方法,使得视图的多样性特征尽可能靠近混合相似图,从而实现不同视图信息的高效整合,实现视图间的多样性和补充性融合;最后在谱嵌入模块将视图的多样性特征矩阵融合为联合谱嵌入矩阵,通过谱聚类实现图聚类。另外,设计了一种交替迭代的方法,用于优化目标函数。在与目前最新的多视图聚类算法的对比中,JSEC算法在5个中小规模的真实数据集的3个指标上均展现出优越的性能,同时在2个大规模数据集上也有优异的表现,相比次优算法,ARI指标在不同规模数据集上分别有1.27%和2.57%的提升,从而在理论和实验上验证了所提算法的稳健性。",
-        "dedupe_key": "url:https://www.jsjkx.com/cn/abstract/abstract24011.shtml",
+        "description": "随着云计算与空天地海一体化通信网络的深度融合, 各种复杂应用场景的出现使得组合服务的种类和数量急剧增多, 结构也变得复杂。在云网融合环境下, 用户移动设备和边缘服务器等硬件能力有限, 能耗问题成为组合服务进行动态重构不可忽略的重要因素。此外, 传统方法并未考虑空天地海不同场景下用户对不同服务质量(QoS)属性需求的差异性, 使得组合服务的交付结果并不令人满意。为了解决上述问题, 提出一种基于多目标粒子群优化(PSO)的组合服务动态重构方法。该方法首先根据重构原子服务的三维空间地理位置和功能进行聚类, 有效解决在云网融合环境下服务规模庞大情况下的搜索空间爆炸问题; 然后通过能耗计算模型得到服务调用的综合能耗, 并将其作为动态重构的优化目标之一, 结合服务的多种QoS属性进行多目标寻优, 最终生成符合用户需求且能耗较低的重构方案。实验结果表明, 该方法在云网融合环境下节约能耗和应对较大候选服务集规模等方面具有较优性能。",
+        "dedupe_key": "url:https://www.ecice06.com/cn/abstract/abstract32910.shtml",
         "topic_hit": [
           "单细胞聚类"
         ],
@@ -4788,134 +5013,288 @@
       "days_on_board": 11,
       "is_new": false,
       "rank_delta": 0,
-      "cluster_id": "0f3899815dcb",
+      "cluster_id": "e3b383e32d83",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 24
-        },
-        {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 24
+          "rank": 25
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 24
+          "rank": 25
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 25
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 26,
+      "title": "基于多信息融合的高速收费站拥堵检测算法",
+      "title_zh": "基于多信息融合的高速收费站拥堵检测算法",
+      "url": "https://www.ecice06.com/CN/abstract/abstract32833.shtml",
+      "hot_value": null,
+      "summary_zh": "在高速收费站拥堵检测场景中, 遮挡、阴影、景深等因素严重影响检测算法的精度, 基于单信息的拥堵检测算法无法准确反映收费站真实拥堵情况, 对此, 提出一种高速收费站多信息融合拥堵检测算法。首先采用目标检测算法检测目标区域车辆, 利用图像空间特征计算车道占用率; 其次利用Deep SORT目标跟踪算法与滑动平衡机制进行车流量综合估计, 减少因为遮挡和阴影导致的车辆误检、漏检问题; 最后利用基于光流信息熵的车速估计方法, 降低因景深变化导致的拥堵状态检测误差。通过融合3种不同维度信息得到拥堵指数, 拥堵指数聚类为5种拥堵类别以判断真实拥堵状态, 从而实现高速收费站的拥堵检测。实验结果表明, 在高速收费站拥堵数据集上, 采用多信息融合的拥堵检测算法准确率达到90.4%, 能够实现对收费站拥堵状态的准确检测。",
+      "thumbnail": null,
+      "published_at": "2024-05-30",
+      "extra": {
+        "subsource": "cn_journal_rss",
+        "tier": "中文核心",
+        "journal": "计算机工程",
+        "discipline": "计算机",
+        "mode": "filter",
+        "issn": "1000-3428",
+        "doi": null,
+        "description": "在高速收费站拥堵检测场景中, 遮挡、阴影、景深等因素严重影响检测算法的精度, 基于单信息的拥堵检测算法无法准确反映收费站真实拥堵情况, 对此, 提出一种高速收费站多信息融合拥堵检测算法。首先采用目标检测算法检测目标区域车辆, 利用图像空间特征计算车道占用率; 其次利用Deep SORT目标跟踪算法与滑动平衡机制进行车流量综合估计, 减少因为遮挡和阴影导致的车辆误检、漏检问题; 最后利用基于光流信息熵的车速估计方法, 降低因景深变化导致的拥堵状态检测误差。通过融合3种不同维度信息得到拥堵指数, 拥堵指数聚类为5种拥堵类别以判断真实拥堵状态, 从而实现高速收费站的拥堵检测。实验结果表明, 在高速收费站拥堵数据集上, 采用多信息融合的拥堵检测算法准确率达到90.4%, 能够实现对收费站拥堵状态的准确检测。",
+        "dedupe_key": "url:https://www.ecice06.com/cn/abstract/abstract32833.shtml",
+        "topic_hit": [
+          "单细胞聚类"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": []
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "88d128bf6e20",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 26
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 25,
+      "rank": 27,
       "title": "管理咨询实习生（日常实习）",
       "title_zh": "管理咨询实习生（日常实习）",
       "url": "https://www.iguopin.com/job/detail?id=213698161124836175&source=campus",
@@ -4938,14 +5317,10 @@
       },
       "days_on_board": 11,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "295919c67df3",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-20T10:44:44.660629+00:00",
-          "rank": 19
-        },
         {
           "run_at": "2026-10-20T19:46:36.905038+00:00",
           "rank": 20
@@ -5061,314 +5436,10 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 25
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 25,
-      "title": "云网融合环境下组合服务的动态重构",
-      "title_zh": "云网融合环境下组合服务的动态重构",
-      "url": "https://www.ecice06.com/CN/abstract/abstract32910.shtml",
-      "hot_value": null,
-      "summary_zh": "随着云计算与空天地海一体化通信网络的深度融合, 各种复杂应用场景的出现使得组合服务的种类和数量急剧增多, 结构也变得复杂。在云网融合环境下, 用户移动设备和边缘服务器等硬件能力有限, 能耗问题成为组合服务进行动态重构不可忽略的重要因素。此外, 传统方法并未考虑空天地海不同场景下用户对不同服务质量(QoS)属性需求的差异性, 使得组合服务的交付结果并不令人满意。为了解决上述问题, 提出一种基于多目标粒子群优化(PSO)的组合服务动态重构方法。该方法首先根据重构原子服务的三维空间地理位置和功能进行聚类, 有效解决在云网融合环境下服务规模庞大情况下的搜索空间爆炸问题; 然后通过能耗计算模型得到服务调用的综合能耗, 并将其作为动态重构的优化目标之一, 结合服务的多种QoS属性进行多目标寻优, 最终生成符合用户需求且能耗较低的重构方案。实验结果表明, 该方法在云网融合环境下节约能耗和应对较大候选服务",
-      "thumbnail": null,
-      "published_at": "2024-06-20",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机工程",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-3428",
-        "doi": null,
-        "description": "随着云计算与空天地海一体化通信网络的深度融合, 各种复杂应用场景的出现使得组合服务的种类和数量急剧增多, 结构也变得复杂。在云网融合环境下, 用户移动设备和边缘服务器等硬件能力有限, 能耗问题成为组合服务进行动态重构不可忽略的重要因素。此外, 传统方法并未考虑空天地海不同场景下用户对不同服务质量(QoS)属性需求的差异性, 使得组合服务的交付结果并不令人满意。为了解决上述问题, 提出一种基于多目标粒子群优化(PSO)的组合服务动态重构方法。该方法首先根据重构原子服务的三维空间地理位置和功能进行聚类, 有效解决在云网融合环境下服务规模庞大情况下的搜索空间爆炸问题; 然后通过能耗计算模型得到服务调用的综合能耗, 并将其作为动态重构的优化目标之一, 结合服务的多种QoS属性进行多目标寻优, 最终生成符合用户需求且能耗较低的重构方案。实验结果表明, 该方法在云网融合环境下节约能耗和应对较大候选服务集规模等方面具有较优性能。",
-        "dedupe_key": "url:https://www.ecice06.com/cn/abstract/abstract32910.shtml",
-        "topic_hit": [
-          "单细胞聚类"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 11,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "e3b383e32d83",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 25
         },
         {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 25
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 26,
-      "title": "基于多信息融合的高速收费站拥堵检测算法",
-      "title_zh": "基于多信息融合的高速收费站拥堵检测算法",
-      "url": "https://www.ecice06.com/CN/abstract/abstract32833.shtml",
-      "hot_value": null,
-      "summary_zh": "在高速收费站拥堵检测场景中, 遮挡、阴影、景深等因素严重影响检测算法的精度, 基于单信息的拥堵检测算法无法准确反映收费站真实拥堵情况, 对此, 提出一种高速收费站多信息融合拥堵检测算法。首先采用目标检测算法检测目标区域车辆, 利用图像空间特征计算车道占用率; 其次利用Deep SORT目标跟踪算法与滑动平衡机制进行车流量综合估计, 减少因为遮挡和阴影导致的车辆误检、漏检问题; 最后利用基于光流信息熵的车速估计方法, 降低因景深变化导致的拥堵状态检测误差。通过融合3种不同维度信息得到拥堵指数, 拥堵指数聚类为5种拥堵类别以判断真实拥堵状态, 从而实现高速收费站的拥堵检测。实验结果表明, 在高速收费站拥堵数据集上, 采用多信息融合的拥堵检测算法准确率达到90.4%, 能够实现对收费站拥堵状态的准确检测。",
-      "thumbnail": null,
-      "published_at": "2024-05-30",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机工程",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-3428",
-        "doi": null,
-        "description": "在高速收费站拥堵检测场景中, 遮挡、阴影、景深等因素严重影响检测算法的精度, 基于单信息的拥堵检测算法无法准确反映收费站真实拥堵情况, 对此, 提出一种高速收费站多信息融合拥堵检测算法。首先采用目标检测算法检测目标区域车辆, 利用图像空间特征计算车道占用率; 其次利用Deep SORT目标跟踪算法与滑动平衡机制进行车流量综合估计, 减少因为遮挡和阴影导致的车辆误检、漏检问题; 最后利用基于光流信息熵的车速估计方法, 降低因景深变化导致的拥堵状态检测误差。通过融合3种不同维度信息得到拥堵指数, 拥堵指数聚类为5种拥堵类别以判断真实拥堵状态, 从而实现高速收费站的拥堵检测。实验结果表明, 在高速收费站拥堵数据集上, 采用多信息融合的拥堵检测算法准确率达到90.4%, 能够实现对收费站拥堵状态的准确检测。",
-        "dedupe_key": "url:https://www.ecice06.com/cn/abstract/abstract32833.shtml",
-        "topic_hit": [
-          "单细胞聚类"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 11,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "88d128bf6e20",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-22T13:45:46.063103+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-22T16:45:12.808152+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T16:44:39.083739+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 26
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 27
         }
       ]
     },
@@ -5404,10 +5475,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 27
-        },
-        {
           "run_at": "2026-10-22T07:44:43.196605+00:00",
           "rank": 27
         },
@@ -5521,6 +5588,10 @@
         },
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 27
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 27
         }
       ]
@@ -5557,10 +5628,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 28
-        },
-        {
           "run_at": "2026-10-22T07:44:43.196605+00:00",
           "rank": 28
         },
@@ -5675,153 +5742,10 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 28
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 29,
-      "title": "软件工程师 （虚拟化方向）",
-      "title_zh": "软件工程师 （虚拟化方向）",
-      "url": "https://www.iguopin.com/job/detail?id=214980585880290656&source=campus",
-      "hot_value": null,
-      "summary_zh": "【岗位职责】 1、参与高安全云、高安全虚拟化平台等产品的需求分析，完成产品功能设计； 2、负责相关产品功能模块的编码开发及版本迭代优化； 3、负责系统联调测试与问题排查，保障产品稳定运行。 【任职资格】 1、计算机相关专业，熟练掌握C/C++、Java、Python、Go至少一门开发语言，熟悉Linux、TCP/IP协议，了解云计算、KVM、容器等虚拟化基础技术； 2、了解虚拟化安全隔离、加解密算",
-      "thumbnail": null,
-      "published_at": "2026-10-10 10:42:10",
-      "extra": {
-        "subsource": "guopin",
-        "company": "北京计算机技术及应用研究所",
-        "city": "北京",
-        "education": "硕士",
-        "company_type": "事业单位",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "计算机"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": false
-      },
-      "days_on_board": 11,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "e4e8578bd9e1",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 23
         },
         {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-20T19:46:36.905038+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-22T07:44:43.196605+00:00",
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
           "rank": 28
-        },
-        {
-          "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 27
-        },
-        {
-          "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 21
-        },
-        {
-          "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 28
-        },
-        {
-          "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 30
-        },
-        {
-          "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 27
-        },
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 28
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 28
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 28
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 30
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 30
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 28
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 28
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 27
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 29
         }
       ]
     },
@@ -5857,10 +5781,6 @@
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 29
-        },
-        {
           "run_at": "2026-10-22T07:44:43.196605+00:00",
           "rank": 29
         },
@@ -5975,153 +5895,305 @@
         {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
           "rank": 29
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 29
         }
       ]
     },
     {
-      "source": "jobs",
+      "source": "papers",
       "rank": 30,
-      "title": "软件评测工程师",
-      "title_zh": "软件评测工程师",
-      "url": "https://www.iguopin.com/job/detail?id=214980576803816800&source=campus",
+      "title": "A single-nucleus and spatial transcriptomic atlas of poplar leaves reveals the regulation of leaf polarity and cuticle deposition",
+      "title_zh": "杨树叶片的单核和空间转录组图谱揭示了叶片极性和角质层沉积的调控",
+      "url": "https://doi.org/10.1016/j.jgg.2026.03.015",
       "hot_value": null,
-      "summary_zh": "【岗位职责】 1、负责FPGA软件测评项目需求论证、测试实施、测试文档编制等工作； 2、负责FPGA软件测评相关技术论证、研究等工作； 3、负责用户单位需求沟通、项目对接等工作。1、熟练掌握FPGA开发流程，至少熟悉应用一种FPGA软件集成开发环境； 2、熟练掌握至少一种硬件描述语言，如Verilog、VHDL、SV等； 3、有FPGA软件测评经验者优先。电子信息技术、通信工程、集成电路等相关专业",
+      "summary_zh": null,
       "thumbnail": null,
-      "published_at": "2026-10-10 10:42:10",
+      "published_at": "2026-09-01",
       "extra": {
-        "subsource": "guopin",
-        "company": "北京计算机技术及应用研究所",
-        "city": "北京",
-        "education": "硕士",
-        "company_type": "事业单位",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "计算机"
+        "subsource": "crossref",
+        "tier": "中文核心",
+        "journal": "Journal of Genetics and Genomics",
+        "mode": "filter",
+        "issn": "1673-8527",
+        "doi": "10.1016/j.jgg.2026.03.015",
+        "description": "",
+        "dedupe_key": "doi:10.1016/j.jgg.2026.03.015",
+        "topic_hit": [
+          "生物信息"
         ],
-        "is_central_soe": false,
-        "is_state_owned": false
+        "priority_rank": 2,
+        "keyword_hit": []
       },
       "days_on_board": 11,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "24899b862d0c",
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "9c1d5e18f93d",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-19T04:45:23.331503+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-10-19T16:45:16.691204+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-19T22:45:52.772978+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-20T19:46:36.905038+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-21T01:45:39.931670+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-21T07:46:05.533146+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-21T16:45:38.160975+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-21T22:45:52.282614+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-10-22T01:44:50.676078+00:00",
-          "rank": 24
-        },
-        {
           "run_at": "2026-10-22T07:44:43.196605+00:00",
-          "rank": 29
+          "rank": 30
         },
         {
           "run_at": "2026-10-22T10:44:48.007384+00:00",
-          "rank": 27
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 30
         },
         {
           "run_at": "2026-10-22T19:45:31.321421+00:00",
-          "rank": 26
+          "rank": 30
         },
         {
           "run_at": "2026-10-22T22:49:03.743846+00:00",
-          "rank": 28
+          "rank": 30
         },
         {
           "run_at": "2026-10-23T01:45:09.251457+00:00",
-          "rank": 24
+          "rank": 30
         },
         {
           "run_at": "2026-10-23T04:45:23.706060+00:00",
-          "rank": 22
+          "rank": 30
         },
         {
           "run_at": "2026-10-23T07:48:04.270268+00:00",
-          "rank": 29
+          "rank": 30
         },
         {
           "run_at": "2026-10-23T10:44:58.760583+00:00",
-          "rank": 31
+          "rank": 30
         },
         {
           "run_at": "2026-10-23T13:45:49.553674+00:00",
-          "rank": 28
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 30
         },
         {
           "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 29
+          "rank": 30
         },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 29
+          "rank": 30
         },
         {
           "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 29
+          "rank": 30
         },
         {
           "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 31
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 30
         },
         {
           "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 31
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 30
         },
         {
           "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 29
+          "rank": 30
         },
         {
           "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 32
+          "rank": 30
         },
         {
           "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 29
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 30
         },
         {
           "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 28
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T07:44:49.868176+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T16:44:37.571645+00:00",
+          "rank": 30
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 33,
+      "title": "✨ Designers × AI 🆕 The mockup era is over. Today’s AI tools give every designer a superpower : you can now craft your ideas, not just draw them. The gap between “what if…?” and “look, it works!” has never been smaller, and that changed how we build features in Telegram. Message @designers to submit ",
+      "title_zh": "✨ 设计师 × AI 🆕 模型图时代结束了。如今的AI工具赋予每位设计师超能力：你现在可以打造你的想法，而不仅仅是画出来。“如果……会怎样？”和“看，它可行！”之间的差距从未如此之小，而这改变了我们在Telegram中构建功能的方式。发消息给@designers提交",
+      "url": "https://t.me/durov/552",
+      "hot_value": "1.48M",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-10-11T14:52:40+00:00",
+      "extra": {
+        "channel": "durov",
+        "translate": true
+      },
+      "days_on_board": 11,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "5f36a4d3bac2",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-22T10:44:48.007384+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-22T13:45:46.063103+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-22T16:45:12.808152+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-22T19:45:31.321421+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-22T22:49:03.743846+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T01:45:09.251457+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T04:45:23.706060+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T07:48:04.270268+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T10:44:58.760583+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T13:45:49.553674+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-23T16:44:39.083739+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-23T19:44:36.957989+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-23T22:44:14.987130+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T01:44:25.611319+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T04:44:18.739595+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T07:24:37.541570+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T07:44:24.462143+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T10:44:27.851582+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T13:45:06.785279+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T16:44:26.995053+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-10-24T19:44:18.706524+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-24T22:44:34.630368+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-25T01:44:31.484688+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-25T04:44:05.358361+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-25T07:40:26.523995+00:00",
+          "rank": 33
         },
         {
           "run_at": "2026-10-25T07:44:49.868176+00:00",
           "rank": 33
         },
         {
+          "run_at": "2026-10-25T10:44:15.899591+00:00",
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-25T13:44:36.761227+00:00",
+          "rank": 33
+        },
+        {
           "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 30
+          "rank": 33
+        },
+        {
+          "run_at": "2026-10-25T19:44:38.597480+00:00",
+          "rank": 33
         }
       ]
     }
