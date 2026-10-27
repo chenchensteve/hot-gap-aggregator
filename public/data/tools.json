@@ -1,18 +1,48 @@
 {
-  "generated_at": "2026-10-27T01:52:17.289800+00:00",
+  "generated_at": "2026-10-27T04:44:31.304255+00:00",
   "source": "tools",
   "status": {
     "source": "tools",
     "status": "ok",
     "item_count": 25,
-    "duration_ms": 15381,
+    "duration_ms": 14818,
     "error": null,
-    "run_at": "2026-10-27T01:52:17.289800+00:00"
+    "run_at": "2026-10-27T04:44:31.304255+00:00"
   },
   "items": [
     {
       "source": "feed",
-      "rank": 9,
+      "rank": 7,
+      "title": "一日一技｜NAS 作为 UPS 总控，实现局域网多设备断电自动关机",
+      "title_zh": "一日一技｜NAS 作为 UPS 总控，实现局域网多设备断电自动关机",
+      "url": "https://sspai.com/post/115855",
+      "hot_value": null,
+      "summary_zh": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 大家好，我是飘雷。 前几天发了个给UPS更换电池的帖子，然后发现在评论区里，有朋友不太清楚怎么把NAS和UPS配合使用，还有朋友说想要用Windows迷你主机也配合UPS进行自动关机，所以今天我们就来详细讲讲吧。 用过NAS和UPS的朋友应该都会遇到一个问题，像是上期我分享过的APC BK650M2-CH这类普通民用UPS，一般只会配备一组USB接口，只能和单台设备通信。 一旦市电断电，只有直连USB的那台NAS可以收到UPS信号自动关机，局域网里剩下的Windows电脑、其他NAS设备就只能裸掉电，运气不好的话，容易出现文件损坏、存储池异常的问题",
+      "thumbnail": null,
+      "published_at": "2026-10-27T03:02:18+00:00",
+      "extra": {
+        "feed_name": "少数派",
+        "tab": "tools",
+        "route": "/sspai/index",
+        "translate": false,
+        "description": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 大家好，我是飘雷。 前几天发了个给UPS更换电池的帖子，然后发现在评论区里，有朋友不太清楚怎么把NAS和UPS配合使用，还有朋友说想要用Windows迷你主机也配合UPS进行自动关机，所以今天我们就来详细讲讲吧。 用过NAS和UPS的朋友应该都会遇到一个问题，像是上期我分享过的APC BK650M2-CH这类普通民用UPS，一般只会配备一组USB接口，只能和单台设备通信。 一旦市电断电，只有直连USB的那台NAS可以收到UPS信号自动关机，局域网里剩下的Windows电脑、其他NAS设备就只能裸掉电，运气不好的话，容易出现文件损坏、存储池异常的问题",
+        "dedupe_key": "https://sspai.com/post/115855"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "4706b83fa31b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 11,
       "title": "派早报：Apple 发布 iPad mini (A20 Pro) 等",
       "title_zh": "派早报：Apple 发布 iPad mini (A20 Pro) 等",
       "url": "https://sspai.com/post/117600",
@@ -29,20 +59,24 @@
         "dedupe_key": "https://sspai.com/post/117600"
       },
       "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "is_new": false,
+      "rank_delta": -2,
       "cluster_id": "1232a7e4b706",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 9
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 11
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 24,
+      "rank": 26,
       "title": "派评 | 近期值得关注的 App",
       "title_zh": "派评 | 近期值得关注的 App",
       "url": "https://sspai.com/post/117529",
@@ -60,7 +94,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -12,
+      "rank_delta": -2,
       "cluster_id": "2d78d15cb110",
       "cluster_size": 1,
       "rank_history": [
@@ -87,12 +121,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 24
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 26
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 37,
+      "rank": 38,
       "title": "秋冬换季护肤买什么，双 11 选购推荐",
       "title_zh": "秋冬换季护肤买什么，双 11 选购推荐",
       "url": "https://sspai.com/post/117414",
@@ -110,7 +148,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -15,
+      "rank_delta": -1,
       "cluster_id": "d47683806dab",
       "cluster_size": 1,
       "rank_history": [
@@ -145,12 +183,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 37
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 38
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 44,
+      "rank": 43,
       "title": "曲高和寡、终成绝唱：傲腾 P5800X 测试报告",
       "title_zh": "曲高和寡、终成绝唱：傲腾 P5800X 测试报告",
       "url": "https://sspai.com/post/115074",
@@ -168,7 +210,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -18,
+      "rank_delta": 1,
       "cluster_id": "0377edbe9ce9",
       "cluster_size": 1,
       "rank_history": [
@@ -207,12 +249,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 44
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 43
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 45,
+      "rank": 44,
       "title": "少数派×红树林基金会｜候鸟季公益直播，邀你共护湿地",
       "title_zh": "少数派×红树林基金会｜候鸟季公益直播，邀你共护湿地",
       "url": "https://sspai.com/post/117180",
@@ -230,7 +276,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -18,
+      "rank_delta": 1,
       "cluster_id": "abc7baa695e2",
       "cluster_size": 1,
       "rank_history": [
@@ -269,6 +315,10 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 45
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 44
         }
       ]
     },
@@ -292,7 +342,7 @@
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": -14,
+      "rank_delta": 0,
       "cluster_id": "c385be8d1bc8",
       "cluster_size": 1,
       "rank_history": [
@@ -335,6 +385,10 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 58
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 58
         }
       ]
     },
@@ -358,7 +412,7 @@
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -13,
+      "rank_delta": 0,
       "cluster_id": "973486db4e16",
       "cluster_size": 1,
       "rank_history": [
@@ -429,6 +483,10 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 59
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 59
         }
       ]
     },
@@ -452,7 +510,7 @@
       },
       "days_on_board": 4,
       "is_new": false,
-      "rank_delta": -12,
+      "rank_delta": 0,
       "cluster_id": "9438791c5d38",
       "cluster_size": 1,
       "rank_history": [
@@ -551,6 +609,10 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 63
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 63
         }
       ]
     },
@@ -574,14 +636,10 @@
       },
       "days_on_board": 5,
       "is_new": false,
-      "rank_delta": -10,
+      "rank_delta": 0,
       "cluster_id": "d1a677deda51",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 11
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 14
@@ -697,158 +755,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 64
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 64
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 65,
-      "title": "TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验",
-      "title_zh": "TDS REVIEW｜OPPO Enco X4 降噪真无线耳机体验",
-      "url": "https://sspai.com/post/116398",
-      "hot_value": null,
-      "summary_zh": "这篇文章是 TDS Studio 在少数派上的第 33 篇文章，依然是全平台首发。 我们在之前写 Enco Free4 的时候曾经提到过 X3 的情况，当时看来，其实 X3 在中价位降噪 TWS 崛起的情况下，至少功能性层面优势没有那么大了。转眼 X4 发布，我们又是首发购入，来看看它能不能相较于 X3 提供一些更多的进步。 包装与配件｜Package & Accessories 和 Free4、Clip2 等产品一样，Enco X4 的包装也还是白色为底的类似风格，不过这次加上了类似书籍腰封的结构，去掉之后盒身表面有和腰封图案一致的浮雕，内盒为黑色，这倒是符合我们对于 OPPO 旗舰产品线的认知。配件只有三对额外的耳套，没有附带充电线。耳套的结构除了出音口内的硅胶滤网外，似乎吸取了苹果的经验也采用了前端发泡的特殊硅胶材料。这也让它的被动隔音性能比常规柄状 TWS 稍好一些，同时又不像完全",
-      "thumbnail": null,
-      "published_at": "2026-10-23T07:00:00+00:00",
-      "extra": {
-        "feed_name": "少数派",
-        "tab": "tools",
-        "route": "/sspai/index",
-        "translate": false,
-        "description": "这篇文章是 TDS Studio 在少数派上的第 33 篇文章，依然是全平台首发。 我们在之前写 Enco Free4 的时候曾经提到过 X3 的情况，当时看来，其实 X3 在中价位降噪 TWS 崛起的情况下，至少功能性层面优势没有那么大了。转眼 X4 发布，我们又是首发购入，来看看它能不能相较于 X3 提供一些更多的进步。 包装与配件｜Package & Accessories 和 Free4、Clip2 等产品一样，Enco X4 的包装也还是白色为底的类似风格，不过这次加上了类似书籍腰封的结构，去掉之后盒身表面有和腰封图案一致的浮雕，内盒为黑色，这倒是符合我们对于 OPPO 旗舰产品线的认知。配件只有三对额外的耳套，没有附带充电线。耳套的结构除了出音口内的硅胶滤网外，似乎吸取了苹果的经验也采用了前端发泡的特殊硅胶材料。这也让它的被动隔音性能比常规柄状 TWS 稍好一些，同时又不像完全",
-        "dedupe_key": "https://sspai.com/post/116398"
-      },
-      "days_on_board": 5,
-      "is_new": false,
-      "rank_delta": -10,
-      "cluster_id": "c396c86ec66e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 22
-        },
-        {
-          "run_at": "2026-10-23T22:44:14.987130+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-10-24T01:44:25.611319+00:00",
-          "rank": 29
-        },
-        {
-          "run_at": "2026-10-24T04:44:18.739595+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-10-24T07:24:37.541570+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-10-24T07:44:24.462143+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-10-24T10:44:27.851582+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-10-24T13:45:06.785279+00:00",
-          "rank": 30
-        },
-        {
-          "run_at": "2026-10-24T16:44:26.995053+00:00",
-          "rank": 33
-        },
-        {
-          "run_at": "2026-10-24T19:44:18.706524+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-10-24T22:44:34.630368+00:00",
-          "rank": 34
-        },
-        {
-          "run_at": "2026-10-25T01:44:31.484688+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-10-25T04:44:05.358361+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-25T07:40:26.523995+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-25T07:44:49.868176+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-25T10:44:15.899591+00:00",
-          "rank": 42
-        },
-        {
-          "run_at": "2026-10-25T13:44:36.761227+00:00",
-          "rank": 39
-        },
-        {
-          "run_at": "2026-10-25T16:44:37.571645+00:00",
-          "rank": 44
-        },
-        {
-          "run_at": "2026-10-25T19:44:38.597480+00:00",
-          "rank": 47
-        },
-        {
-          "run_at": "2026-10-25T22:44:30.494222+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-10-26T01:44:39.745427+00:00",
-          "rank": 50
-        },
-        {
-          "run_at": "2026-10-26T04:44:40.592893+00:00",
-          "rank": 45
-        },
-        {
-          "run_at": "2026-10-26T07:45:02.892884+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-26T08:01:11.202152+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-26T10:56:38.336971+00:00",
-          "rank": 48
-        },
-        {
-          "run_at": "2026-10-26T13:44:37.615261+00:00",
-          "rank": 53
-        },
-        {
-          "run_at": "2026-10-26T16:44:18.051835+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-26T19:44:31.139393+00:00",
-          "rank": 57
-        },
-        {
-          "run_at": "2026-10-26T22:44:45.141796+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-10-27T01:52:17.289800+00:00",
-          "rank": 65
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 80,
+      "rank": 77,
       "title": "Version 5.6.0",
       "title_zh": "版本5.6.0",
       "url": "https://github.com/satijalab/seurat/releases/tag/v5.6.0",
@@ -866,14 +782,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "bf128c562147",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 80
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 80
@@ -989,12 +901,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 80
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 77
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 81,
+      "rank": 78,
       "title": "scvi-tools 1.5.1",
       "title_zh": "scvi-tools 1.5.1",
       "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1",
@@ -1012,14 +928,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "92de253c91a7",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 81
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 81
@@ -1135,12 +1047,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 81
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 78
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 83,
+      "rank": 80,
       "title": "1.12.4",
       "title_zh": "1.12.4",
       "url": "https://github.com/scverse/scanpy/releases/tag/1.12.4",
@@ -1158,14 +1074,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "877b691e9b59",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 83
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 83
@@ -1281,12 +1193,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 83
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 80
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 84,
+      "rank": 81,
       "title": "1.13.0a2",
       "title_zh": "1.13.0a2",
       "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2",
@@ -1304,14 +1220,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "768fc0d2e613",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 84
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 84
@@ -1427,12 +1339,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 84
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 81
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 85,
+      "rank": 82,
       "title": "1.13.0a1",
       "title_zh": "1.13.0a1",
       "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a1",
@@ -1450,14 +1366,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "9da040e83623",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 85
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 85
@@ -1573,12 +1485,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 85
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 82
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 86,
+      "rank": 83,
       "title": "1.12.3",
       "title_zh": "1.12.3",
       "url": "https://github.com/scverse/scanpy/releases/tag/1.12.3",
@@ -1596,14 +1512,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "1e7152d08b04",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 86
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 86
@@ -1719,12 +1631,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 86
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 83
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 87,
+      "rank": 84,
       "title": "scvi-tools 1.5.0.post1",
       "title_zh": "scvi-tools 1.5.0.post1",
       "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0.post1",
@@ -1742,14 +1658,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "8a4eca2177ca",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 87
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 87
@@ -1865,12 +1777,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 87
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 84
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 88,
+      "rank": 85,
       "title": "scvi-tools 1.5.0",
       "title_zh": "scvi-tools 1.5.0",
       "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0",
@@ -1888,14 +1804,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "8b146ac8159b",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 88
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 88
@@ -2011,12 +1923,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 88
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 85
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 89,
+      "rank": 86,
       "title": "1.12.2",
       "title_zh": "1.12.2",
       "url": "https://github.com/scverse/scanpy/releases/tag/1.12.2",
@@ -2034,14 +1950,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "750772e94d46",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 89
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 89
@@ -2157,12 +2069,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 89
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 86
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 90,
+      "rank": 87,
       "title": "Version 5.5.1",
       "title_zh": "版本5.5.1",
       "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.1",
@@ -2180,14 +2096,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "51b67338cbc0",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 90
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 90
@@ -2303,12 +2215,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 90
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 87
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 92,
+      "rank": 89,
       "title": "scvi-tools 1.4.3",
       "title_zh": "scvi-tools 1.4.3",
       "url": "https://github.com/scverse/scvi-tools/releases/tag/1.4.3",
@@ -2326,14 +2242,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "bbea1c662507",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 92
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 92
@@ -2449,12 +2361,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 92
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 89
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 93,
+      "rank": 90,
       "title": "Version 5.5.0",
       "title_zh": "版本5.5.0",
       "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.0",
@@ -2472,14 +2388,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "7c320a02a1ec",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 93
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 93
@@ -2595,12 +2507,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 93
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 90
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 94,
+      "rank": 91,
       "title": "scvi-tools 1.4.2",
       "title_zh": "scvi-tools 1.4.2",
       "url": "https://github.com/scverse/scvi-tools/releases/tag/1.4.2",
@@ -2618,14 +2534,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "05240d494324",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 94
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 94
@@ -2741,12 +2653,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 94
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 91
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 95,
+      "rank": 92,
       "title": "Version 5.4.0",
       "title_zh": "版本5.4.0",
       "url": "https://github.com/satijalab/seurat/releases/tag/v5.4.0",
@@ -2764,14 +2680,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "c7c17a9dfd6d",
       "cluster_size": 2,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 95
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 95
@@ -2887,12 +2799,16 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 95
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 92
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 96,
+      "rank": 93,
       "title": "Version 5.3.1",
       "title_zh": "版本5.3.1",
       "url": "https://github.com/satijalab/seurat/releases/tag/v5.3.1",
@@ -2910,14 +2826,10 @@
       },
       "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "c7c17a9dfd6d",
       "cluster_size": 2,
       "rank_history": [
-        {
-          "run_at": "2026-10-23T19:44:36.957989+00:00",
-          "rank": 96
-        },
         {
           "run_at": "2026-10-23T22:44:14.987130+00:00",
           "rank": 96
@@ -3033,6 +2945,10 @@
         {
           "run_at": "2026-10-27T01:52:17.289800+00:00",
           "rank": 96
+        },
+        {
+          "run_at": "2026-10-27T04:44:31.304255+00:00",
+          "rank": 93
         }
       ]
     }
