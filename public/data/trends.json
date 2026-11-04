@@ -1,836 +1,1537 @@
 {
-  "generated_at": "2026-11-03T09:42:27.801770+00:00",
+  "generated_at": "2026-11-04T09:29:02.391714+00:00",
   "rising": [
     {
       "source": "github",
-      "rank": 4,
-      "title": "hyprwm/Hyprland",
-      "title_zh": "hyprwm/Hyprland",
-      "url": "https://github.com/hyprwm/Hyprland",
-      "hot_value": "509 stars today",
-      "summary_zh": "高度可定制、外观出色的平铺式Wayland合成器。",
+      "rank": 3,
+      "title": "max-sixty/worktrunk",
+      "title_zh": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "hot_value": "438 stars today",
+      "summary_zh": "面向并行AI智能体工作流的Git工作树管理命令行工具。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-        "language": "C++"
+        "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+        "language": "Rust"
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 12,
-      "cluster_id": "9916c2c321b8",
+      "rank_delta": 9,
+      "cluster_id": "df56957a91eb",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 16
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 12
         },
         {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 4
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "github",
       "rank": 6,
-      "title": "FlashML-org/FreeToken",
-      "title_zh": "FlashML-org/FreeToken",
-      "url": "https://github.com/FlashML-org/FreeToken",
-      "hot_value": "653 stars today",
-      "summary_zh": "桌面本地运行大规模模型，高效免费。",
+      "title": "p-e-w/heretic",
+      "title_zh": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "hot_value": "701 stars today",
+      "summary_zh": "免训练修改语言模型，可去审查、抑废话、减谄媚。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+        "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
         "language": "Python"
       },
       "days_on_board": 2,
       "is_new": false,
       "rank_delta": 9,
-      "cluster_id": "bbd8bd66781e",
+      "cluster_id": "702a96c7acf7",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 15
         },
         {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 6
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 73,
+      "title": "scvi-tools 1.5.2",
+      "title_zh": "scvi-tools 1.5.2",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.2",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-10-28T19:18:46+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.2"
+      },
+      "days_on_board": 7,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "a4b844e40db0",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 58
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 71
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 68
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 73
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 74,
+      "title": "Version 5.6.0",
+      "title_zh": "版本5.6.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.6.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 添加了setThreads和getThreads以控制支持的C++内核和uwot UMAP后端中的线程 更新了NormalizeData以使用线程化稀疏对数归一化并减少矩阵复制开销 更新了FindVariableFeatures以在各测定版本间共享稀疏VST实现，并使用线程化标准化方差计算 更新了ScaleData以中心化、缩放和裁剪d",
+      "thumbnail": null,
+      "published_at": "2026-10-03T14:53:44+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added setThreads and getThreads to control threading in supported C++ kernels and uwot UMAP backends Updated NormalizeData to use threaded sparse log-normalization and reduce matrix-copying overhead Updated FindVariableFeatures to share a sparse VST implementation across assay versions with threaded standardized-variance calculations Updated ScaleData to center, scale, and clip d",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.6.0"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "bf128c562147",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 66
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 74
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 75,
+      "title": "scvi-tools 1.5.1",
+      "title_zh": "scvi-tools 1.5.1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-09-10T12:03:41+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "92de253c91a7",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 67
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 75
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 76,
+      "title": "稳定版发布进入最后倒计时，苹果 iOS / iPadOS 27 RC 推送",
+      "title_zh": "稳定版发布进入最后倒计时，苹果 iOS / iPadOS 27 RC 推送",
+      "url": "https://www.ithome.com/1/000/525.htm",
+      "hot_value": null,
+      "summary_zh": "感谢IT之家网友 吉茵珂絲 、 S K Y 、 这是我的破 、 Freddy123 、 牛肉番茄犟 、 大叔 、 肖战割割 的线索投递！ IT之家 9 月 10 日消息， 苹果公司今日正式推送了 iOS / iPad OS 27 RC ，这意味着新系统的稳定版发布已进入最后倒计时。 照既有节奏，iOS 27 候选版（RC）今日发布后，正式版会随 iPhone 18 Pro 和 iPhone 18 Pro Max 上市一同发布，预估本次更新以修复 Bug，提高系统稳定性为主。 在界面上，苹果 iOS / iPadOS 27 进一步打磨液态玻璃（IT之家注：Liquid Glass）设计，主要优化对比度，确保内容清晰易读；以及新增调节滑块，让用户随心调整 Liquid Glass 的外观效果。 速度方面，苹果表示 iOS / iPadOS 27 优化 App 启动速度，升级隔空投送，让其传输表",
+      "thumbnail": null,
+      "published_at": "2026-09-09T19:03:46+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "感谢IT之家网友 吉茵珂絲 、 S K Y 、 这是我的破 、 Freddy123 、 牛肉番茄犟 、 大叔 、 肖战割割 的线索投递！ IT之家 9 月 10 日消息， 苹果公司今日正式推送了 iOS / iPad OS 27 RC ，这意味着新系统的稳定版发布已进入最后倒计时。 照既有节奏，iOS 27 候选版（RC）今日发布后，正式版会随 iPhone 18 Pro 和 iPhone 18 Pro Max 上市一同发布，预估本次更新以修复 Bug，提高系统稳定性为主。 在界面上，苹果 iOS / iPadOS 27 进一步打磨液态玻璃（IT之家注：Liquid Glass）设计，主要优化对比度，确保内容清晰易读；以及新增调节滑块，让用户随心调整 Liquid Glass 的外观效果。 速度方面，苹果表示 iOS / iPadOS 27 优化 App 启动速度，升级隔空投送，让其传输表",
+        "dedupe_key": "https://www.ithome.com/1/000/525.htm"
+      },
+      "days_on_board": 20,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "000acaedc7cb",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 68
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 76
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 77,
+      "title": "1.12.4",
+      "title_zh": "1.12.4",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.12.4",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-4",
+      "thumbnail": null,
+      "published_at": "2026-08-31T07:39:23+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-4",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.12.4"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "877b691e9b59",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 69
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 77
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 77
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 78,
+      "title": "1.13.0a2",
+      "title_zh": "1.13.0a2",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.scverse.org/en/latest/release-notes.html#version-1-13",
+      "thumbnail": null,
+      "published_at": "2026-08-28T11:51:45+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.scverse.org/en/latest/release-notes/index.html#version-1-13",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "768fc0d2e613",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 70
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 78
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 79,
+      "title": "1.13.0a1",
+      "title_zh": "1.13.0a1",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a1",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.scverse.org/en/latest/release-notes.html#version-1-13",
+      "thumbnail": null,
+      "published_at": "2026-07-24T13:04:20+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.scverse.org/en/latest/release-notes/index.html#version-1-13",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0a1"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "9da040e83623",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 71
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 79
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 80,
+      "title": "1.12.3",
+      "title_zh": "1.12.3",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.12.3",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-3",
+      "thumbnail": null,
+      "published_at": "2026-07-24T13:03:07+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-3",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.12.3"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "1e7152d08b04",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 80
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 81,
+      "title": "scvi-tools 1.5.0.post1",
+      "title_zh": "scvi-tools 1.5.0.post1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0.post1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-07-09T17:34:20+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0.post1"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "8a4eca2177ca",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 81
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 82,
+      "title": "scvi-tools 1.5.0",
+      "title_zh": "scvi-tools 1.5.0",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-07-09T08:06:25+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "8b146ac8159b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 82
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 83,
+      "title": "Version 5.5.1",
+      "title_zh": "版本5.5.1",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.1",
+      "hot_value": null,
+      "summary_zh": "变更 新增 在RunUMAP中添加了uwot.init参数，可选自定义UMAP初始化方法（#10386）。修复 修复了PrepSCTFindMarkers在多模型情况下因theta过滤不当导致某些有效基因计数为零的问题（#10410）。修复了FindClusters在向resolution传递向量且使用自定义元数据时未正确设置元数据的问题。",
+      "thumbnail": null,
+      "published_at": "2026-06-26T13:14:06+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added uwot.init parameter to RunUMAP to optionally customize method of UMAP initialization ( #10386 ) Fixes Fixed bug in PrepSCTFindMarkers in the multi-model case that produced zero counts for some valid genes due to an incorrect filter for theta ( #10410 ) Fixed issue with FindClusters not setting metadata properly when a vector of resolutions is passed to resolution and a cust",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.5.1"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "3633188f3846",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 83
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 84,
+      "title": "苹果 WWDC26 主题演讲一文汇总：iOS 27 等新系统发布、Siri AI 登场，库克迎来生涯“最后一舞”",
+      "title_zh": "苹果 WWDC26 主题演讲一文汇总：iOS 27 等新系统发布、Siri AI 登场，库克迎来生涯“最后一舞”",
+      "url": "https://www.ithome.com/0/961/722.htm",
+      "hot_value": null,
+      "summary_zh": "Good morning！又是一年 WWDC，但这应当是咱们最后一次看到蒂姆 · 库克在发布会中发来早安问候了。 就在今天（北京时间 6 月 9 日）凌晨 1 点，苹果 WWDC26 全球开发者大会主题演讲如期而至，这是库克作为主讲人的“最后一舞”。 苹果此前已经官宣，自今年 9 月 1 日起，库克将出任苹果董事会执行董事长，CEO 的位置由约翰 · 特努斯接任。 既然是 WWDC，那重头戏自然是操作系统， iOS、 iPad OS、watchOS、tvOS、visionOS、macOS 新一代版本迎来发布。 根据克雷格 · 费德里吉的介绍，苹果今年将新系统的重点放在了三方面： 提升了各个平台的响应速度，强化了日常使用的便捷性 升级了可靠性和安全性，为儿童打造安全可靠的平台 在 Apple 智能上实现了巨大飞跃，采用创新架构为各个平台带来焕然一新的 Siri，并将众多实用功能整合到常用的各",
+      "thumbnail": null,
+      "published_at": "2026-06-08T22:50:57+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "Good morning！又是一年 WWDC，但这应当是咱们最后一次看到蒂姆 · 库克在发布会中发来早安问候了。 就在今天（北京时间 6 月 9 日）凌晨 1 点，苹果 WWDC26 全球开发者大会主题演讲如期而至，这是库克作为主讲人的“最后一舞”。 苹果此前已经官宣，自今年 9 月 1 日起，库克将出任苹果董事会执行董事长，CEO 的位置由约翰 · 特努斯接任。 既然是 WWDC，那重头戏自然是操作系统， iOS、 iPad OS、watchOS、tvOS、visionOS、macOS 新一代版本迎来发布。 根据克雷格 · 费德里吉的介绍，苹果今年将新系统的重点放在了三方面： 提升了各个平台的响应速度，强化了日常使用的便捷性 升级了可靠性和安全性，为儿童打造安全可靠的平台 在 Apple 智能上实现了巨大飞跃，采用创新架构为各个平台带来焕然一新的 Siri，并将众多实用功能整合到常用的各",
+        "dedupe_key": "https://www.ithome.com/0/961/722.htm"
+      },
+      "days_on_board": 20,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "000acaedc7cb",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 77
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 84
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 85,
+      "title": "scvi-tools 1.4.3",
+      "title_zh": "scvi-tools 1.4.3",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.4.3",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-05-12T13:29:21+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.4.3"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "bbea1c662507",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 85
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 86,
+      "title": "Version 5.5.0",
+      "title_zh": "版本5.5.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 在ScaleData.IterableMatrix（BPCells）中添加了对vars.to.regress和latent.data的支持（#10300）。在SCTransform中添加了警告，当指定参考SCT模型时，do.correct.umi被硬设为F（#10329，#10366）。在FindMarkers/FindAllMarkers中，当在列主存储顺序的IterableMatrix（BPCells）上运行时添加了警告（#10365）。添加了plot_typ...",
+      "thumbnail": null,
+      "published_at": "2026-04-22T14:06:49+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added support for vars.to.regress and latent.data in ScaleData.IterableMatrix (BPCells) ( #10300 ) Added warning to SCTransform to notify that do.correct.umi is hard set to F when a reference SCT model is specified ( #10329 , #10366 ) Added warning to FindMarkers / FindAllMarkers when running on an IterableMatrix (BPCells) with column-major storage order ( #10365 ) Added plot_typ",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.5.0"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "7c320a02a1ec",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 86
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 87,
+      "title": "Version 5.4.0",
+      "title_zh": "版本5.4.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.4.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 添加了对10x Space Ranger 4.0输出的支持（带分割的Visium数据）。更新了数据加载函数Load10X_Spatial、Read10X_Image。更新了GetTissueCoordinates.VisiumV2。更新了空间可视化函数SpatialPlot、SingleSpatialPlot、SpatialDimPlot、SpatialFeaturePlot。添加了辅助函数Read10X_Segmentations、Read10X_HD_GeoJson、Format10X_GeoJson_CellI...",
+      "thumbnail": null,
+      "published_at": "2025-12-15T15:22:32+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added support for 10x Space Ranger 4.0 outputs (Visium data with segmentations) Updated data loading functions Load10X_Spatial , Read10X_Image Updated GetTissueCoordinates.VisiumV2 Updated spatial visualization functions SpatialPlot , SingleSpatialPlot , SpatialDimPlot , SpatialFeaturePlot Added helper functions Read10X_Segmentations , Read10X_HD_GeoJson , Format10X_GeoJson_CellI",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.4.0"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "df617b34a5ab",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 87
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 88,
+      "title": "Version 5.3.1",
+      "title_zh": "版本5.3.1",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.3.1",
+      "hot_value": null,
+      "summary_zh": "变更 新增 添加了使用igraph的cluster_leiden进行Leiden聚类的选项（#9931）。添加了使用uwot的umap2进行UMAP的选项（#9918）。添加了使用uwot的approx_pow参数进行UMAP的选项（#9449）。更新了LoadXenium以支持Xenium蛋白数据（#10024）。添加了在FeaturePlot中指定描边大小的选项（#10053）。添加了label.size.cut...",
+      "thumbnail": null,
+      "published_at": "2025-10-29T14:10:34+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added option to use cluster_leiden from igraph when running Leiden clustering ( #9931 ) Added option to use umap2 from uwot when running UMAP ( #9918 ) Added option to use approx_pow parameter from uwot when running UMAP ( #9449 ) Updated LoadXenium to add support for Xenium protein data ( #10024 ) Added option to specify stroke size in FeaturePlot ( #10053 ) Added label.size.cut",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.3.1"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "3633188f3846",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 96
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 96
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 96
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 96
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 88
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 4,
+      "title": "JustVugg/colibri",
+      "title_zh": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "hot_value": "802 stars today",
+      "summary_zh": "C语言分层MoE推理引擎，热专家在GPU、温在内存、冷在NVMe。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+        "language": "C"
+      },
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 6,
+      "cluster_id": "7d0b081e2cda",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 10
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "github",
       "rank": 5,
-      "title": "Donchitos/Claude-Code-Game-Studios",
-      "title_zh": "Donchitos/Claude-Code-Game-Studios",
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "hot_value": "1,379 stars today",
-      "summary_zh": "将Claude Code变成49个AI代理的完整游戏开发工作室，模拟真实层级。",
+      "title": "mattpocock/skills",
+      "title_zh": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "hot_value": "1,164 stars today",
+      "summary_zh": "真实工程师技能集，直接可用。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
         "language": "Shell"
       },
-      "days_on_board": 3,
+      "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 3,
-      "cluster_id": "1bc67002e710",
+      "rank_delta": 6,
+      "cluster_id": "5963f5c06b20",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
           "rank": 8
         },
         {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 2
+        },
+        {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 11
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 5
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 1,
-      "title": "信息运营",
-      "title_zh": "信息运营",
-      "url": "https://www.iguopin.com/job/detail?id=218520022560014521&source=campus",
-      "hot_value": null,
-      "summary_zh": "【岗位职责】 1.深度参与人工智能应用落地，协助业务部门利用人工智能技术提质增效； 2.参与数据中心建设规划、实施及管理工作； 3.参与信息化项目的调研、实施及项目管理等工作； 4.负责自身工作相关的资料文档、台账、手册、数据、程序文件等的整理、归档和集中管理工作； 5.负责相关项目的合同、付款管理及推进工作； 6.负责网银客户服务响应工作，解决客户使用公司网银过程中遇到的技术问题； 7.负责内部",
-      "thumbnail": null,
-      "published_at": "2026-10-28 19:20:31",
-      "extra": {
-        "subsource": "guopin",
-        "company": "国药集团财务有限公司",
-        "city": "北京-海淀区",
-        "education": "硕士",
-        "company_type": "国企",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "信息",
-          "财务"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": true
-      },
-      "days_on_board": 6,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "25cabb885704",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 2,
-      "title": "RankMap: rank-based reference mapping for fast and robust cell type annotation in spatial and single-cell transcriptomics",
-      "title_zh": "RankMap：基于排名的参考映射，用于空间和单细胞转录组学中快速稳健的细胞类型注释",
-      "url": "https://doi.org/10.1186/s12859-026-06699-3",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-30",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06699-3",
-        "description": "",
-        "dedupe_key": "doi:10.1186/s12859-026-06699-3",
-        "topic_hit": [
-          "单细胞聚类"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "c93448190ef6",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 30,
-      "title": "面向物联网终端的云边协同日志异常检测技术",
-      "title_zh": "面向物联网终端的云边协同日志异常检测技术",
-      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202660259",
-      "hot_value": null,
-      "summary_zh": "<br/><p>&lt;p&lt;随着物联网终端设备在工业控制、智能交通、智能家居和智慧医疗等场景中的广泛部署，边缘侧持续产生海量半结构化日志。现有方法要么依赖日志模板ID和浅层序列模型，难以建模复杂语义；要么依赖大规模预训练模型，难以满足终端设备对实时性与资源消耗的约束。针对上述问题，提出一种面向物联网终端设备的日志异常检测技术。首先，设计基于BERT与Llama的语义增强检测模型，采用正则替换与窗口化建模抑制动态参数噪声，通过语义投影模块实现编码器和解码器表示空间对齐，并利用三阶段微调提升序列级异常判别能力。其次，构建面向终端设备的云边协同检测框架，提出两阶段置信度蒸馏与时延敏感动态路由策略，使边缘小模型承担大部分低成本检测任务，仅将低置信度样本上传云端大模型复核，在HDFS、BGL和Thunderbird-mini公开数据集上的实验表明，所提语义检测模型的&lt;italic&lt;",
-      "thumbnail": null,
-      "published_at": "2026-11-03",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机研究与发展",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-1239",
-        "doi": "10.7544/issn1000-1239.202660259",
-        "description": "<br/><p>&lt;p&lt;随着物联网终端设备在工业控制、智能交通、智能家居和智慧医疗等场景中的广泛部署，边缘侧持续产生海量半结构化日志。现有方法要么依赖日志模板ID和浅层序列模型，难以建模复杂语义；要么依赖大规模预训练模型，难以满足终端设备对实时性与资源消耗的约束。针对上述问题，提出一种面向物联网终端设备的日志异常检测技术。首先，设计基于BERT与Llama的语义增强检测模型，采用正则替换与窗口化建模抑制动态参数噪声，通过语义投影模块实现编码器和解码器表示空间对齐，并利用三阶段微调提升序列级异常判别能力。其次，构建面向终端设备的云边协同检测框架，提出两阶段置信度蒸馏与时延敏感动态路由策略，使边缘小模型承担大部分低成本检测任务，仅将低置信度样本上传云端大模型复核，在HDFS、BGL和Thunderbird-mini公开数据集上的实验表明，所提语义检测模型的&lt;italic&lt;F&lt;/italic&lt;1分数分别达到99.7%、91.6%和96.6%；云边协同框架在保持95.5%总体&lt;italic&lt;F&lt;/italic&lt;1分数的同时，仅需平均26.6%的云端路由比例，相当于降低73.4%的大模型调用量。&lt;/p&lt;</p> <br/>计算机研究与发展. 2026 63(10): 2512-2526.",
-        "dedupe_key": "doi:10.7544/issn1000-1239.202660259",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "大模型"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "95c41968cfbf",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 31
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 30
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 31,
-      "title": "ValidPoC：基于大语言模型的PoC-Nuclei模板生成与漏洞复现验证方法",
-      "title_zh": "ValidPoC：基于大语言模型的PoC-Nuclei模板生成与漏洞复现验证方法",
-      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202660432",
-      "hot_value": null,
-      "summary_zh": "<br/><p>&lt;p&lt;外部漏洞知识是支撑大语言模型开展自动化渗透测试与漏洞复现的重要信息来源。然而，公开漏洞利用材料通常来源复杂、表示形式异构，广泛存在于脚本代码、HTTP请求片段、命令行示例以及自然语言说明文档中，缺乏统一的描述规范与明确的语义边界。现有方法虽然能够通过漏洞知识检索、利用代码生成等方式辅助漏洞利用，但仍面临漏洞利用语义提取困难、环境适配能力不足以及模型幻觉等问题，导致自动化漏洞复现成功率受限。针对上述问题，提出一种基于大语言模型的自动化漏洞复现方法ValidPoC。该方法以公开漏洞利用材料为输入，通过构建PoC语义解析、PoC中间表示建模以及PoC-Nuclei模板生成流程，实现异构漏洞利用材料向标准化漏洞利用模板的自动转换。其中，定义了面向漏洞复现的PoC语义模型，统一描述请求构造、载荷生成、执行依赖与验证判据等关键利用逻辑；设计了基于Semgrep辅助的P",
-      "thumbnail": null,
-      "published_at": "2026-11-03",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机研究与发展",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-1239",
-        "doi": "10.7544/issn1000-1239.202660432",
-        "description": "<br/><p>&lt;p&lt;外部漏洞知识是支撑大语言模型开展自动化渗透测试与漏洞复现的重要信息来源。然而，公开漏洞利用材料通常来源复杂、表示形式异构，广泛存在于脚本代码、HTTP请求片段、命令行示例以及自然语言说明文档中，缺乏统一的描述规范与明确的语义边界。现有方法虽然能够通过漏洞知识检索、利用代码生成等方式辅助漏洞利用，但仍面临漏洞利用语义提取困难、环境适配能力不足以及模型幻觉等问题，导致自动化漏洞复现成功率受限。针对上述问题，提出一种基于大语言模型的自动化漏洞复现方法ValidPoC。该方法以公开漏洞利用材料为输入，通过构建PoC语义解析、PoC中间表示建模以及PoC-Nuclei模板生成流程，实现异构漏洞利用材料向标准化漏洞利用模板的自动转换。其中，定义了面向漏洞复现的PoC语义模型，统一描述请求构造、载荷生成、执行依赖与验证判据等关键利用逻辑；设计了基于Semgrep辅助的PoC语义解析机制，从代码脚本与自然语言材料中抽取漏洞触发相关语义；构建了基于Nuclei模板的漏洞复现载体，实现漏洞利用逻辑的结构化表达与自动执行。为提高漏洞复现结果的可靠性，进一步提出基于“执行—评估—修复”闭环反馈优化机制，并建立L1（可解析执行）、L2（条件匹配成功）和L3（漏洞真实复现）三级验证模型，对漏洞触发结果进行多源证据交叉验证。在67个真实漏洞复现任务上的实验结果表明，ValidPoC能够有效提升自动化漏洞复现能力。与现有自动化渗透测试方法相比，ValidPoC取得76.12%的Pass@3漏洞复现成功率，较PentestAgent提升4.48个百分点，较PentestGPT提升43.28个百分点；同时，在Token消耗和运行时间方面均表现出较好的效率优势。实验结果验证了所提方法在异构漏洞利用材料理解、PoC模板生成以及漏洞复现验证方面的有效性。&lt;/p&lt;</p> <br/>计算机研究与发展. 2026 63(10): 2611-2631.",
-        "dedupe_key": "doi:10.7544/issn1000-1239.202660432",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "大语言模型"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "0a03583c4319",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 32
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 31
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 32,
-      "title": "基于自适应多分辨率特征解耦的动态异构网络时间序列分类",
-      "title_zh": "基于自适应多分辨率特征解耦的动态异构网络时间序列分类",
-      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202660465",
-      "hot_value": null,
-      "summary_zh": "<br/><p>&lt;p&lt;随着云边端协同计算与物联网技术的深度融合，动态异构网络中的海量终端已成为网络安全体系中的核心防护对象。这些智能终端在持续运行过程中产生网络流量、工控传感日志等多元时间序列数据，承载着终端行为的完整语义信息。因此，对此类时间序列数据进行精准分类是实现终端威胁检测的关键技术。然而，终端异质性引发的数据分布不均衡问题，使现有时序分类模型面临三重挑战：1）受限于固定分辨率的处理范式，模型难以捕捉不同时间尺度下的多粒度威胁特征；2）现有方法通常将所有分辨率特征映射至统一高维空间，忽视了不同时间分辨率在特征维度分布上的内在差异，导致噪声引入与特征冗余，制约了模型在计算资源受限的边缘终端上的部署适配能力；3）使用多分辨率进行联合推理，各分辨率分支的特征提取与融合过程带来显著的计算与存储开销，加剧了轻量化部署与高精度检测之间的固有矛盾。为了解决时间分辨率与特征维度适配的问",
-      "thumbnail": null,
-      "published_at": "2026-11-03",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机研究与发展",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-1239",
-        "doi": "10.7544/issn1000-1239.202660465",
-        "description": "<br/><p>&lt;p&lt;随着云边端协同计算与物联网技术的深度融合，动态异构网络中的海量终端已成为网络安全体系中的核心防护对象。这些智能终端在持续运行过程中产生网络流量、工控传感日志等多元时间序列数据，承载着终端行为的完整语义信息。因此，对此类时间序列数据进行精准分类是实现终端威胁检测的关键技术。然而，终端异质性引发的数据分布不均衡问题，使现有时序分类模型面临三重挑战：1）受限于固定分辨率的处理范式，模型难以捕捉不同时间尺度下的多粒度威胁特征；2）现有方法通常将所有分辨率特征映射至统一高维空间，忽视了不同时间分辨率在特征维度分布上的内在差异，导致噪声引入与特征冗余，制约了模型在计算资源受限的边缘终端上的部署适配能力；3）使用多分辨率进行联合推理，各分辨率分支的特征提取与融合过程带来显著的计算与存储开销，加剧了轻量化部署与高精度检测之间的固有矛盾。为了解决时间分辨率与特征维度适配的问题，提出了面向动态异构网络的自适应多分辨率表示学习（adaptive multi-resolution representation learning，AdaMRL）模型，实现了时间分辨率与特征维度的双向对齐解耦。首先，构建了多分辨率嵌套表征架构，提出多分辨率与嵌套维度自适应匹配机制，为每个时间分辨率独立配备嵌套表示学习层，自动选择最优的维度进行嵌套表示学习；其次，提出了多分辨率联合损失监督机制，在训练阶段对各分辨率表征进行同步约束，增强跨分辨率特征的鲁棒性并加快模型收敛；最后，设计了自适应维度选择与集成策略，在推理阶段为不同分辨率动态匹配最优特征维度，并通过软投票机制实现协同决策。在10个UEA多变量时间序列基准数据集与工业物联网边缘安全基准数据集Edge-IIoTset上的广泛实验表明，AdaMRL达到了当前先进的分类性能。与基准模型相比，所提方法平均分类准确率提升0.78个百分点，并在最佳自适应配置下将冗余特征参数计算量降低27.3%，在检测精度与计算效率之间实现了有效平衡，为边缘异质终端的实时安全防护提供了有力支撑。&lt;/p&lt;</p> <br/>计算机研究与发展. 2026 63(10): 2632-2649.",
-        "dedupe_key": "doi:10.7544/issn1000-1239.202660465",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "representation learning",
-          "表示学习"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "d324bb04bfb2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 33
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 33
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 33
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 33
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 33
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 33
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 32
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 33,
-      "title": "基于双重异常感知的时间序列异常检测",
-      "title_zh": "基于双重异常感知的时间序列异常检测",
-      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550613",
-      "hot_value": null,
-      "summary_zh": "<br/><p>&lt;p&lt;时间序列的异常检测在金融风控、故障诊断等领域中有着重要的应用价值，其关键在于构建能够有效区分正常与异常模式的表征空间。然而时间序列内在的特点以及异常的稀缺性，导致学习具有强判别能力的表征映射函数颇为困难，且泛化能力受限。与此同时，对比表示学习通过构建清晰可区分的样本实例的表征空间，为时序异常检测提供了更为自然且富有前景的解决方案。鉴于此，设计了基于双重异常感知的Transformer模型（DAT），通过异常注入和异常感知的手段，使DAT提前捕获异常样本的复杂特征。此外，通过结合上下文对比损失函数指导双分支学习正常样本与异常样本之间更本质、更具区分度的语义特征。实验在5个公开数据集上进行验证，并与21种基线模型进行对比。结果表明DAT在公共数据集上优于基线模型的平均性能，甚至在MSL和PSM数据集上能够达到SOTA。&lt;/p&lt;</p> <br/>计",
-      "thumbnail": null,
-      "published_at": "2026-11-03",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机研究与发展",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-1239",
-        "doi": "10.7544/issn1000-1239.202550613",
-        "description": "<br/><p>&lt;p&lt;时间序列的异常检测在金融风控、故障诊断等领域中有着重要的应用价值，其关键在于构建能够有效区分正常与异常模式的表征空间。然而时间序列内在的特点以及异常的稀缺性，导致学习具有强判别能力的表征映射函数颇为困难，且泛化能力受限。与此同时，对比表示学习通过构建清晰可区分的样本实例的表征空间，为时序异常检测提供了更为自然且富有前景的解决方案。鉴于此，设计了基于双重异常感知的Transformer模型（DAT），通过异常注入和异常感知的手段，使DAT提前捕获异常样本的复杂特征。此外，通过结合上下文对比损失函数指导双分支学习正常样本与异常样本之间更本质、更具区分度的语义特征。实验在5个公开数据集上进行验证，并与21种基线模型进行对比。结果表明DAT在公共数据集上优于基线模型的平均性能，甚至在MSL和PSM数据集上能够达到SOTA。&lt;/p&lt;</p> <br/>计算机研究与发展. 2026 63(10): 2650-2665.",
-        "dedupe_key": "doi:10.7544/issn1000-1239.202550613",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "表示学习"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "37e0646f80a9",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 34
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 34
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 34
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 34
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 34
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 34
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 33
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 34,
-      "title": "融合动态原型与自监督迁移学习的跨域图异常检测",
-      "title_zh": "融合动态原型与自监督迁移学习的跨域图异常检测",
-      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550857",
-      "hot_value": null,
-      "summary_zh": "<br/><p>&lt;p&lt;跨域图异常检测旨在利用源域图中的正常与异常样本信息，在标注稀缺的目标域图上实现有效的异常识别。然而，源域与目标域之间通常存在显著的图结构差异与特征分布偏移，导致源域知识难以有效迁移至目标域，限制了跨域泛化能力。此外，目标域缺乏标注信息，易引发训练过程中的决策边界模糊和预测不稳定问题。为解决上述问题，提出了一种融合动态原型与自监督迁移学习的跨域图异常检测方法。首先，基于源域中的正常与异常样本构建语义原型，并结合双向引导策略，实现源域原型与目标域节点在共享语义空间中的知识对齐，从而缓解跨域图之间的分布偏移。为进一步增强原型的稳定性与语义判别性，引入指数移动平均机制实现原型的动态更新；随后，通过最小化目标域节点嵌入的熵值，增强特征表示的区分度，以缓解决策边界模糊问题；最后，综合利用源域模型与无监督方法在目标域数据上生成异常评分的伪标签，并筛选高置信度样本作为弱监",
-      "thumbnail": null,
-      "published_at": "2026-11-03",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机研究与发展",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-1239",
-        "doi": "10.7544/issn1000-1239.202550857",
-        "description": "<br/><p>&lt;p&lt;跨域图异常检测旨在利用源域图中的正常与异常样本信息，在标注稀缺的目标域图上实现有效的异常识别。然而，源域与目标域之间通常存在显著的图结构差异与特征分布偏移，导致源域知识难以有效迁移至目标域，限制了跨域泛化能力。此外，目标域缺乏标注信息，易引发训练过程中的决策边界模糊和预测不稳定问题。为解决上述问题，提出了一种融合动态原型与自监督迁移学习的跨域图异常检测方法。首先，基于源域中的正常与异常样本构建语义原型，并结合双向引导策略，实现源域原型与目标域节点在共享语义空间中的知识对齐，从而缓解跨域图之间的分布偏移。为进一步增强原型的稳定性与语义判别性，引入指数移动平均机制实现原型的动态更新；随后，通过最小化目标域节点嵌入的熵值，增强特征表示的区分度，以缓解决策边界模糊问题；最后，综合利用源域模型与无监督方法在目标域数据上生成异常评分的伪标签，并筛选高置信度样本作为弱监督信号引导模型迭代优化，从而提升识别的准确性与鲁棒性。实验结果表明，该方法在多个跨域图异常检测任务中均优于现有主流方法，验证了其在跨域迁移场景下的有效性与稳定性。&lt;/p&lt;</p> <br/>计算机研究与发展. 2026 63(10): 2666-2681.",
-        "dedupe_key": "doi:10.7544/issn1000-1239.202550857",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "自监督"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "af270db7ba55",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 35
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 34
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 35,
-      "title": "基于跨标签分配知识蒸馏的端到端目标检测方法",
-      "title_zh": "基于跨标签分配知识蒸馏的端到端目标检测方法",
-      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550737",
-      "hot_value": null,
-      "summary_zh": "<br/><p>&lt;p&lt;1对1标签分配规则在去除后处理步骤中的非极大值抑制（non-maximum suppression，NMS）和构建无NMS的端到端检测范式中发挥了巨大作用。然而，这种严格的样本匹配规则导致训练过程中正样本数量显著减少，使得模型在特征表示学习阶段难以充分挖掘数据中的潜在语义信息，学习效率低下。为此，提出了一种跨标签分配知识蒸馏（cross-label assignment knowledge distillation，CAKD）方法，用于实现端到端的目标检测。该方法将知识蒸馏的迁移学习机制与端到端目标检测算法相结合以弥补现有1对1标签分配规则的缺陷，为知识蒸馏框架用在训练端到端检测模型建立了一条有效的知识迁移路径。具体地，该方法首先将学生模型的多尺度特征传递到教师模型的检测头中。然后，将学生—教师跨标签分配预测与教师的预测用于计算蒸馏损失。这种方式避免了直接",
-      "thumbnail": null,
-      "published_at": "2026-11-03",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机研究与发展",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-1239",
-        "doi": "10.7544/issn1000-1239.202550737",
-        "description": "<br/><p>&lt;p&lt;1对1标签分配规则在去除后处理步骤中的非极大值抑制（non-maximum suppression，NMS）和构建无NMS的端到端检测范式中发挥了巨大作用。然而，这种严格的样本匹配规则导致训练过程中正样本数量显著减少，使得模型在特征表示学习阶段难以充分挖掘数据中的潜在语义信息，学习效率低下。为此，提出了一种跨标签分配知识蒸馏（cross-label assignment knowledge distillation，CAKD）方法，用于实现端到端的目标检测。该方法将知识蒸馏的迁移学习机制与端到端目标检测算法相结合以弥补现有1对1标签分配规则的缺陷，为知识蒸馏框架用在训练端到端检测模型建立了一条有效的知识迁移路径。具体地，该方法首先将学生模型的多尺度特征传递到教师模型的检测头中。然后，将学生—教师跨标签分配预测与教师的预测用于计算蒸馏损失。这种方式避免了直接强制学生模仿教师的特征导致的特征混乱、语义错位的问题。此外，设计了一种有效的任务感知匹配度量方式，综合考虑了分类和回归质量，避免了分类和定位任务之间没有相关性的问题。在COCO数据集上进行了大量实验证明了提出方法的有效性。提出的跨标签分配知识蒸馏方法在非端到端FCOS基线模型上的均值平均精度（mean average precision，&lt;italic&lt;mAP&lt;/italic&lt;）达到了38.8%的无NMS检测性能，其相较于原始有NMS的检测性能实现了2.2个百分点的精度增益。&lt;/p&lt;</p> <br/>计算机研究与发展. 2026 63(10): 2682-2696.",
-        "dedupe_key": "doi:10.7544/issn1000-1239.202550737",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "表示学习"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "a5bcd2968fd2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 36
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 35
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 36,
-      "title": "基于大语言模型的库存调度决策方法",
-      "title_zh": "基于大语言模型的库存调度决策方法",
-      "url": "https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202550842",
-      "hot_value": null,
-      "summary_zh": "<br/><p>&lt;p&lt;库存调度在现代供应链中扮演着至关重要的角色，其核心目标在于通过合理的库存调度平衡生产与需求之间的关系。然而，随着市场需求的不确定性和商品属性的多样化，基于经验的传统库存调度方法往往难以有效地将商品属性与需求波动结合考虑，并且其决策结果缺乏可解释性，使得其库存调度结果难以追溯原因且信任度较低。另一方面，大语言模型的出现为库存调度决策问题的可解释性提供了新的解决方案。然而，直接将库存调度流程中的补货策略引入推理过程会导致推理过程的误差积累，导致推理结果不稳定。针对上述问题，不仅要考虑推理过程的合理性，还要关注最终决策效果的优化。为了解决上述挑战，一种基于大语言模型的库存调度多步推理框架InvLLM被提出。主要贡献如下：1）基于库存调度工作流程设计了一种自校准的多步推理方法；2）提出了一种用于库存调度决策的多目标平衡优化方法。此外，为了解决推理微调阶段的偏差问题",
-      "thumbnail": null,
-      "published_at": "2026-11-03",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机研究与发展",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1000-1239",
-        "doi": "10.7544/issn1000-1239.202550842",
-        "description": "<br/><p>&lt;p&lt;库存调度在现代供应链中扮演着至关重要的角色，其核心目标在于通过合理的库存调度平衡生产与需求之间的关系。然而，随着市场需求的不确定性和商品属性的多样化，基于经验的传统库存调度方法往往难以有效地将商品属性与需求波动结合考虑，并且其决策结果缺乏可解释性，使得其库存调度结果难以追溯原因且信任度较低。另一方面，大语言模型的出现为库存调度决策问题的可解释性提供了新的解决方案。然而，直接将库存调度流程中的补货策略引入推理过程会导致推理过程的误差积累，导致推理结果不稳定。针对上述问题，不仅要考虑推理过程的合理性，还要关注最终决策效果的优化。为了解决上述挑战，一种基于大语言模型的库存调度多步推理框架InvLLM被提出。主要贡献如下：1）基于库存调度工作流程设计了一种自校准的多步推理方法；2）提出了一种用于库存调度决策的多目标平衡优化方法。此外，为了解决推理微调阶段的偏差问题，提出了一种结合生成奖励模型的“词元规划”监督微调方法，实现了高准确性与逻辑一致性之间的平衡。通过在中国电子商务公司“京东”提供的大规模真实数据集上的实验评估，证明了所提出的InvLLM框架相较于现有的库存调度方法在服务率和总体库存评价分数上分别提高了3.24%和1.55%，并降低了1.33%的库存率，验证了该方法的有效性和实用性。&lt;/p&lt;</p> <br/>计算机研究与发展. 2026 63(10): 2715-2732.",
-        "dedupe_key": "doi:10.7544/issn1000-1239.202550842",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "大语言模型"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "070afe233bb8",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 37
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 37
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 37
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 37
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 37
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 37
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 36
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 37,
-      "title": "MADS-Net: a Multi-scale Attention and Dynamic Sparse Mask Fusion Network for Electrical Impedance Tomography Image Reconstruction in Breast Screening",
-      "title_zh": "MADS-Net：一种用于乳腺筛查中电阻抗断层成像图像重建的多尺度注意力和动态稀疏掩码融合网络",
-      "url": "https://doi.org/10.3724/j.pibb.2026.0197",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-09-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "中文核心",
-        "journal": "Progress in Biochemistry and Biophysics",
-        "mode": "filter",
-        "issn": "1000-3282",
-        "doi": "10.3724/j.pibb.2026.0197",
-        "description": "",
-        "dedupe_key": "doi:10.3724/j.pibb.2026.0197",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "attention"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "93eea8bf2bea",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 38
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 37
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 38,
-      "title": "大语言模型智能体操作系统研究综述",
-      "title_zh": "大语言模型智能体操作系统研究综述",
-      "url": "https://www.jsjkx.com/CN/abstract/abstract24002.shtml",
-      "hot_value": null,
-      "summary_zh": "大语言模型智能体操作系统,也叫智能体操作系统,是整合大模型、工具资源以及多智能体协同的核心平台,目前正逐渐成为推动通用人工智能发展的一个关键研究方向。对智能体操作系统领域的研究进展进行了系统梳理,首先从基础理论着手,回顾了多种大模型的演进情况以及智能体和传统操作系统领域的进展;接着,围绕典型体系结构,如AIOS等,阐述了其分层架构与模块化设计是怎样达成资源管理与智能调度的。进一步地,明确了当前智能体操作系统在上下文整合、扩展性以及安全性等方面面临的技术挑战,同时也提出了未来借助轻量化设计、自监督学习机制以及动态调度算法来提升多智能体协作效率。该研究的主要贡献为,将那些分散的研究给予整合,促使技术框架变得更为明晰,并指出了智能体操作系统对新兴体系以及行业定制化实践覆盖不全面的情况。未来的研究需要侧重推动跨域智能体操作系统自我进化的能力,并且加快其在各个领域的落地等。",
-      "thumbnail": null,
-      "published_at": "2026-01-08",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机科学",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1002-137X",
-        "doi": null,
-        "description": "大语言模型智能体操作系统,也叫智能体操作系统,是整合大模型、工具资源以及多智能体协同的核心平台,目前正逐渐成为推动通用人工智能发展的一个关键研究方向。对智能体操作系统领域的研究进展进行了系统梳理,首先从基础理论着手,回顾了多种大模型的演进情况以及智能体和传统操作系统领域的进展;接着,围绕典型体系结构,如AIOS等,阐述了其分层架构与模块化设计是怎样达成资源管理与智能调度的。进一步地,明确了当前智能体操作系统在上下文整合、扩展性以及安全性等方面面临的技术挑战,同时也提出了未来借助轻量化设计、自监督学习机制以及动态调度算法来提升多智能体协作效率。该研究的主要贡献为,将那些分散的研究给予整合,促使技术框架变得更为明晰,并指出了智能体操作系统对新兴体系以及行业定制化实践覆盖不全面的情况。未来的研究需要侧重推动跨域智能体操作系统自我进化的能力,并且加快其在各个领域的落地等。",
-        "dedupe_key": "url:https://www.jsjkx.com/cn/abstract/abstract24002.shtml",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "自监督",
-          "人工智能",
-          "大语言模型",
-          "大模型",
-          "智能体"
-        ]
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "bf1108cac1d3",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 39
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 39
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 39
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 39
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 39
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 39
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 38
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 39,
-      "title": "实际应用场景中的大模型高效推理技术综述",
-      "title_zh": "实际应用场景中的大模型高效推理技术综述",
-      "url": "https://www.jsjkx.com/CN/abstract/abstract24003.shtml",
-      "hot_value": null,
-      "summary_zh": "近年来,大语言模型(Large Language Models,LLMs)技术迎来了快速发展,其在各行业的应用呈现出蓬勃增长的态势。从自然语言处理到智能推荐,再到信息检索和自动化写作,LLMs正逐渐成为许多领域中不可或缺的工具。然而,随着应用场景的逐渐多样化和需求的不断增加,LLMs推理效率问题日益凸显。在实际应用场景中,快速准确的推理能力对于响应用户请求、处理大规模数据和实时决策至关重要。为了应对这一挑战,学术界展开了广泛的研究和探索,致力于提高LLMs的推理效率。对此,全面调研了实际应用场景中有关LLMs高效推理的文献。首先,介绍了LLMs推理的原理,并分析了在实际应用场景中如何提高LLMs的推理效率。然后,引入了一个针对实际应用场景的分类系统,其主要分为3个层面,分别是算法优化层面、参数优化层面和系统优化层面;并对大模型进行相关研究的总结和归纳。最后,探讨了未来可能的研究方向。",
-      "thumbnail": null,
-      "published_at": "2026-01-08",
-      "extra": {
-        "subsource": "cn_journal_rss",
-        "tier": "中文核心",
-        "journal": "计算机科学",
-        "discipline": "计算机",
-        "mode": "filter",
-        "issn": "1002-137X",
-        "doi": null,
-        "description": "近年来,大语言模型(Large Language Models,LLMs)技术迎来了快速发展,其在各行业的应用呈现出蓬勃增长的态势。从自然语言处理到智能推荐,再到信息检索和自动化写作,LLMs正逐渐成为许多领域中不可或缺的工具。然而,随着应用场景的逐渐多样化和需求的不断增加,LLMs推理效率问题日益凸显。在实际应用场景中,快速准确的推理能力对于响应用户请求、处理大规模数据和实时决策至关重要。为了应对这一挑战,学术界展开了广泛的研究和探索,致力于提高LLMs的推理效率。对此,全面调研了实际应用场景中有关LLMs高效推理的文献。首先,介绍了LLMs推理的原理,并分析了在实际应用场景中如何提高LLMs的推理效率。然后,引入了一个针对实际应用场景的分类系统,其主要分为3个层面,分别是算法优化层面、参数优化层面和系统优化层面;并对大模型进行相关研究的总结和归纳。最后,探讨了未来可能的研究方向。",
-        "dedupe_key": "url:https://www.jsjkx.com/cn/abstract/abstract24003.shtml",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "大语言模型",
-          "大模型"
-        ]
-      },
-      "days_on_board": 7,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "13a3f0d8665f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 39
         }
       ]
     }
   ],
   "new_today": [
+    {
+      "source": "bilibili",
+      "rank": 1,
+      "title": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」",
+      "title_zh": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」",
+      "url": "https://b23.tv/BV1XJ4g6WEyL",
+      "hot_value": "1889921",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/5cc963a82a89537192bf1b6c7af2f5ec65105a99.jpg",
+      "published_at": "2026-11-04T04:00:00+00:00",
+      "extra": {
+        "bvid": "BV1XJ4g6WEyL",
+        "owner": "崩坏星穹铁道"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "fb8d6fa3cb7c",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 1,
+      "title": "原来深秋是咕嘟的",
+      "title_zh": "原来深秋是咕嘟的",
+      "url": "https://www.douyin.com/search/%E5%8E%9F%E6%9D%A5%E6%B7%B1%E7%A7%8B%E6%98%AF%E5%92%95%E5%98%9F%E7%9A%84",
+      "hot_value": "11703819",
+      "summary_zh": null,
+      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-i-0813c000-ce/okDACjo0IEPSBv9L3MaiAoBnS4ibhAupLAwAB~noop.jpeg?lk3s=bfd515bb&x-expires=1793804400&x-signature=h96Iw%2B8W%2FK2ZTN1l7M51l2aoUbg%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2728034"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "a153f7cb3dd5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 1,
+      "title": "腾讯跨境支付平台 TenPay Global 与银联国际签署合作备忘录，首次在跨境汇款领域开展合作",
+      "title_zh": "腾讯跨境支付平台 TenPay Global 与银联国际签署合作备忘录，首次在跨境汇款领域开展合作",
+      "url": "https://www.ithome.com/1/022/273.htm",
+      "hot_value": null,
+      "summary_zh": "IT之家 11 月 4 日消息，2026 年香港金融科技周期间，腾讯旗下跨境支付平台 TenPay Global 与中国银联旗下银联国际签署合作备忘录， 双方将首次在跨境汇款领域开展合作 。 IT之家获悉，根据合作备忘录， 双方将共同探索便利的跨境汇款服务 。TenPay Global 跨境汇款平台已与全球 60 多家银行及汇款机构合作，支持从 150 多个国家和地区向中国境内汇款。 据介绍，Tenpay Global 汇款至微信服务 7×24 小时全天候开放，资金快至一分钟内到账。身份验证和合规审核在后台毫秒级完成。 相关阅读： 《 腾讯与 Visa 宣布战略合作，包含跨境支付、企业级 AI、智能体支付等领域 》 《 腾讯 TenPay Global 与万事达卡签署合作备忘录，入境扫码支付、汇款与智能体支付同步推进 》",
+      "thumbnail": null,
+      "published_at": "2026-11-04T09:15:31+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "IT之家 11 月 4 日消息，2026 年香港金融科技周期间，腾讯旗下跨境支付平台 TenPay Global 与中国银联旗下银联国际签署合作备忘录， 双方将首次在跨境汇款领域开展合作 。 IT之家获悉，根据合作备忘录， 双方将共同探索便利的跨境汇款服务 。TenPay Global 跨境汇款平台已与全球 60 多家银行及汇款机构合作，支持从 150 多个国家和地区向中国境内汇款。 据介绍，Tenpay Global 汇款至微信服务 7×24 小时全天候开放，资金快至一分钟内到账。身份验证和合规审核在后台毫秒级完成。 相关阅读： 《 腾讯与 Visa 宣布战略合作，包含跨境支付、企业级 AI、智能体支付等领域 》 《 腾讯 TenPay Global 与万事达卡签署合作备忘录，入境扫码支付、汇款与智能体支付同步推进 》",
+        "dedupe_key": "https://www.ithome.com/1/022/273.htm"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "74e5d9b05e8d",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 1,
+      "title": "🤖 OpenAI Builds a Daily-Life Benchmark LifeVal checks AI usefulness on everyday tasks rather than math or coding. Researchers studied how people spend their time and surveyed 3,995 people to identify where AI help is most needed. OpenAI reports 100% for finding housing within a budget and commute ti",
+      "title_zh": "🤖 OpenAI构建日常生活基准 LifeVal检验AI在日常任务中的实用性，而非数学或编程。研究人员研究了人们如何度过时间，并调查了3,995人以确定最需要AI帮助的地方。OpenAI报告在预算内找到住房和通勤时间方面达到100%",
+      "url": "https://t.me/tech/4097",
+      "hot_value": "448",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-04T09:00:28+00:00",
+      "extra": {
+        "channel": "technology",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "3c031c5c3f97",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 1,
+      "title": "这就是勤换洗水杯的原因",
+      "title_zh": "这就是勤换洗水杯的原因",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%BF%99%E5%B0%B1%E6%98%AF%E5%8B%A4%E6%8D%A2%E6%B4%97%E6%B0%B4%E6%9D%AF%E7%9A%84%E5%8E%9F%E5%9B%A0%23",
+      "hot_value": "1615190",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "65d370e833c1",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "youtube",
+      "rank": 1,
+      "title": "BEDJINE - J'AVOUE (OFFICIAL VIDEO)",
+      "title_zh": "BEDJINE - J'AVOUE（官方视频）",
+      "url": "https://youtube.com/watch?v=t1MJvR3vug8",
+      "hot_value": "155140",
+      "summary_zh": "BEDJINE新歌MV，海地音乐人官方视频发布。",
+      "thumbnail": "https://i.ytimg.com/vi/t1MJvR3vug8/hqdefault.jpg",
+      "published_at": "2026-11-03T22:00:07Z",
+      "extra": {
+        "video_id": "t1MJvR3vug8",
+        "region": "US",
+        "channel": "Bedjine officiel",
+        "description": "https://open.spotify.com/artist/1Y35rh5OR2IEcRW2UmLBEv?si=fl8UZB4zQTerBHad0QXPjA&utm_source=copy-link\nhttps://www.facebook.com/@BEDJINEHAITI\nhttps://www.tiktok.com/@BEDJINEOFFICIEL\nhttps://www.instagram.com/@BEDJINEOFFIEL\n\nLYRICS: BEDJINE\nBEAT:  HASPEN\nMIXING: K-DILAK\nMASTERING: K-DILAK\nDIRECTOR: ST"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "b58e103002c7",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 2,
+      "title": "《这是我儿子？》",
+      "title_zh": "《这是我儿子？》",
+      "url": "https://b23.tv/BV1PF4g6ME26",
+      "hot_value": "766319",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/b8390fd88b8adaade6605c3237941395605699fe.jpg",
+      "published_at": "2026-11-03T10:16:39+00:00",
+      "extra": {
+        "bvid": "BV1PF4g6ME26",
+        "owner": "张小伙玩配音"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c040af3444ce",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 2,
+      "title": "这泰山是非爬不可吗",
+      "title_zh": "这泰山是非爬不可吗",
+      "url": "https://www.douyin.com/search/%E8%BF%99%E6%B3%B0%E5%B1%B1%E6%98%AF%E9%9D%9E%E7%88%AC%E4%B8%8D%E5%8F%AF%E5%90%97",
+      "hot_value": "11637958",
+      "summary_zh": null,
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/o4RYlKu7AuAiPwWYbPYa3pHcBaI8INIQ1MNiT~noop.jpeg?lk3s=bfd515bb&x-expires=1793804400&x-signature=dH3MN3gv33Zhbc7ja1hhLn7xZqI%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2727927"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "4b40c819ab07",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 2,
+      "title": "“AI 教父”辛顿：今明两年就有可能发生人工智能领域的切尔诺贝利事故",
+      "title_zh": "“AI 教父”辛顿：今明两年就有可能发生人工智能领域的切尔诺贝利事故",
+      "url": "https://www.ithome.com/1/022/271.htm",
+      "hot_value": null,
+      "summary_zh": "IT之家 11 月 4 日消息，诺贝尔奖得主、“AI 教父”Geoffrey Hinton（杰弗里 · 辛顿）近日在接受英国《卫报》采访时表示， 人工智能领域今明两年就有可能发生切尔诺贝利等级的事故 。 辛顿表示，今年夏天发生的 OpenAI 智能体入侵 Hugging Face 事件是一次类似三哩岛核事故的“警告”。而更为严重的“人工智能切尔诺贝利”则可能会是 AI 攻击导致大规模停电或金融系统瘫痪一周。人类可能能承受这种重大灾难的考验，然后意识到人工智能技术的危险性。 辛顿并不信任 Meta 扎克伯格、SpaceXSI 马斯克、OpenAI 奥尔特曼。他 认为这些人工智能企业的领导人虽然明白风险但只关注技术产生的经济效益 ，放任人工智能的发展。 辛顿坦承他相信人工智能有潜力为人类带来美好的未来，但 其中蕴藏的重大隐患甚至可能让他认为这项技术当初就不该被开发出来 。人类将在十年甚至更短的",
+      "thumbnail": null,
+      "published_at": "2026-11-04T09:11:48+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "IT之家 11 月 4 日消息，诺贝尔奖得主、“AI 教父”Geoffrey Hinton（杰弗里 · 辛顿）近日在接受英国《卫报》采访时表示， 人工智能领域今明两年就有可能发生切尔诺贝利等级的事故 。 辛顿表示，今年夏天发生的 OpenAI 智能体入侵 Hugging Face 事件是一次类似三哩岛核事故的“警告”。而更为严重的“人工智能切尔诺贝利”则可能会是 AI 攻击导致大规模停电或金融系统瘫痪一周。人类可能能承受这种重大灾难的考验，然后意识到人工智能技术的危险性。 辛顿并不信任 Meta 扎克伯格、SpaceXSI 马斯克、OpenAI 奥尔特曼。他 认为这些人工智能企业的领导人虽然明白风险但只关注技术产生的经济效益 ，放任人工智能的发展。 辛顿坦承他相信人工智能有潜力为人类带来美好的未来，但 其中蕴藏的重大隐患甚至可能让他认为这项技术当初就不该被开发出来 。人类将在十年甚至更短的",
+        "dedupe_key": "https://www.ithome.com/1/022/271.htm"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "b02f90c13450",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 2,
+      "title": "🧐 GPT-6 Astra rewired a small AI from the inside and lifted its math score from 7.9% to 48.1% MIT researchers handed OpenAI's GPT-6 Astra the raw numbers inside a small Qwen model, its weights, and asked it to make the model better at math. No training run, just edits. Astra found the flaw that made",
+      "title_zh": "🧐 GPT-6 Astra从内部重新布线了一个小型AI，将其数学分数从7.9%提升到48.1% MIT研究人员将小型Qwen模型内部的原始数字、其权重交给OpenAI的GPT-6 Astra，并要求它让模型更擅长数学。没有训练运行，只是编辑。Astra找到了导致",
+      "url": "https://t.me/aipost/8699",
+      "hot_value": "1.05K",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-04T08:32:01+00:00",
+      "extra": {
+        "channel": "aipost",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cc7cfbdbdcb4",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 2,
+      "title": "A股暴力反弹原因",
+      "title_zh": "A股暴力反弹原因",
+      "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E6%9A%B4%E5%8A%9B%E5%8F%8D%E5%BC%B9%E5%8E%9F%E5%9B%A0%23",
+      "hot_value": "897009",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "5fd6d0418442",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "youtube",
+      "rank": 2,
+      "title": "ENE Repeat Trailer | Tharun Bhascker | Vishwaksen | Srinath | Abhinav | Venkatesh | Vivek Sagar",
+      "title_zh": "ENE Repeat预告片 | Tharun Bhascker | Vishwaksen | Srinath | Abhinav | Venkatesh | Vivek Sagar",
+      "url": "https://youtube.com/watch?v=TXJrO0Lt2Q0",
+      "hot_value": "2537744",
+      "summary_zh": "泰卢固语电影《ENE Repeat》官方预告，续作喜剧。",
+      "thumbnail": "https://i.ytimg.com/vi/TXJrO0Lt2Q0/hqdefault.jpg",
+      "published_at": "2026-11-03T11:30:04Z",
+      "extra": {
+        "video_id": "TXJrO0Lt2Q0",
+        "region": "US",
+        "channel": "Think Music Telugu",
+        "description": "Here is the official Trailer of sequel of \"Ee Nagaraniki Emaindhi\" produced by Srujan Yarabolu & Sandeep Nagireddy. directed by Tharun Bhascker Dhaassyam.\n\n#ENERepeat #ENE2 #ENERepeatOnNov19th\n\nEXPECT THE UNEXPECTED 😎\nIchi padesthunnam….. 🍻\n\n𝐌𝐨𝐯𝐢𝐞 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 :\n\nWritten & Directed by Tharun Bhascker Dha"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "06119da427e5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 3,
+      "title": "挑战不让店员吃外卖第一期：滑蛋鸡腿肉盖饭！小美说还得是新鲜的香！#谢谢侬传承家宴",
+      "title_zh": "挑战不让店员吃外卖第一期：滑蛋鸡腿肉盖饭！小美说还得是新鲜的香！#谢谢侬传承家宴",
+      "url": "https://b23.tv/BV1MQ4u6CEzP",
+      "hot_value": "799313",
+      "summary_zh": null,
+      "thumbnail": "http://i2.hdslb.com/bfs/archive/504c832ac0083c80bc0557ad9fd284702e23d04a.jpg",
+      "published_at": "2026-11-03T10:28:41+00:00",
+      "extra": {
+        "bvid": "BV1MQ4u6CEzP",
+        "owner": "谢谢侬老徐"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "fe3fd8f4bddd",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 3,
+      "title": "我国核电技术双龙出海电力拉满",
+      "title_zh": "我国核电技术双龙出海电力拉满",
+      "url": "https://www.douyin.com/search/%E6%88%91%E5%9B%BD%E6%A0%B8%E7%94%B5%E6%8A%80%E6%9C%AF%E5%8F%8C%E9%BE%99%E5%87%BA%E6%B5%B7%E7%94%B5%E5%8A%9B%E6%8B%89%E6%BB%A1",
+      "hot_value": "11363769",
+      "summary_zh": null,
+      "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-i-dy/0e98d2e6194f47ab9ef5da21ba874798~noop.jpeg?lk3s=bfd515bb&x-expires=1793804400&x-signature=tLmZPt%2ByYqfsZOPzyCEmplLTzoM%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2728916"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cc823b3ec5f6",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 3,
+      "title": "Counterpoint：2026 年第三季度全球智能手机平均售价创单季度历史最高水平，苹果营收创同期新高",
+      "title_zh": "Counterpoint：2026 年第三季度全球智能手机平均售价创单季度历史最高水平，苹果营收创同期新高",
+      "url": "https://www.ithome.com/1/022/263.htm",
+      "hot_value": null,
+      "summary_zh": "IT之家 11 月 4 日消息，根据 Counterpoint Research 最新的市场监测服务，尽管 2026 年第三季度全球智能手机出货量同比大幅下降 19%，但全球智能手机营收仍同比增长 3%，达到 1,140 亿美元 （IT之家注：现汇率约合 7,619.8 亿元人民币） 。平均售价（ASP）上涨支撑了市场营收，抵消了出货量下滑带来的影响。高端化趋势、更优的产品组合以及各价位段由存储驱动的涨价，推动全球 ASP 同比上涨 27% 至 442 美元 （现汇率约合 2,954 元人民币） ，创下单季度历史最高水平。 Counterpoint Research 高级分析师 Shilpi Jain 表示：“智能手机市场正日益面临‘量’与‘价’之间的权衡取舍。尽管 ASP 上涨在一定程度上缓解了出货量下滑对营收造成的冲击，但这并不意味着盈利能力也会同步改善。随着存储成本持续上涨、利润空间",
+      "thumbnail": null,
+      "published_at": "2026-11-04T08:54:30+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "IT之家 11 月 4 日消息，根据 Counterpoint Research 最新的市场监测服务，尽管 2026 年第三季度全球智能手机出货量同比大幅下降 19%，但全球智能手机营收仍同比增长 3%，达到 1,140 亿美元 （IT之家注：现汇率约合 7,619.8 亿元人民币） 。平均售价（ASP）上涨支撑了市场营收，抵消了出货量下滑带来的影响。高端化趋势、更优的产品组合以及各价位段由存储驱动的涨价，推动全球 ASP 同比上涨 27% 至 442 美元 （现汇率约合 2,954 元人民币） ，创下单季度历史最高水平。 Counterpoint Research 高级分析师 Shilpi Jain 表示：“智能手机市场正日益面临‘量’与‘价’之间的权衡取舍。尽管 ASP 上涨在一定程度上缓解了出货量下滑对营收造成的冲击，但这并不意味着盈利能力也会同步改善。随着存储成本持续上涨、利润空间",
+        "dedupe_key": "https://www.ithome.com/1/022/263.htm"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "000acaedc7cb",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "nowcoder",
+      "rank": 3,
+      "title": "一个末九本同学的秋招阶段性再总结",
+      "title_zh": "一个末九本同学的秋招阶段性再总结",
+      "url": "https://www.nowcoder.com/feed/main/detail/679ea0fe388746099504540b7aaa1560",
+      "hot_value": "命中 1 个关键词",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "subsource": "rsshub",
+        "keyword_hit": [
+          "秋招"
+        ],
+        "description": ""
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "092274f81211",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 3,
+      "title": "StepSecurity launched a beta GitHub scanner for campaign-planted files across repository history and renamed its Dev Machine Guard feature Malicious Files, adding rule management and device-level findings. 🔗 https://cyber.hendryadrian.com/article/14974/stepsecurity-launches-malicious-file-scanning-f",
+      "title_zh": "StepSecurity推出了一个测试版GitHub扫描器，用于扫描仓库历史中活动植入的文件，并将其Dev Machine Guard功能更名为Malicious Files，增加了规则管理和设备级发现。 🔗 https://cyber.hendryadrian.com/article/14974/stepsecurity-launches-malicious-file-scanning-f",
+      "url": "https://t.me/cybernotif/38254",
+      "hot_value": "9",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-04T07:36:03+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7e770d59f3d1",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 3,
+      "title": "一起响应举报护企倡议",
+      "title_zh": "一起响应举报护企倡议",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E8%B5%B7%E5%93%8D%E5%BA%94%E4%B8%BE%E6%8A%A5%E6%8A%A4%E4%BC%81%E5%80%A1%E8%AE%AE%23",
+      "hot_value": "710266",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "41cc74aa8684",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "youtube",
+      "rank": 3,
+      "title": "The Elder Scrolls VI: Official Name Reveal",
+      "title_zh": "《上古卷轴VI》：官方名称揭晓",
+      "url": "https://youtube.com/watch?v=mFu8t9735IY",
+      "hot_value": "1510385",
+      "summary_zh": "上古卷轴6正式定名《Sentinel》，官方预告揭晓。",
+      "thumbnail": "https://i.ytimg.com/vi/mFu8t9735IY/hqdefault.jpg",
+      "published_at": "2026-11-03T15:07:34Z",
+      "extra": {
+        "video_id": "mFu8t9735IY",
+        "region": "US",
+        "channel": "Bethesda Softworks",
+        "description": "“The scroll offered only a shimmer, a veil thinly lifted to my eyes. A future lost. A victory undone. Sands of time scattered by fate.” \n- Yazar, Moth Priest to High Queen Iradne of Hammerfell (4E 206)\n\nYour next journey to Tamriel will be in The Elder Scrolls VI: Sentinel.\n\nFor more information abo"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "91d7500b13e2",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 4,
+      "title": "【只对你有感觉】|“【恋爱の小曲】”",
+      "title_zh": "【只对你有感觉】|“【恋爱の小曲】”",
+      "url": "https://b23.tv/BV1w5xh6sEEz",
+      "hot_value": "1099117",
+      "summary_zh": null,
+      "thumbnail": "http://i2.hdslb.com/bfs/archive/2d1f36db40ac0fd5402af0a44c5b8e24f2be1ade.jpg",
+      "published_at": "2026-11-03T02:00:00+00:00",
+      "extra": {
+        "bvid": "BV1w5xh6sEEz",
+        "owner": "蛋某人音乐"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7b37fcf587a8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 4
+        }
+      ]
+    }
+  ],
+  "dropped": [
     {
       "source": "bilibili",
       "rank": 1,
@@ -913,54 +1614,45 @@
       ]
     },
     {
-      "source": "github",
+      "source": "papers",
       "rank": 1,
-      "title": "vercel-labs/agent-desktop",
-      "title_zh": "vercel-labs/agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "hot_value": "2,275 stars today",
-      "summary_zh": "Vercel AI工具，便捷AI助手",
+      "title": "PathoEvo: an interactive single-cell database for exploring disease progression and pathological evolution.",
+      "title_zh": "PathoEvo：一个用于探索疾病进展和病理演化的交互式单细胞数据库。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42963939/",
+      "hot_value": null,
+      "summary_zh": "疾病进展由组织微环境、细胞组成、细胞状态和转录程序的协同变化驱动。单细胞和单核RNA测序使这些变化能够在细胞分辨率下研究。然而，公共疾病相关数据集通常组织在单个研究内，并使用异质性临床、病理或分子分期系统注释，限制了跨疾病阶段和数据集比较。在此，我们介绍PathoEvo（https://biomedlab-ai.com/pathoevo/），一个以疾病进展为中心的疾病相关单细胞和单核转录组数据库。PathoEvo整合了来自981个样本和59个数据集的7 452 971个细胞或细胞核，覆盖18种疾病和27个进展框架。通过人工策展、统一处理、元数据协调、细胞类型注释和阶段映射，PathoEvo将异质性数据集组织为围绕疾病进展的标准化资源。其数据和分析功能跨越三个互补层面，允许用户检查与疾病阶段和细胞状态相关的细胞组成变化，表征跨疾病进展的样本级分子变异，并研究相关细胞群体和样本中的基因表达动态",
       "thumbnail": null,
-      "published_at": null,
+      "published_at": "2026-10-31",
       "extra": {
-        "description": "Computer use CLI for AI agents",
-        "language": "Rust"
+        "subsource": "pubmed",
+        "journal": "Nucleic acids research",
+        "doi": "10.1093/nar/gkag1075",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Disease progression is driven by coordinated changes in tissue microenvironments, cellular composition, cell states, and transcriptional programmes. Single-cell and single-nucleus RNA sequencing enable these changes to be studied at cellular resolution. However, public disease-associated datasets are often organized within individual studies and annotated using heterogeneous clinical, pathological, or molecular staging systems, limiting comparison across disease stages and datasets. Here, we present PathoEvo (https://biomedlab-ai.com/pathoevo/), a disease-associated single-cell and single-nucleus transcriptomic database centred on disease progression. PathoEvo integrates 7 452 971 cells or nuclei from 981 samples and 59 datasets, covering 18 diseases and 27 progression frameworks. Through manual curation, unified processing, metadata harmonization, cell-type annotation, and stage mapping, PathoEvo organizes heterogeneous datasets into standardized resources organized around disease progression. Its data and analytical functions span three complementary levels, allowing users to examine changes in cellular composition associated with disease stage and cell states, characterize sample-level molecular variation across disease progression, and investigate gene expression dynamics across relevant cell populations and samples. Structured search and browsing further facilitate dataset discovery and navigation of stage-resolved information across diseases and staging systems. PathoEvo provides an integrative resource for investigating pathological evolution and comparing cellular and molecular patterns of disease progression across datasets at single-cell resolution.",
+        "identifier": "42963939",
+        "dedupe_key": "doi:10.1093/nar/gkag1075",
+        "topic_hit": [
+          "单细胞聚类",
+          "生物信息"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": []
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "e79fdbf86895",
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "d11f3e874575",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
           "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 1,
-      "title": "27秋招寒潮下对28届的求职建议（一）: 关于实习",
-      "title_zh": "27秋招寒潮下对28届的求职建议（一）: 关于实习",
-      "url": "https://www.nowcoder.com/feed/main/detail/3f63484430264b849af4b46f48631d4e",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招"
-        ],
-        "description": ""
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "3ece8eb0808b",
-      "cluster_size": 1,
-      "rank_history": [
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 1
+        },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 1
@@ -1010,34 +1702,6 @@
       "is_new": true,
       "rank_delta": "new",
       "cluster_id": "da4e4f36b306",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "youtube",
-      "rank": 1,
-      "title": "Grupo Firme - El Esparza - Cuando Yo Me Muera (Video Oficial)",
-      "title_zh": "Grupo Firme - El Esparza - Cuando Yo Me Muera （官方视频）",
-      "url": "https://youtube.com/watch?v=v08NK0Fccj8",
-      "hot_value": "509384",
-      "summary_zh": "Grupo Firme音乐视频，官方MV发布",
-      "thumbnail": "https://i.ytimg.com/vi/v08NK0Fccj8/hqdefault.jpg",
-      "published_at": "2026-11-02T18:00:07Z",
-      "extra": {
-        "video_id": "v08NK0Fccj8",
-        "region": "US",
-        "channel": "Grupo Firme",
-        "description": "Grupo Firme - El Esparza\nSuscríbete a Youtube:    / @grupofirmeoficial  \n© 2026 Music VIP Entertainment, LLC, \n\nProductor Ejecutivo: Isael Gutierrez\nProductor Ejecutivo: Eduin Caz\nAutor: Omar Eduardo Esparza Altamirano\nDirector de Video Musical: Mane Borja\n\nInstagram   / grupofirme  \nFacebook   / gr"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "c56e63c45955",
       "cluster_size": 1,
       "rank_history": [
         {
@@ -1128,28 +1792,43 @@
       ]
     },
     {
-      "source": "nowcoder",
+      "source": "jobs",
       "rank": 2,
-      "title": "27秋招寒潮下对28届的求职建议（三）: 关于项目",
-      "title_zh": "27秋招寒潮下对28届的求职建议（三）: 关于项目",
-      "url": "https://www.nowcoder.com/feed/main/detail/8cf1b1d7af5e473391b583f080fe370d",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
+      "title": "综合业务",
+      "title_zh": "综合业务",
+      "url": "https://www.iguopin.com/job/detail?id=218520025714131129&source=campus",
+      "hot_value": null,
+      "summary_zh": "【岗位职责】 1.负责组织人事、人力资源等日常相关工作； 2.负责党建基础工作，组织开展党建学习，做好党员发展、组织关系转接及党建台账管理等工作； 3.协作开展会议会务、会议纪要记录、档案归档相关工作； 4.参与制定规划、专项调研等相关工作； 5.负责行政管理日常工作。 【任职条件】 1.硕士研究生及以上学历，经济、财务、工商管理、人力资源、思想政治、法律等相关专业； 2.获得国家相应职称及专业资",
       "thumbnail": null,
-      "published_at": null,
+      "published_at": "2026-10-28 19:20:31",
       "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招"
+        "subsource": "guopin",
+        "company": "国药集团财务有限公司",
+        "city": "北京-海淀区",
+        "education": "硕士",
+        "company_type": "国企",
+        "recruitment_type": "校园招聘",
+        "keywords_hit": [
+          "综合",
+          "财务"
         ],
-        "description": ""
+        "is_central_soe": false,
+        "is_state_owned": true
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "f43d7d6e53bf",
+      "cluster_id": "ce984836e916",
       "cluster_size": 1,
       "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 3
+        },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 2
@@ -1204,60 +1883,6 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "youtube",
-      "rank": 2,
-      "title": "Percy Jackson & the Olympians Season 3 | Trailer | Disney+",
-      "title_zh": "Percy Jackson & the Olympians第3季|预告片| Disney +",
-      "url": "https://youtube.com/watch?v=nD45l6hCyN8",
-      "hot_value": "2143131",
-      "summary_zh": "Percy Jackson第三季，预告片，迪士尼+",
-      "thumbnail": "https://i.ytimg.com/vi/nD45l6hCyN8/hqdefault.jpg",
-      "published_at": "2026-11-02T17:07:04Z",
-      "extra": {
-        "video_id": "nD45l6hCyN8",
-        "region": "US",
-        "channel": "Disney Plus",
-        "description": "If Percy Jackson learned anything after completing two epic quests with Annabeth Chase, it’s that he would be lost without her. So when Annabeth is captured by the forces of Kronos, Percy must embark on a perilous journey to rescue her. He must free a goddess in chains, confront the Titan’s curse, a"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "ac517e4bd793",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 3,
-      "title": "总有世界，与你同频｜《弧光猎人》同频测试PV&国服全新PVP事件预告",
-      "title_zh": "总有世界，与你同频｜《弧光猎人》同频测试PV&国服全新PVP事件预告",
-      "url": "https://b23.tv/BV1RA4w6AE74",
-      "hot_value": "1130488",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/47e2a11fc86697ae3977fa16b33219830d500339.jpg",
-      "published_at": "2026-11-03T02:00:00+00:00",
-      "extra": {
-        "bvid": "BV1RA4w6AE74",
-        "owner": "弧光猎人_ARCRaiders"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "5bf4838f55d8",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 3
         }
       ]
     },
@@ -1317,32 +1942,6 @@
       ]
     },
     {
-      "source": "github",
-      "rank": 3,
-      "title": "D4Vinci/Scrapling",
-      "title_zh": "D4Vinci/Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "hot_value": "706 stars today",
-      "summary_zh": "D4Vinci全栈爬虫框架，高效爬虫利器",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here:https://discord.gg/EMgGbDceNQand follow here for daily tips and tricks:https://x.com/Scrapling_dev",
-        "language": "Python"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "91330f759a16",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
       "source": "jobs",
       "rank": 3,
       "title": "API市场专员",
@@ -1376,96 +1975,40 @@
           "rank": 3
         }
       ]
-    }
-  ],
-  "dropped": [
-    {
-      "source": "bilibili",
-      "rank": 1,
-      "title": "你爸回你消息了",
-      "title_zh": "你爸回你消息了",
-      "url": "https://b23.tv/BV1Lrxt6uEuR",
-      "hot_value": "489916",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/a60703f2455d95a907f0a6cc8eed2564c7cbc5e2.jpg",
-      "published_at": "2026-11-02T00:00:00+00:00",
-      "extra": {
-        "bvid": "BV1Lrxt6uEuR",
-        "owner": "冬冰"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "af68d39e95ff",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 1
-        }
-      ]
     },
     {
-      "source": "douyin",
-      "rank": 1,
-      "title": "首届CMG世界机器人登泰山大赛",
-      "title_zh": "首届CMG世界机器人登泰山大赛",
-      "url": "https://www.douyin.com/search/%E9%A6%96%E5%B1%8ACMG%E4%B8%96%E7%95%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%99%BB%E6%B3%B0%E5%B1%B1%E5%A4%A7%E8%B5%9B",
-      "hot_value": "11116608",
-      "summary_zh": null,
-      "thumbnail": "https://p9-sign.douyinpic.com/tos-cn-p-0015/o0jFU9cErrQk3WlqAjKQ9bjFTfmfU5ACADSBgN~noop.jpeg?lk3s=bfd515bb&x-expires=1793631600&x-signature=maj%2Fv8If2VanbGwSiK0znM3lvHQ%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2724740"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "62450199ca39",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 1,
-      "title": "双9没offer，说出来活该被骂装",
-      "title_zh": "双9没offer，说出来活该被骂装",
-      "url": "https://www.nowcoder.com/feed/main/detail/5d7af306292c46a4b69e3575b253e6a7",
-      "hot_value": "命中 1 个关键词",
+      "source": "telegram",
+      "rank": 3,
+      "title": "VulnCheck observed attempts to exploit CVE-2026-58115 on Siemens SIMATIC IoT2050 Advanced devices, deploying Linux payloads and Node-RED command backdoors. Siemens fixed the flaw in version 4.3.4.1 or later. 🔗 https://cyber.hendryadrian.com/article/14450/vulncheck-observes-attempts-to-exploit-critic",
+      "title_zh": "VulnCheck 观察到在西门子 SIMATIC IoT2050 Advanced 设备上利用 CVE-2026-58115 的尝试，部署 Linux 负载和 Node-RED 命令后门。西门子在 4.3.4.1 或更高版本中修复了该缺陷。 🔗 https://cyber.hendryadrian.com/article/14450/vulncheck-observes-attempts-to-exploit-critic",
+      "url": "https://t.me/cybernotif/38187",
+      "hot_value": "6",
       "summary_zh": null,
       "thumbnail": null,
-      "published_at": null,
+      "published_at": "2026-11-03T09:12:03+00:00",
       "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "offer"
-        ],
-        "description": ""
+        "channel": "cybernotif",
+        "translate": true
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "4c9a85c90e86",
-      "cluster_size": 1,
+      "cluster_id": "1eda089ca56d",
+      "cluster_size": 2,
       "rank_history": [
         {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 1
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "weibo",
-      "rank": 1,
-      "title": "彩票中心回应中1113万逾期兑奖被拒",
-      "title_zh": "彩票中心回应中1113万逾期兑奖被拒",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%A9%E7%A5%A8%E4%B8%AD%E5%BF%83%E5%9B%9E%E5%BA%94%E4%B8%AD1113%E4%B8%87%E9%80%BE%E6%9C%9F%E5%85%91%E5%A5%96%E8%A2%AB%E6%8B%92%23",
-      "hot_value": "1721465",
+      "rank": 3,
+      "title": "本届乌镇峰会分论坛数量创新高",
+      "title_zh": "本届乌镇峰会分论坛数量创新高",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AC%E5%B1%8A%E4%B9%8C%E9%95%87%E5%B3%B0%E4%BC%9A%E5%88%86%E8%AE%BA%E5%9D%9B%E6%95%B0%E9%87%8F%E5%88%9B%E6%96%B0%E9%AB%98%23",
+      "hot_value": "702263",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": null,
@@ -1475,386 +2018,39 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "861171aa28fa",
+      "cluster_id": "1ba327e6a31c",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 1
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "youtube",
-      "rank": 1,
-      "title": "Top Halloween Songs of All Time 🎃 Best Halloween Music Playlist 👻 Ghostbusters Thriller Monster Mash",
-      "title_zh": "史上最棒万圣节歌曲 🎃 最佳万圣节音乐歌单 👻 Ghostbusters Thriller Monster Mash",
-      "url": "https://youtube.com/watch?v=tMq10ONbQDo",
-      "hot_value": "522027",
-      "summary_zh": "万圣节经典歌曲合集，含捉鬼敢死队等名曲。",
-      "thumbnail": "https://i.ytimg.com/vi/tMq10ONbQDo/hqdefault.jpg",
-      "published_at": "2026-10-31T09:34:49Z",
+      "rank": 3,
+      "title": "🔴LIVE | ##1 DBD STREAMER PLAYS AGE OF EMPIRES 4 | HUTCHMF X DOUBLELIFT X GIMMICK X HABIBI | #BUNG",
+      "title_zh": "🔴现场| # # 1 DBD STREAMER PLAYS帝国时代4 | HUTCHMF X DOUBLELIFT X GIMMICK X HABIBI | # BUNG",
+      "url": "https://youtube.com/watch?v=zmwpCz4U0-k",
+      "hot_value": "918078",
+      "summary_zh": "DBD直播，Age of Empires 4直播",
+      "thumbnail": "https://i.ytimg.com/vi/zmwpCz4U0-k/hqdefault.jpg",
+      "published_at": "2026-11-03T08:10:28Z",
       "extra": {
-        "video_id": "tMq10ONbQDo",
+        "video_id": "zmwpCz4U0-k",
         "region": "US",
-        "channel": "Timeless Music",
-        "description": "Halloween Playlist 2026 - Celebrate Halloween 2026 with the best Halloween songs of all time! From classic Halloween hits to modern jams this Halloween playlist has all the music you need for a hauntingly good time 🎃👻.\n\nThis Halloween Songs playlist features all of the best Halloween music you know "
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "cc3fe7d55c51",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 2,
-      "title": "MSI冠军16强回家！万字解析BLG零封HLE背后的原因！",
-      "title_zh": "MSI冠军16强回家！万字解析BLG零封HLE背后的原因！",
-      "url": "https://b23.tv/BV1JLxh69EgU",
-      "hot_value": "509537",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/20ece9fd7265e75af5f02a2c820e354b9358b2ab.jpg",
-      "published_at": "2026-11-02T02:49:38+00:00",
-      "extra": {
-        "bvid": "BV1JLxh69EgU",
-        "owner": "分析师蓝宝石"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "38bbef2981d1",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 2,
-      "title": "小城良方贾鑫宫雪结婚第一视角",
-      "title_zh": "小城良方贾鑫宫雪结婚第一视角",
-      "url": "https://www.douyin.com/search/%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E8%B4%BE%E9%91%AB%E5%AE%AB%E9%9B%AA%E7%BB%93%E5%A9%9A%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92",
-      "hot_value": "11099717",
-      "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/os80GegzBInGg6jUDTVALCOQgs7IA3dAfBeUKi~noop.jpeg?lk3s=bfd515bb&x-expires=1793631600&x-signature=mR7XhwAwmu12La57dCKIg3K7Jnc%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2725735"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "ac0d44f02a11",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 2,
-      "title": "在座各位AI，都是“垃圾”",
-      "title_zh": "在座各位AI，都是“垃圾”",
-      "url": "https://www.36kr.com/p/4052093433893767",
-      "hot_value": null,
-      "summary_zh": "AI公司还在冲刺万亿美元估值，信用评级机构已经开始泼冷水了。 10月30日，据外媒披露，全球投资巨头黑石改变了对Anthropic未来信用评级的预期。此前黑石认为这家即将上市的AI公司有望在今年年底前获得投资级评级，如今却预计， 即使完成IPO，Anthropic仍可能停留在被称为“垃圾级”的BB档。 同一天，标普将Meta的信用评级展望从“稳定”调整为“负面”，警告其不断扩大的AI投资可能导致自由经营现金流连续多年为负。 甲骨文则已经在今年7月被降级，距离垃圾级仅剩一步。 财务数据也开始显露压力。 今年前三季度，微软、Alphabet、亚马逊、Meta和甲骨文的经营现金流合计创下历史新高，资本开支却几乎翻倍，达到5569亿美元，首次超过经营现金流。五家公司合计自由现金流由正转负，股票回购金额暴跌83%。 AI仍在带来收入，科技巨头也依然拥有强大的赚钱能力。但这场投资竞赛正在要求它们提前投",
-      "thumbnail": null,
-      "published_at": "2026-11-02T04:17:21+00:00",
-      "extra": {
-        "feed_name": "36Kr 热榜",
-        "tab": "ai",
-        "route": "/36kr/hot-list",
-        "translate": false,
-        "description": "AI公司还在冲刺万亿美元估值，信用评级机构已经开始泼冷水了。 10月30日，据外媒披露，全球投资巨头黑石改变了对Anthropic未来信用评级的预期。此前黑石认为这家即将上市的AI公司有望在今年年底前获得投资级评级，如今却预计， 即使完成IPO，Anthropic仍可能停留在被称为“垃圾级”的BB档。 同一天，标普将Meta的信用评级展望从“稳定”调整为“负面”，警告其不断扩大的AI投资可能导致自由经营现金流连续多年为负。 甲骨文则已经在今年7月被降级，距离垃圾级仅剩一步。 财务数据也开始显露压力。 今年前三季度，微软、Alphabet、亚马逊、Meta和甲骨文的经营现金流合计创下历史新高，资本开支却几乎翻倍，达到5569亿美元，首次超过经营现金流。五家公司合计自由现金流由正转负，股票回购金额暴跌83%。 AI仍在带来收入，科技巨头也依然拥有强大的赚钱能力。但这场投资竞赛正在要求它们提前投",
-        "dedupe_key": "https://www.36kr.com/p/4052093433893767"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "eb6328546e6f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 2,
-      "title": "lightpanda-io/browser",
-      "title_zh": "lightpanda-io/browser",
-      "url": "https://github.com/lightpanda-io/browser",
-      "hot_value": "825 stars today",
-      "summary_zh": "开源无头浏览器，专为AI与自动化优化。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Lightpanda: the headless browser designed for AI and automation",
-        "language": "Zig"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 7,
-      "cluster_id": "2faed4fd7c99",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 2,
-      "title": "26届秋招行情-从夯到拉（个人体感）",
-      "title_zh": "26届秋招行情-从夯到拉（个人体感）",
-      "url": "https://www.nowcoder.com/feed/main/detail/8ae1e9b2355a43069fc2c8e21650918d",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招"
-        ],
+        "channel": "TheBurntPeanut",
         "description": ""
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "d82754e5bec5",
+      "cluster_id": "e552b0249fad",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 2,
-      "title": "STRAND: a comprehensive subcellular-resolved spatial transcriptome RNA architecture and navigation database.",
-      "title_zh": "STRAND：一个全面的亚细胞分辨率空间转录组RNA架构与导航数据库。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42958969/",
-      "hot_value": null,
-      "summary_zh": "亚细胞RNA定位是控制细胞极化、局部翻译和功能区室化的关键调控层。高分辨率空间转录组学的最新进展为在单分子分辨率下解析这些细胞内架构提供了前所未有的机会。然而，相关数据集分散在研究机构和存储库中，处理程序和标准差异很大，严重限制了跨研究复用。为弥合这一差距，我们推出STRAND（亚细胞分辨率空间转录组RNA架构与导航数据库），一个用于自动采集、质量控制和解释亚细胞空间转录组学数据的策展数据资源和分析平台。通过代理辅助策展流程，STRAND已从六个主要平台汇编了35个亚细胞分辨率数据集，覆盖人类和小鼠的17种组织类型，总计约49亿个转录本坐标。基于这一标准化数据资源，STRAND提供了涵盖细胞分割评估、细胞类型注释、RNA定位/共定位模式注释和亚细胞区室推断的分析工作流。两个案例研究表明，STRAND成功识别了培养细胞系中已建立的RNA定位模式，并检测了心肌细胞中药物诱导的RNA重定位。ST",
-      "thumbnail": null,
-      "published_at": "2026-10-30",
-      "extra": {
-        "subsource": "pubmed",
-        "journal": "Nucleic acids research",
-        "doi": "10.1093/nar/gkag1054",
-        "tier": "英文顶刊",
-        "mode": "filter",
-        "description": "Subcellular RNA localization serves as a critical regulatory layer governing cellular polarization, local translation, and functional compartmentalization. Recent advances in high-resolution spatial transcriptomics have provided unprecedented opportunities to resolve these intracellular architectures at single-molecule resolution. However, relevant datasets are dispersed across studies and repositories, vary substantially in processing procedures and standards, severely limiting their cross-study reuse. To bridge this gap, we present STRAND (Subcellular-Resolved Spatial Transcriptome RNA Architecture and Navigation Database), a curated data resource and analysis platform for the automated harvesting, quality control, and interpretation of subcellular spatial transcriptomics data. Through an agent-assisted curation pipeline, STRAND has assembled 35 subcellular-resolution datasets from six major platforms, covering 17 tissue types in human and mouse and totalling ∼4.9 billion transcript coordinates. Building upon this standardized data resource, STRAND provides an analytical workflow spanning cell segmentation evaluation, cell-type annotation, RNA localization/colocalization pattern annotation, and subcellular compartment inference. Two case studies demonstrate that STRAND successfully identifies established RNA localization patterns in cultured cell lines and detects drug-induced RNA relocalization in cardiomyocytes. STRAND is openly available at https://strand.phasep.pro.",
-        "identifier": "42958969",
-        "dedupe_key": "doi:10.1093/nar/gkag1054",
-        "topic_hit": [
-          "单细胞聚类",
-          "生物信息"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "c23b6582ce36",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 2,
-      "title": "OpenAI CEO Sam Altman believes people owning RAM for their own PCs is a waste and instead should be saved for data centers. \"It’s quite terrible to have everyone have a bunch of the world’s limited supply of DRAM sitting in their own computer.\" @aipost 🏴",
-      "title_zh": "OpenAI CEO Sam Altman认为人们为自己的PC拥有RAM是一种浪费，应该留给数据中心。“让每个人都在自己的电脑里放一堆世界上有限的DRAM供应是相当糟糕的。” @aipost 🏴",
-      "url": "https://t.me/aipost/8684",
-      "hot_value": "1.1K",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-02T08:51:01+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "17202d532910",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 2,
-      "title": "才知道改名可以改姓",
-      "title_zh": "才知道改名可以改姓",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%89%8D%E7%9F%A5%E9%81%93%E6%94%B9%E5%90%8D%E5%8F%AF%E4%BB%A5%E6%94%B9%E5%A7%93%23",
-      "hot_value": "934547",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "7406063c687b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 3,
-      "title": "我去做了一次体检…",
-      "title_zh": "我去做了一次体检…",
-      "url": "https://b23.tv/BV1HJxv6qEW5",
-      "hot_value": "804651",
-      "summary_zh": null,
-      "thumbnail": "http://i0.hdslb.com/bfs/archive/22369b6455370e7b7a7907e4331ece877cee97a5.jpg",
-      "published_at": "2026-10-30T10:25:18+00:00",
-      "extra": {
-        "bvid": "BV1HJxv6qEW5",
-        "owner": "摸鱼事务所"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "d5bc8dc700de",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 3,
-      "title": "第九届进博会开幕在即",
-      "title_zh": "第九届进博会开幕在即",
-      "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B9%9D%E5%B1%8A%E8%BF%9B%E5%8D%9A%E4%BC%9A%E5%BC%80%E5%B9%95%E5%9C%A8%E5%8D%B3",
-      "hot_value": "11071838",
-      "summary_zh": null,
-      "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015/ocHM4XCAQfAdiA978ftezPxoo4xnEIfAkwxXrf~noop.jpeg?lk3s=bfd515bb&x-expires=1793631600&x-signature=ltLUmHQYoVPvrbxerscPSbaOL5M%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2725476"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "1c8a530738e7",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 3,
-      "title": "OpenAI CEO Sam Altman believes people owning RAM for their own PCs is a waste and instead should be saved for data centers. \"It’s quite terrible to have everyone have a bunch of the world’s limited supply of DRAM sitting in their own computer.\" @aipost 🏴",
-      "title_zh": "OpenAI CEO Sam Altman认为人们为自己的PC拥有RAM是一种浪费，应该留给数据中心。“让每个人都在自己的电脑里放一堆世界上有限的DRAM供应是相当糟糕的。” @aipost 🏴",
-      "url": "https://t.me/aipost/8682",
-      "hot_value": "1.25K",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-02T08:44:23+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "17202d532910",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 3,
-      "title": "2026年世界互联网大会乌镇峰会",
-      "title_zh": "2026年世界互联网大会乌镇峰会",
-      "url": "https://s.weibo.com/weibo?q=%232026%E5%B9%B4%E4%B8%96%E7%95%8C%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A%E4%B9%8C%E9%95%87%E5%B3%B0%E4%BC%9A%23",
-      "hot_value": "900361",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "474388de22de",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 3
         }
       ]
@@ -1862,25 +2058,25 @@
     {
       "source": "bilibili",
       "rank": 4,
-      "title": "鱼生比腿长！杭州千元omakase",
-      "title_zh": "鱼生比腿长！杭州千元omakase",
-      "url": "https://b23.tv/BV1LRxe69ENH",
-      "hot_value": "854235",
+      "title": "【纪录片】蓝色星球 第三季 01 热带海域",
+      "title_zh": "【纪录片】蓝色星球 第三季 01 热带海域",
+      "url": "https://b23.tv/BV13dxa6LEe4",
+      "hot_value": "884185",
       "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/ebd476859eab25cb087c31d12a86961225e16609.jpg",
-      "published_at": "2026-10-30T09:58:52+00:00",
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/cc771014633029cf58e628f0d5520598bb7a1da4.jpg",
+      "published_at": "2026-11-02T10:00:02+00:00",
       "extra": {
-        "bvid": "BV1LRxe69ENH",
-        "owner": "郑安眠"
+        "bvid": "BV13dxa6LEe4",
+        "owner": "哔哩哔哩纪录片"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "5595db432971",
+      "cluster_id": "78b1a7226a01",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 4
         }
       ]
@@ -1888,54 +2084,24 @@
     {
       "source": "douyin",
       "rank": 4,
-      "title": "杨瀚森工作室回应执行合同",
-      "title_zh": "杨瀚森工作室回应执行合同",
-      "url": "https://www.douyin.com/search/%E6%9D%A8%E7%80%9A%E6%A3%AE%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%9B%9E%E5%BA%94%E6%89%A7%E8%A1%8C%E5%90%88%E5%90%8C",
-      "hot_value": "10848246",
+      "title": "上海海港4:2纽卡斯尔喷气机",
+      "title_zh": "上海海港4:2纽卡斯尔喷气机",
+      "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E6%B5%B7%E6%B8%AF4%3A2%E7%BA%BD%E5%8D%A1%E6%96%AF%E5%B0%94%E5%96%B7%E6%B0%94%E6%9C%BA",
+      "hot_value": "11062756",
       "summary_zh": null,
-      "thumbnail": "https://p3-sign.douyinpic.com/tos-cn-p-0015/osHYINiBv4fAl8hDRq0nAbrIk4iXk9A5JeB2kg~noop.jpeg?lk3s=bfd515bb&x-expires=1793631600&x-signature=XBkdaIFLX7BySkFo9nWy8RP3kwM%3D&from=3218412987",
+      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oUANvqZBHM5EApF9AEIDBiANIngffv4pwT6InD~noop.jpeg?lk3s=bfd515bb&x-expires=1793718000&x-signature=FJ3tzgyz2ENKmvKsHJ%2BXu0z6jGM%3D&from=3218412987",
       "published_at": null,
       "extra": {
-        "sentence_id": "2724557"
+        "sentence_id": "2727513"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "5e2728c2992c",
+      "cluster_id": "2bef0f2eb0f0",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 4,
-      "title": "第二届苏超结束，流量断崖下跌，这个比赛未来还有新的破局增长点吗，未来这个比赛将立足于哪里？",
-      "title_zh": "第二届苏超结束，流量断崖下跌，这个比赛未来还有新的破局增长点吗，未来这个比赛将立足于哪里？",
-      "url": "https://www.zhihu.com/question/2100539974781071970",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-02T02:49:16+00:00",
-      "extra": {
-        "feed_name": "知乎热榜",
-        "tab": "hot",
-        "route": "/zhihu/hot",
-        "translate": false,
-        "description": "",
-        "dedupe_key": "https://www.zhihu.com/question/2100539974781071970"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "6e4c6ac62fbf",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 4
         }
       ]
@@ -1948,7 +2114,7 @@
       "title": "RECOMB 2027 截止",
       "title_zh": "RECOMB 2027 截止",
       "url": "https://recomb.org/recomb2027/",
-      "hot_value": "距截止 3 天",
+      "hot_value": "距截止 2 天",
       "summary_zh": "International Conference on Research inComputational Molecular Biology · Toronto, Canada · 官网",
       "thumbnail": null,
       "published_at": "2026-11-05T11:59:59+00:00",
@@ -1956,21 +2122,17 @@
         "subsource": "ai-deadlines",
         "conference": "RECOMB",
         "deadline": "2026-11-05T11:59:59+00:00",
-        "days_left": 3,
+        "days_left": 2,
         "link": "https://recomb.org/recomb2027/",
         "full_name": "International Conference on Research inComputational Molecular Biology",
         "location": "Toronto, Canada"
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "2f8650c20351",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 1
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 1
@@ -1993,6 +2155,10 @@
         },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 1
         }
       ]
@@ -2003,7 +2169,7 @@
       "title": "CVPR 2027 截止",
       "title_zh": "CVPR 2027 截止",
       "url": "https://cvpr.thecvf.com/Conferences/2027",
-      "hot_value": "距截止 15 天",
+      "hot_value": "距截止 14 天",
       "summary_zh": "IEEE/CVF Conference on Computer Vision and Pattern Recognition · Seattle, WA, United States · 官网",
       "thumbnail": null,
       "published_at": "2026-11-17T11:59:59+00:00",
@@ -2011,21 +2177,17 @@
         "subsource": "ai-deadlines",
         "conference": "CVPR",
         "deadline": "2026-11-17T11:59:59+00:00",
-        "days_left": 15,
+        "days_left": 14,
         "link": "https://cvpr.thecvf.com/Conferences/2027",
         "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "location": "Seattle, WA, United States"
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "02b7349cee7a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 2
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 2
@@ -2048,6 +2210,10 @@
         },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 2
         }
       ]
@@ -2058,7 +2224,7 @@
       "title": "ACL 2027 截止",
       "title_zh": "ACL 2027 截止",
       "url": "https://2027.aclweb.org/",
-      "hot_value": "距截止 64 天",
+      "hot_value": "距截止 63 天",
       "summary_zh": "Annual Meeting of the Association for Computational Linguistics · Kyoto, Japan · 官网",
       "thumbnail": null,
       "published_at": "2027-01-05T11:59:59+00:00",
@@ -2066,21 +2232,17 @@
         "subsource": "ai-deadlines",
         "conference": "ACL",
         "deadline": "2027-01-05T11:59:59+00:00",
-        "days_left": 64,
+        "days_left": 63,
         "link": "https://2027.aclweb.org/",
         "full_name": "Annual Meeting of the Association for Computational Linguistics",
         "location": "Kyoto, Japan"
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "416521fdefd2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 3
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 3
@@ -2103,6 +2265,10 @@
         },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 3
         }
       ]
@@ -2113,7 +2279,7 @@
       "title": "ISMB 2027 截止",
       "title_zh": "ISMB 2027 截止",
       "url": "https://www.iscb.org/ismbeccb2027/",
-      "hot_value": "距截止 74 天",
+      "hot_value": "距截止 73 天",
       "summary_zh": "International Conference on Intelligent Systems for Molecular Biology · Copenhagen, Denmark · 官网",
       "thumbnail": null,
       "published_at": "2027-01-15T11:59:00+00:00",
@@ -2121,21 +2287,17 @@
         "subsource": "ai-deadlines",
         "conference": "ISMB",
         "deadline": "2027-01-15T11:59:00+00:00",
-        "days_left": 74,
+        "days_left": 73,
         "link": "https://www.iscb.org/ismbeccb2027/",
         "full_name": "International Conference on Intelligent Systems for Molecular Biology",
         "location": "Copenhagen, Denmark"
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "ef8a16b9d93b",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 4
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 4
@@ -2159,12 +2321,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 4
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 22,
+      "rank": 21,
       "title": "基于威胁感知的Tor多路径选择",
       "title_zh": "基于威胁感知的Tor多路径选择",
       "url": "https://www.jsjkx.com/CN/abstract/abstract24039.shtml",
@@ -2191,16 +2357,12 @@
           "机器学习"
         ]
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "21f183cb244e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 22
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 22
@@ -2224,12 +2386,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 22
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 21
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 23,
+      "rank": 22,
       "title": "基于多智能体深度强化学习的SD-IoT控制器部署",
       "title_zh": "基于多智能体深度强化学习的SD-IoT控制器部署",
       "url": "https://www.ecice06.com/CN/abstract/abstract32751.shtml",
@@ -2255,16 +2421,12 @@
           "智能体"
         ]
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "275b1142e536",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 23
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 23
@@ -2288,12 +2450,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 23
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 22
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 24,
+      "rank": 23,
       "title": "基于多视图多样性学习的联合谱嵌入聚类算法",
       "title_zh": "基于多视图多样性学习的联合谱嵌入聚类算法",
       "url": "https://www.jsjkx.com/CN/abstract/abstract24011.shtml",
@@ -2317,16 +2483,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "0f3899815dcb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 24
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 24
@@ -2350,12 +2512,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 24
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 23
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 25,
+      "rank": 24,
       "title": "云网融合环境下组合服务的动态重构",
       "title_zh": "云网融合环境下组合服务的动态重构",
       "url": "https://www.ecice06.com/CN/abstract/abstract32910.shtml",
@@ -2379,16 +2545,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "e3b383e32d83",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 25
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 25
@@ -2412,12 +2574,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 25
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 24
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 26,
+      "rank": 25,
       "title": "基于多信息融合的高速收费站拥堵检测算法",
       "title_zh": "基于多信息融合的高速收费站拥堵检测算法",
       "url": "https://www.ecice06.com/CN/abstract/abstract32833.shtml",
@@ -2441,16 +2607,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "88d128bf6e20",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 26
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 26
@@ -2474,12 +2636,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 26
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 25
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 27,
+      "rank": 26,
       "title": "Single-cell multiomics gene regulatory landscape reveals impaired spermatogonial stem cells and macrophage-driven inflammaging during testicular aging",
       "title_zh": "单细胞多组学基因调控景观揭示睾丸衰老期间精原干细胞受损和巨噬细胞驱动的炎性衰老",
       "url": "https://doi.org/10.1016/j.jgg.2026.05.005",
@@ -2502,16 +2668,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "df5e12bc430c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 27
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 27
@@ -2535,12 +2697,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 27
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 26
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 28,
+      "rank": 27,
       "title": "SheepVar: an integrated resource for large-scale sheep genomic variation with multi-omics annotation",
       "title_zh": "SheepVar：一个具有多组学注释的大规模绵羊基因组变异综合资源",
       "url": "https://doi.org/10.1016/j.jgg.2026.10.003",
@@ -2563,16 +2729,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "13e48b09a9d2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 28
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 28
@@ -2596,12 +2758,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 28
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 27
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 29,
+      "rank": 28,
       "title": "BioGAIP: a scalable and robust LLM-powered multi-agent system for automated bioinformatics tasks",
       "title_zh": "BioGAIP：一个可扩展且稳健的LLM驱动多代理系统，用于自动化生物信息学任务",
       "url": "https://doi.org/10.1016/j.jgg.2026.09.013",
@@ -2624,16 +2790,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "ff0b9f692f86",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 29
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 29
@@ -2657,6 +2819,10 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 29
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 28
         }
       ]
     },
@@ -2666,7 +2832,7 @@
       "title": "✨ Designers × AI 🆕 The mockup era is over. Today’s AI tools give every designer a superpower : you can now craft your ideas, not just draw them. The gap between “what if…?” and “look, it works!” has never been smaller, and that changed how we build features in Telegram. Message @designers to submit ",
       "title_zh": "✨ 设计师 × AI 🆕 模型图时代结束了。如今的AI工具赋予每位设计师超能力：你现在可以打造你的想法，而不仅仅是画出来。“如果……会怎样？”和“看，它可行！”之间的差距从未如此之小，而这改变了我们在Telegram中构建功能的方式。发消息给@designers提交",
       "url": "https://t.me/durov/552",
-      "hot_value": "1.89M",
+      "hot_value": "1.94M",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-10-11T14:52:40+00:00",
@@ -2674,16 +2840,12 @@
         "channel": "durov",
         "translate": true
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "5f36a4d3bac2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 34
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 33
@@ -2706,6 +2868,10 @@
         },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 34
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 34
         }
       ]
@@ -2716,7 +2882,7 @@
       "title": "For all the info from today's update and a look back at 13 years of Telegram features — check out our blog: https://telegram.org/blog/welcome-messages-buttons-TG-13 August Features 1 • 2 • 3 • 4 • 5 • More",
       "title_zh": "关于今天更新的所有信息以及Telegram 13年功能回顾——请查看我们的博客：https://telegram.org/blog/welcome-messages-buttons-TG-13 八月功能 1 • 2 • 3 • 4 • 5 • 更多",
       "url": "https://t.me/telegram/460",
-      "hot_value": "2.29M",
+      "hot_value": "2.31M",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-08-26T19:12:34+00:00",
@@ -2724,16 +2890,12 @@
         "channel": "telegram",
         "translate": true
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "3e7cca968a7c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 36
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 35
@@ -2757,12 +2919,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 36
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 36
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 66,
+      "rank": 70,
       "title": "商业产业招商经理",
       "title_zh": "商业产业招商经理",
       "url": "https://www.iguopin.com/job/detail?id=222515839679596524&source=social",
@@ -2783,16 +2949,12 @@
         "is_central_soe": false,
         "is_state_owned": true
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": -22,
+      "rank_delta": -4,
       "cluster_id": "13a0b93a22bb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 24
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 29
@@ -2816,12 +2978,16 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 66
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 70
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 67,
+      "rank": 71,
       "title": "咖啡店长",
       "title_zh": "咖啡店长",
       "url": "https://www.iguopin.com/job/detail?id=222515136160597996&source=social",
@@ -2842,16 +3008,12 @@
         "is_central_soe": false,
         "is_state_owned": true
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": -22,
+      "rank_delta": -4,
       "cluster_id": "64a84c4b926a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 25
-        },
         {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
           "rank": 30
@@ -2875,242 +3037,226 @@
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 67
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 71
         }
       ]
     },
     {
-      "source": "jobs",
-      "rank": 75,
-      "title": "海洋综合态势感知技术研究（博士后岗位）",
-      "title_zh": "海洋综合态势感知技术研究（博士后岗位）",
-      "url": "https://www.iguopin.com/job/detail?id=221931698474976755&source=campus",
+      "source": "feed",
+      "rank": 74,
+      "title": "Version 5.6.0",
+      "title_zh": "版本5.6.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.6.0",
       "hot_value": null,
-      "summary_zh": "专业要求：仪器科学与技术、信息与通信工程、电子信息、光学工程、电子科学与技术、控制科学与工程、计算机科学与技术、海洋技术、水声工程、地球探测与信息技术等相关专业 其他条件：具备目标探测与识别相关研发经验，数理基础扎实；至少精通一门计算机编程语言（Python、Matlab等）；具有良好的组织沟通能力和独立开展科研工作的能力，以第一/通讯作者在SCI期刊发表过高质量论文。",
+      "summary_zh": "变更 新增 添加了setThreads和getThreads以控制支持的C++内核和uwot UMAP后端中的线程 更新了NormalizeData以使用线程化稀疏对数归一化并减少矩阵复制开销 更新了FindVariableFeatures以在各测定版本间共享稀疏VST实现，并使用线程化标准化方差计算 更新了ScaleData以中心化、缩放和裁剪d",
       "thumbnail": null,
-      "published_at": "2026-10-10 10:19:54",
+      "published_at": "2026-10-03T14:53:44+00:00",
       "extra": {
-        "subsource": "guopin",
-        "company": "国家海洋技术中心",
-        "city": "天津-南开区",
-        "education": "博士",
-        "company_type": "事业单位",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "技术"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": false
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added setThreads and getThreads to control threading in supported C++ kernels and uwot UMAP backends Updated NormalizeData to use threaded sparse log-normalization and reduce matrix-copying overhead Updated FindVariableFeatures to share a sparse VST implementation across assay versions with threaded standardized-variance calculations Updated ScaleData to center, scale, and clip d",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.6.0"
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": -23,
-      "cluster_id": "e1d15e62b3da",
+      "rank_delta": 8,
+      "cluster_id": "bf128c562147",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 36
-        },
-        {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 43
+          "rank": 66
         },
         {
           "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 50
+          "rank": 82
         },
         {
           "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 63
+          "rank": 82
         },
         {
           "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 56
+          "rank": 82
         },
         {
           "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 52
+          "rank": 74
         },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 74
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 75,
+      "title": "scvi-tools 1.5.1",
+      "title_zh": "scvi-tools 1.5.1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-09-10T12:03:41+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 8,
+      "cluster_id": "92de253c91a7",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-10-29T08:39:01.179434+00:00",
+          "rank": 67
+        },
+        {
+          "run_at": "2026-10-30T08:45:28.438295+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-10-31T08:32:16.209007+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-01T09:24:17.849924+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-02T09:38:28.312207+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 75
         }
       ]
     },
     {
-      "source": "jobs",
+      "source": "feed",
       "rank": 77,
-      "title": "水下荧光测量技术研究（博士后岗位）",
-      "title_zh": "水下荧光测量技术研究（博士后岗位）",
-      "url": "https://www.iguopin.com/job/detail?id=221931468912330227&source=campus",
+      "title": "1.12.4",
+      "title_zh": "1.12.4",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.12.4",
       "hot_value": null,
-      "summary_zh": "专业要求：光学工程、控制科学与工程、测控技术与仪器等相关专业 其他条件：具有海洋领域相关研究的学习科研经历 研究内容：海洋生态环境荧光测量传感器技术研究。拟突破多波长荧光检测技术、通道优选技术以及复杂背景下微弱荧光监测技术等关键技术问题。",
+      "summary_zh": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-4",
       "thumbnail": null,
-      "published_at": "2026-10-10 10:19:32",
+      "published_at": "2026-08-31T07:39:23+00:00",
       "extra": {
-        "subsource": "guopin",
-        "company": "国家海洋技术中心",
-        "city": "天津-南开区",
-        "education": "博士",
-        "company_type": "事业单位",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "技术"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": false
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.readthedocs.io/en/stable/release-notes/index.html#v1-12-4",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.12.4"
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": -23,
-      "cluster_id": "62b15be44243",
+      "rank_delta": 8,
+      "cluster_id": "877b691e9b59",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 39
-        },
-        {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 46
+          "rank": 69
         },
         {
           "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 53
+          "rank": 85
         },
         {
           "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 65
+          "rank": 85
         },
         {
           "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 59
+          "rank": 85
         },
         {
           "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 54
+          "rank": 77
         },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
           "rank": 77
         }
       ]
     },
     {
-      "source": "jobs",
+      "source": "feed",
       "rank": 78,
-      "title": "海洋空间规划技术研究（博士后岗位）",
-      "title_zh": "海洋空间规划技术研究（博士后岗位）",
-      "url": "https://www.iguopin.com/job/detail?id=221931184471410163&source=campus",
+      "title": "1.13.0a2",
+      "title_zh": "1.13.0a2",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2",
       "hot_value": null,
-      "summary_zh": "专业要求：海洋科学、地理学、生态学、城乡规划、土地资源管理、公共管理学等相关专业 其他条件：具有较强的英文阅读和写作能力，除基本条件外，还需以第一作者或通讯作者在国内外高水平期刊发表论文1篇及以上。 研究内容：海洋空间规划关键技术研究与推广应用。开展海洋空间功能分区、人类活动累积效应评估、资源环境承载力和开发适宜性评价等技术方法研究，为海洋空间规划的编制、实施和评价等提供科学支撑，并进行推广应用。",
+      "summary_zh": "https://scanpy.scverse.org/en/latest/release-notes.html#version-1-13",
       "thumbnail": null,
-      "published_at": "2026-10-10 10:19:32",
+      "published_at": "2026-08-28T11:51:45+00:00",
       "extra": {
-        "subsource": "guopin",
-        "company": "国家海洋技术中心",
-        "city": "天津-南开区",
-        "education": "博士",
-        "company_type": "事业单位",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "技术"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": false
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.scverse.org/en/latest/release-notes/index.html#version-1-13",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2"
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": -23,
-      "cluster_id": "c3136f1a70b1",
+      "rank_delta": 8,
+      "cluster_id": "768fc0d2e613",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 38
-        },
-        {
           "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 45
+          "rank": 70
         },
         {
           "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 52
+          "rank": 86
         },
         {
           "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 66
+          "rank": 86
         },
         {
           "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 58
+          "rank": 86
         },
         {
           "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 55
-        },
-        {
-          "run_at": "2026-11-03T09:42:27.801770+00:00",
           "rank": 78
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 79,
-      "title": "多源遥感海洋环境智能识别感知研究（博士后岗位）",
-      "title_zh": "多源遥感海洋环境智能识别感知研究（博士后岗位）",
-      "url": "https://www.iguopin.com/job/detail?id=221931516509292019&source=campus",
-      "hot_value": null,
-      "summary_zh": "专业要求：海洋遥感、物理海洋、计算机或人工智能等相关专业 其他条件：数理基础扎实，熟悉遥感原理；具备人工智能、计算机视觉相关研发经验，精通Python编程语言；具有良好的组织沟通能力和独立开展科研工作的能力；具有较好的英语读写能力与听说水平。 研究内容：基于计算机视觉的海洋卫星遥感人工智能应用技术研究。构建海洋动力、生态环境、海上目标应用场景下的人工智能遥感大数据模型，并研发相应的原型软件系统；探",
-      "thumbnail": null,
-      "published_at": "2026-10-10 10:19:32",
-      "extra": {
-        "subsource": "guopin",
-        "company": "国家海洋技术中心",
-        "city": "天津-南开区",
-        "education": "博士",
-        "company_type": "事业单位",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "技术"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": false
-      },
-      "days_on_board": 20,
-      "is_new": false,
-      "rank_delta": -23,
-      "cluster_id": "deacdf95278b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-10-28T08:43:30.380074+00:00",
-          "rank": 40
-        },
-        {
-          "run_at": "2026-10-29T08:39:01.179434+00:00",
-          "rank": 47
-        },
-        {
-          "run_at": "2026-10-30T08:45:28.438295+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-10-31T08:32:16.209007+00:00",
-          "rank": 67
-        },
-        {
-          "run_at": "2026-11-01T09:24:17.849924+00:00",
-          "rank": 60
-        },
-        {
-          "run_at": "2026-11-02T09:38:28.312207+00:00",
-          "rank": 56
         },
         {
           "run_at": "2026-11-03T09:42:27.801770+00:00",
-          "rank": 79
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-04T09:29:02.391714+00:00",
+          "rank": 78
         }
       ]
     }
