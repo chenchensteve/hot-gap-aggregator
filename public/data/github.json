@@ -1,52 +1,22 @@
 {
-  "generated_at": "2026-11-10T10:00:40.953082+00:00",
+  "generated_at": "2026-11-11T09:34:43.336282+00:00",
   "source": "github",
   "status": {
     "source": "github",
     "status": "ok",
-    "item_count": 11,
-    "duration_ms": 370,
+    "item_count": 12,
+    "duration_ms": 1465,
     "error": null,
-    "run_at": "2026-11-10T10:00:40.953082+00:00"
+    "run_at": "2026-11-11T09:34:43.336282+00:00"
   },
   "items": [
     {
       "source": "github",
       "rank": 1,
-      "title": "anthropics/skills",
-      "title_zh": "anthropics/skills",
-      "url": "https://github.com/anthropics/skills",
-      "hot_value": "1,038 stars today",
-      "summary_zh": "anthropics/skills：官方Agent技能库，权威参考。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Public repository for Agent Skills",
-        "language": "Python"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 6,
-      "cluster_id": "96ee03c32965",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-09T09:56:37.662507+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 2,
       "title": "meta/astryx",
       "title_zh": "meta/astryx",
       "url": "https://github.com/meta/astryx",
-      "hot_value": "3,278 stars today",
+      "hot_value": "3,108 stars today",
       "summary_zh": "可定制且面向智能体的开源设计系统，适合AI产品界面。",
       "thumbnail": null,
       "published_at": null,
@@ -54,9 +24,9 @@
         "description": "An open source design system that's fully customizable and agent ready",
         "language": "TypeScript"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 4,
+      "rank_delta": 1,
       "cluster_id": "ea73850e5282",
       "cluster_size": 1,
       "rank_history": [
@@ -67,35 +37,69 @@
         {
           "run_at": "2026-11-10T10:00:40.953082+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 2,
+      "title": "anthropics/skills",
+      "title_zh": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "hot_value": "1,679 stars today",
+      "summary_zh": "anthropics/skills：官方Agent技能库，权威参考。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Public repository for Agent Skills",
+        "language": "Python"
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": -1,
+      "cluster_id": "96ee03c32965",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-09T09:56:37.662507+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
+          "rank": 2
         }
       ]
     },
     {
       "source": "github",
       "rank": 3,
-      "title": "sherlock-project/sherlock",
-      "title_zh": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "hot_value": "4,267 stars today",
-      "summary_zh": "跨社交网络按用户名追踪账号，适合调查与安全研究。",
+      "title": "addyosmani/agent-skills",
+      "title_zh": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "hot_value": "465 stars today",
+      "summary_zh": "addyosmani/agent-skills：AI编码代理实战技能，工程级质量",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Hunt down social media accounts by username across social networks",
-        "language": "Python"
+        "description": "Production-grade engineering skills for AI coding agents.",
+        "language": "JavaScript"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -2,
-      "cluster_id": "3cfc4937695f",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "329fbfc6a667",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-09T09:56:37.662507+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 3
         }
       ]
@@ -103,40 +107,10 @@
     {
       "source": "github",
       "rank": 4,
-      "title": "google-deepmind/mujoco",
-      "title_zh": "google-deepmind/mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "hot_value": "574 stars today",
-      "summary_zh": "通用物理仿真器，机器人强化学习常用，值得研究。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-        "language": "C++"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 4,
-      "cluster_id": "42a110d9fa3c",
-      "cluster_size": 2,
-      "rank_history": [
-        {
-          "run_at": "2026-11-09T09:56:37.662507+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 5,
       "title": "anthropics/claude-quickstarts",
       "title_zh": "anthropics/claude-quickstarts",
       "url": "https://github.com/anthropics/claude-quickstarts",
-      "hot_value": "551 stars today",
+      "hot_value": "531 stars today",
       "summary_zh": "Claude API快速上手项目集，助开发者快速构建可部署应用。",
       "thumbnail": null,
       "published_at": null,
@@ -144,9 +118,9 @@
         "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
         "language": "Python"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 1,
       "cluster_id": "239ec48ba5c3",
       "cluster_size": 1,
       "rank_history": [
@@ -157,31 +131,69 @@
         {
           "run_at": "2026-11-10T10:00:40.953082+00:00",
           "rank": 5
+        },
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 5,
+      "title": "google-deepmind/mujoco",
+      "title_zh": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "hot_value": "456 stars today",
+      "summary_zh": "通用物理仿真器，机器人强化学习常用，值得研究。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+        "language": "C++"
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": -1,
+      "cluster_id": "08ce3a36345a",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-09T09:56:37.662507+00:00",
+          "rank": 8
+        },
+        {
+          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "rank": 4
+        },
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
+          "rank": 5
         }
       ]
     },
     {
       "source": "github",
       "rank": 6,
-      "title": "garrytan/gbrain",
-      "title_zh": "garrytan/gbrain",
-      "url": "https://github.com/garrytan/gbrain",
-      "hot_value": "216 stars today",
-      "summary_zh": "Garry的AI代理大脑项目，值得关注其独特设计思路。",
+      "title": "we-promise/sure",
+      "title_zh": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "hot_value": "159 stars today",
+      "summary_zh": "人人可用的个人理财应用，开源值得关注。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
-        "language": "TypeScript"
+        "description": "The personal finance app for everyone (by everyone)",
+        "language": "Ruby"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "1e753732ea95",
+      "cluster_id": "5590846d1130",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 6
         }
       ]
@@ -189,10 +201,40 @@
     {
       "source": "github",
       "rank": 7,
+      "title": "homeassistant-ai/ha-mcp",
+      "title_zh": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "hot_value": "790 stars today",
+      "summary_zh": "用AI助手配置自动化Home Assistant，实用值得关注。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "language": "Python"
+      },
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 3,
+      "cluster_id": "726663568eda",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "rank": 10
+        },
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 8,
       "title": "vercel-labs/agent-browser",
       "title_zh": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
-      "hot_value": "916 stars today",
+      "hot_value": "780 stars today",
       "summary_zh": "AI代理浏览器自动化命令行工具，让AI操控网页。",
       "thumbnail": null,
       "published_at": null,
@@ -200,9 +242,9 @@
         "description": "Browser automation CLI for AI agents",
         "language": "Rust"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -2,
+      "rank_delta": -1,
       "cluster_id": "ebd2242441e8",
       "cluster_size": 1,
       "rank_history": [
@@ -217,31 +259,9 @@
         {
           "run_at": "2026-11-10T10:00:40.953082+00:00",
           "rank": 7
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 8,
-      "title": "ruvnet/RuView",
-      "title_zh": "ruvnet/RuView",
-      "url": "https://github.com/ruvnet/RuView",
-      "hot_value": "172 stars today",
-      "summary_zh": "RuView：用WiFi信号做空间感知与生命监测，无需摄像头，隐私友好。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-        "language": "Rust"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "1592656e4396",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 8
         }
       ]
@@ -249,25 +269,33 @@
     {
       "source": "github",
       "rank": 9,
-      "title": "ZhuLinsen/daily_stock_analysis",
-      "title_zh": "ZhuLinsen/daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "hot_value": "506 stars today",
-      "summary_zh": "多市场股票智能分析系统，零成本定时运行值得一看。",
+      "title": "sherlock-project/sherlock",
+      "title_zh": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "hot_value": "2,393 stars today",
+      "summary_zh": "跨社交网络按用户名追踪账号，适合调查与安全研究。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+        "description": "Hunt down social media accounts by username across social networks",
         "language": "Python"
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "2c03843806f2",
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": -6,
+      "cluster_id": "3cfc4937695f",
       "cluster_size": 1,
       "rank_history": [
         {
+          "run_at": "2026-11-09T09:56:37.662507+00:00",
+          "rank": 1
+        },
+        {
           "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 9
         }
       ]
@@ -275,25 +303,25 @@
     {
       "source": "github",
       "rank": 10,
-      "title": "homeassistant-ai/ha-mcp",
-      "title_zh": "homeassistant-ai/ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "hot_value": "31 stars today",
-      "summary_zh": "用AI助手配置自动化Home Assistant，实用值得关注。",
+      "title": "tokio-rs/topcoat",
+      "title_zh": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "hot_value": "192 stars today",
+      "summary_zh": "Rust Web全栈框架，开箱即用省心省力。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-        "language": "Python"
+        "description": "A batteries-included framework for building web apps",
+        "language": "Rust"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "726663568eda",
+      "cluster_id": "433a453bf6a2",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 10
         }
       ]
@@ -301,30 +329,60 @@
     {
       "source": "github",
       "rank": 11,
-      "title": "milind-soni/OpenMausBot",
-      "title_zh": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "hot_value": "1,587 stars today",
-      "summary_zh": "开源Grok机器人替代品，带虚拟机供机器人使用。",
+      "title": "ranxianglei/billion-context",
+      "title_zh": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "hot_value": "375 stars today",
+      "summary_zh": "上下文压缩插件，省5倍token，支持月级长会话。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
         "language": "TypeScript"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -8,
-      "cluster_id": "80e2a7c91c98",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "27108cbaf5d0",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-09T09:56:37.662507+00:00",
-          "rank": 3
+          "rank": 9
         },
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 11
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 12,
+      "title": "mattpocock/skills",
+      "title_zh": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "hot_value": "1,225 stars today",
+      "summary_zh": "真实工程师技能集，直接可用。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "language": "Shell"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "5963f5c06b20",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-07T08:56:03.043667+00:00",
+          "rank": 16
+        },
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
+          "rank": 12
         }
       ]
     }
