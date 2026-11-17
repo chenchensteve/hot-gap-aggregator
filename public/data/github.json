@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-11-16T09:54:02.263034+00:00",
+  "generated_at": "2026-11-17T10:51:43.342351+00:00",
   "source": "github",
   "status": {
     "source": "github",
     "status": "ok",
-    "item_count": 12,
-    "duration_ms": 1594,
+    "item_count": 15,
+    "duration_ms": 1476,
     "error": null,
-    "run_at": "2026-11-16T09:54:02.263034+00:00"
+    "run_at": "2026-11-17T10:51:43.342351+00:00"
   },
   "items": [
     {
       "source": "github",
       "rank": 1,
-      "title": "dream-num/univer",
-      "title_zh": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "hot_value": "988 stars today",
-      "summary_zh": "Univer开源办公SDK，可嵌入AI代理的编辑计算协作功能。",
+      "title": "elementalsouls/Claude-BugHunter",
+      "title_zh": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "hot_value": "1,094 stars today",
+      "summary_zh": "Claude漏洞猎手：82项技能加681份报告模式，助红队高效挖洞。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-        "language": "TypeScript"
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python"
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 6,
-      "cluster_id": "eb9db1e91cb5",
+      "rank_delta": 8,
+      "cluster_id": "2b3bd62acc09",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 7
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 9
         },
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 1
         }
       ]
@@ -43,29 +43,25 @@
     {
       "source": "github",
       "rank": 2,
-      "title": "ag-ui-protocol/ag-ui",
-      "title_zh": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "hot_value": "355 stars today",
-      "summary_zh": "AG-UI协议，让AI代理接入前端应用实现交互。",
+      "title": "mvanhorn/last30days-skill",
+      "title_zh": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "hot_value": "135 stars today",
+      "summary_zh": "AI代理跨平台调研话题并生成有据总结，适合快速研究。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-        "language": "TypeScript"
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 6,
-      "cluster_id": "c4f9640e43e4",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ab6267882557",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 2
         }
       ]
@@ -73,104 +69,10 @@
     {
       "source": "github",
       "rank": 3,
-      "title": "google-labs-code/stitch-skills",
-      "title_zh": "google-labs-code/stitch-skills",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "hot_value": "247 stars today",
-      "summary_zh": "Stitch技能库：为Stitch MCP服务器提供AI代理技能，兼容主流编码代",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "57164f3c3e5e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 4,
-      "title": "backnotprop/plannotator",
-      "title_zh": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "hot_value": "866 stars today",
-      "summary_zh": "团队协作规划工具，可标注代码并一键反馈给AI代理。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": -3,
-      "cluster_id": "0bc42c1ce475",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 5,
-      "title": "ChromeDevTools/chrome-devtools-mcp",
-      "title_zh": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "hot_value": "717 stars today",
-      "summary_zh": "浏览器调试工具，赋能编码智能体。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Chrome DevTools for coding agents",
-        "language": "TypeScript"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": -1,
-      "cluster_id": "6781295904a8",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 5
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 6,
       "title": "alibaba/open-code-review",
       "title_zh": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "hot_value": "691 stars today",
+      "hot_value": "951 stars today",
       "summary_zh": "阿里开源代码审查工具，混合架构精准行级评论，内置多语言安全规则。",
       "thumbnail": null,
       "published_at": null,
@@ -178,9 +80,9 @@
         "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
         "language": "Go"
       },
-      "days_on_board": 3,
+      "days_on_board": 4,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 3,
       "cluster_id": "ee41dc481c41",
       "cluster_size": 1,
       "rank_history": [
@@ -195,16 +97,20 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 6
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "github",
-      "rank": 7,
+      "rank": 4,
       "title": "Tencent/LoopForge",
       "title_zh": "Tencent/LoopForge",
       "url": "https://github.com/Tencent/LoopForge",
-      "hot_value": "423 stars today",
+      "hot_value": "1,020 stars today",
       "summary_zh": "腾讯自托管编码代理工作流，含人工审批门控。",
       "thumbnail": null,
       "published_at": null,
@@ -212,9 +118,9 @@
         "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
         "language": "Go"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 6,
+      "rank_delta": 3,
       "cluster_id": "64bfdc15f723",
       "cluster_size": 1,
       "rank_history": [
@@ -225,31 +131,125 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 7
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 5,
+      "title": "dream-num/univer",
+      "title_zh": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "hot_value": "1,828 stars today",
+      "summary_zh": "Univer开源办公SDK，可嵌入AI代理的编辑计算协作功能。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+        "language": "TypeScript"
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": -4,
+      "cluster_id": "eb9db1e91cb5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 6,
+      "title": "getarcaneapp/arcane",
+      "title_zh": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "hot_value": "46 stars today",
+      "summary_zh": "现代化Docker管理工具，界面友好人人可用，值得运维关注。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Modern Docker Management, Designed for Everyone",
+        "language": "Go"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "56e044716a00",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 7,
+      "title": "google-labs-code/stitch-skills",
+      "title_zh": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "hot_value": "529 stars today",
+      "summary_zh": "Stitch技能库：为Stitch MCP服务器提供AI代理技能，兼容主流编码代",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "language": "TypeScript"
+      },
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": -4,
+      "cluster_id": "57164f3c3e5e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 7
         }
       ]
     },
     {
       "source": "github",
       "rank": 8,
-      "title": "ggml-org/ggml",
-      "title_zh": "ggml-org/ggml",
-      "url": "https://github.com/ggml-org/ggml",
-      "hot_value": "43 stars today",
-      "summary_zh": "ggml张量库：为机器学习提供底层张量运算，是llama.cpp等项目的基石。",
+      "title": "cursor/plugins",
+      "title_zh": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "hot_value": "196 stars today",
+      "summary_zh": "Cursor插件规范与官方插件，扩展编辑器能力。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Tensor library for machine learning",
-        "language": "C++"
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "3b6b1c9a15be",
+      "cluster_id": "fb7f8e976cb0",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 8
         }
       ]
@@ -257,25 +257,25 @@
     {
       "source": "github",
       "rank": 9,
-      "title": "elementalsouls/Claude-BugHunter",
-      "title_zh": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "hot_value": "98 stars today",
-      "summary_zh": "Claude漏洞猎手：82项技能加681份报告模式，助红队高效挖洞。",
+      "title": "obra/superpowers",
+      "title_zh": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "hot_value": "1,905 stars today",
+      "summary_zh": "obra/superpowers：代理技能框架，软件开发方法论。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-        "language": "Python"
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "2b3bd62acc09",
+      "cluster_id": "3d0d90fc2d2a",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 9
         }
       ]
@@ -283,41 +283,33 @@
     {
       "source": "github",
       "rank": 10,
-      "title": "GoogleChrome/modern-web-guidance-src",
-      "title_zh": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "hot_value": "1,219 stars today",
-      "summary_zh": "谷歌Chrome现代网页指南，帮编程助手掌握最新网页最佳实践。",
+      "title": "ag-ui-protocol/ag-ui",
+      "title_zh": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "hot_value": "791 stars today",
+      "summary_zh": "AG-UI协议，让AI代理接入前端应用实现交互。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Keep your coding agent up to date with the latest web best practices",
+        "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
         "language": "TypeScript"
       },
-      "days_on_board": 5,
+      "days_on_board": 3,
       "is_new": false,
       "rank_delta": -8,
-      "cluster_id": "adae3296553d",
+      "cluster_id": "c4f9640e43e4",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 2
-        },
-        {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 2
+          "rank": 8
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 10
         }
       ]
@@ -325,33 +317,37 @@
     {
       "source": "github",
       "rank": 11,
-      "title": "tradermonty/claude-trading-skills",
-      "title_zh": "tradermonty/claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "hot_value": "706 stars today",
-      "summary_zh": "面向股票投资者的Claude技能集，含行情分析与策略开发。",
+      "title": "backnotprop/plannotator",
+      "title_zh": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "hot_value": "696 stars today",
+      "summary_zh": "团队协作规划工具，可标注代码并一键反馈给AI代理。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-        "language": "Python"
+        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+        "language": "TypeScript"
       },
-      "days_on_board": 3,
+      "days_on_board": 4,
       "is_new": false,
-      "rank_delta": -8,
-      "cluster_id": "258b83381811",
+      "rank_delta": -7,
+      "cluster_id": "0bc42c1ce475",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 9
+          "rank": 6
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
+          "rank": 1
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 4
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 11
         }
       ]
@@ -359,26 +355,104 @@
     {
       "source": "github",
       "rank": 12,
-      "title": "NVIDIA/SkillEvaluator",
-      "title_zh": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "hot_value": "122 stars today",
-      "summary_zh": "NVIDIA技能评估器：多层级评估AI代理技能质量，检测语义重叠并实测行为影响。",
+      "title": "sveltejs/svelte",
+      "title_zh": "sveltejs/svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "hot_value": "115 stars today",
+      "summary_zh": "Svelte前端框架，简洁高效易上手，适合Web开发者了解。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+        "description": "web development for the rest of us",
+        "language": "JavaScript"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "9843f76dcd01",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 13,
+      "title": "affaan-m/ECC",
+      "title_zh": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "hot_value": "718 stars today",
+      "summary_zh": "智能体性能优化系统，强化记忆安全。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "9317f65b1d4f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 14,
+      "title": "jingyaogong/minimind",
+      "title_zh": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "hot_value": "188 stars today",
+      "summary_zh": "两小时从零训练64M参数大模型。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
         "language": "Python"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "eb89a6026b7d",
+      "cluster_id": "84c8de82dc8a",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 12
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 15,
+      "title": "google-research/paper-orchestra",
+      "title_zh": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "hot_value": "313 stars today",
+      "summary_zh": "多智能体框架自动撰写AI研究论文，学术自动化值得关注。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "93d4164ebb82",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 15
         }
       ]
     }

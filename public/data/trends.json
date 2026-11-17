@@ -1,1070 +1,1195 @@
 {
-  "generated_at": "2026-11-16T09:54:02.263034+00:00",
+  "generated_at": "2026-11-17T10:51:43.342351+00:00",
   "rising": [
     {
-      "source": "douyin",
-      "rank": 10,
-      "title": "不穿贵的只穿帅的",
-      "title_zh": "不穿贵的只穿帅的",
-      "url": "https://www.douyin.com/search/%E4%B8%8D%E7%A9%BF%E8%B4%B5%E7%9A%84%E5%8F%AA%E7%A9%BF%E5%B8%85%E7%9A%84",
-      "hot_value": "9215775",
-      "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-i-0813c000-ce/ocbn0hT92MwAVKdiAPDBLFAPiaAIAv7HIWEIk~noop.jpeg?lk3s=bfd515bb&x-expires=1794841200&x-signature=%2FrqbAzseeBtnvyKzM0Xi83FrdJY%3D&from=3218412987",
+      "source": "github",
+      "rank": 1,
+      "title": "elementalsouls/Claude-BugHunter",
+      "title_zh": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "hot_value": "1,094 stars today",
+      "summary_zh": "Claude漏洞猎手：82项技能加681份报告模式，助红队高效挖洞。",
+      "thumbnail": null,
       "published_at": null,
       "extra": {
-        "sentence_id": "2746409"
+        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "language": "Python"
       },
       "days_on_board": 2,
       "is_new": false,
-      "rank_delta": 27,
-      "cluster_id": "a7e0d253b517",
+      "rank_delta": 8,
+      "cluster_id": "2b3bd62acc09",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 3,
+      "title": "alibaba/open-code-review",
+      "title_zh": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "hot_value": "951 stars today",
+      "summary_zh": "阿里开源代码审查工具，混合架构精准行级评论，内置多语言安全规则。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "language": "Go"
+      },
+      "days_on_board": 4,
+      "is_new": false,
+      "rank_delta": 3,
+      "cluster_id": "ee41dc481c41",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 5
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 6
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 4,
+      "title": "Tencent/LoopForge",
+      "title_zh": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "hot_value": "1,020 stars today",
+      "summary_zh": "腾讯自托管编码代理工作流，含人工审批门控。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+        "language": "Go"
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": 3,
+      "cluster_id": "64bfdc15f723",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 37
+          "rank": 13
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 2,
+      "title": "Biosemantic graph transfer learning for cross-patient cell type annotation and cell–cell interaction analysis in tumor single-cell RNA sequencing",
+      "title_zh": "用于肿瘤单细胞RNA测序中跨患者细胞类型注释和细胞—细胞相互作用分析的生物语义图迁移学习",
+      "url": "https://doi.org/10.1093/bib/bbag587",
+      "hot_value": null,
+      "summary_zh": "摘要 通过单细胞RNA测序（scRNA-seq）探索肿瘤微环境（TME）内的细胞异质性，对于理解癌症进展和治疗反应至关重要。然而，当前scRNA-seq方法缺乏空间背景，并依赖不完整的配体—受体相互作用数据集，限制了准确的细胞类型注释和细胞—细胞通讯推断。本研究使用一种新型图神经网络模型应对这些挑战，增强细胞类型预测和细胞相互作用分析。我们的研究使用了来自19名患者、三种癌症类型（白血病、乳腺浸润性癌和结直肠癌）的49 024个细胞组成的数据集。所提出的scGSL模型表现出稳健性能，在所有数据集上平均准确率为84.83%，精确率为86.23%，召回率为81.51%，F1分数为80.92%。这些指标相较现有方法有显著提升，后者通常表现出较低的性能指标。此外，通过回顾现有关于TME内基因相互作用的文献，scGSL模型被证明能以无监督方式稳健识别具有生物学意义的基因相互作用，并通过多种癌症中关键",
+      "thumbnail": null,
+      "published_at": "2026-11-01",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag587",
+        "description": "Abstract The exploration of cellular heterogeneity within the tumor microenvironment (TME) via single-cell RNA sequencing (scRNA-seq) is essential for understanding cancer progression and response to therapy. Current scRNA-seq approaches, however, lack spatial context and rely on incomplete datasets of ligand–receptor interactions, limiting accurate cell type annotation and cell–cell communication inference. This study addresses these challenges using a novel graph neural network model that enhances cell-type prediction and cell-interaction analysis. Our study utilized a dataset consisting of 49 024 cells from 19 patients across three cancer types: leukemia, breast invasive carcinoma, and colorectal cancer. The proposed scGSL model demonstrated robust performance, achieving an average accuracy of 84.83%, precision of 86.23%, recall of 81.51%, and an F1 score of 80.92% across all datasets. These metrics represent a significant enhancement over existing methods, which typically exhibit lower performance metrics. Additionally, by reviewing existing literature on gene interactions within the TME, the scGSL model proves to robustly identify biologically meaningful gene interactions in an unsupervised manner, validated by significant expression differences in key gene pairs across various cancers. The source code and data used in this study can be found at https://github.com/LiYuechao1998/scGSL.",
+        "dedupe_key": "doi:10.1093/bib/bbag587",
+        "topic_hit": [
+          "单细胞聚类",
+          "生物信息"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": [
+          "graph neural network"
+        ]
+      },
+      "days_on_board": 5,
+      "is_new": false,
+      "rank_delta": 1,
+      "cluster_id": "a327854abe96",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 8,
+      "title": "HGMetaADR: a multimodal heterogeneous graph meta-learning framework for generalized adverse drug reaction prediction",
+      "title_zh": "HGMetaADR：用于广义药物不良反应预测的多模态异质图元学习框架",
+      "url": "https://doi.org/10.1093/bib/bbag539",
+      "hot_value": null,
+      "summary_zh": "摘要 早期识别药物不良反应（ADR），即正常剂量用药后出现的有害或非预期反应，对于减少临床试验失败和相关经济成本至关重要。然而，现有ADR数据集常呈现长尾标签分布，且稀有副作用缺乏足够训练样本，使普通监督学习模型难以泛化到代表性不足的类别。为解决这些问题，我们提出HGMetaADR，一种用于ADR预测的新型基于异质图的元学习框架。该方法构建在多模态生物医学知识图上，整合互补的药物相关数据，包括分子结构、蛋白质序列、副作用和治疗适应症。它采用分层注意力机制捕捉异质实体间的语义依赖，并采用模型无关的元学习策略增强对小样本类别的适应能力。我们在少样本、零样本和多数三种情景下评估HGMetaADR，以模拟真实世界条件。大量实验表明，HGMetaADR始终优于最先进基线。此外，消融研究和通路富集分析揭示了连接蛋白质靶点、治疗适应症和副作用的潜在生物学机制，从而验证了将异质生物医学知识纳入ADR建模的",
+      "thumbnail": null,
+      "published_at": "2026-11-01",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag539",
+        "description": "Abstract Early identification of adverse drug reactions (ADRs), which refer to harmful or unintended responses to medications taken at normal doses, is crucial for reducing clinical trial failures and associated economic costs. However, existing ADR datasets often exhibit a long-tailed label distribution and lack sufficient training examples for rare side effects, making it difficult for vanilla supervised learning models to generalize to underrepresented classes. To address these issues, we propose HGMetaADR, a novel heterogeneous graph-based meta-learning framework for ADR prediction. Built upon a multimodal biomedical knowledge graph, this approach integrates complementary drug-related data, including molecular structures, protein sequences, side effects, and therapeutic indications. It employs a hierarchical attention mechanism to capture semantic dependencies across heterogeneous entities and adopts a model-agnostic meta-learning strategy to enhance adaptation to small-sample classes. We evaluate HGMetaADR under three scenarios—few-shot, zero-shot, and majority—to simulate real-world conditions. Extensive experiments demonstrate that HGMetaADR consistently outperforms state-of-the-art baselines. Furthermore, ablation studies and pathway enrichment analyses reveal the underlying biological mechanisms linking protein targets, therapeutic indications, and side effects, thereby validating the effectiveness of incorporating heterogeneous biomedical knowledge into ADR modeling.",
+        "dedupe_key": "doi:10.1093/bib/bbag539",
+        "topic_hit": [
+          "稀有细胞"
+        ],
+        "priority_rank": 1,
+        "keyword_hit": [
+          "attention"
+        ]
+      },
+      "days_on_board": 5,
+      "is_new": false,
+      "rank_delta": 1,
+      "cluster_id": "d256addb9159",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 5
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 7
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 10,
+      "title": "AnnST: robust cross-section tissue domain label transfer in spatial transcriptomics via contrastive learning and optimal transport",
+      "title_zh": "AnnST：通过对比学习和最优传输在空间转录组学中实现稳健的跨切片组织域标签转移",
+      "url": "https://doi.org/10.1186/s12859-026-06754-z",
+      "hot_value": null,
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-13",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "BMC Bioinformatics",
+        "mode": "all",
+        "issn": "1471-2105",
+        "doi": "10.1186/s12859-026-06754-z",
+        "description": "",
+        "dedupe_key": "doi:10.1186/s12859-026-06754-z",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "contrastive learning"
+        ]
+      },
+      "days_on_board": 4,
+      "is_new": false,
+      "rank_delta": 1,
+      "cluster_id": "670bdf865334",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 11
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 11
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 10
         }
       ]
     },
     {
-      "source": "jobs",
-      "rank": 73,
-      "title": "Data Science Intern (Data Analytics & AI) 108216",
-      "title_zh": "Data Science Intern (Data Analytics & AI) 108216",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Data-Analytics---AI-_R108216",
+      "source": "papers",
+      "rank": 11,
+      "title": "ASAOT: an accentuated structure-differentiated asymmetric optimal transport model for cell type and single-cell spatial mapping",
+      "title_zh": "ASAOT：一种用于细胞类型和单细胞空间映射的增强结构差异化非对称最优传输模型",
+      "url": "https://doi.org/10.1093/bib/bbag615",
       "hot_value": null,
-      "summary_zh": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, W",
+      "summary_zh": "摘要 空间转录组学（STs）表征时空基因表达，并促进对组织微环境中细胞结构和细胞间通讯的分析。然而，现有空间解卷积方法采用全局固定平滑而无局部锐化，这会模糊细胞边界并阻碍脑组织中分层、异质性细胞模式的重建。在此，我们提出增强结构差异化非对称最优传输（ASAOT），一个基于结构增强非对称最优传输的解卷积框架。结合空间邻域约束，ASAOT引入差异化增强锐化项以维持全局空间连续性、增强边界检测并保留斑点级表达异质性。利用非对称最优传输，该框架联合估计斑点级细胞类型比例并对参考单细胞坐标进行空间分配。在多种模拟数据集上的基准测试表明，ASAOT在中等空间分辨率下实现了有竞争力的整体准确性和稳健性，在测试方法中平均综合排名最佳。应用于小鼠嗅球和大脑皮层数据集表明，ASAOT减少了信号扩散和边界失真，有效恢复分层脑解剖结构和分层细胞分布，从而构建参考单细胞图谱的可解释空间图。总体而言，ASAOT通过锐",
       "thumbnail": null,
-      "published_at": "2026年10月05日",
+      "published_at": "2026-11-01",
       "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag615",
+        "description": "Abstract Spatial transcriptomics (STs) characterizes spatiotemporal gene expression and facilitates analysis of cellular architecture and cell–cell crosstalk within tissue microenvironments. However, existing spatial deconvolution methods employ globally fixed smoothing without local sharpening, which blurs cellular boundaries and impedes reconstruction of layered, heterogeneous cellular patterns in brain tissue. Here, we present Accentuated Structure-differentiated Asymmetric Optimal Transport (ASAOT), a deconvolution framework built on structure-enhanced asymmetric optimal transport. Coupled with spatial neighborhood constraints, ASAOT introduces a differentiated accentuated sharpening term to maintain global spatial continuity, enhance boundary detection, and preserve spot-level expression heterogeneity. Using asymmetric optimal transport, the framework jointly estimates spot-wise cell-type proportions and performs spatial assignment of reference single-cell coordinates. Benchmarks on diverse simulated datasets demonstrate that ASAOT achieves competitive overall accuracy and robustness across moderate spatial resolutions, with the best average comprehensive rank among tested methods. Applications to mouse olfactory bulb and cerebral cortex datasets demonstrate that ASAOT reduces signal diffusion and boundary distortion, effectively recovering layered brain anatomy and stratified cell distributions to build interpretable spatial maps of reference single-cell profiles. Collectively, ASAOT addresses critical drawbacks of conventional methods via a sharpening regularization term, serving as a reliable tool for STs analysis and mechanism exploration of tissue spatial organization.",
+        "dedupe_key": "doi:10.1093/bib/bbag615",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "benchmark"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "5af75ecaf321",
+      "rank_delta": 1,
+      "cluster_id": "4d274d9769c7",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 90
-        },
-        {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 90
+          "rank": 10
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 90
+          "rank": 12
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 73
+          "rank": 12
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 11
         }
       ]
     },
     {
-      "source": "jobs",
-      "rank": 74,
-      "title": "Data Science Intern 107974",
-      "title_zh": "Data Science Intern 107974",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Analytics---6-month-internship_R107974",
+      "source": "papers",
+      "rank": 12,
+      "title": "spOT-NMF: gene expression deconvolution via optimal transport with proximity-aware niche mapping for spatial transcriptomics",
+      "title_zh": "spOT-NMF：通过最优传输与邻近感知生态位映射进行基因表达反卷积用于空间转录组学",
+      "url": "https://doi.org/10.1093/bib/bbag606",
       "hot_value": null,
-      "summary_zh": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has",
+      "summary_zh": "摘要 空间转录组学能够直接分析完整组织内的细胞组织，然而两个挑战限制了其充分利用：混合表达信号（包括异种移植等物种混合模型）的准确无参考反卷积，以及缺乏能将每个斑点的程序使用值转化为空间生态位的工具。我们开发了spOT-NMF，一种基于最优传输的非负矩阵分解方法，用Wasserstein距离替代标准重建损失，无需匹配的单细胞图谱即可解开混合信号。虽然广义OT-NMF分解适用于任何表达矩阵，但基于邻近性的生态位推断模块进一步将空间转录组中的程序共使用转化为定义组织区室及其边界的方向共现网络。在涵盖亚细胞到多细胞分辨率、多个平台和两种物种混合场景的五个金标准数据集上进行基准测试，spOT-NMF在无参考方法中排名第一，在异种移植特有的信号不平衡条件下尤其具有优势。我们表明无参考反卷积能够恢复匹配单细胞图谱中缺失的细胞群体，突显了无监督分析的价值。应用于胶质母细胞瘤异种移植和人类结直肠癌，spO",
       "thumbnail": null,
-      "published_at": "2026年09月03日",
+      "published_at": "2026-11-01",
       "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "e5794d9db6eb",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 74
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 75,
-      "title": "腾讯云-AgentRuntime研发高级工程师for AI产品",
-      "title_zh": "腾讯云-AgentRuntime研发高级工程师for AI产品",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2099353703831224320",
-      "hot_value": null,
-      "summary_zh": "1.深入 WorkBuddy、ima、企业微信、小微等腾讯核心 Agent 业务，与业务团队联合完成 AgentRuntime 的方案设计、研发接入、性能优化和生产落地； 2.围绕对话式 Agent、常驻 Agent、长任务及多 Agent 等运行模式，持续建设生命周期管理、状态持久化、暂停恢复、弹性扩缩容、工具执行和网络访问等 Runtime 能力； 3.解决核心业务生产环境中的复杂系统问题，能",
-      "thumbnail": null,
-      "published_at": "2026年09月14日",
-      "extra": {
-        "company": "腾讯",
-        "city": "深圳",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "bda4c8495936",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 75
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 76,
-      "title": "Data Science Intern",
-      "title_zh": "Data Science Intern",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Game-Engine-R-D-Specialist_R106237-1",
-      "hot_value": null,
-      "summary_zh": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the w",
-      "thumbnail": null,
-      "published_at": "2026年02月24日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "58f9c55a2a00",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 76
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 77,
-      "title": "Data Science Intern 107259",
-      "title_zh": "Data Science Intern 107259",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107259-2",
-      "hot_value": null,
-      "summary_zh": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the w",
-      "thumbnail": null,
-      "published_at": "2026年05月06日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "93dd669d01c2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 97
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 77
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 78,
-      "title": "Data Science Intern 107361",
-      "title_zh": "Data Science Intern 107361",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107361-1",
-      "hot_value": null,
-      "summary_zh": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the w",
-      "thumbnail": null,
-      "published_at": "2026年04月22日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "b781642bb044",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 98
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 78
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 79,
-      "title": "Tencent Cloud International -AI & LLM Solution Architect",
-      "title_zh": "Tencent Cloud International -AI & LLM Solution Architect",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2114921880401129472",
-      "hot_value": null,
-      "summary_zh": "1. Partner with enterprise customers to understand business challenges, identify AI transformation opportunities, and design end-to-end AI and LLM solutions leveraging Tencent Cloud TokenHub, Tencent ",
-      "thumbnail": null,
-      "published_at": "2026年10月29日",
-      "extra": {
-        "company": "腾讯",
-        "city": "中国香港",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 19,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "ae0b372996f8",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 97
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 97
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 79
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 80,
-      "title": "AI for Systems 算法工程师（北京/深圳/上海/杭州）-智能调度与性能优化",
-      "title_zh": "AI for Systems 算法工程师（北京/深圳/上海/杭州）-智能调度与性能优化",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2118244734064570368",
-      "hot_value": null,
-      "summary_zh": "1.性能画像与预测：建模不同硬件、并行配置和资源布局下的吞吐、时延、显存及扩展效率，开展负载与资源需求预测； 2.资源方案推荐：优化资源数量、硬件类型、并行方案及多角色配比，综合考虑业务目标、资源约束和变更成本； 3.调度策略优化：运用运筹优化、启发式搜索、机器学习等方法，优化资源布局、弹性分配、容量池化与复用； 4.实验与落地：结合仿真平台、线上数据和真实测试环境，完成算法评估、工程化及上线验证",
-      "thumbnail": null,
-      "published_at": "2026年11月05日",
-      "extra": {
-        "company": "腾讯",
-        "city": "北京",
-        "keywords_hit": [
-          "AI for Science"
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag606",
+        "description": "Abstract Spatial transcriptomics enables direct profiling of cellular organization within intact tissues, yet two challenges limit its full exploitation: accurate reference-free deconvolution of mixed expression signals (including species-admixed models such as xenografts), and lack of tools that can translate per-spot program usage values into spatial niches. We developed spOT-NMF, an optimal transport-based non-negative matrix factorization method that replaces standard reconstruction loss with the Wasserstein distance to disentangle mixed signals without requiring matched single-cell atlases. While the generalized OT-NMF factorization is applicable to any expression matrix, a proximity-based niche inference module further translates program co-usage from spatial transcriptomes into directional co-occurrence networks that define tissue compartments and their boundaries. Benchmarking across five gold-standard datasets spanning sub-cellular to multi-cellular resolutions, multiple platforms, and two-species admixture scenarios, spOT-NMF ranks first among reference-free methods, with particular advantage under the signal imbalance conditions characteristic of xenografts. We show that reference-free deconvolution recovers cell populations absent from matched single-cell atlases, highlighting the value of unsupervised analysis. Applied to glioblastoma xenografts and human colorectal cancer, spOT-NMF reveals spatially restricted interferon signaling, invasion routes, and CAF–tumor boundaries. spOT-NMF is available as an open-source Python package with GPU, CPU, and HPC support.",
+        "dedupe_key": "doi:10.1093/bib/bbag606",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "benchmark"
         ]
       },
       "days_on_board": 12,
       "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "9503f4559ff1",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 98
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 98
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 97
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 97
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 97
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 80
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 81,
-      "title": "Tencent Cloud-Senior Channel Sales Manager",
-      "title_zh": "Tencent Cloud-Senior Channel Sales Manager",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2112025433406091264",
-      "hot_value": null,
-      "summary_zh": "1. Drive channel partner revenue through cooperative selling; achieve/exceed quotas and own pipeline, forecasting, and account expansion. 2. Manage the full partner lifecycle — recruitment, onboarding",
-      "thumbnail": null,
-      "published_at": "2026年11月03日",
-      "extra": {
-        "company": "腾讯",
-        "city": "中国香港",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 19,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "fc21b84e9a45",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 101
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 98
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 98
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 98
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 81
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 82,
-      "title": "腾讯云-大数据产品客户成功经理-for 海外",
-      "title_zh": "腾讯云-大数据产品客户成功经理-for 海外",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2047217902628794368",
-      "hot_value": null,
-      "summary_zh": "1.负责大数据产品国内及海外大项目交付管理，按合同约定完成产品交付，对产品交付的范围、进度、质量负责； 2.负责交付后客户维护和深耕，客户全生命周期管理，能够根据客户业务特点和需求，引导客户使用产品并进行深层价值落地，对客户大数据产品系统的健康度、使用深度负责，周期性拜访客户，维护客户关系； 3.据客户业务需求撰写方案，提供产品培训，解决用户关于产品的各种使用问题，持续挖掘客户业务场景，并为客户提",
-      "thumbnail": null,
-      "published_at": "2026年10月20日",
-      "extra": {
-        "company": "腾讯",
-        "city": "深圳",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "97af6ca01a6b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 102
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 82
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 83,
-      "title": "光子 AI-AI Infra工程师",
-      "title_zh": "光子 AI-AI Infra工程师",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2066702542833893376",
-      "hot_value": null,
-      "summary_zh": "1.模型训练和推理平台开发； 2.研究并应用模型优化技术到训练流程和在线服务中，提高运行时性能，降低资源占用； 3.业务侧模型部署和评测； 4.团队 gpu 资源管理与调度。",
-      "thumbnail": null,
-      "published_at": "2026年11月13日",
-      "extra": {
-        "company": "腾讯",
-        "city": "深圳",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "9f84d3c11ab6",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 104
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 102
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 102
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 83
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 84,
-      "title": "AI产品经理-AI平台（Agent）方向",
-      "title_zh": "AI产品经理-AI平台（Agent）方向",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2088450750270324736",
-      "hot_value": null,
-      "summary_zh": "1.负责金融科技AI平台产品的规划、设计和迭代，覆盖 Agent 研发流程、观测、追踪、安全、调优及成本控制等方案； 2.负责金融科技AI工具平台，挖掘技术/非技术用户内部场景痛点，完善产品能力； 3.参与组织级研发体系升级，梳理并设计多角色 Agent协同产品解决方案； 4.建立 AI 服务效果评估治理，通过数据、用户反馈和 Badcase 持续优化产品。",
-      "thumbnail": null,
-      "published_at": "2026年11月13日",
-      "extra": {
-        "company": "腾讯",
-        "city": "深圳",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "0c89e3274bcc",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 106
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 104
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 104
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 101
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 101
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 101
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 84
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 85,
-      "title": "光子 AI-AI应用开发工程师",
-      "title_zh": "光子 AI-AI应用开发工程师",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2008789833664847872",
-      "hot_value": null,
-      "summary_zh": "1.负责游戏场景下 AI 应用的后台研发，包括 AI Agent、AIGC 工具等业务模块； 2.参与 AI 服务通用能力建设，包括模型接入、任务编排、上下文管理与记忆机制、工具调用、数据处理等； 3.负责 AI 服务工程化与线上稳定性建设，包括部署发布、监控告警、限流降级、故障排查、性能与成本优化。",
-      "thumbnail": null,
-      "published_at": "2026年11月09日",
-      "extra": {
-        "company": "腾讯",
-        "city": "深圳",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "26f809b3b4f2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 105
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 103
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 103
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 102
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 102
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 102
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 85
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 87,
-      "title": "Senior AI Infrastructure Engineer",
-      "title_zh": "Senior AI Infrastructure Engineer",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Senior-AI-Infrastructure-Engineer_R108182",
-      "hot_value": null,
-      "summary_zh": "About the Hiring Team Tencent Overseas IT has the mission to empower Tencent’s rapid global growth with future ready, global IT platforms, applications and services. We are chartered to lead the Overs",
-      "thumbnail": null,
-      "published_at": "2026年10月11日",
-      "extra": {
-        "company": "腾讯",
-        "city": "帕罗奥多",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 6,
-      "is_new": false,
-      "rank_delta": 16,
-      "cluster_id": "77373198ea3b",
+      "rank_delta": 1,
+      "cluster_id": "10ad055e4b6e",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 105
+          "rank": 7
         },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 105
+          "rank": 6
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 103
+          "rank": 7
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 103
+          "rank": 11
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 103
+          "rank": 13
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 87
+          "rank": 13
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 12
         }
       ]
     },
     {
-      "source": "jobs",
-      "rank": 53,
-      "title": "综合办公室 综合岗",
-      "title_zh": "综合办公室 综合岗",
-      "url": "https://www.iguopin.com/job/detail?id=224732834957361189&source=campus",
+      "source": "papers",
+      "rank": 13,
+      "title": "Identifying multi-omics spatial domains via masked autoencoder and diffusion-based latent regularization with SpaMEDM",
+      "title_zh": "通过掩码自编码器和基于扩散的潜在正则化与SpaMEDM识别多组学空间域",
+      "url": "https://doi.org/10.1093/bib/bbag520",
       "hot_value": null,
-      "summary_zh": "【岗位职责】 1.负责建立健全公司制度建设，包括公司各类文件、通知、规章制度、年度计划及总结等的草拟工作。 2.负责公司印章的管理、各类证照的年审及材料汇总工作。 3.负责公司各类文件的拟、收、发、存文档管理，组织、安排公司召开的各种会议，做好会议记录，并负责检查、督促会议决策的落实和执行情况。 4.负责公司公务用车、生产用车的日常管理，包括公务用车、生产用车的保险、年检、日常维保、处置和台账登记",
+      "summary_zh": "摘要 空间多组学数据提供了组织组织的互补分子视图。然而，由于数据稀疏性、技术噪声和模态特异性分布，其整合仍然具有挑战性。在这里，我们提出了空间掩码自编码器和基于扩散的模型（SpaMEDM），一个端到端图表示学习框架，它增强了双注意力图整合骨干，并加入了掩码重建和基于扩散的潜在噪声预测正则化。在掩码轨道中，通过利用模态和图特定的邻域信息来恢复随机掩码的斑点特征。同时，在随机采样的噪声水平下对模态特定的潜在表示施加高斯扰动，并训练一个空间图信息网络来预测注入的噪声。这种基于扩散的目标仅在训练期间使用，以鼓励对潜在扰动的鲁棒性，而不是在推理期间执行迭代反向扩散或采样。此外，基于余弦的配对斑点方向对齐和邻接重建鼓励兼容的跨模态表示并保留所选图结构。SpaMEDM灵活支持纯空间、双特征-空间和模态特定特征修剪的空间图配置。在不同空间多组学数据集上的评估展示了有竞争力的空间域识别性能，并产生促进下游探",
       "thumbnail": null,
-      "published_at": "2026-10-30 14:19:14",
+      "published_at": "2026-11-01",
       "extra": {
-        "subsource": "guopin",
-        "company": "中煤地（北京）智慧能源有限公司",
-        "city": "北京-房山区",
-        "education": "本科",
-        "company_type": "国企",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "综合"
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag520",
+        "description": "Abstract Spatial multi-omics data provide complementary molecular views of tissue organization. However, their integration remains challenging due to data sparsity, technical noise, and modality-specific distributions. Here, we present Spatial Masked autoEncoder and Diffusion-based Model (SpaMEDM), an end-to-end graph representation learning framework that augments a dual-attention graph-integration backbone with masked reconstruction and diffusion-based latent noise-prediction regularization. In the masked track, randomly masked spot features are recovered by leveraging modality- and graph-specific neighborhood information. In parallel, Gaussian perturbations are applied to modality-specific latent representations at randomly sampled noise levels, and a spatial-graph-informed network is trained to predict the injected noise. This diffusion-based objective is used exclusively during training to encourage robustness to latent perturbations, rather than to perform iterative reverse diffusion or sampling during inference. Furthermore, cosine-based paired-spot directional alignment and adjacency reconstruction encourage compatible cross-modality representations and preservation of the selected graph structure. SpaMEDM flexibly supports purely spatial, dual feature–spatial, and modality-specific feature-pruned spatial graph configurations. Evaluations across diverse spatial multi-omics datasets demonstrate competitive spatial-domain identification performance and produce integrated embeddings that facilitate downstream exploratory analyses.",
+        "dedupe_key": "doi:10.1093/bib/bbag520",
+        "topic_hit": [
+          "生物信息"
         ],
-        "is_central_soe": false,
-        "is_state_owned": true
+        "priority_rank": 2,
+        "keyword_hit": [
+          "graph representation",
+          "autoencoder",
+          "representation learning",
+          "attention"
+        ]
       },
-      "days_on_board": 18,
+      "days_on_board": 12,
       "is_new": false,
-      "rank_delta": 13,
-      "cluster_id": "d161cb1f6c60",
+      "rank_delta": 1,
+      "cluster_id": "91fe3aa8b90f",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 61
-        },
-        {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 60
+          "rank": 8
         },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 62
+          "rank": 7
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 62
+          "rank": 8
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 67
+          "rank": 12
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 66
+          "rank": 14
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 53
+          "rank": 14
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 13
         }
       ]
     },
     {
-      "source": "jobs",
-      "rank": 54,
-      "title": "智能工厂研究岗",
-      "title_zh": "智能工厂研究岗",
-      "url": "https://www.iguopin.com/job/detail?id=224836738336423973&source=social",
+      "source": "papers",
+      "rank": 14,
+      "title": "Structured multi-view relational learning for drug response prediction",
+      "title_zh": "用于药物反应预测的结构化多视图关系学习",
+      "url": "https://doi.org/10.1093/bib/bbag619",
       "hot_value": null,
-      "summary_zh": "1.数字化转型相关方法论、模型、标准研究，发布成果报告以及相关研究成果产品化工作。 2.企业数字化转型和智能制造领域项目的立项沟通、售前支持等工作。 3.集团级数字化转型规划设计项目交付，根据交付目标及内容，剖析企业业务及数字化问题，采用企业架构等方法制定业务、数据、应用、技术、安全等咨询方案，帮助企业明确数字化转型落地任务。 4.智能工厂规划设计项目交付，面向企业客户问题需求提出针对性方案，解决",
+      "summary_zh": "摘要 药物反应预测（DRP）需要能够联合表征分子药物结构和异质细胞状态的模型。尽管近期深度学习方法已将多组学图谱与药物表征整合，但许多方法将组学视图视为并行特征来源或在关系建模前将其合并，这可能削弱组学视图特异的细胞系关系结构。在此，我们提出MulDR，一个结构化多视图关系学习框架，在药物条件化的细胞–药物交互之前保留组学视图特异的细胞系关系结构。MulDR为通路活性、基因表达、突变和DNA甲基化构建独立的关系结构，学习视图特异的关系细胞表征，并使用互补的基序级、几何感知分子图和Morgan指纹药物表征来条件化其融合。通过这种设计，细胞系相似性在交互阶段之前保持视图依赖，而非被过早压缩为单一特征或关系空间。大量实验表明，MulDR在相同评估协议下持续优于代表性和近期基线，相对于最强基线将均方根误差降低6.07%。对未见药物和细胞系的冷启动评估进一步表明MulDR能泛化到先前未见的实体，而消",
       "thumbnail": null,
-      "published_at": "2026-10-30 11:10:07",
+      "published_at": "2026-11-01",
       "extra": {
-        "subsource": "guopin",
-        "company": "中国工业互联网研究院",
-        "city": "北京-朝阳区",
-        "education": "硕士",
-        "company_type": "其他",
-        "recruitment_type": "社会招聘",
-        "keywords_hit": [
-          "研究"
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag619",
+        "description": "Abstract Drug response prediction (DRP) requires models that jointly characterize molecular drug structure and heterogeneous cellular states. Although recent deep learning approaches have integrated multi-omics profiles with drug representations, many treat omics views as parallel feature sources or merge them before relational modeling, which can weaken omics-view-specific cell-line relation structures. Here, we propose MulDR, a structured multi-view relational learning framework that preserves omics-view-specific cell-line relation structures before drug-conditioned cell–drug interaction. MulDR constructs separate relation structures for pathway activity, gene expression, mutation, and DNA methylation, learns view-specific relational cell representations, and uses complementary motif-level, geometry-aware molecular graph, and Morgan fingerprint drug representations to condition their fusion. With this design, cell-line similarity remains view-dependent until the interaction stage, rather than being prematurely compressed into a single feature or relation space. Extensive experiments show that MulDR consistently outperforms representative and recent baselines under the same evaluation protocol, reducing root mean square error by 6.07% relative to the strongest baseline. Cold-start evaluations on unseen drugs and cell lines further show that MulDR generalizes to previously unseen entities, while ablation studies show that removing either view-specific relational modeling or drug-conditioned fusion consistently compromises predictive performance. Together, these results suggest that preserving omics-specific cell-line relations before drug-conditioned interaction modeling provides an effective strategy for robust DRP.",
+        "dedupe_key": "doi:10.1093/bib/bbag619",
+        "topic_hit": [
+          "生物信息"
         ],
-        "is_central_soe": false,
-        "is_state_owned": false
+        "priority_rank": 2,
+        "keyword_hit": [
+          "deep learning"
+        ]
       },
-      "days_on_board": 18,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": 13,
-      "cluster_id": "6340c50367a2",
+      "rank_delta": 1,
+      "cluster_id": "dc4eed5e8622",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 62
-        },
-        {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 61
+          "rank": 9
         },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 63
+          "rank": 8
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 63
+          "rank": 9
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 68
+          "rank": 13
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 67
+          "rank": 15
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 54
+          "rank": 15
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 14
         }
       ]
     },
     {
-      "source": "jobs",
-      "rank": 55,
-      "title": "投资管理岗",
-      "title_zh": "投资管理岗",
-      "url": "https://www.iguopin.com/job/detail?id=224756576697716313&source=social",
+      "source": "papers",
+      "rank": 15,
+      "title": "Multi-omics survival prediction under modality incompleteness via dynamic modality graphs and product-of-experts fusion",
+      "title_zh": "通过动态模态图和专家乘积融合在模态不完整下的多组学生存预测",
+      "url": "https://doi.org/10.1093/bib/bbag596",
       "hot_value": null,
-      "summary_zh": "岗位职责： 1.负责项目的挖掘、筛选、调研等工作。 2.负责提出交易方案、完成交易结构设计、财务分析、尽职调查、估值及回报分析等，开展投资谈判，支持投资方案审批及执行投资交易等。 3.独立进行投资业务研究,进行重点投资机会分析诊断，出具相关行业研究报告。 4.负责投后管理相关业务。 任职条件: 1. 硕士研究生及以上学历；经济学类、金融类、理工类、生物技术类、农业工程类等相关专业；具备复合型专业背",
+      "summary_zh": "摘要 多组学数据整合为癌症生存预测提供了丰富的互补信息，然而模态不完整在真实医疗数据中普遍存在，削弱了现有模型的稳定性和适用性。为应对这一挑战，我们提出DMG-PoE，一个用于多组学生存预测的稳健学习框架。该框架引入动态模态图（DMG），在模态节点之间传播互补信息以补偿缺失输入，并结合不确定性感知的专家乘积（PoE）融合机制，按每个模态的估计精度自适应加权，以及一致性约束训练策略，在不同模态子集上稳定预测。在SurvBoard基准上对10种TCGA癌症类型和七种组学模态的系统评估表明，DMG-PoE在标准设置（完整模态训练/测试）和缺失增强设置（训练额外包含真实不完整样本和非临床模态丢弃，仅完整测试）下均取得最高平均C-index；受控的逐模态掩蔽实验在22/24个癌症-模态组合中验证了有效的测试时恢复，而仅七种模态中两种可用时的跨队列迁移进一步证实了严重输入限制下的泛化能力。",
       "thumbnail": null,
-      "published_at": "2026-10-30 10:21:01",
+      "published_at": "2026-11-01",
       "extra": {
-        "subsource": "guopin",
-        "company": "国投创益产业基金管理有限公司",
-        "city": "北京",
-        "education": "硕士",
-        "company_type": "国企",
-        "recruitment_type": "社会招聘",
-        "keywords_hit": [
-          "管理"
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag596",
+        "description": "Abstract Multi-omics data integration provides rich complementary information for cancer survival prediction, yet modality incompleteness is pervasive in real-world medical data and undermines the stability and applicability of existing models. To address this challenge, we propose DMG-PoE, a robust learning framework for multi-omics survival prediction. The framework introduces a dynamic modality graph (DMG) that propagates complementary information across modality nodes to compensate for missing inputs, combined with an uncertainty-aware product-of-experts (PoE) fusion mechanism that adaptively weights each modality by its estimated precision, and a consistency-constrained training strategy that stabilizes predictions across varying modality subsets. Systematic evaluation on the SurvBoard benchmark across 10 TCGA cancer types and seven omics modalities demonstrates that DMG-PoE achieves the highest average C-index under both the standard setting (complete-modality training/testing) and the missing-augmented setting (training additionally includes real incomplete samples and nonclinical modality dropout, with complete-only testing); controlled per-modality masking experiments validate effective test-time recovery in 22/24 cancer-modality combinations, and cross-cohort transfer with only two of seven modalities available further confirms generalization under severe input restriction.",
+        "dedupe_key": "doi:10.1093/bib/bbag596",
+        "topic_hit": [
+          "生物信息"
         ],
-        "is_central_soe": false,
-        "is_state_owned": true
+        "priority_rank": 2,
+        "keyword_hit": [
+          "benchmark"
+        ]
       },
-      "days_on_board": 18,
+      "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 13,
-      "cluster_id": "7da12047c90a",
+      "rank_delta": 1,
+      "cluster_id": "3a22f3c6e202",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 63
-        },
-        {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 62
+          "rank": 10
         },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 64
+          "rank": 9
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 64
+          "rank": 10
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 69
+          "rank": 14
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 68
+          "rank": 16
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 55
+          "rank": 16
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 15
         }
       ]
     },
     {
-      "source": "jobs",
-      "rank": 56,
-      "title": "生物制品事业部营销岗",
-      "title_zh": "生物制品事业部营销岗",
-      "url": "https://www.iguopin.com/job/detail?id=224569294111903322&source=campus",
+      "source": "papers",
+      "rank": 16,
+      "title": "Impact of training data on deep learning–based RNA 3D structure quality assessment",
+      "title_zh": "训练数据对基于深度学习的RNA 3D结构质量评估的影响",
+      "url": "https://doi.org/10.1093/bib/bbag630",
       "hot_value": null,
-      "summary_zh": "一、岗位职责 1. 负责四川区域政采客户开发与维护、招投标全流程执行、产品技术对接与客户服务、政策及市场信息调研研判、项目履约发货及闭环管理等工作。 2. 按时完成部门交办的临时工作任务。 二、任职要求 1. 基本条件：思想积极向上，品行端正，遵纪守法，恪守法治理念、身体健康，认同公司企业文化与核心价值观，拥有良好的职业操守与责任心。 2.任职要求 （1）硕士研究生及以上学历，动物医学、生物类相关",
+      "summary_zh": "摘要 对预测RNA 3D结构进行准确的免参考评估对于大规模RNA建模至关重要，但训练数据对基于深度学习的质量预测器的影响仍知之甚少。在此，我们对三个用于RNA 3D结构质量评估的深度学习预测器进行了系统的交叉训练分析，每个预测器最初都在不同的训练集上开发。通过在替代（非原生）数据集上重新训练每个预测器——包括专门为本项目创建的新数据集RNA3DQA——并在独立的RNA-Puzzles基准上评估性能，我们系统地评估了模型架构和训练数据组成的相对贡献。我们的结果揭示了跨数据集泛化方面的显著差异，预测器在非原生数据集上训练时往往比在其原生数据集上表现更好。值得注意的是，训练数据集的影响因预测器而异，RNA3DQA特别为ARES模型带来了整体最佳的准确性和排名稳定性结果。原生训练集为RNA3DCNN和lociPARSE带来了更好的性能。这些发现表明，训练数据的特征在塑造免参考RNA 3D结构质量评",
       "thumbnail": null,
-      "published_at": "2026-10-28 19:37:26",
+      "published_at": "2026-11-01",
       "extra": {
-        "subsource": "guopin",
-        "company": "中牧实业股份有限公司",
-        "city": "北京-丰台区",
-        "education": "硕士",
-        "company_type": "国企",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "生物"
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag630",
+        "description": "Abstract Accurate reference-free assessment of predicted RNA 3D structures is essential for large-scale RNA modeling, yet the impact of training data on deep learning–based quality predictors remains poorly understood. Here, we present a systematic cross-training analysis of three deep learning predictors for RNA 3D structure quality assessment, each originally developed on distinct training sets. By retraining each predictor on alternative (nonnative) datasets—including RNA3DQA, a new set created specifically for this project—and evaluating performance on independent RNA-Puzzles benchmarks, we systematically assess the relative contributions of model architecture and training data composition. Our results reveal pronounced differences in cross-dataset generalization, with predictors often performing better when trained on nonnative datasets than on their native ones. Notably, the impact of the training datasets varied across predictors, with RNA3DQA yielding the overall best accuracy and ranking stability results specifically for the ARES model. Native training sets yielded better performance for RNA3DCNN and lociPARSE. These findings demonstrate that the characteristics of the training data play a dominant, model-dependent role in shaping the performance and robustness of reference-free RNA 3D structure quality assessment methods. We conclude with practical recommendations for designing transferable training datasets and for benchmarking deep learning–based quality predictors in RNA structural bioinformatics.",
+        "dedupe_key": "doi:10.1093/bib/bbag630",
+        "topic_hit": [
+          "生物信息"
         ],
-        "is_central_soe": false,
-        "is_state_owned": true
+        "priority_rank": 2,
+        "keyword_hit": [
+          "deep learning",
+          "benchmark"
+        ]
       },
-      "days_on_board": 19,
+      "days_on_board": 8,
       "is_new": false,
-      "rank_delta": 13,
-      "cluster_id": "2be8ce04e57f",
+      "rank_delta": 1,
+      "cluster_id": "8de6ff8ea9aa",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 65
-        },
-        {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 64
+          "rank": 11
         },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 66
+          "rank": 10
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 65
+          "rank": 11
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 70
+          "rank": 15
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 69
+          "rank": 17
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 56
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 57,
-      "title": "法律合规",
-      "title_zh": "法律合规",
-      "url": "https://www.iguopin.com/job/detail?id=218520023080108217&source=campus",
-      "hot_value": null,
-      "summary_zh": "【岗位职责】 1.负责独立/协同协同外聘律师对公司章程、重大决策、经济合同等进行法律合规审核并出具法律意见书； 2.负责动态优化公司制度管理体系并定期开展评估工作； 3.负责各类合同法律审核，协助发布制式合同文本； 4.负责日常法律咨询与支持，开展法治宣传与培训； 5.负责编制法律合规管理相关报表及专项报告； 6.独立/协同外部律师处理诉讼、仲裁等。 【任职条件】 1.硕士研究生及以上学历，法学、",
-      "thumbnail": null,
-      "published_at": "2026-10-28 19:20:31",
-      "extra": {
-        "subsource": "guopin",
-        "company": "国药集团财务有限公司",
-        "city": "北京-海淀区",
-        "education": "硕士",
-        "company_type": "国企",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "财务"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": true
-      },
-      "days_on_board": 19,
-      "is_new": false,
-      "rank_delta": 13,
-      "cluster_id": "1ae0cf47b3e9",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 66
+          "rank": 17
         },
         {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 65
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 67
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 66
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 71
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 70
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 57
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 16
         }
       ]
     }
   ],
   "new_today": [
+    {
+      "source": "bilibili",
+      "rank": 1,
+      "title": "梅耶·马斯克带你走进无限暖暖3.0",
+      "title_zh": "梅耶·马斯克带你走进无限暖暖3.0",
+      "url": "https://b23.tv/BV18msM6zEqc",
+      "hot_value": "1150579",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/624a7f1227d7d3779e4aa6d50b794addce7f7be4.jpg",
+      "published_at": "2026-11-17T04:00:00+00:00",
+      "extra": {
+        "bvid": "BV18msM6zEqc",
+        "owner": "无限暖暖"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "8be092ddb057",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 1,
+      "title": "APEC参会嘉宾陆续抵达深圳",
+      "title_zh": "APEC参会嘉宾陆续抵达深圳",
+      "url": "https://www.douyin.com/search/APEC%E5%8F%82%E4%BC%9A%E5%98%89%E5%AE%BE%E9%99%86%E7%BB%AD%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3",
+      "hot_value": "12097705",
+      "summary_zh": null,
+      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015/ocH78V8f7VEjvEBfCrD3DCF9ATdeAA7Q9poLQB~noop.jpeg?lk3s=bfd515bb&x-expires=1794931200&x-signature=T%2FlHkLZuPCBWqgkTKhW7ZAXiVew%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2750315"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "1018c6abfb5d",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 1,
+      "title": "72.4 亿日元，鸿海拟收购索尼半导体车载摄像头模组业务",
+      "title_zh": "72.4 亿日元，鸿海拟收购索尼半导体车载摄像头模组业务",
+      "url": "https://www.ithome.com/1/028/459.htm",
+      "hot_value": null,
+      "summary_zh": "IT之家 11 月 17 日消息，据台媒《经济日报》今天（17 日）晚间报道，鸿海宣布与索尼半导体解决方案公司签署协议，拟以 72.4 亿日元 （IT之家注：现汇率约合 3.03 亿元人民币） 现金收购后者旗下 车载摄像头模组业务 。 此次收购涵盖业务、技术、客户资源及运营资源，预计在获得监管部门批准并满足其他先决条件后，于 2027 年 4 月底前完成交割。 鸿海长期从事信息通信领域摄像头模组的设计、制造和集成业务，索尼半导体的车载摄像头模组业务则是日本市场的重要供应商之一，与日本车企保持着长期合作关系。 报道提到，通过此次收购，鸿海将整合对方现有的技术、客户资源及直接服务整车厂的经验，进一步提升车载系统集成服务能力，增强业务竞争优势，同时为原有的全球车企客户提供更高价值的服务。 据了解，此次收购金额不包括索尼半导体解决方案公司 车载摄像头模组业务在海外的生产设备及库存 。 交易初期，双",
+      "thumbnail": null,
+      "published_at": "2026-11-17T10:29:10+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "IT之家 11 月 17 日消息，据台媒《经济日报》今天（17 日）晚间报道，鸿海宣布与索尼半导体解决方案公司签署协议，拟以 72.4 亿日元 （IT之家注：现汇率约合 3.03 亿元人民币） 现金收购后者旗下 车载摄像头模组业务 。 此次收购涵盖业务、技术、客户资源及运营资源，预计在获得监管部门批准并满足其他先决条件后，于 2027 年 4 月底前完成交割。 鸿海长期从事信息通信领域摄像头模组的设计、制造和集成业务，索尼半导体的车载摄像头模组业务则是日本市场的重要供应商之一，与日本车企保持着长期合作关系。 报道提到，通过此次收购，鸿海将整合对方现有的技术、客户资源及直接服务整车厂的经验，进一步提升车载系统集成服务能力，增强业务竞争优势，同时为原有的全球车企客户提供更高价值的服务。 据了解，此次收购金额不包括索尼半导体解决方案公司 车载摄像头模组业务在海外的生产设备及库存 。 交易初期，双",
+        "dedupe_key": "https://www.ithome.com/1/028/459.htm"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "a8fd09a5c2a1",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "nowcoder",
+      "rank": 1,
+      "title": "秋招这么难，我给27、28届捋捋接下来该干啥？",
+      "title_zh": "秋招这么难，我给27、28届捋捋接下来该干啥？",
+      "url": "https://www.nowcoder.com/feed/main/detail/c16a81cdab9e4be6b5fe185fbf9bff17",
+      "hot_value": "命中 1 个关键词",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "subsource": "rsshub",
+        "keyword_hit": [
+          "秋招"
+        ],
+        "description": ""
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d4bee359240c",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 1,
+      "title": "Huntress reports CVE-2026-84869 exploitation against MSP technicians, including a rogue ScreenConnect client deployed in one observed case. It found 688,000 guest file-run requests across 42 servers and advises patching technician clients and hunting for exposure. 🔗 https://cyber.hendryadrian.com/ar",
+      "title_zh": "Huntress报告CVE-2026-84869针对MSP技术人员的利用，其中一例观察到部署了恶意ScreenConnect客户端。在42台服务器上发现688,000次guest文件运行请求，建议修补技术人员客户端并排查暴露情况。🔗 https://cyber.hendryadrian.com/ar",
+      "url": "https://t.me/cybernotif/38852",
+      "hot_value": "3",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-17T10:36:04+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "991b59f951fa",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 1,
+      "title": "深圳APEC主持人阵容拉满",
+      "title_zh": "深圳APEC主持人阵容拉满",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3APEC%E4%B8%BB%E6%8C%81%E4%BA%BA%E9%98%B5%E5%AE%B9%E6%8B%89%E6%BB%A1%23",
+      "hot_value": "1036019",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "06f372607a4e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "youtube",
+      "rank": 1,
+      "title": "TXT (투모로우바이투게더) 'Angel Bite' Official MV",
+      "title_zh": "TXT（투모로우바이투게더）'Angel Bite'官方MV",
+      "url": "https://youtube.com/watch?v=M9G4guYg-i8",
+      "hot_value": "5411145",
+      "summary_zh": "TXT新曲Angel Bite官方MV，粉丝必看的韩团视觉作品。",
+      "thumbnail": "https://i.ytimg.com/vi/M9G4guYg-i8/hqdefault.jpg",
+      "published_at": "2026-11-16T08:58:08Z",
+      "extra": {
+        "video_id": "M9G4guYg-i8",
+        "region": "US",
+        "channel": "HYBE LABELS",
+        "description": "TXT (투모로우바이투게더) 'Angel Bite' Official MV\n\nCredits:\nDirector: DQM\nAssistant Director : MonkeyChicken (Kim Dongkyu, Lee Jinseop), Kim Miseon\n\nProduction: blue\nExecutive Producer: Euis\nProducer: Jeong Kiwook, Yoon Damyoung, Choi Hari, Im Chaeryun\n\nPA: ASSIST\nHwang Chanwon, Lee Hakyoung, Yu Hyeonseok, K"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "8f966cd0daea",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 2,
+      "title": "《最礼乐崩坏の一集》",
+      "title_zh": "《最礼乐崩坏の一集》",
+      "url": "https://b23.tv/BV1b2sK6aEJ9",
+      "hot_value": "638472",
+      "summary_zh": null,
+      "thumbnail": "http://i2.hdslb.com/bfs/archive/90bb5c12fae82425e158f5c51e9142a019427af0.jpg",
+      "published_at": "2026-11-17T04:00:00+00:00",
+      "extra": {
+        "bvid": "BV1b2sK6aEJ9",
+        "owner": "伤心欲茄222"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "b6d8e369978f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 2,
+      "title": "APEC峰会有哪些领导人参加",
+      "title_zh": "APEC峰会有哪些领导人参加",
+      "url": "https://www.douyin.com/search/APEC%E5%B3%B0%E4%BC%9A%E6%9C%89%E5%93%AA%E4%BA%9B%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%8F%82%E5%8A%A0",
+      "hot_value": "11273517",
+      "summary_zh": null,
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/oYLznfBV9AtpBxpFIfHg77BCEo7eQtZBBWoAQG~noop.jpeg?lk3s=bfd515bb&x-expires=1794931200&x-signature=oc1LX0eh44E%2BPsMv3%2F0ysPU9i%2Fc%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2750628"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "4fadc61f0c33",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 2,
+      "title": "长鑫科技：LPDDR6 将拓展智能驾驶等场景，车规存储需求呈增长态势",
+      "title_zh": "长鑫科技：LPDDR6 将拓展智能驾驶等场景，车规存储需求呈增长态势",
+      "url": "https://www.ithome.com/1/028/457.htm",
+      "hot_value": null,
+      "summary_zh": "IT之家 11 月 17 日消息，长鑫科技高管今天（17 日）在 2026 年第三季度业绩说明会上介绍，目前公司车载内存产品已稳步演进至 LPDDR5X，并正加快 LPDDR6 在车载场景的应用创新与拓展 ；LPDDR6 凭借更高原生速率和双子架构设计，不仅能满足旗舰手机的需求，后续也能 拓展到智能驾驶、边缘计算及对存储能效要求高的服务器场景 ，具有广泛的应用潜力。 IT之家从公开资料获悉，长鑫科技在今年正式推出了首款 LPDDR6 产品，现已在国内旗舰手机上实现首发量产。据介绍，该产品 最高传输速率达 12800Mbps，较上一代 LPDDR5X 带宽可提升 60%，同时功耗可下降 20% ，可匹配旗舰移动终端对高性能和长续航的双重要求。 长鑫科技董事、总裁曹堪宇透露，端侧 AI 存储需求的增速显著高于其他细分赛道，已成为拉动全球存储市场扩张的关键动力之一。在消费级市场，尽管短期受宏观环",
+      "thumbnail": null,
+      "published_at": "2026-11-17T10:20:35+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "IT之家 11 月 17 日消息，长鑫科技高管今天（17 日）在 2026 年第三季度业绩说明会上介绍，目前公司车载内存产品已稳步演进至 LPDDR5X，并正加快 LPDDR6 在车载场景的应用创新与拓展 ；LPDDR6 凭借更高原生速率和双子架构设计，不仅能满足旗舰手机的需求，后续也能 拓展到智能驾驶、边缘计算及对存储能效要求高的服务器场景 ，具有广泛的应用潜力。 IT之家从公开资料获悉，长鑫科技在今年正式推出了首款 LPDDR6 产品，现已在国内旗舰手机上实现首发量产。据介绍，该产品 最高传输速率达 12800Mbps，较上一代 LPDDR5X 带宽可提升 60%，同时功耗可下降 20% ，可匹配旗舰移动终端对高性能和长续航的双重要求。 长鑫科技董事、总裁曹堪宇透露，端侧 AI 存储需求的增速显著高于其他细分赛道，已成为拉动全球存储市场扩张的关键动力之一。在消费级市场，尽管短期受宏观环",
+        "dedupe_key": "https://www.ithome.com/1/028/457.htm"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "1f41d8a8f0b8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 2,
+      "title": "mvanhorn/last30days-skill",
+      "title_zh": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "hot_value": "135 stars today",
+      "summary_zh": "AI代理跨平台调研话题并生成有据总结，适合快速研究。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ab6267882557",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "nowcoder",
+      "rank": 2,
+      "title": "什么因素对秋招影响更大？",
+      "title_zh": "什么因素对秋招影响更大？",
+      "url": "https://www.nowcoder.com/feed/main/detail/b4812169ebd943b9ab1a001eb54e7ef7",
+      "hot_value": "命中 1 个关键词",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "subsource": "rsshub",
+        "keyword_hit": [
+          "秋招"
+        ],
+        "description": ""
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "259442aac12d",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 2,
+      "title": "Optimizely says an attacker exploited Web Experimentation to inject malicious JavaScript into customer projects. Report URI found it in 188 snippets across 178 organizations; payloads hijacked crypto addresses, skimmed cards and delivered iOS exploit kits. No iOS take­… 🔗 https://cyber.hendryadrian.",
+      "title_zh": "Optimizely称攻击者利用Web Experimentation向客户项目注入恶意JavaScript。Report URI在178个组织的188个片段中发现该代码；载荷劫持加密地址、窃取卡片信息并投递iOS漏洞利用工具包。无iOS取…",
+      "url": "https://t.me/cybernotif/38851",
+      "hot_value": "8",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-17T10:12:03+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "8adc69b0e55e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 2,
+      "title": "马斯克确认即将前往中国",
+      "title_zh": "马斯克确认即将前往中国",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E7%A1%AE%E8%AE%A4%E5%8D%B3%E5%B0%86%E5%89%8D%E5%BE%80%E4%B8%AD%E5%9B%BD%23",
+      "hot_value": "739277",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d79d2e45e47e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "youtube",
+      "rank": 2,
+      "title": "GTA 6 MARATHON | Official Trailer",
+      "title_zh": "GTA 6 MARATHON | 官方预告片",
+      "url": "https://youtube.com/watch?v=_AY5krZErfg",
+      "hot_value": "1398699",
+      "summary_zh": "GTA6马拉松官方预告，玩家关注的新作实机内容。",
+      "thumbnail": "https://i.ytimg.com/vi/_AY5krZErfg/hqdefault.jpg",
+      "published_at": "2026-11-16T20:33:01Z",
+      "extra": {
+        "video_id": "_AY5krZErfg",
+        "region": "US",
+        "channel": "Kai Cenat Live",
+        "description": "WATCH LIVE HERE: https://youtube.com/live/VZqAPdUvqnQ\nFOLLOW ME ON TWITCH: https://www.twitch.tv/kaicenat\n\nJOIN THE REDDIT🟠: https://www.reddit.com/r/TheKM/\n\n 🔴Follow My Socials:\nMain Channel: https://youtube.com/c/KaiCenat\nTwitter : https://twitter.com/KaiCenat\nInstagram: https://www.instagram.com/"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "591cac2de104",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 3,
+      "title": "EUV光刻机 | \"上帝的手术刀\"",
+      "title_zh": "EUV光刻机 | \"上帝的手术刀\"",
+      "url": "https://b23.tv/BV1kYsW6NE6E",
+      "hot_value": "850140",
+      "summary_zh": null,
+      "thumbnail": "http://i0.hdslb.com/bfs/archive/5bceed38e919a0a94000efd367d7965a71aa85ce.jpg",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "extra": {
+        "bvid": "BV1kYsW6NE6E",
+        "owner": "Vibe-SCI"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cc564b1af530",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 3,
+      "title": "鲲鹏乘势共赴亚太之约",
+      "title_zh": "鲲鹏乘势共赴亚太之约",
+      "url": "https://www.douyin.com/search/%E9%B2%B2%E9%B9%8F%E4%B9%98%E5%8A%BF%E5%85%B1%E8%B5%B4%E4%BA%9A%E5%A4%AA%E4%B9%8B%E7%BA%A6",
+      "hot_value": "11108569",
+      "summary_zh": null,
+      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015/o037O4AefAQkSsfVED7V8xCSuEBGFBFl37hQuj~noop.jpeg?lk3s=bfd515bb&x-expires=1794931200&x-signature=IMQkBu27JWJ7xpH2WmF96M3VoGs%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2750600"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "a31e186872ac",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 3,
+      "title": "比亚迪王传福：可持续发展是一个全球目标，而中国在这方面做得卓有成效",
+      "title_zh": "比亚迪王传福：可持续发展是一个全球目标，而中国在这方面做得卓有成效",
+      "url": "https://www.ithome.com/1/028/451.htm",
+      "hot_value": null,
+      "summary_zh": "IT之家 11 月 17 日消息，2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办，主题为“共促繁荣，共赢未来”。比亚迪股份有限公司董事长兼总裁王传福出席峰会并参与“打造亚太可持续发展新范式”专题研讨。他表示， 可持续发展是一个全球目标，而中国在这方面做得卓有成效 。 王传福表示，过去几年，我国政府在这方面做出了很多贡献。中国的新能源汽车发展到今天如此大的规模，占到全球差不多 2/3 的新能源汽车，新能源汽车的供应链也是 2/3 以上，这是对全球可持续发展和节能减排的巨大贡献。 王传福称，比亚迪这个名字（Build Your Dreams）叫“成就梦想”，这个梦想就是太阳能、储能加电动车。他透露， 公司有十几万名工程师，还在日益探索各种新能源的技术，希望为全球的可持续发展和节能减排做出应有的贡献 。 据IT之家今日早些时候报道，王传福还点赞了深圳公交出租车全",
+      "thumbnail": null,
+      "published_at": "2026-11-17T10:04:20+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "IT之家 11 月 17 日消息，2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办，主题为“共促繁荣，共赢未来”。比亚迪股份有限公司董事长兼总裁王传福出席峰会并参与“打造亚太可持续发展新范式”专题研讨。他表示， 可持续发展是一个全球目标，而中国在这方面做得卓有成效 。 王传福表示，过去几年，我国政府在这方面做出了很多贡献。中国的新能源汽车发展到今天如此大的规模，占到全球差不多 2/3 的新能源汽车，新能源汽车的供应链也是 2/3 以上，这是对全球可持续发展和节能减排的巨大贡献。 王传福称，比亚迪这个名字（Build Your Dreams）叫“成就梦想”，这个梦想就是太阳能、储能加电动车。他透露， 公司有十几万名工程师，还在日益探索各种新能源的技术，希望为全球的可持续发展和节能减排做出应有的贡献 。 据IT之家今日早些时候报道，王传福还点赞了深圳公交出租车全",
+        "dedupe_key": "https://www.ithome.com/1/028/451.htm"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "65d83133c2b8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "nowcoder",
+      "rank": 3,
+      "title": "转行嵌入式学习路线(已拿下55万offer",
+      "title_zh": "转行嵌入式学习路线(已拿下55万offer",
+      "url": "https://www.nowcoder.com/feed/main/detail/311456f92a8f4d3aa5170c9fd9408329",
+      "hot_value": "命中 1 个关键词",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "subsource": "rsshub",
+        "keyword_hit": [
+          "offer"
+        ],
+        "description": ""
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c6bc025c50c5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 3,
+      "title": "CellStressDB: an AI-powered database of cellular responses to physical stressors",
+      "title_zh": "CellStressDB：一个AI驱动的细胞对物理应激源反应数据库",
+      "url": "https://doi.org/10.1093/nar/gkag1193",
+      "hot_value": null,
+      "summary_zh": "摘要 物理应激源通过触发协调的应激反应程序深刻影响细胞行为，这些程序调节信号传导、基因表达、代谢和细胞命运。在此，我们展示CellStressDB（https://cellstressdb.omic.tech），一个AI驱动的数据库，用于探索细胞对物理应激源的反应。当前版本包含来自131项转录组研究的数据，涵盖人类和小鼠九个物理应激类别和21个组织类别的2,364,816个细胞和1205个批量样本观察。数据和分析被组织为2848个索引分析条目，跨越71个规范物种-组织-应激背景，并保留详细暴露条件。CellStressDB通过22个组织感知分类器提供本体引导的细胞类型注释，并整合941个Geneformer检查点用于上下文特定的计算机扰动。分析包括应激反应程序、差异基因表达、功能富集、调节子活性、细胞类型组成和细胞间通讯（如适用），以及候选化合物优先级排序、可下载数据集和模型，以及用户提供",
+      "thumbnail": null,
+      "published_at": "2026-11-17",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Nucleic Acids Research",
+        "mode": "filter",
+        "issn": "1362-4962",
+        "doi": "10.1093/nar/gkag1193",
+        "description": "Abstract Physical stressors profoundly influence cellular behavior by triggering coordinated stress-response programs that regulate signaling, gene expression, metabolism, and cell fate. Here, we present CellStressDB (https://cellstressdb.omic.tech), an AI-powered database for exploring cellular responses to physical stressors. The current release contains data from 131 transcriptomic studies, with 2 364 816 cell and 1205 bulk sample observations from human and mouse across nine physical-stress classes and 21 tissue categories. Data and analyses are organized into 2848 indexed analysis entries across 71 canonical species-tissue-stress contexts with detailed exposure conditions retained. CellStressDB provides ontology-guided cell-type annotation through 22 tissue-aware classifiers and incorporates 941 Geneformer checkpoints for context-specific in silico perturbation. Analyses include stress-response programs, differential gene expression, functional enrichment, regulon activity, cell-type composition, and cell–cell communication where applicable, with candidate compound prioritization, downloadable datasets and models, and analysis of user-provided transcriptomic data. Annotation evaluation and known-factor recovery analyses indicated context-dependent performance and coverage across biological settings. The mouse radiation-intestine example identifies Stat1 as a candidate regulator of radiation-induced intestinal injury supported by independent experimental evidence. Overall, CellStressDB provides an integrated, AI-enabled framework for exploring and interpreting cellular responses to physical stressors and generating testable hypotheses.",
+        "dedupe_key": "doi:10.1093/nar/gkag1193",
+        "topic_hit": [
+          "单细胞聚类"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "47b938114d49",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
+        }
+      ]
+    }
+  ],
+  "dropped": [
     {
       "source": "bilibili",
       "rank": 1,
@@ -1365,6 +1490,56 @@
       ]
     },
     {
+      "source": "papers",
+      "rank": 2,
+      "title": "A Topology-Feature Disentangled Deep Clustering Method for scRNA-seq Based on Graph-to-MLP Distillation.",
+      "title_zh": "一种基于图到MLP蒸馏的scRNA-seq拓扑特征解缠深度聚类方法。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43021569/",
+      "hot_value": null,
+      "summary_zh": "图神经网络（GNN）由于能够建模细胞间的拓扑关系，已逐渐成为单细胞RNA测序（scRNA-seq）数据聚类分析的主流方法。然而，其实际应用仍面临以下挑战：（1）过度平滑破坏细胞异质性；（2）预构建图引入端到端依赖；（3）大规模细胞图计算密集。为充分利用scRNA-seq数据中的表达谱和拓扑信息并克服这些限制，本文提出一种融入AdaBoost原理的图到MLP（G2M）知识蒸馏方法，并在此基础上构建图解缠单细胞聚类框架——scAdaG2M。该框架利用GNN教师模型在细胞图上学习细胞间高阶拓扑关系和局部邻域结构，而多个轻量MLP学生模型在无图设置下进行特征学习。结合AdaBoost式动态重加权策略，该框架增强了对难以区分细胞、边界模糊细胞和潜在稀有细胞群的表征能力，从而缓解过度平滑导致的细胞异质性稀释。同时，该框架有效解耦基于图的建模与无图推理，减少对预构建图的端到端依赖，并显著降低大规模细胞图",
+      "thumbnail": null,
+      "published_at": "2026-11-13",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Bioinformatics (Oxford, England)",
+        "doi": "10.1093/bioinformatics/btag827",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Graph neural networks (GNNs), owing to their ability to model topological relationships between cells, have gradually emerged as a mainstream approach in the clustering analysis of single-cell RNA sequencing (scRNA-seq) data. However, their practical application still faces the following challenges: (1) excessive smoothing undermines cellular heterogeneity; (2) pre-constructed graphs introduce end-to-end dependencies; (3) large-scale cellular graph computations are computationally intensive. To fully utilise the expression profiles and topological information contained within scRNA-seq data and overcome these limitations, this paper proposes a Graph-to-MLP (G2M) knowledge distillation method incorporating AdaBoost principles, and builds upon this to develop a graph-disentangled single-cell clustering framework-scAdaG2M. This framework utilises a GNN teacher model to learn higher-order topological relationships and local neighbourhood structures between cells on a cellular graph, whilst multiple lightweight MLP student models perform feature learning in an ungraphed setting. By combining this with an AdaBoost-style dynamic reweighting strategy, the framework enhances the model's ability to characterise cells that are difficult to distinguish, cells with blurred boundaries, and potentially rare cell populations, thereby mitigating the dilution of cellular heterogeneity caused by over-smoothing. At the same time, this framework effectively decouples graph-based modelling from graph-free reasoning, reduces the end-to-end reliance on pre-constructed graphs, and significantly reduces the computational overhead associated with large-scale cellular graphs. All datasets used in this study are publicly available. Detailed information about all the single-cell datasets analyzed in this paper is provided in Supplementary Table 1. The source code is available at https://github.com/gxl1110/scAdaG2M and https://doi.org/10.5281/zenodo.21512950. Supplementary data are available at Bioinformatics online.",
+        "identifier": "43021569",
+        "dedupe_key": "doi:10.1093/bioinformatics/btag827",
+        "topic_hit": [
+          "单细胞聚类",
+          "稀有细胞",
+          "生物信息"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": [
+          "graph neural network",
+          "GNN"
+        ]
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "4244e602cedc",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
       "source": "telegram",
       "rank": 2,
       "title": "🤖 Claude rebuilt the Starship catch in 3D, and you can play it in a browser Wharton professor Ethan Mollick gave Anthropic's Fable and Opus models one job: \"find video of the Starship catch. Render the last 40 seconds or so in 3D in 3js with extreme detail. Let me switch views. No need to include th",
@@ -1407,34 +1582,6 @@
       "is_new": true,
       "rank_delta": "new",
       "cluster_id": "6b34c614d2d0",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "youtube",
-      "rank": 2,
-      "title": "Avengers Doomsday Final Trailer | \"We Are Doomed\"",
-      "title_zh": "复仇者联盟末日最终预告片 | “我们在劫难逃”",
-      "url": "https://youtube.com/watch?v=BV0nOUX3DcA",
-      "hot_value": "413747",
-      "summary_zh": "复联末日预告：粉丝自制漫威预告，展现毁灭博士与多元宇宙大战。",
-      "thumbnail": "https://i.ytimg.com/vi/BV0nOUX3DcA/hqdefault.jpg",
-      "published_at": "2026-11-14T22:55:17Z",
-      "extra": {
-        "video_id": "BV0nOUX3DcA",
-        "region": "US",
-        "channel": "Venral",
-        "description": "Avengers: Doomsday Final Trailer - WE ARE DOOMED brings an epic new look at Doctor Doom, the Avengers, and Marvel's most dangerous multiverse battle yet! Witness Doom's terrifying power, an intense showdown, and the fate of the MCU in this explosive fan-made Marvel trailer. Can the Avengers survive "
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "662690ab12a1",
       "cluster_size": 1,
       "rank_history": [
         {
@@ -1495,97 +1642,6 @@
       ]
     },
     {
-      "source": "feed",
-      "rank": 3,
-      "title": "SuperLink2026开启创投行业超级链接时刻，12月北京见",
-      "title_zh": "SuperLink2026开启创投行业超级链接时刻，12月北京见",
-      "url": "https://www.qbitai.com/2026/11/510493.html",
-      "hot_value": null,
-      "summary_zh": "SuperLink2026开启创投行业超级链接时刻，12月北京见 量子位的朋友们 2026-11-16 15:58:57 来源： 量子位 2026年12月2-3日，清科控股、投资界主办的SuperLink2026将在北京启幕，汇聚创投各方，设置多场垂直专场与特色活动，探讨行业趋势、挖掘投资机会。 2026年，中国股权投资市场正在经历深刻的结构性演进。一级市场投资逻辑持续迭代，资本对于长期价值与产业落地的关注不断加深，人工智能加速渗透各行各业，一批创新企业和年轻创业者正在崭露头角。资本、科技与产业之间高效、深度的连接，正变得更加重要。 在此背景下，12月2-3日，由清科控股（01945.HK）、投资界主办的SuperLink2026将在北京启幕。作为创投行业影响力IP盛会，SuperLink致力于打造一个连接资本、科技、产业与创新企业的超级链接平台；将汇聚高集中度的投资机构、高活跃度的LP机",
-      "thumbnail": null,
-      "published_at": "2026-11-16T07:58:57+00:00",
-      "extra": {
-        "feed_name": "量子位",
-        "tab": "ai",
-        "route": "/qbitai/category/%E8%B5%84%E8%AE%AF",
-        "translate": false,
-        "description": "SuperLink2026开启创投行业超级链接时刻，12月北京见 量子位的朋友们 2026-11-16 15:58:57 来源： 量子位 2026年12月2-3日，清科控股、投资界主办的SuperLink2026将在北京启幕，汇聚创投各方，设置多场垂直专场与特色活动，探讨行业趋势、挖掘投资机会。 2026年，中国股权投资市场正在经历深刻的结构性演进。一级市场投资逻辑持续迭代，资本对于长期价值与产业落地的关注不断加深，人工智能加速渗透各行各业，一批创新企业和年轻创业者正在崭露头角。资本、科技与产业之间高效、深度的连接，正变得更加重要。 在此背景下，12月2-3日，由清科控股（01945.HK）、投资界主办的SuperLink2026将在北京启幕。作为创投行业影响力IP盛会，SuperLink致力于打造一个连接资本、科技、产业与创新企业的超级链接平台；将汇聚高集中度的投资机构、高活跃度的LP机",
-        "dedupe_key": "https://www.qbitai.com/2026/11/510493.html"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "c82c54e8f774",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 3,
-      "title": "google-labs-code/stitch-skills",
-      "title_zh": "google-labs-code/stitch-skills",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "hot_value": "247 stars today",
-      "summary_zh": "Stitch技能库：为Stitch MCP服务器提供AI代理技能，兼容主流编码代",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "57164f3c3e5e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 3,
-      "title": "装备情报研究师",
-      "title_zh": "装备情报研究师",
-      "url": "https://www.iguopin.com/job/detail?id=215658606647836790&source=campus",
-      "hot_value": null,
-      "summary_zh": "负责装备情报研判分析，国防科技识别与预警，情报知识库构建等",
-      "thumbnail": null,
-      "published_at": "2026-11-16 15:58:36",
-      "extra": {
-        "subsource": "guopin",
-        "company": "北京航天情报与信息研究所",
-        "city": "北京-海淀区",
-        "education": "硕士",
-        "company_type": "事业单位",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "研究"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": false
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "f86d9ced1764",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
       "source": "nowcoder",
       "rank": 3,
       "title": "秋招0offer，人生完蛋了吗",
@@ -1614,194 +1670,14 @@
           "rank": 3
         }
       ]
-    }
-  ],
-  "dropped": [
-    {
-      "source": "douyin",
-      "rank": 1,
-      "title": "BLG夺冠",
-      "title_zh": "BLG夺冠",
-      "url": "https://www.douyin.com/search/BLG%E5%A4%BA%E5%86%A0",
-      "hot_value": "11077363",
-      "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-i-dy/d0365e8036bf4c30a311740e63d202b0~noop.jpeg?lk3s=bfd515bb&x-expires=1794754800&x-signature=19MbVeZsGzYnr8RTxz8EIIJwtGM%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2746751"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "af56c7c2c30a",
-      "cluster_size": 4,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 1,
-      "title": "消息称苹果 iPhone 18 Pro 系列手机销量已达 782.87 万台",
-      "title_zh": "消息称苹果 iPhone 18 Pro 系列手机销量已达 782.87 万台",
-      "url": "https://www.ithome.com/1/027/411.htm",
-      "hot_value": null,
-      "summary_zh": "感谢IT之家网友 Autumn_Dream 的线索投递！ IT之家 11 月 15 日消息，据长期关注国内手机市场份额的数码博主 @RD观测 今日爆料，截至 2026 年第 45 周（11 月 1 日至 11 月 7 日）， 苹果 iPhone 18 Pro 系列手机销量达到 782.87 万台 。 参考IT之家此前报道，在 9 月 10 日的苹果 2026 年秋季发布会上， iPhone 18 Pro 系列正式发布 ，包括 18 Pro 和 18 Pro Max，起售价分别为 9999 元和 10999 元。 iPhone 18 Pro 系列首发搭载 2 纳米制程工艺 A20 Pro 芯片，其封装方式借鉴了 M 系列芯片，性能和能效均创 iPhone 新高。两款机型均配备更小的灵动岛，全新 4800 万像素融合式主摄配备可变光圈。",
-      "thumbnail": null,
-      "published_at": "2026-11-15T09:06:10+00:00",
-      "extra": {
-        "feed_name": "IT之家",
-        "tab": "ai",
-        "route": "/ithome/it",
-        "translate": false,
-        "description": "感谢IT之家网友 Autumn_Dream 的线索投递！ IT之家 11 月 15 日消息，据长期关注国内手机市场份额的数码博主 @RD观测 今日爆料，截至 2026 年第 45 周（11 月 1 日至 11 月 7 日）， 苹果 iPhone 18 Pro 系列手机销量达到 782.87 万台 。 参考IT之家此前报道，在 9 月 10 日的苹果 2026 年秋季发布会上， iPhone 18 Pro 系列正式发布 ，包括 18 Pro 和 18 Pro Max，起售价分别为 9999 元和 10999 元。 iPhone 18 Pro 系列首发搭载 2 纳米制程工艺 A20 Pro 芯片，其封装方式借鉴了 M 系列芯片，性能和能效均创 iPhone 新高。两款机型均配备更小的灵动岛，全新 4800 万像素融合式主摄配备可变光圈。",
-        "dedupe_key": "https://www.ithome.com/1/027/411.htm"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "bcca1c0eba67",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 1,
-      "title": "综合行政岗",
-      "title_zh": "综合行政岗",
-      "url": "https://www.iguopin.com/job/detail?id=224873761491390039&source=campus",
-      "hot_value": null,
-      "summary_zh": "【岗位职责】 1. 参与公司全面风险管理、内部控制和合规管理体系建设，围绕公司治理、经营管理、业务运营、人员管理、信息科技等领域，开展风险识别、评估、监测、预警及防控； 2. 参与公司经营管理相关数据统计、分析研究和风险管理报告编制，开展经营风险分析、管理效能评价等工作，为公司经营决策和风险防控提供支持； 3. 参与风险管理数字化建设、数据治理、风险监测分析及相关信息系统优化工作，推动风险管理与信",
-      "thumbnail": null,
-      "published_at": "2026-10-30 22:05:17",
-      "extra": {
-        "subsource": "guopin",
-        "company": "中储粮集团财务有限公司",
-        "city": "北京-西城区",
-        "education": "硕士",
-        "company_type": "国企",
-        "recruitment_type": "校园招聘",
-        "keywords_hit": [
-          "财务",
-          "行政"
-        ],
-        "is_central_soe": false,
-        "is_state_owned": true
-      },
-      "days_on_board": 16,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "a1cf4d1128e5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 1,
-      "title": "大家offer都是什么时候收到的？",
-      "title_zh": "大家offer都是什么时候收到的？",
-      "url": "https://www.nowcoder.com/feed/main/detail/87f0199f4e8740c8959557814044b55e",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "offer"
-        ],
-        "description": ""
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "d0396f98157f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 1,
-      "title": "🗣 Would she fire Sam Altman again? \"Oh, for sure,\" says the OpenAI board member who did Helen Toner was one of four OpenAI board members who voted to fire Altman in 2023. He came back as CEO, and she left the board. Asked on The Verge's Decoder podcast whether she would do it the same way again, Ton",
-      "title_zh": "🗣 她还会再次解雇Sam Altman吗？\"那当然，\"那位曾这么做的OpenAI董事会成员说 Helen Toner是2023年投票解雇Altman的四位OpenAI董事会成员之一。他回归担任CEO，而她离开了董事会。在The Verge的Decoder播客上被问及是否还会那样做时，Ton",
-      "url": "https://t.me/aipost/8800",
-      "hot_value": "947",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-15T08:28:01+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "56df30c992fb",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        }
-      ]
     },
     {
       "source": "weibo",
-      "rank": 1,
-      "title": "Knight曝打1分钟就发现chovy不对劲",
-      "title_zh": "Knight曝打1分钟就发现chovy不对劲",
-      "url": "https://s.weibo.com/weibo?q=%23Knight%E6%9B%9D%E6%89%931%E5%88%86%E9%92%9F%E5%B0%B1%E5%8F%91%E7%8E%B0chovy%E4%B8%8D%E5%AF%B9%E5%8A%B2%23",
-      "hot_value": "1216673",
+      "rank": 3,
+      "title": "一组图速览什么是APEC",
+      "title_zh": "一组图速览什么是APEC",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%BB%84%E5%9B%BE%E9%80%9F%E8%A7%88%E4%BB%80%E4%B9%88%E6%98%AFAPEC%23",
+      "hot_value": "716105",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": null,
@@ -1811,343 +1687,11 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "8bec92defbb7",
+      "cluster_id": "c76ca1658da2",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 2,
-      "title": "BLG 3:1 GEN",
-      "title_zh": "BLG 3:1 GEN",
-      "url": "https://www.douyin.com/search/BLG%203%3A1%20GEN",
-      "hot_value": "10967291",
-      "summary_zh": null,
-      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-i-dy/a05e018f33ca4780b716a53dfefc9e1b~noop.jpeg?lk3s=bfd515bb&x-expires=1794754800&x-signature=MldKXuH%2Bcgrn3adwszgpI3UR9gs%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2745933"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "af56c7c2c30a",
-      "cluster_size": 4,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 2,
-      "title": "遭受网络攻击后，世嘉日服 11 款街机游戏陆续恢复线上功能",
-      "title_zh": "遭受网络攻击后，世嘉日服 11 款街机游戏陆续恢复线上功能",
-      "url": "https://www.ithome.com/1/027/410.htm",
-      "hot_value": null,
-      "summary_zh": "IT之家 11 月 15 日消息，世嘉于 11 月 2 日通报公司部分服务器遭到黑客非法访问， 临时关闭部分日服街机游戏的在线服务 。目前公司宣布相应服务陆续恢复运行，玩家可以重新使用在线游玩及 IC 卡功能。 具体来看，最初暂停服务的 13 款游戏中《SEGA NET 麻雀 MJ Arcade》和《HOUSE OF THE DEAD ～SCARLET DAWN～》经确认暂时无法恢复服务。实际恢复运行的世嘉街机游戏共 11 款，IT之家随附列表： 《ONGEKI》（音击） 《Card Maker》 《舰队 Collection Arcade》 《占いコレクショントロッテ》 《头文字 D THE ARCADE》 《初音未来 Project DIVA Arcade Future Tone》 《Wonderland Wars》 《Wonderland LIBRARY》 《StarHorse4》",
-      "thumbnail": null,
-      "published_at": "2026-11-15T09:03:14+00:00",
-      "extra": {
-        "feed_name": "IT之家",
-        "tab": "ai",
-        "route": "/ithome/it",
-        "translate": false,
-        "description": "IT之家 11 月 15 日消息，世嘉于 11 月 2 日通报公司部分服务器遭到黑客非法访问， 临时关闭部分日服街机游戏的在线服务 。目前公司宣布相应服务陆续恢复运行，玩家可以重新使用在线游玩及 IC 卡功能。 具体来看，最初暂停服务的 13 款游戏中《SEGA NET 麻雀 MJ Arcade》和《HOUSE OF THE DEAD ～SCARLET DAWN～》经确认暂时无法恢复服务。实际恢复运行的世嘉街机游戏共 11 款，IT之家随附列表： 《ONGEKI》（音击） 《Card Maker》 《舰队 Collection Arcade》 《占いコレクショントロッテ》 《头文字 D THE ARCADE》 《初音未来 Project DIVA Arcade Future Tone》 《Wonderland Wars》 《Wonderland LIBRARY》 《StarHorse4》 ",
-        "dedupe_key": "https://www.ithome.com/1/027/410.htm"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "8fa80951e63e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 2,
-      "title": "秋招挂0好烦。。。。",
-      "title_zh": "秋招挂0好烦。。。。",
-      "url": "https://www.nowcoder.com/feed/main/detail/86905ccd28224f75b4dbe922c9f8b2c8",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招"
-        ],
-        "description": ""
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 4,
-      "cluster_id": "ca4a12e1733b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 2,
-      "title": "🗣 China's leaders understand AI risk \"much better than the US government,\" Geoffrey Hinton says The Nobel-winning \"godfather of AI\" said on PBS's Firing Line , aired November 13, that last summer he went to Shanghai and talked to a Politburo member, a protégé of Xi Jinping. \"I believe the Politburo ",
-      "title_zh": "🗣 Geoffrey Hinton说中国领导人理解AI风险\"比美国政府好得多\" 这位诺贝尔奖得主、\"AI教父\"在11月13日播出的PBS《Firing Line》节目中说，去年夏天他去了上海，与一位政治局委员、习近平的门生交谈。\"我相信政治局",
-      "url": "https://t.me/aipost/8799",
-      "hot_value": "1.76K",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-15T05:41:01+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "a10883dc6747",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 2,
-      "title": "中国三口之家已不是主流",
-      "title_zh": "中国三口之家已不是主流",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%B8%89%E5%8F%A3%E4%B9%8B%E5%AE%B6%E5%B7%B2%E4%B8%8D%E6%98%AF%E4%B8%BB%E6%B5%81%23",
-      "hot_value": "1207282",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "415c829c34eb",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 3,
-      "title": "东西或许是半价的，但爱却不是！",
-      "title_zh": "东西或许是半价的，但爱却不是！",
-      "url": "https://b23.tv/BV1UNWC6wEMK",
-      "hot_value": "1602169",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/4219ff75299c8856f250ce30455ad650bdec1b83.jpg",
-      "published_at": "2026-11-14T04:29:28+00:00",
-      "extra": {
-        "bvid": "BV1UNWC6wEMK",
-        "owner": "肥鸡煲"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "596900bb7570",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 3,
-      "title": "4分钟读懂APEC",
-      "title_zh": "4分钟读懂APEC",
-      "url": "https://www.douyin.com/search/4%E5%88%86%E9%92%9F%E8%AF%BB%E6%87%82APEC",
-      "hot_value": "10958348",
-      "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oEi4Jo9AIAAf7ID5Cq1guYY4DBiHIIfBJ8tbI7~noop.jpeg?lk3s=bfd515bb&x-expires=1794754800&x-signature=RSSEhke6NZLJBG1mx146yGzbGQY%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2747332"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "883bb6cb5059",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 3,
-      "title": "快手公益启动“启智星计划”：利用 AI 创新教育、未来三年将覆盖 2000 所乡村学校",
-      "title_zh": "快手公益启动“启智星计划”：利用 AI 创新教育、未来三年将覆盖 2000 所乡村学校",
-      "url": "https://www.ithome.com/1/027/400.htm",
-      "hot_value": null,
-      "summary_zh": "IT之家 11 月 15 日消息，快手公益宣布启动“启智星”AI 赋能教育共建计划，将在 10 个县域各建立由教育局、学校、基金会三方协作的共建单元，为 10 所案例校引入“一校一策”教学方法。 官方同步公布 30 个可复制、可迁移的人工智能应用案例，教师们使用 AI 进行双语教学、分层教学，打造科创体育融合、红色思政等场景。‏ 快手表示，未来三年，将为超过 2000 所乡村学校、3 万名教师引入相应 AI 案例，可服务超过 500 万人次乡村学生。",
-      "thumbnail": null,
-      "published_at": "2026-11-15T08:39:40+00:00",
-      "extra": {
-        "feed_name": "IT之家",
-        "tab": "ai",
-        "route": "/ithome/it",
-        "translate": false,
-        "description": "IT之家 11 月 15 日消息，快手公益宣布启动“启智星”AI 赋能教育共建计划，将在 10 个县域各建立由教育局、学校、基金会三方协作的共建单元，为 10 所案例校引入“一校一策”教学方法。 官方同步公布 30 个可复制、可迁移的人工智能应用案例，教师们使用 AI 进行双语教学、分层教学，打造科创体育融合、红色思政等场景。‏ 快手表示，未来三年，将为超过 2000 所乡村学校、3 万名教师引入相应 AI 案例，可服务超过 500 万人次乡村学生。",
-        "dedupe_key": "https://www.ithome.com/1/027/400.htm"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "7844a4e4adf7",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 3,
-      "title": "选错offer每天都在后悔。。。",
-      "title_zh": "选错offer每天都在后悔。。。",
-      "url": "https://www.nowcoder.com/feed/main/detail/4931b8d7cd6445179e2644772a934e2b",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "offer"
-        ],
-        "description": ""
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "2ed83855ff2d",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 3,
-      "title": "Hexastrike details a September 2026 intrusion at a German manufacturer, attributing it with high confidence to Aur0ra or an affiliate. Teams impersonation enabled credential theft and a persistent Xray tunnel; investigators found no lateral movement. 🔗 https://cyber.hendryadrian.com/article/19201/he",
-      "title_zh": "Hexastrike详细描述了一起2026年9月针对一家德国制造商的入侵事件，高度确信将其归因于Aur0ra或其关联组织。Teams冒充手段促成了凭证窃取和持久Xray隧道；调查人员未发现横向移动。🔗 https://cyber.hendryadrian.com/article/19201/he",
-      "url": "https://t.me/cybernotif/38774",
-      "hot_value": "12",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-15T05:00:07+00:00",
-      "extra": {
-        "channel": "cybernotif",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "3bb89f2375e0",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 3,
-      "title": "115家世界500强企业参加工商峰会",
-      "title_zh": "115家世界500强企业参加工商峰会",
-      "url": "https://s.weibo.com/weibo?q=%23115%E5%AE%B6%E4%B8%96%E7%95%8C500%E5%BC%BA%E4%BC%81%E4%B8%9A%E5%8F%82%E5%8A%A0%E5%B7%A5%E5%95%86%E5%B3%B0%E4%BC%9A%23",
-      "hot_value": "703335",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "ebf348f53ddc",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "youtube",
-      "rank": 3,
-      "title": "GEN vs BLG | WORLDS 2026 | Finals",
-      "title_zh": "GEN vs BLG | WORLDS 2026 | 决赛",
-      "url": "https://youtube.com/watch?v=fFlOTEiQ9x0",
-      "hot_value": "6790012",
-      "summary_zh": "英雄联盟2026世界赛决赛GEN对BLG。",
-      "thumbnail": "https://i.ytimg.com/vi/fFlOTEiQ9x0/hqdefault.jpg",
-      "published_at": "2026-11-15T01:06:31Z",
-      "extra": {
-        "video_id": "fFlOTEiQ9x0",
-        "region": "US",
-        "channel": "LoL Esports",
-        "description": "THIS IS OUR MOMENT\n\nThe thrilling conclusion to Worlds 2026 is upon us. After a month long competition and battles between 16 global contenders, only two teams remain. This is their moment, and only one can raise the Summoners Cup and earn the title of World Champion.\n\nTo learn more about the Worlds"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "cc4bc9a93494",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 3
         }
       ]
@@ -2155,25 +1699,25 @@
     {
       "source": "bilibili",
       "rank": 4,
-      "title": "BLG一穿四夺冠！BLG 3-1 GEN 赛后数据雷达图丨2026全球总决赛-决赛",
-      "title_zh": "BLG一穿四夺冠！BLG 3-1 GEN 赛后数据雷达图丨2026全球总决赛-决赛",
-      "url": "https://b23.tv/BV1Nesj6HETj",
-      "hot_value": "1275389",
+      "title": "命运让他们彼此对立，也让他们彼此靠近｜上",
+      "title_zh": "命运让他们彼此对立，也让他们彼此靠近｜上",
+      "url": "https://b23.tv/BV1jHsp69Ekg",
+      "hot_value": "1908104",
       "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/cced011a97d6203bbcc3d0715780b7858251d2bc.jpg",
-      "published_at": "2026-11-15T00:15:24+00:00",
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/d1b39f1368dea0224896b0e10e20ed1cb4f4b7a6.jpg",
+      "published_at": "2026-11-15T10:20:51+00:00",
       "extra": {
-        "bvid": "BV1Nesj6HETj",
-        "owner": "苦练李香兰"
+        "bvid": "BV1jHsp69Ekg",
+        "owner": "Foyege弗曳哥"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "af56c7c2c30a",
-      "cluster_size": 4,
+      "cluster_id": "0bc50beb949e",
+      "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 4
         }
       ]
@@ -2181,24 +1725,24 @@
     {
       "source": "douyin",
       "rank": 4,
-      "title": "Knight夺得FMVP",
-      "title_zh": "Knight夺得FMVP",
-      "url": "https://www.douyin.com/search/Knight%E5%A4%BA%E5%BE%97FMVP",
-      "hot_value": "10844132",
+      "title": "火箭147:119奇才",
+      "title_zh": "火箭147:119奇才",
+      "url": "https://www.douyin.com/search/%E7%81%AB%E7%AE%AD147%3A119%E5%A5%87%E6%89%8D",
+      "hot_value": "11138777",
       "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-i-dy/f48f88fa4ef44ff093a85a75ddfc82b3~noop.jpeg?lk3s=bfd515bb&x-expires=1794754800&x-signature=ZKFWBvzgUPjIVkcOr0Ylr6BysVA%3D&from=3218412987",
+      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oE9dpi7I92QIAi8PrvYIP8viTTY3B2aCx6pIA~noop.jpeg?lk3s=bfd515bb&x-expires=1794841200&x-signature=wzzDsiZuct7flIMHH8I%2BUXuRLSE%3D&from=3218412987",
       "published_at": null,
       "extra": {
-        "sentence_id": "2746772"
+        "sentence_id": "2748060"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "e80293f34aa8",
-      "cluster_size": 2,
+      "cluster_id": "96916a87aeef",
+      "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 4
         }
       ]
@@ -2211,7 +1755,7 @@
       "title": "CVPR 2027 截止",
       "title_zh": "CVPR 2027 截止",
       "url": "https://cvpr.thecvf.com/Conferences/2027",
-      "hot_value": "距截止 2 天",
+      "hot_value": "距截止 1 天",
       "summary_zh": "IEEE/CVF Conference on Computer Vision and Pattern Recognition · Seattle, WA, United States · 官网",
       "thumbnail": null,
       "published_at": "2026-11-17T11:59:59+00:00",
@@ -2219,21 +1763,17 @@
         "subsource": "ai-deadlines",
         "conference": "CVPR",
         "deadline": "2026-11-17T11:59:59+00:00",
-        "days_left": 2,
+        "days_left": 1,
         "link": "https://cvpr.thecvf.com/Conferences/2027",
         "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "location": "Seattle, WA, United States"
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "02b7349cee7a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 2
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 2
@@ -2256,6 +1796,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 1
         }
       ]
@@ -2266,7 +1810,7 @@
       "title": "ACL 2027 截止",
       "title_zh": "ACL 2027 截止",
       "url": "https://2027.aclweb.org/",
-      "hot_value": "距截止 51 天",
+      "hot_value": "距截止 50 天",
       "summary_zh": "Annual Meeting of the Association for Computational Linguistics · Kyoto, Japan · 官网",
       "thumbnail": null,
       "published_at": "2027-01-05T11:59:59+00:00",
@@ -2274,21 +1818,17 @@
         "subsource": "ai-deadlines",
         "conference": "ACL",
         "deadline": "2027-01-05T11:59:59+00:00",
-        "days_left": 51,
+        "days_left": 50,
         "link": "https://2027.aclweb.org/",
         "full_name": "Annual Meeting of the Association for Computational Linguistics",
         "location": "Kyoto, Japan"
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "416521fdefd2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 3
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 3
@@ -2311,6 +1851,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 2
         }
       ]
@@ -2321,7 +1865,7 @@
       "title": "ISMB 2027 截止",
       "title_zh": "ISMB 2027 截止",
       "url": "https://www.iscb.org/ismbeccb2027/",
-      "hot_value": "距截止 61 天",
+      "hot_value": "距截止 60 天",
       "summary_zh": "International Conference on Intelligent Systems for Molecular Biology · Copenhagen, Denmark · 官网",
       "thumbnail": null,
       "published_at": "2027-01-15T11:59:00+00:00",
@@ -2329,21 +1873,17 @@
         "subsource": "ai-deadlines",
         "conference": "ISMB",
         "deadline": "2027-01-15T11:59:00+00:00",
-        "days_left": 61,
+        "days_left": 60,
         "link": "https://www.iscb.org/ismbeccb2027/",
         "full_name": "International Conference on Intelligent Systems for Molecular Biology",
         "location": "Copenhagen, Denmark"
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "ef8a16b9d93b",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 4
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 4
@@ -2366,6 +1906,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 3
         }
       ]
@@ -2399,16 +1943,12 @@
           "机器学习"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "21f183cb244e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 21
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 21
@@ -2431,6 +1971,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 21
         }
       ]
@@ -2463,16 +2007,12 @@
           "智能体"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "275b1142e536",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 22
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 22
@@ -2495,6 +2035,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 22
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 22
         }
       ]
@@ -2525,16 +2069,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "0f3899815dcb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 23
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 23
@@ -2557,6 +2097,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 23
         }
       ]
@@ -2587,16 +2131,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "e3b383e32d83",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 24
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 24
@@ -2619,6 +2159,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 24
         }
       ]
@@ -2649,16 +2193,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "88d128bf6e20",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 25
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 25
@@ -2681,6 +2221,10 @@
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 25
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 25
         }
       ]
@@ -2710,16 +2254,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "df5e12bc430c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 28
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 28
@@ -2743,16 +2283,20 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 28
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 28
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 40,
+      "rank": 41,
       "title": "For all the info from today's update and a look back at 13 years of Telegram features — check out our blog: https://telegram.org/blog/welcome-messages-buttons-TG-13 August Features 1 • 2 • 3 • 4 • 5 • More",
       "title_zh": "关于今天更新的所有信息以及Telegram 13年功能回顾——请查看我们的博客：https://telegram.org/blog/welcome-messages-buttons-TG-13 八月功能 1 • 2 • 3 • 4 • 5 • 更多",
       "url": "https://t.me/telegram/460",
-      "hot_value": "2.57M",
+      "hot_value": "2.6M",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-08-26T19:12:34+00:00",
@@ -2760,16 +2304,12 @@
         "channel": "telegram",
         "translate": true
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": -1,
       "cluster_id": "3e7cca968a7c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 35
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 38
@@ -2793,12 +2333,16 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 40
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 41
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 47,
+      "rank": 73,
       "title": "1.13.0a2",
       "title_zh": "1.13.0a2",
       "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2",
@@ -2814,16 +2358,12 @@
         "description": "https://scanpy.scverse.org/en/stable/release-notes/#v1-13-0a2",
         "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2"
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": -8,
+      "rank_delta": -26,
       "cluster_id": "768fc0d2e613",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 83
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 88
@@ -2847,12 +2387,16 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 47
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 73
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 73,
+      "rank": 77,
       "title": "Data Science Intern (Data Analytics & AI) 108216",
       "title_zh": "Data Science Intern (Data Analytics & AI) 108216",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Data-Analytics---AI-_R108216",
@@ -2867,16 +2411,12 @@
           "AI for Science"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 17,
+      "rank_delta": -4,
       "cluster_id": "5af75ecaf321",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 92
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 91
@@ -2900,12 +2440,16 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 73
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 77
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 74,
+      "rank": 78,
       "title": "Data Science Intern 107974",
       "title_zh": "Data Science Intern 107974",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Analytics---6-month-internship_R107974",
@@ -2920,16 +2464,12 @@
           "AI for Science"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 17,
+      "rank_delta": -4,
       "cluster_id": "e5794d9db6eb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 94
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 92
@@ -2953,12 +2493,16 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 74
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 78
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 75,
+      "rank": 79,
       "title": "腾讯云-AgentRuntime研发高级工程师for AI产品",
       "title_zh": "腾讯云-AgentRuntime研发高级工程师for AI产品",
       "url": "http://careers.tencent.com/jobdesc.html?postId=2099353703831224320",
@@ -2973,16 +2517,12 @@
           "AI for Science"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 17,
+      "rank_delta": -4,
       "cluster_id": "bda4c8495936",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 95
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 93
@@ -3006,12 +2546,16 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 75
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 79
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 76,
+      "rank": 80,
       "title": "Data Science Intern",
       "title_zh": "Data Science Intern",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Game-Engine-R-D-Specialist_R106237-1",
@@ -3026,16 +2570,12 @@
           "AI for Science"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 17,
+      "rank_delta": -4,
       "cluster_id": "58f9c55a2a00",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 96
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 94
@@ -3059,12 +2599,16 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 76
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 80
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 77,
+      "rank": 81,
       "title": "Data Science Intern 107259",
       "title_zh": "Data Science Intern 107259",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107259-2",
@@ -3079,16 +2623,12 @@
           "AI for Science"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 17,
+      "rank_delta": -4,
       "cluster_id": "93dd669d01c2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 97
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 95
@@ -3112,12 +2652,16 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 77
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 81
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 78,
+      "rank": 82,
       "title": "Data Science Intern 107361",
       "title_zh": "Data Science Intern 107361",
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107361-1",
@@ -3132,16 +2676,12 @@
           "AI for Science"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 17,
+      "rank_delta": -4,
       "cluster_id": "b781642bb044",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 98
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 96
@@ -3165,12 +2705,69 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 78
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 82
+        }
+      ]
+    },
+    {
+      "source": "jobs",
+      "rank": 86,
+      "title": "腾讯云-大数据产品客户成功经理-for 海外",
+      "title_zh": "腾讯云-大数据产品客户成功经理-for 海外",
+      "url": "http://careers.tencent.com/jobdesc.html?postId=2047217902628794368",
+      "hot_value": null,
+      "summary_zh": "1.负责大数据产品国内及海外大项目交付管理，按合同约定完成产品交付，对产品交付的范围、进度、质量负责； 2.负责交付后客户维护和深耕，客户全生命周期管理，能够根据客户业务特点和需求，引导客户使用产品并进行深层价值落地，对客户大数据产品系统的健康度、使用深度负责，周期性拜访客户，维护客户关系； 3.据客户业务需求撰写方案，提供产品培训，解决用户关于产品的各种使用问题，持续挖掘客户业务场景，并为客户提",
+      "thumbnail": null,
+      "published_at": "2026年10月20日",
+      "extra": {
+        "company": "腾讯",
+        "city": "深圳",
+        "keywords_hit": [
+          "AI for Science"
+        ]
+      },
+      "days_on_board": 34,
+      "is_new": false,
+      "rank_delta": -4,
+      "cluster_id": "97af6ca01a6b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
+          "rank": 100
+        },
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 100
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 99
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 99
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 99
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 86
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 81,
+      "rank": 87,
       "title": "Version 5.6.0",
       "title_zh": "版本5.6.0",
       "url": "https://github.com/satijalab/seurat/releases/tag/v5.6.0",
@@ -3186,16 +2783,12 @@
         "description": "Changes Additions Added setThreads and getThreads to control threading in supported C++ kernels and uwot UMAP backends Updated NormalizeData to use threaded sparse log-normalization and reduce matrix-copying overhead Updated FindVariableFeatures to share a sparse VST implementation across assay versions with threaded standardized-variance calculations Updated ScaleData to center, scale, and clip d",
         "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.6.0"
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 3,
+      "rank_delta": -6,
       "cluster_id": "bf128c562147",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 79
-        },
         {
           "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 84
@@ -3219,73 +2812,23 @@
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
           "rank": 81
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 82,
-      "title": "scvi-tools 1.5.1",
-      "title_zh": "scvi-tools 1.5.1",
-      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1",
-      "hot_value": null,
-      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
-      "thumbnail": null,
-      "published_at": "2026-09-10T12:03:41+00:00",
-      "extra": {
-        "feed_name": "scvi-tools 发版",
-        "tab": "tools",
-        "route": "https://github.com/scverse/scvi-tools/releases.atom",
-        "translate": true,
-        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
-        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1"
-      },
-      "days_on_board": 33,
-      "is_new": false,
-      "rank_delta": 3,
-      "cluster_id": "92de253c91a7",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
-          "rank": 80
         },
         {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 85
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 84
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 80
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 86
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 85
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 82
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 87
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 82,
-      "title": "腾讯云-大数据产品客户成功经理-for 海外",
-      "title_zh": "腾讯云-大数据产品客户成功经理-for 海外",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2047217902628794368",
+      "rank": 87,
+      "title": "光子 AI-AI Infra工程师",
+      "title_zh": "光子 AI-AI Infra工程师",
+      "url": "http://careers.tencent.com/jobdesc.html?postId=2066702542833893376",
       "hot_value": null,
-      "summary_zh": "1.负责大数据产品国内及海外大项目交付管理，按合同约定完成产品交付，对产品交付的范围、进度、质量负责； 2.负责交付后客户维护和深耕，客户全生命周期管理，能够根据客户业务特点和需求，引导客户使用产品并进行深层价值落地，对客户大数据产品系统的健康度、使用深度负责，周期性拜访客户，维护客户关系； 3.据客户业务需求撰写方案，提供产品培训，解决用户关于产品的各种使用问题，持续挖掘客户业务场景，并为客户提",
+      "summary_zh": "1.模型训练和推理平台开发； 2.研究并应用模型优化技术到训练流程和在线服务中，提高运行时性能，降低资源占用； 3.业务侧模型部署和评测； 4.团队 gpu 资源管理与调度。",
       "thumbnail": null,
-      "published_at": "2026年10月20日",
+      "published_at": "2026年11月13日",
       "extra": {
         "company": "腾讯",
         "city": "深圳",
@@ -3293,39 +2836,39 @@
           "AI for Science"
         ]
       },
-      "days_on_board": 33,
+      "days_on_board": 34,
       "is_new": false,
-      "rank_delta": 17,
-      "cluster_id": "97af6ca01a6b",
+      "rank_delta": -4,
+      "cluster_id": "9f84d3c11ab6",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-10T10:00:40.953082+00:00",
+          "run_at": "2026-11-11T09:34:43.336282+00:00",
           "rank": 102
         },
         {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 100
-        },
-        {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 100
+          "rank": 102
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 99
+          "rank": 100
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 99
+          "rank": 100
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 99
+          "rank": 100
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 82
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 87
         }
       ]
     }
