@@ -1,621 +1,1059 @@
 {
-  "generated_at": "2026-11-17T10:51:43.342351+00:00",
+  "generated_at": "2026-11-18T10:19:41.832518+00:00",
   "rising": [
     {
-      "source": "github",
-      "rank": 1,
-      "title": "elementalsouls/Claude-BugHunter",
-      "title_zh": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "hot_value": "1,094 stars today",
-      "summary_zh": "Claude漏洞猎手：82项技能加681份报告模式，助红队高效挖洞。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-        "language": "Python"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 8,
-      "cluster_id": "2b3bd62acc09",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 3,
-      "title": "alibaba/open-code-review",
-      "title_zh": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "hot_value": "951 stars today",
-      "summary_zh": "阿里开源代码审查工具，混合架构精准行级评论，内置多语言安全规则。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-        "language": "Go"
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 3,
-      "cluster_id": "ee41dc481c41",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 4,
-      "title": "Tencent/LoopForge",
-      "title_zh": "Tencent/LoopForge",
-      "url": "https://github.com/Tencent/LoopForge",
-      "hot_value": "1,020 stars today",
-      "summary_zh": "腾讯自托管编码代理工作流，含人工审批门控。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-        "language": "Go"
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 3,
-      "cluster_id": "64bfdc15f723",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 2,
-      "title": "Biosemantic graph transfer learning for cross-patient cell type annotation and cell–cell interaction analysis in tumor single-cell RNA sequencing",
-      "title_zh": "用于肿瘤单细胞RNA测序中跨患者细胞类型注释和细胞—细胞相互作用分析的生物语义图迁移学习",
-      "url": "https://doi.org/10.1093/bib/bbag587",
+      "source": "feed",
+      "rank": 58,
+      "title": "Advancing multimodal tools to decode organoid complexity",
+      "title_zh": "推进多模态工具以解码类器官复杂性",
+      "url": "https://www.nature.com/articles/s41592-026-03320-6",
       "hot_value": null,
-      "summary_zh": "摘要 通过单细胞RNA测序（scRNA-seq）探索肿瘤微环境（TME）内的细胞异质性，对于理解癌症进展和治疗反应至关重要。然而，当前scRNA-seq方法缺乏空间背景，并依赖不完整的配体—受体相互作用数据集，限制了准确的细胞类型注释和细胞—细胞通讯推断。本研究使用一种新型图神经网络模型应对这些挑战，增强细胞类型预测和细胞相互作用分析。我们的研究使用了来自19名患者、三种癌症类型（白血病、乳腺浸润性癌和结直肠癌）的49 024个细胞组成的数据集。所提出的scGSL模型表现出稳健性能，在所有数据集上平均准确率为84.83%，精确率为86.23%，召回率为81.51%，F1分数为80.92%。这些指标相较现有方法有显著提升，后者通常表现出较低的性能指标。此外，通过回顾现有关于TME内基因相互作用的文献，scGSL模型被证明能以无监督方式稳健识别具有生物学意义的基因相互作用，并通过多种癌症中关键",
+      "summary_zh": "Nature Methods，在线发表：2026年11月11日；doi:10.1038/s41592-026-03320-6 这篇综述探讨了类器官分析的最新技术现状及该领域现有的知识空白。",
       "thumbnail": null,
-      "published_at": "2026-11-01",
+      "published_at": "2026-11-11T00:00:00+00:00",
       "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag587",
-        "description": "Abstract The exploration of cellular heterogeneity within the tumor microenvironment (TME) via single-cell RNA sequencing (scRNA-seq) is essential for understanding cancer progression and response to therapy. Current scRNA-seq approaches, however, lack spatial context and rely on incomplete datasets of ligand–receptor interactions, limiting accurate cell type annotation and cell–cell communication inference. This study addresses these challenges using a novel graph neural network model that enhances cell-type prediction and cell-interaction analysis. Our study utilized a dataset consisting of 49 024 cells from 19 patients across three cancer types: leukemia, breast invasive carcinoma, and colorectal cancer. The proposed scGSL model demonstrated robust performance, achieving an average accuracy of 84.83%, precision of 86.23%, recall of 81.51%, and an F1 score of 80.92% across all datasets. These metrics represent a significant enhancement over existing methods, which typically exhibit lower performance metrics. Additionally, by reviewing existing literature on gene interactions within the TME, the scGSL model proves to robustly identify biologically meaningful gene interactions in an unsupervised manner, validated by significant expression differences in key gene pairs across various cancers. The source code and data used in this study can be found at https://github.com/LiYuechao1998/scGSL.",
-        "dedupe_key": "doi:10.1093/bib/bbag587",
-        "topic_hit": [
-          "单细胞聚类",
-          "生物信息"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": [
-          "graph neural network"
-        ]
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 11 November 2026; doi:10.1038/s41592-026-03320-6 This Review examines the current state-of-the-art for organoid profiling and existing knowledge gaps in this area.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03320-6"
       },
-      "days_on_board": 5,
+      "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "a327854abe96",
+      "rank_delta": 23,
+      "cluster_id": "2af75a0e502c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 8,
-      "title": "HGMetaADR: a multimodal heterogeneous graph meta-learning framework for generalized adverse drug reaction prediction",
-      "title_zh": "HGMetaADR：用于广义药物不良反应预测的多模态异质图元学习框架",
-      "url": "https://doi.org/10.1093/bib/bbag539",
-      "hot_value": null,
-      "summary_zh": "摘要 早期识别药物不良反应（ADR），即正常剂量用药后出现的有害或非预期反应，对于减少临床试验失败和相关经济成本至关重要。然而，现有ADR数据集常呈现长尾标签分布，且稀有副作用缺乏足够训练样本，使普通监督学习模型难以泛化到代表性不足的类别。为解决这些问题，我们提出HGMetaADR，一种用于ADR预测的新型基于异质图的元学习框架。该方法构建在多模态生物医学知识图上，整合互补的药物相关数据，包括分子结构、蛋白质序列、副作用和治疗适应症。它采用分层注意力机制捕捉异质实体间的语义依赖，并采用模型无关的元学习策略增强对小样本类别的适应能力。我们在少样本、零样本和多数三种情景下评估HGMetaADR，以模拟真实世界条件。大量实验表明，HGMetaADR始终优于最先进基线。此外，消融研究和通路富集分析揭示了连接蛋白质靶点、治疗适应症和副作用的潜在生物学机制，从而验证了将异质生物医学知识纳入ADR建模的",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag539",
-        "description": "Abstract Early identification of adverse drug reactions (ADRs), which refer to harmful or unintended responses to medications taken at normal doses, is crucial for reducing clinical trial failures and associated economic costs. However, existing ADR datasets often exhibit a long-tailed label distribution and lack sufficient training examples for rare side effects, making it difficult for vanilla supervised learning models to generalize to underrepresented classes. To address these issues, we propose HGMetaADR, a novel heterogeneous graph-based meta-learning framework for ADR prediction. Built upon a multimodal biomedical knowledge graph, this approach integrates complementary drug-related data, including molecular structures, protein sequences, side effects, and therapeutic indications. It employs a hierarchical attention mechanism to capture semantic dependencies across heterogeneous entities and adopts a model-agnostic meta-learning strategy to enhance adaptation to small-sample classes. We evaluate HGMetaADR under three scenarios—few-shot, zero-shot, and majority—to simulate real-world conditions. Extensive experiments demonstrate that HGMetaADR consistently outperforms state-of-the-art baselines. Furthermore, ablation studies and pathway enrichment analyses reveal the underlying biological mechanisms linking protein targets, therapeutic indications, and side effects, thereby validating the effectiveness of incorporating heterogeneous biomedical knowledge into ADR modeling.",
-        "dedupe_key": "doi:10.1093/bib/bbag539",
-        "topic_hit": [
-          "稀有细胞"
-        ],
-        "priority_rank": 1,
-        "keyword_hit": [
-          "attention"
-        ]
-      },
-      "days_on_board": 5,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "d256addb9159",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 8
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 10,
-      "title": "AnnST: robust cross-section tissue domain label transfer in spatial transcriptomics via contrastive learning and optimal transport",
-      "title_zh": "AnnST：通过对比学习和最优传输在空间转录组学中实现稳健的跨切片组织域标签转移",
-      "url": "https://doi.org/10.1186/s12859-026-06754-z",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-13",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06754-z",
-        "description": "",
-        "dedupe_key": "doi:10.1186/s12859-026-06754-z",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "contrastive learning"
-        ]
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "670bdf865334",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 10
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 11,
-      "title": "ASAOT: an accentuated structure-differentiated asymmetric optimal transport model for cell type and single-cell spatial mapping",
-      "title_zh": "ASAOT：一种用于细胞类型和单细胞空间映射的增强结构差异化非对称最优传输模型",
-      "url": "https://doi.org/10.1093/bib/bbag615",
-      "hot_value": null,
-      "summary_zh": "摘要 空间转录组学（STs）表征时空基因表达，并促进对组织微环境中细胞结构和细胞间通讯的分析。然而，现有空间解卷积方法采用全局固定平滑而无局部锐化，这会模糊细胞边界并阻碍脑组织中分层、异质性细胞模式的重建。在此，我们提出增强结构差异化非对称最优传输（ASAOT），一个基于结构增强非对称最优传输的解卷积框架。结合空间邻域约束，ASAOT引入差异化增强锐化项以维持全局空间连续性、增强边界检测并保留斑点级表达异质性。利用非对称最优传输，该框架联合估计斑点级细胞类型比例并对参考单细胞坐标进行空间分配。在多种模拟数据集上的基准测试表明，ASAOT在中等空间分辨率下实现了有竞争力的整体准确性和稳健性，在测试方法中平均综合排名最佳。应用于小鼠嗅球和大脑皮层数据集表明，ASAOT减少了信号扩散和边界失真，有效恢复分层脑解剖结构和分层细胞分布，从而构建参考单细胞图谱的可解释空间图。总体而言，ASAOT通过锐",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag615",
-        "description": "Abstract Spatial transcriptomics (STs) characterizes spatiotemporal gene expression and facilitates analysis of cellular architecture and cell–cell crosstalk within tissue microenvironments. However, existing spatial deconvolution methods employ globally fixed smoothing without local sharpening, which blurs cellular boundaries and impedes reconstruction of layered, heterogeneous cellular patterns in brain tissue. Here, we present Accentuated Structure-differentiated Asymmetric Optimal Transport (ASAOT), a deconvolution framework built on structure-enhanced asymmetric optimal transport. Coupled with spatial neighborhood constraints, ASAOT introduces a differentiated accentuated sharpening term to maintain global spatial continuity, enhance boundary detection, and preserve spot-level expression heterogeneity. Using asymmetric optimal transport, the framework jointly estimates spot-wise cell-type proportions and performs spatial assignment of reference single-cell coordinates. Benchmarks on diverse simulated datasets demonstrate that ASAOT achieves competitive overall accuracy and robustness across moderate spatial resolutions, with the best average comprehensive rank among tested methods. Applications to mouse olfactory bulb and cerebral cortex datasets demonstrate that ASAOT reduces signal diffusion and boundary distortion, effectively recovering layered brain anatomy and stratified cell distributions to build interpretable spatial maps of reference single-cell profiles. Collectively, ASAOT addresses critical drawbacks of conventional methods via a sharpening regularization term, serving as a reliable tool for STs analysis and mechanism exploration of tissue spatial organization.",
-        "dedupe_key": "doi:10.1093/bib/bbag615",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "4d274d9769c7",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 11
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 12,
-      "title": "spOT-NMF: gene expression deconvolution via optimal transport with proximity-aware niche mapping for spatial transcriptomics",
-      "title_zh": "spOT-NMF：通过最优传输与邻近感知生态位映射进行基因表达反卷积用于空间转录组学",
-      "url": "https://doi.org/10.1093/bib/bbag606",
-      "hot_value": null,
-      "summary_zh": "摘要 空间转录组学能够直接分析完整组织内的细胞组织，然而两个挑战限制了其充分利用：混合表达信号（包括异种移植等物种混合模型）的准确无参考反卷积，以及缺乏能将每个斑点的程序使用值转化为空间生态位的工具。我们开发了spOT-NMF，一种基于最优传输的非负矩阵分解方法，用Wasserstein距离替代标准重建损失，无需匹配的单细胞图谱即可解开混合信号。虽然广义OT-NMF分解适用于任何表达矩阵，但基于邻近性的生态位推断模块进一步将空间转录组中的程序共使用转化为定义组织区室及其边界的方向共现网络。在涵盖亚细胞到多细胞分辨率、多个平台和两种物种混合场景的五个金标准数据集上进行基准测试，spOT-NMF在无参考方法中排名第一，在异种移植特有的信号不平衡条件下尤其具有优势。我们表明无参考反卷积能够恢复匹配单细胞图谱中缺失的细胞群体，突显了无监督分析的价值。应用于胶质母细胞瘤异种移植和人类结直肠癌，spO",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag606",
-        "description": "Abstract Spatial transcriptomics enables direct profiling of cellular organization within intact tissues, yet two challenges limit its full exploitation: accurate reference-free deconvolution of mixed expression signals (including species-admixed models such as xenografts), and lack of tools that can translate per-spot program usage values into spatial niches. We developed spOT-NMF, an optimal transport-based non-negative matrix factorization method that replaces standard reconstruction loss with the Wasserstein distance to disentangle mixed signals without requiring matched single-cell atlases. While the generalized OT-NMF factorization is applicable to any expression matrix, a proximity-based niche inference module further translates program co-usage from spatial transcriptomes into directional co-occurrence networks that define tissue compartments and their boundaries. Benchmarking across five gold-standard datasets spanning sub-cellular to multi-cellular resolutions, multiple platforms, and two-species admixture scenarios, spOT-NMF ranks first among reference-free methods, with particular advantage under the signal imbalance conditions characteristic of xenografts. We show that reference-free deconvolution recovers cell populations absent from matched single-cell atlases, highlighting the value of unsupervised analysis. Applied to glioblastoma xenografts and human colorectal cancer, spOT-NMF reveals spatially restricted interferon signaling, invasion routes, and CAF–tumor boundaries. spOT-NMF is available as an open-source Python package with GPU, CPU, and HPC support.",
-        "dedupe_key": "doi:10.1093/bib/bbag606",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 12,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "10ad055e4b6e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 7
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 6
+          "rank": 65
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 7
+          "rank": 61
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 11
+          "rank": 72
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 13
+          "rank": 73
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 13
+          "rank": 72
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 12
+          "rank": 81
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 58
         }
       ]
     },
     {
-      "source": "papers",
-      "rank": 13,
-      "title": "Identifying multi-omics spatial domains via masked autoencoder and diffusion-based latent regularization with SpaMEDM",
-      "title_zh": "通过掩码自编码器和基于扩散的潜在正则化与SpaMEDM识别多组学空间域",
-      "url": "https://doi.org/10.1093/bib/bbag520",
+      "source": "feed",
+      "rank": 59,
+      "title": "In situ profiling of plasma cell clonality with image-based single-cell transcriptomics",
+      "title_zh": "基于图像的单细胞转录组学对浆细胞克隆性的原位分析",
+      "url": "https://www.nature.com/articles/s41592-026-03296-3",
       "hot_value": null,
-      "summary_zh": "摘要 空间多组学数据提供了组织组织的互补分子视图。然而，由于数据稀疏性、技术噪声和模态特异性分布，其整合仍然具有挑战性。在这里，我们提出了空间掩码自编码器和基于扩散的模型（SpaMEDM），一个端到端图表示学习框架，它增强了双注意力图整合骨干，并加入了掩码重建和基于扩散的潜在噪声预测正则化。在掩码轨道中，通过利用模态和图特定的邻域信息来恢复随机掩码的斑点特征。同时，在随机采样的噪声水平下对模态特定的潜在表示施加高斯扰动，并训练一个空间图信息网络来预测注入的噪声。这种基于扩散的目标仅在训练期间使用，以鼓励对潜在扰动的鲁棒性，而不是在推理期间执行迭代反向扩散或采样。此外，基于余弦的配对斑点方向对齐和邻接重建鼓励兼容的跨模态表示并保留所选图结构。SpaMEDM灵活支持纯空间、双特征-空间和模态特定特征修剪的空间图配置。在不同空间多组学数据集上的评估展示了有竞争力的空间域识别性能，并产生促进下游探",
+      "summary_zh": "Nature Methods，在线发表：2026年11月10日；doi:10.1038/s41592-026-03296-3 BCR-MERFISH通过将V基因特异性检测与空间转录组学相结合，能够追踪浆细胞克隆。",
       "thumbnail": null,
-      "published_at": "2026-11-01",
+      "published_at": "2026-11-10T00:00:00+00:00",
       "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag520",
-        "description": "Abstract Spatial multi-omics data provide complementary molecular views of tissue organization. However, their integration remains challenging due to data sparsity, technical noise, and modality-specific distributions. Here, we present Spatial Masked autoEncoder and Diffusion-based Model (SpaMEDM), an end-to-end graph representation learning framework that augments a dual-attention graph-integration backbone with masked reconstruction and diffusion-based latent noise-prediction regularization. In the masked track, randomly masked spot features are recovered by leveraging modality- and graph-specific neighborhood information. In parallel, Gaussian perturbations are applied to modality-specific latent representations at randomly sampled noise levels, and a spatial-graph-informed network is trained to predict the injected noise. This diffusion-based objective is used exclusively during training to encourage robustness to latent perturbations, rather than to perform iterative reverse diffusion or sampling during inference. Furthermore, cosine-based paired-spot directional alignment and adjacency reconstruction encourage compatible cross-modality representations and preservation of the selected graph structure. SpaMEDM flexibly supports purely spatial, dual feature–spatial, and modality-specific feature-pruned spatial graph configurations. Evaluations across diverse spatial multi-omics datasets demonstrate competitive spatial-domain identification performance and produce integrated embeddings that facilitate downstream exploratory analyses.",
-        "dedupe_key": "doi:10.1093/bib/bbag520",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "graph representation",
-          "autoencoder",
-          "representation learning",
-          "attention"
-        ]
-      },
-      "days_on_board": 12,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "91fe3aa8b90f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 12
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 13
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 14,
-      "title": "Structured multi-view relational learning for drug response prediction",
-      "title_zh": "用于药物反应预测的结构化多视图关系学习",
-      "url": "https://doi.org/10.1093/bib/bbag619",
-      "hot_value": null,
-      "summary_zh": "摘要 药物反应预测（DRP）需要能够联合表征分子药物结构和异质细胞状态的模型。尽管近期深度学习方法已将多组学图谱与药物表征整合，但许多方法将组学视图视为并行特征来源或在关系建模前将其合并，这可能削弱组学视图特异的细胞系关系结构。在此，我们提出MulDR，一个结构化多视图关系学习框架，在药物条件化的细胞–药物交互之前保留组学视图特异的细胞系关系结构。MulDR为通路活性、基因表达、突变和DNA甲基化构建独立的关系结构，学习视图特异的关系细胞表征，并使用互补的基序级、几何感知分子图和Morgan指纹药物表征来条件化其融合。通过这种设计，细胞系相似性在交互阶段之前保持视图依赖，而非被过早压缩为单一特征或关系空间。大量实验表明，MulDR在相同评估协议下持续优于代表性和近期基线，相对于最强基线将均方根误差降低6.07%。对未见药物和细胞系的冷启动评估进一步表明MulDR能泛化到先前未见的实体，而消",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag619",
-        "description": "Abstract Drug response prediction (DRP) requires models that jointly characterize molecular drug structure and heterogeneous cellular states. Although recent deep learning approaches have integrated multi-omics profiles with drug representations, many treat omics views as parallel feature sources or merge them before relational modeling, which can weaken omics-view-specific cell-line relation structures. Here, we propose MulDR, a structured multi-view relational learning framework that preserves omics-view-specific cell-line relation structures before drug-conditioned cell–drug interaction. MulDR constructs separate relation structures for pathway activity, gene expression, mutation, and DNA methylation, learns view-specific relational cell representations, and uses complementary motif-level, geometry-aware molecular graph, and Morgan fingerprint drug representations to condition their fusion. With this design, cell-line similarity remains view-dependent until the interaction stage, rather than being prematurely compressed into a single feature or relation space. Extensive experiments show that MulDR consistently outperforms representative and recent baselines under the same evaluation protocol, reducing root mean square error by 6.07% relative to the strongest baseline. Cold-start evaluations on unseen drugs and cell lines further show that MulDR generalizes to previously unseen entities, while ablation studies show that removing either view-specific relational modeling or drug-conditioned fusion consistently compromises predictive performance. Together, these results suggest that preserving omics-specific cell-line relations before drug-conditioned interaction modeling provides an effective strategy for robust DRP.",
-        "dedupe_key": "doi:10.1093/bib/bbag619",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "deep learning"
-        ]
-      },
-      "days_on_board": 10,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "dc4eed5e8622",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 15
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 14
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 15,
-      "title": "Multi-omics survival prediction under modality incompleteness via dynamic modality graphs and product-of-experts fusion",
-      "title_zh": "通过动态模态图和专家乘积融合在模态不完整下的多组学生存预测",
-      "url": "https://doi.org/10.1093/bib/bbag596",
-      "hot_value": null,
-      "summary_zh": "摘要 多组学数据整合为癌症生存预测提供了丰富的互补信息，然而模态不完整在真实医疗数据中普遍存在，削弱了现有模型的稳定性和适用性。为应对这一挑战，我们提出DMG-PoE，一个用于多组学生存预测的稳健学习框架。该框架引入动态模态图（DMG），在模态节点之间传播互补信息以补偿缺失输入，并结合不确定性感知的专家乘积（PoE）融合机制，按每个模态的估计精度自适应加权，以及一致性约束训练策略，在不同模态子集上稳定预测。在SurvBoard基准上对10种TCGA癌症类型和七种组学模态的系统评估表明，DMG-PoE在标准设置（完整模态训练/测试）和缺失增强设置（训练额外包含真实不完整样本和非临床模态丢弃，仅完整测试）下均取得最高平均C-index；受控的逐模态掩蔽实验在22/24个癌症-模态组合中验证了有效的测试时恢复，而仅七种模态中两种可用时的跨队列迁移进一步证实了严重输入限制下的泛化能力。",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag596",
-        "description": "Abstract Multi-omics data integration provides rich complementary information for cancer survival prediction, yet modality incompleteness is pervasive in real-world medical data and undermines the stability and applicability of existing models. To address this challenge, we propose DMG-PoE, a robust learning framework for multi-omics survival prediction. The framework introduces a dynamic modality graph (DMG) that propagates complementary information across modality nodes to compensate for missing inputs, combined with an uncertainty-aware product-of-experts (PoE) fusion mechanism that adaptively weights each modality by its estimated precision, and a consistency-constrained training strategy that stabilizes predictions across varying modality subsets. Systematic evaluation on the SurvBoard benchmark across 10 TCGA cancer types and seven omics modalities demonstrates that DMG-PoE achieves the highest average C-index under both the standard setting (complete-modality training/testing) and the missing-augmented setting (training additionally includes real incomplete samples and nonclinical modality dropout, with complete-only testing); controlled per-modality masking experiments validate effective test-time recovery in 22/24 cancer-modality combinations, and cross-cohort transfer with only two of seven modalities available further confirms generalization under severe input restriction.",
-        "dedupe_key": "doi:10.1093/bib/bbag596",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 13,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "3a22f3c6e202",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 15
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 16,
-      "title": "Impact of training data on deep learning–based RNA 3D structure quality assessment",
-      "title_zh": "训练数据对基于深度学习的RNA 3D结构质量评估的影响",
-      "url": "https://doi.org/10.1093/bib/bbag630",
-      "hot_value": null,
-      "summary_zh": "摘要 对预测RNA 3D结构进行准确的免参考评估对于大规模RNA建模至关重要，但训练数据对基于深度学习的质量预测器的影响仍知之甚少。在此，我们对三个用于RNA 3D结构质量评估的深度学习预测器进行了系统的交叉训练分析，每个预测器最初都在不同的训练集上开发。通过在替代（非原生）数据集上重新训练每个预测器——包括专门为本项目创建的新数据集RNA3DQA——并在独立的RNA-Puzzles基准上评估性能，我们系统地评估了模型架构和训练数据组成的相对贡献。我们的结果揭示了跨数据集泛化方面的显著差异，预测器在非原生数据集上训练时往往比在其原生数据集上表现更好。值得注意的是，训练数据集的影响因预测器而异，RNA3DQA特别为ARES模型带来了整体最佳的准确性和排名稳定性结果。原生训练集为RNA3DCNN和lociPARSE带来了更好的性能。这些发现表明，训练数据的特征在塑造免参考RNA 3D结构质量评",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag630",
-        "description": "Abstract Accurate reference-free assessment of predicted RNA 3D structures is essential for large-scale RNA modeling, yet the impact of training data on deep learning–based quality predictors remains poorly understood. Here, we present a systematic cross-training analysis of three deep learning predictors for RNA 3D structure quality assessment, each originally developed on distinct training sets. By retraining each predictor on alternative (nonnative) datasets—including RNA3DQA, a new set created specifically for this project—and evaluating performance on independent RNA-Puzzles benchmarks, we systematically assess the relative contributions of model architecture and training data composition. Our results reveal pronounced differences in cross-dataset generalization, with predictors often performing better when trained on nonnative datasets than on their native ones. Notably, the impact of the training datasets varied across predictors, with RNA3DQA yielding the overall best accuracy and ranking stability results specifically for the ARES model. Native training sets yielded better performance for RNA3DCNN and lociPARSE. These findings demonstrate that the characteristics of the training data play a dominant, model-dependent role in shaping the performance and robustness of reference-free RNA 3D structure quality assessment methods. We conclude with practical recommendations for designing transferable training datasets and for benchmarking deep learning–based quality predictors in RNA structural bioinformatics.",
-        "dedupe_key": "doi:10.1093/bib/bbag630",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "deep learning",
-          "benchmark"
-        ]
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 10 November 2026; doi:10.1038/s41592-026-03296-3 BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03296-3"
       },
       "days_on_board": 8,
       "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "8de6ff8ea9aa",
+      "rank_delta": 23,
+      "cluster_id": "148b3a4fb9c6",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 11
-        },
-        {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 10
+          "rank": 70
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 11
+          "rank": 66
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 59
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 60,
+      "title": "Version 6.0.0",
+      "title_zh": "版本6.0.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v6.0.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 向Seurat添加了scSLIDE（使用密度估计的单细胞样本级推断），实现了单细胞数据的样本级分析 添加了PrepareSampleObject以选择标志细胞并将每个细胞映射到其最近的标志 添加了SketchDataByGroup以使用均匀或杠杆分数采样在元数据组内对细胞进行草图，每组可配置细胞数量和",
+      "thumbnail": null,
+      "published_at": "2026-11-09T15:18:25+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added scSLIDE (Single-cell Sample-Level Inference using Density Estimation) to Seurat, enabling sample-level analysis of single-cell data Added PrepareSampleObject to select landmark cells and map every cell to its nearest landmarks Added SketchDataByGroup to sketch cells within metadata groups using uniform or leverage-score sampling, with configurable cell counts per group and ",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v6.0.0"
+      },
+      "days_on_board": 9,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "673b7c72f7bc",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 67
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 77
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 60
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 61,
+      "title": "High school science ambitions",
+      "title_zh": "高中科学志向",
+      "url": "https://www.nature.com/articles/s41592-026-03323-3",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月09日；doi:10.1038/s41592-026-03323-3 Brain Bee竞赛让高中生向科学职业目标迈进。",
+      "thumbnail": null,
+      "published_at": "2026-11-09T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 09 November 2026; doi:10.1038/s41592-026-03323-3 The Brain Bee competitions let high schoolers leap toward a science career goal.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03323-3"
+      },
+      "days_on_board": 9,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "bd1f8da7e362",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 68
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 75
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 61
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 62,
+      "title": "Looking back on the adolescence of GFP research",
+      "title_zh": "回顾GFP研究的青春期",
+      "url": "https://www.nature.com/articles/s41592-026-03335-z",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月09日；doi:10.1038/s41592-026-03335-z 围绕GFP的长期谜团在1990年代后半叶被揭开。这份来自Aequorea victoria水母的特殊礼物不是巧合，而是命运。",
+      "thumbnail": null,
+      "published_at": "2026-11-09T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 09 November 2026; doi:10.1038/s41592-026-03335-z Long-standing mysteries surrounding GFP were uncovered in the latter half of the 1990s. This special gift from the Aequorea victoria jellyfish was not a coincidence but destiny.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03335-z"
+      },
+      "days_on_board": 9,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "1c2ed39ea345",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 69
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 76
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 62
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 63,
+      "title": "scvi-tools 1.5.2",
+      "title_zh": "scvi-tools 1.5.2",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.2",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-10-28T19:18:46+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.2"
+      },
+      "days_on_board": 21,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "a4b844e40db0",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 63
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 64,
+      "title": "Version 5.6.0",
+      "title_zh": "版本5.6.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.6.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 添加了setThreads和getThreads以控制支持的C++内核和uwot UMAP后端中的线程 更新了NormalizeData以使用线程化稀疏对数归一化并减少矩阵复制开销 更新了FindVariableFeatures以在各测定版本间共享稀疏VST实现，并使用线程化标准化方差计算 更新了ScaleData以中心化、缩放和裁剪d",
+      "thumbnail": null,
+      "published_at": "2026-10-03T14:53:44+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added setThreads and getThreads to control threading in supported C++ kernels and uwot UMAP backends Updated NormalizeData to use threaded sparse log-normalization and reduce matrix-copying overhead Updated FindVariableFeatures to share a sparse VST implementation across assay versions with threaded standardized-variance calculations Updated ScaleData to center, scale, and clip d",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.6.0"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 64
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 65,
+      "title": "scvi-tools 1.5.1",
+      "title_zh": "scvi-tools 1.5.1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-09-10T12:03:41+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "92de253c91a7",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 65
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 66,
+      "title": "稳定版发布进入最后倒计时，苹果 iOS / iPadOS 27 RC 推送",
+      "title_zh": "稳定版发布进入最后倒计时，苹果 iOS / iPadOS 27 RC 推送",
+      "url": "https://www.ithome.com/1/000/525.htm",
+      "hot_value": null,
+      "summary_zh": "感谢IT之家网友 吉茵珂絲 、 S K Y 、 这是我的破 、 Freddy123 、 牛肉番茄犟 、 大叔 、 肖战割割 的线索投递！ IT之家 9 月 10 日消息， 苹果公司今日正式推送了 iOS / iPad OS 27 RC ，这意味着新系统的稳定版发布已进入最后倒计时。 照既有节奏，iOS 27 候选版（RC）今日发布后，正式版会随 iPhone 18 Pro 和 iPhone 18 Pro Max 上市一同发布，预估本次更新以修复 Bug，提高系统稳定性为主。 在界面上，苹果 iOS / iPadOS 27 进一步打磨液态玻璃（IT之家注：Liquid Glass）设计，主要优化对比度，确保内容清晰易读；以及新增调节滑块，让用户随心调整 Liquid Glass 的外观效果。 速度方面，苹果表示 iOS / iPadOS 27 优化 App 启动速度，升级隔空投送，让其传输表",
+      "thumbnail": null,
+      "published_at": "2026-09-09T19:03:46+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "感谢IT之家网友 吉茵珂絲 、 S K Y 、 这是我的破 、 Freddy123 、 牛肉番茄犟 、 大叔 、 肖战割割 的线索投递！ IT之家 9 月 10 日消息， 苹果公司今日正式推送了 iOS / iPad OS 27 RC ，这意味着新系统的稳定版发布已进入最后倒计时。 照既有节奏，iOS 27 候选版（RC）今日发布后，正式版会随 iPhone 18 Pro 和 iPhone 18 Pro Max 上市一同发布，预估本次更新以修复 Bug，提高系统稳定性为主。 在界面上，苹果 iOS / iPadOS 27 进一步打磨液态玻璃（IT之家注：Liquid Glass）设计，主要优化对比度，确保内容清晰易读；以及新增调节滑块，让用户随心调整 Liquid Glass 的外观效果。 速度方面，苹果表示 iOS / iPadOS 27 优化 App 启动速度，升级隔空投送，让其传输表",
+        "dedupe_key": "https://www.ithome.com/1/000/525.htm"
+      },
+      "days_on_board": 34,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "fa209807cc80",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 83
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 66
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 67,
+      "title": "scvi-tools 1.5.0.post1",
+      "title_zh": "scvi-tools 1.5.0.post1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0.post1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-07-09T17:34:20+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0.post1"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "8a4eca2177ca",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 67
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 68,
+      "title": "scvi-tools 1.5.0",
+      "title_zh": "scvi-tools 1.5.0",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-07-09T08:06:25+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "8b146ac8159b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 68
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 69,
+      "title": "Version 5.5.1",
+      "title_zh": "版本5.5.1",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.1",
+      "hot_value": null,
+      "summary_zh": "变更 新增 在RunUMAP中添加了uwot.init参数，可选自定义UMAP初始化方法（#10386）。修复 修复了PrepSCTFindMarkers在多模型情况下因theta过滤不当导致某些有效基因计数为零的问题（#10410）。修复了FindClusters在向resolution传递向量且使用自定义元数据时未正确设置元数据的问题。",
+      "thumbnail": null,
+      "published_at": "2026-06-26T13:14:06+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added uwot.init parameter to RunUMAP to optionally customize method of UMAP initialization ( #10386 ) Fixes Fixed bug in PrepSCTFindMarkers in the multi-model case that produced zero counts for some valid genes due to an incorrect filter for theta ( #10410 ) Fixed issue with FindClusters not setting metadata properly when a vector of resolutions is passed to resolution and a cust",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.5.1"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 69
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 70,
+      "title": "苹果 WWDC26 主题演讲一文汇总：iOS 27 等新系统发布、Siri AI 登场，库克迎来生涯“最后一舞”",
+      "title_zh": "苹果 WWDC26 主题演讲一文汇总：iOS 27 等新系统发布、Siri AI 登场，库克迎来生涯“最后一舞”",
+      "url": "https://www.ithome.com/0/961/722.htm",
+      "hot_value": null,
+      "summary_zh": "Good morning！又是一年 WWDC，但这应当是咱们最后一次看到蒂姆 · 库克在发布会中发来早安问候了。 就在今天（北京时间 6 月 9 日）凌晨 1 点，苹果 WWDC26 全球开发者大会主题演讲如期而至，这是库克作为主讲人的“最后一舞”。 苹果此前已经官宣，自今年 9 月 1 日起，库克将出任苹果董事会执行董事长，CEO 的位置由约翰 · 特努斯接任。 既然是 WWDC，那重头戏自然是操作系统， iOS、 iPad OS、watchOS、tvOS、visionOS、macOS 新一代版本迎来发布。 根据克雷格 · 费德里吉的介绍，苹果今年将新系统的重点放在了三方面： 提升了各个平台的响应速度，强化了日常使用的便捷性 升级了可靠性和安全性，为儿童打造安全可靠的平台 在 Apple 智能上实现了巨大飞跃，采用创新架构为各个平台带来焕然一新的 Siri，并将众多实用功能整合到常用的各",
+      "thumbnail": null,
+      "published_at": "2026-06-08T22:50:57+00:00",
+      "extra": {
+        "feed_name": "IT之家",
+        "tab": "ai",
+        "route": "/ithome/it",
+        "translate": false,
+        "description": "Good morning！又是一年 WWDC，但这应当是咱们最后一次看到蒂姆 · 库克在发布会中发来早安问候了。 就在今天（北京时间 6 月 9 日）凌晨 1 点，苹果 WWDC26 全球开发者大会主题演讲如期而至，这是库克作为主讲人的“最后一舞”。 苹果此前已经官宣，自今年 9 月 1 日起，库克将出任苹果董事会执行董事长，CEO 的位置由约翰 · 特努斯接任。 既然是 WWDC，那重头戏自然是操作系统， iOS、 iPad OS、watchOS、tvOS、visionOS、macOS 新一代版本迎来发布。 根据克雷格 · 费德里吉的介绍，苹果今年将新系统的重点放在了三方面： 提升了各个平台的响应速度，强化了日常使用的便捷性 升级了可靠性和安全性，为儿童打造安全可靠的平台 在 Apple 智能上实现了巨大飞跃，采用创新架构为各个平台带来焕然一新的 Siri，并将众多实用功能整合到常用的各",
+        "dedupe_key": "https://www.ithome.com/0/961/722.htm"
+      },
+      "days_on_board": 34,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "a4f279e35d12",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 70
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 71,
+      "title": "scvi-tools 1.4.3",
+      "title_zh": "scvi-tools 1.4.3",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.4.3",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-05-12T13:29:21+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.4.3"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "bbea1c662507",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 71
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 72,
+      "title": "Version 5.5.0",
+      "title_zh": "版本5.5.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 在ScaleData.IterableMatrix（BPCells）中添加了对vars.to.regress和latent.data的支持（#10300）。在SCTransform中添加了警告，当指定参考SCT模型时，do.correct.umi被硬设为F（#10329，#10366）。在FindMarkers/FindAllMarkers中，当在列主存储顺序的IterableMatrix（BPCells）上运行时添加了警告（#10365）。添加了plot_typ...",
+      "thumbnail": null,
+      "published_at": "2026-04-22T14:06:49+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added support for vars.to.regress and latent.data in ScaleData.IterableMatrix (BPCells) ( #10300 ) Added warning to SCTransform to notify that do.correct.umi is hard set to F when a reference SCT model is specified ( #10329 , #10366 ) Added warning to FindMarkers / FindAllMarkers when running on an IterableMatrix (BPCells) with column-major storage order ( #10365 ) Added plot_typ",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.5.0"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 72
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 73,
+      "title": "Version 5.4.0",
+      "title_zh": "版本5.4.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.4.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 添加了对10x Space Ranger 4.0输出的支持（带分割的Visium数据）。更新了数据加载函数Load10X_Spatial、Read10X_Image。更新了GetTissueCoordinates.VisiumV2。更新了空间可视化函数SpatialPlot、SingleSpatialPlot、SpatialDimPlot、SpatialFeaturePlot。添加了辅助函数Read10X_Segmentations、Read10X_HD_GeoJson、Format10X_GeoJson_CellI...",
+      "thumbnail": null,
+      "published_at": "2025-12-15T15:22:32+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added support for 10x Space Ranger 4.0 outputs (Visium data with segmentations) Updated data loading functions Load10X_Spatial , Read10X_Image Updated GetTissueCoordinates.VisiumV2 Updated spatial visualization functions SpatialPlot , SingleSpatialPlot , SpatialDimPlot , SpatialFeaturePlot Added helper functions Read10X_Segmentations , Read10X_HD_GeoJson , Format10X_GeoJson_CellI",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.4.0"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 96
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 73
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 57,
+      "title": "PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases",
+      "title_zh": "PANGEA：跨多样生物背景的整合细胞图谱，能够系统分析人类疾病中的多细胞反应",
+      "url": "https://www.nature.com/articles/s41592-026-03295-4",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月12日；doi:10.1038/s41592-026-03295-4 PANGEA是一个全面的单细胞转录组图谱，涵盖48个器官中的160种人类疾病。",
+      "thumbnail": null,
+      "published_at": "2026-11-12T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 12 November 2026; doi:10.1038/s41592-026-03295-4 PANGEA is a comprehensive single-cell transcriptomic atlas of 160 human diseases across 48 organs.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03295-4"
+      },
+      "days_on_board": 6,
+      "is_new": false,
+      "rank_delta": 22,
+      "cluster_id": "48c9ed7bc967",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 46
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 67
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 70
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 69
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 79
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 57
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 52,
+      "title": "1.12.5",
+      "title_zh": "1.12.5",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.12.5",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.scverse.org/en/stable/release-notes/#v1-12-5",
+      "thumbnail": null,
+      "published_at": "2026-11-13T15:38:44+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.scverse.org/en/stable/release-notes/#v1-12-5",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.12.5"
+      },
+      "days_on_board": 20,
+      "is_new": false,
+      "rank_delta": 19,
+      "cluster_id": "28ac0f6901d8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 81
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 77
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 13
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 37
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 45
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 71
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 52
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 53,
+      "title": "1.13.0b1",
+      "title_zh": "1.13.0b1",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0b1",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.scverse.org/en/stable/release-notes/#v1-13-0b1",
+      "thumbnail": null,
+      "published_at": "2026-11-13T15:37:56+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.scverse.org/en/stable/release-notes/#v1-13-0b1",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0b1"
+      },
+      "days_on_board": 13,
+      "is_new": false,
+      "rank_delta": 19,
+      "cluster_id": "e016cd8c0f7c",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 78
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 14
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 38
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 46
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 53
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 54,
+      "title": "1.13.0a2",
+      "title_zh": "1.13.0a2",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2",
+      "hot_value": null,
+      "summary_zh": "https://scanpy.scverse.org/en/stable/release-notes/#v1-13-0a2",
+      "thumbnail": null,
+      "published_at": "2026-11-13T15:37:51+00:00",
+      "extra": {
+        "feed_name": "scanpy 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scanpy/releases.atom",
+        "translate": true,
+        "description": "https://scanpy.scverse.org/en/stable/release-notes/#v1-13-0a2",
+        "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 19,
+      "cluster_id": "768fc0d2e613",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 83
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
@@ -623,20 +1061,587 @@
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 17
+          "rank": 39
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 17
+          "rank": 47
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 16
+          "rank": 73
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 54
         }
       ]
     }
   ],
   "new_today": [
+    {
+      "source": "bilibili",
+      "rank": 1,
+      "title": "在普罗米厄的怀抱下",
+      "title_zh": "在普罗米厄的怀抱下",
+      "url": "https://b23.tv/BV16Bs26FEAM",
+      "hot_value": "1634874",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/e19e758df352936f5581473cd5c7536e9ce088b2.jpg",
+      "published_at": "2026-11-18T02:53:52+00:00",
+      "extra": {
+        "bvid": "BV16Bs26FEAM",
+        "owner": "鸣潮"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "6a02b4e89f56",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 1,
+      "title": "习近平迎接特朗普",
+      "title_zh": "习近平迎接特朗普",
+      "url": "https://www.douyin.com/search/%E4%B9%A0%E8%BF%91%E5%B9%B3%E8%BF%8E%E6%8E%A5%E7%89%B9%E6%9C%97%E6%99%AE",
+      "hot_value": "12064853",
+      "summary_zh": null,
+      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015/ocID9VHBSCWlCA7e9hIAnFEBsaDovfEXqfOyza~noop.jpeg?lk3s=bfd515bb&x-expires=1795017600&x-signature=5N20PpWvEM%2BD9cKTBZ%2FlGlqCmR8%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2752752"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "1dce4a34166d",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 1,
+      "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+      "title_zh": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+      "url": "https://www.qbitai.com/2026/11/510922.html",
+      "hot_value": null,
+      "summary_zh": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？ 程浅 2026-11-18 17:41:55 来源： 量子位 氖人寻味！ 程浅 发自 凹非寺 量子位 | 公众号QbitAI 我真没想到，有天我竟会嫌Google模型发的太多了…… 最新消息，有开发者发现，Gemini网页应用代码中又出现了一个新模型标识：gemini-4-neon Neon，氖，是元素周期表第10号元素。 刚一曝光，大家又开始吐槽了，这也毫无顺序啊！怎么Hydrogen发完之后就直接跳到Neon了呢？ 说好的，氢氦锂铍硼，碳氮氧氟氖呢？ 说到元素周期表，有人直接搬出了给谷歌Gemini设计的新界面。 「我帮Google想了一个天才般的解决方案……Google免费拿去用。」 谁敢相信，多年后重温初中化学知识，竟然是在这儿……那个啥，发到钙就先别发了，再往下我就不会背了。 Gemini 4 Neon又是什么杯？ 据模",
+      "thumbnail": null,
+      "published_at": "2026-11-18T09:41:55+00:00",
+      "extra": {
+        "feed_name": "量子位",
+        "tab": "ai",
+        "route": "/qbitai/category/%E8%B5%84%E8%AE%AF",
+        "translate": false,
+        "description": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？ 程浅 2026-11-18 17:41:55 来源： 量子位 氖人寻味！ 程浅 发自 凹非寺 量子位 | 公众号QbitAI 我真没想到，有天我竟会嫌Google模型发的太多了…… 最新消息，有开发者发现，Gemini网页应用代码中又出现了一个新模型标识：gemini-4-neon Neon，氖，是元素周期表第10号元素。 刚一曝光，大家又开始吐槽了，这也毫无顺序啊！怎么Hydrogen发完之后就直接跳到Neon了呢？ 说好的，氢氦锂铍硼，碳氮氧氟氖呢？ 说到元素周期表，有人直接搬出了给谷歌Gemini设计的新界面。 「我帮Google想了一个天才般的解决方案……Google免费拿去用。」 谁敢相信，多年后重温初中化学知识，竟然是在这儿……那个啥，发到钙就先别发了，再往下我就不会背了。 Gemini 4 Neon又是什么杯？ 据模",
+        "dedupe_key": "https://www.qbitai.com/2026/11/510922.html"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "552c595c3b77",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 1,
+      "title": "GapCNV: A comprehensive framework for CNV detection in low-input DNA sequencing data",
+      "title_zh": "GapCNV：低输入DNA测序数据CNV检测的综合框架",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014959",
+      "hot_value": null,
+      "summary_zh": "拷贝数变异（CNV）在二倍体和单倍体基因组中均普遍存在， contribute to genome evolution and phenotypic diversity。然而，由于读数浅且高度不均以及扩增偏差，低输入数据（包括低细胞和单细胞测序数据）中的CNV检测仍具挑战性。另一个挑战在于选择参考样本，其用于提供定义拷贝数丢失或获得的基线。使用含常见CNV的参考进行归一化可能导致真实CNV信号抵消或假CNV调用。在此，我们开发了GapCNV，一个用于单倍体和二倍体基因组低输入DNA测序数据CNV检测的统计框架。GapCNV利用初步细胞聚类和共享CNV谱，从推断为拷贝中性状态的细胞构建bin特异性伪参考。该策略减少了常见CNV纳入归一化基线，从而保留常见CNV信号。我们使用含和不含扩增偏差的模拟以及恶性疟原虫、人乳腺癌和黑色素瘤数据集评估了GapCNV。在模拟中，GapCNV实现了高精确率同",
+      "thumbnail": null,
+      "published_at": "2026-11-17",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "PLOS Computational Biology",
+        "mode": "all",
+        "issn": "1553-7358",
+        "doi": "10.1371/journal.pcbi.1014959",
+        "description": "Copy number variants (CNVs) are prevalent in both diploid and haploid genomes and contribute to genome evolution and phenotypic diversity. However, CNV detection in low-input data, including low-cell and single-cell sequencing data, remains challenging due to the shallow and highly uneven read counts and amplification bias. Another challenge lies in selecting reference samples, which are used to provide a baseline for defining copy-number losses or gains. Normalization using references containing common CNVs can lead to cancellation of true CNV signals or false CNV calls. Here, we develop GapCNV, a statistical framework for CNV detection in low-input DNA sequencing data from both haploid and diploid genomes. GapCNV uses preliminary cell clustering and shared CNV profiles to construct bin-specific pseudo-references from cells inferred to have the copy-neutral state. This strategy reduces the incorporation of common CNVs into the normalization baseline and thereby preserves common CNV signals. We evaluated GapCNV using simulations with and without amplification biases and datasets from Plasmodium falciparum , human breast cancer and melanoma. In simulations, GapCNV achieved high precision rate while maintaining competitive sensitivity, with advantages for detecting short and common CNVs. In P. falciparum , GapCNV detected the known CNVs and recovered the short CNV more frequently than the benchmarking methods. In the melanoma cell line and human breast tumors, GapCNV recovered bulk or single-cell derived copy number profile across individual cells. These results show that adaptive, bin-specific pseudo-reference construction can improve CNV detection when reliable normal controls are unavailable.",
+        "dedupe_key": "doi:10.1371/journal.pcbi.1014959",
+        "topic_hit": [
+          "单细胞聚类"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": [
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "6e10157aff26",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 1,
+      "title": "CERT-AGID identified a phishing campaign using a fake Health Card portal to target healthcare workers’ SPID credentials, OTPs, and identity documents. The agency requested that sistemats4sanitafinanzeit[.]online be disabled. 🔗 https://cyber.hendryadrian.com/article/19457/fake-health-card-portal-targ",
+      "title_zh": "CERT-AGID发现了一起利用虚假Health Card门户针对医护人员SPID凭证、OTP和身份文件的钓鱼活动。该机构要求关停sistemats4sanitafinanzeit[.]online。🔗 https://cyber.hendryadrian.com/article/19457/fake-health-card-portal-targ",
+      "url": "https://t.me/cybernotif/38926",
+      "hot_value": "3",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-18T10:12:04+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7e847d1bd76b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 1,
+      "title": "美国总统特朗普抵达深圳",
+      "title_zh": "美国总统特朗普抵达深圳",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E7%89%B9%E6%9C%97%E6%99%AE%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3%23",
+      "hot_value": "2218147",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d727cb390353",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "youtube",
+      "rank": 1,
+      "title": "Lil Baby - Aint Goin (Official Music Video)",
+      "title_zh": "Lil Baby - Aint Goin（官方MV）",
+      "url": "https://youtube.com/watch?v=BBYdzzyWhTU",
+      "hot_value": "296206",
+      "summary_zh": "Lil Baby新歌MV，嘻哈粉丝必看。",
+      "thumbnail": "https://i.ytimg.com/vi/BBYdzzyWhTU/hqdefault.jpg",
+      "published_at": "2026-11-17T18:00:06Z",
+      "extra": {
+        "video_id": "BBYdzzyWhTU",
+        "region": "US",
+        "channel": "Lil Baby Official ",
+        "description": "Watch the official video for \"Ain't Goin.\"\n\nStream 'Fresh' the album: https://linktr.ee/lilbaby"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7c4d3a25a257",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 2,
+      "title": "非凡魔丸",
+      "title_zh": "非凡魔丸",
+      "url": "https://b23.tv/BV1LLsr66EC6",
+      "hot_value": "957607",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/2f070870d516dc6eef35513d53160e883e525db8.jpg",
+      "published_at": "2026-11-17T13:54:16+00:00",
+      "extra": {
+        "bvid": "BV1LLsr66EC6",
+        "owner": "伊介书生"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ac7a69a3e0e6",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 2,
+      "title": "特朗普抵达深圳",
+      "title_zh": "特朗普抵达深圳",
+      "url": "https://www.douyin.com/search/%E7%89%B9%E6%9C%97%E6%99%AE%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3",
+      "hot_value": "11878583",
+      "summary_zh": null,
+      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/owVfBf4EAiyDIoSFnCqgiBP9I39qAsWFnA8gjS~noop.jpeg?lk3s=bfd515bb&x-expires=1795017600&x-signature=F5QlhARvo1F2oIshgEw7osqiuiE%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2752379"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d727cb390353",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 2,
+      "title": "10 月音乐精选：音乐丰收季，必听这 7 张新专辑",
+      "title_zh": "10 月音乐精选：音乐丰收季，必听这 7 张新专辑",
+      "url": "https://sspai.com/post/118985",
+      "hot_value": null,
+      "summary_zh": "编者注：2026 年我们将重启少数派音乐推荐栏目 FM3.14，特邀资深音乐从业者及爱好者为大家推荐优质的华语独立、流行音乐，今年我们也很荣幸邀请到老朋友飞傲，为本栏目冠名。飞傲目前拥有品牌以音乐发烧友为主，主打音质和专业音频功能，定位于专业 HiFi 音频设备的 FIIO 飞傲，以喜欢音乐的大众消费者为主，定位于高性价比的入门 HiFi 设备的 JadeAudio 翡声和以注重颜值、个性化的年轻用户为主，定位于时尚个性 HiFi 设备的 SNOWSKY 雪漫天。 十月华语音乐出现井喷，接近年关，音乐人们也迎来一波丰收季。十月不乏新人新乐队的抢眼首专，也有阔别许久后进步飞跃的音乐中坚，不论处在怎样的人生阶段，殊途同归，此刻他们都还创造着、表达着，唱作人森淮的寄语令我颇为受用，分享给大家：「只要尽当下所能，好好活着。」 现在，请顺着我的导听，来拥抱十月的动听专辑，开启新的缘分吧！ （本文结尾",
+      "thumbnail": null,
+      "published_at": "2026-11-18T08:59:58+00:00",
+      "extra": {
+        "feed_name": "少数派",
+        "tab": "tools",
+        "route": "/sspai/index",
+        "translate": false,
+        "description": "编者注：2026 年我们将重启少数派音乐推荐栏目 FM3.14，特邀资深音乐从业者及爱好者为大家推荐优质的华语独立、流行音乐，今年我们也很荣幸邀请到老朋友飞傲，为本栏目冠名。飞傲目前拥有品牌以音乐发烧友为主，主打音质和专业音频功能，定位于专业 HiFi 音频设备的 FIIO 飞傲，以喜欢音乐的大众消费者为主，定位于高性价比的入门 HiFi 设备的 JadeAudio 翡声和以注重颜值、个性化的年轻用户为主，定位于时尚个性 HiFi 设备的 SNOWSKY 雪漫天。 十月华语音乐出现井喷，接近年关，音乐人们也迎来一波丰收季。十月不乏新人新乐队的抢眼首专，也有阔别许久后进步飞跃的音乐中坚，不论处在怎样的人生阶段，殊途同归，此刻他们都还创造着、表达着，唱作人森淮的寄语令我颇为受用，分享给大家：「只要尽当下所能，好好活着。」 现在，请顺着我的导听，来拥抱十月的动听专辑，开启新的缘分吧！ （本文结尾",
+        "dedupe_key": "https://sspai.com/post/118985"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ff57adf7bec3",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "nowcoder",
+      "rank": 2,
+      "title": "秋招即将结束,hr却通知被横向",
+      "title_zh": "秋招即将结束,hr却通知被横向",
+      "url": "https://www.nowcoder.com/feed/main/detail/a4455a32db9e498caadd035507b43a6b",
+      "hot_value": "命中 1 个关键词",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "subsource": "rsshub",
+        "keyword_hit": [
+          "秋招"
+        ],
+        "description": ""
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "16606074d355",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 2,
+      "title": "📰 BleepingComputer Microsoft announces Windows Server 2028 with hardened security Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...] #CyberNews #Infosec",
+      "title_zh": "📰 BleepingComputer 微软发布Windows Server 2028，强化安全 微软周二在Ignite 2026大会上宣布了其服务器操作系统的下一个主要版本Windows Server 2028。[...] #CyberNews #Infosec",
+      "url": "https://t.me/cyber_security_feed/37448",
+      "hot_value": "5",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-18T10:07:10+00:00",
+      "extra": {
+        "channel": "cyber_security_feed",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "48cfda72db74",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "weibo",
+      "rank": 2,
+      "title": "特朗普抵达深圳中方战机拉起彩烟",
+      "title_zh": "特朗普抵达深圳中方战机拉起彩烟",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3%E4%B8%AD%E6%96%B9%E6%88%98%E6%9C%BA%E6%8B%89%E8%B5%B7%E5%BD%A9%E7%83%9F%23",
+      "hot_value": "1394759",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "category": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d727cb390353",
+      "cluster_size": 3,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "youtube",
+      "rank": 2,
+      "title": "Twilight (But Better) Teaser Trailer",
+      "title_zh": "Twilight（但更好）预告片",
+      "url": "https://youtube.com/watch?v=5GB00NsVH3Q",
+      "hot_value": "448253",
+      "summary_zh": "暮光之城改良预告，粉丝创意值得一看。",
+      "thumbnail": "https://i.ytimg.com/vi/5GB00NsVH3Q/hqdefault.jpg",
+      "published_at": "2026-11-17T15:00:08Z",
+      "extra": {
+        "video_id": "5GB00NsVH3Q",
+        "region": "US",
+        "channel": "Grace Reiter",
+        "description": "Coming soon...\n\nTrailer edited by James McConnell"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "b656cfb1cdbf",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "bilibili",
+      "rank": 3,
+      "title": "【动画】可爱的猫尾草",
+      "title_zh": "【动画】可爱的猫尾草",
+      "url": "https://b23.tv/BV1LLsT6kESX",
+      "hot_value": "1728379",
+      "summary_zh": null,
+      "thumbnail": "http://i1.hdslb.com/bfs/archive/95770f6075bd949473bbd1e9e1e2f87fd4e0e8a6.jpg",
+      "published_at": "2026-11-17T03:45:00+00:00",
+      "extra": {
+        "bvid": "BV1LLsT6kESX",
+        "owner": "青默ya"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "a8e16b4537d6",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "douyin",
+      "rank": 3,
+      "title": "APEC工商界代表参会热度高",
+      "title_zh": "APEC工商界代表参会热度高",
+      "url": "https://www.douyin.com/search/APEC%E5%B7%A5%E5%95%86%E7%95%8C%E4%BB%A3%E8%A1%A8%E5%8F%82%E4%BC%9A%E7%83%AD%E5%BA%A6%E9%AB%98",
+      "hot_value": "11521226",
+      "summary_zh": null,
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/ocTEUIGbI7eDI1eE99nDfCN2KfAFEskAoQArI6~noop.jpeg?lk3s=bfd515bb&x-expires=1795017600&x-signature=1HqyGUzIUUG6ajKg%2F8Wz3hbcr2M%3D&from=3218412987",
+      "published_at": null,
+      "extra": {
+        "sentence_id": "2752455"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ecfe6784ea7e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 3,
+      "title": "GPT-6.2难产！OpenAI怕了",
+      "title_zh": "GPT-6.2难产！OpenAI怕了",
+      "url": "https://www.qbitai.com/2026/11/510914.html",
+      "hot_value": null,
+      "summary_zh": "GPT-6.2难产！OpenAI怕了 henry 2026-11-18 15:53:29 来源： 量子位 OpenAI也终于活成了2022年谷歌的样子 henry发自 凹非寺 量子位 | 公众号QbitAI OpenAI也终于活成了2022年谷歌的样子： 预告和承诺一波接一波，新模型却迟迟不见踪影，GPT-6.2更是一拖再拖。 而背后的核心原因，又是“安全”。 一则流传甚广的“已删”贴文中，OpenAI工程师Joe爆料： OpenAI已经成了全世界最把安全当回事的公司之一。 OpenAI现在是一家安全公司。 那意思就是，在OpenAI，安全焦虑已经被排到了首位，发布新模型反而成了次要任务。 该说不说，这多少有点谷歌味了。 （2022年的谷歌，手握领先技术，却因为安全和品牌声誉顾虑迟迟不敢发布产品，眼睁睁看着OpenAI抢走了生成式AI的先发优势。） 而就在刚刚，AI爆料博主Token Gr",
+      "thumbnail": null,
+      "published_at": "2026-11-18T07:53:29+00:00",
+      "extra": {
+        "feed_name": "量子位",
+        "tab": "ai",
+        "route": "/qbitai/category/%E8%B5%84%E8%AE%AF",
+        "translate": false,
+        "description": "GPT-6.2难产！OpenAI怕了 henry 2026-11-18 15:53:29 来源： 量子位 OpenAI也终于活成了2022年谷歌的样子 henry发自 凹非寺 量子位 | 公众号QbitAI OpenAI也终于活成了2022年谷歌的样子： 预告和承诺一波接一波，新模型却迟迟不见踪影，GPT-6.2更是一拖再拖。 而背后的核心原因，又是“安全”。 一则流传甚广的“已删”贴文中，OpenAI工程师Joe爆料： OpenAI已经成了全世界最把安全当回事的公司之一。 OpenAI现在是一家安全公司。 那意思就是，在OpenAI，安全焦虑已经被排到了首位，发布新模型反而成了次要任务。 该说不说，这多少有点谷歌味了。 （2022年的谷歌，手握领先技术，却因为安全和品牌声誉顾虑迟迟不敢发布产品，眼睁睁看着OpenAI抢走了生成式AI的先发优势。） 而就在刚刚，AI爆料博主Token Gr",
+        "dedupe_key": "https://www.qbitai.com/2026/11/510914.html"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "81a8c8a31a4e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "nowcoder",
+      "rank": 3,
+      "title": "27届嵌入式软件开发-秋招总结 （附干货： 高频面试题！！！）",
+      "title_zh": "27届嵌入式软件开发-秋招总结 （附干货： 高频面试题！！！）",
+      "url": "https://www.nowcoder.com/feed/main/detail/838b50acb02b4524af79324b6eb0c5e8",
+      "hot_value": "命中 1 个关键词",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "subsource": "rsshub",
+        "keyword_hit": [
+          "秋招"
+        ],
+        "description": ""
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "18d06d411135",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 3,
+      "title": "CellStressDB: an AI-powered database of cellular responses to physical stressors.",
+      "title_zh": "CellStressDB：一个AI驱动的细胞对物理应激源反应数据库。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042471/",
+      "hot_value": null,
+      "summary_zh": "物理应激源通过触发协调的应激反应程序深刻影响细胞行为，这些程序调控信号传导、基因表达、代谢和细胞命运。在此，我们展示CellStressDB（https://cellstressdb.omic.tech），一个用于探索细胞对物理应激源反应的AI驱动数据库。当前版本包含来自131项转录组研究的数据，涵盖人类和小鼠九个物理应激类别和21个组织类别的2,364,816个细胞和1205个bulk样本观测。数据和分析组织为2848个索引分析条目，跨越71个规范物种-组织-应激背景，并保留详细暴露条件。CellStressDB通过22个组织感知分类器提供本体引导的细胞类型注释，并整合941个Geneformer检查点用于背景特异性计算机扰动。分析包括应激反应程序、差异基因表达、功能富集、调控子活性、细胞类型组成和细胞间通讯（适用时），以及候选化合物优先级排序、可下载数据集和模型，以及用户提供的转录组数",
+      "thumbnail": null,
+      "published_at": "2026-11-17",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nucleic acids research",
+        "doi": "10.1093/nar/gkag1193",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Physical stressors profoundly influence cellular behavior by triggering coordinated stress-response programs that regulate signaling, gene expression, metabolism, and cell fate. Here, we present CellStressDB (https://cellstressdb.omic.tech), an AI-powered database for exploring cellular responses to physical stressors. The current release contains data from 131 transcriptomic studies, with 2 364 816 cell and 1205 bulk sample observations from human and mouse across nine physical-stress classes and 21 tissue categories. Data and analyses are organized into 2848 indexed analysis entries across 71 canonical species-tissue-stress contexts with detailed exposure conditions retained. CellStressDB provides ontology-guided cell-type annotation through 22 tissue-aware classifiers and incorporates 941 Geneformer checkpoints for context-specific in silico perturbation. Analyses include stress-response programs, differential gene expression, functional enrichment, regulon activity, cell-type composition, and cell-cell communication where applicable, with candidate compound prioritization, downloadable datasets and models, and analysis of user-provided transcriptomic data. Annotation evaluation and known-factor recovery analyses indicated context-dependent performance and coverage across biological settings. The mouse radiation-intestine example identifies Stat1 as a candidate regulator of radiation-induced intestinal injury supported by independent experimental evidence. Overall, CellStressDB provides an integrated, AI-enabled framework for exploring and interpreting cellular responses to physical stressors and generating testable hypotheses.",
+        "identifier": "43042471",
+        "dedupe_key": "doi:10.1093/nar/gkag1193",
+        "topic_hit": [
+          "单细胞聚类"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "47b938114d49",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "telegram",
+      "rank": 3,
+      "title": "CERT-AGID analyzed an Android Mirax APK promoted through a fake Italian tax agency site and a counterfeit IO app update. The malware can steal banking data, intercept SMS and OTP codes, and enable remote device control. 🔗 https://cyber.hendryadrian.com/article/19455/cert-agid-analyzes-mirax-android-",
+      "title_zh": "CERT-AGID分析了一个通过虚假意大利税务局网站和伪造IO应用更新推广的Android Mirax APK。该恶意软件可窃取银行数据、拦截短信和OTP验证码，并启用远程设备控制。🔗 https://cyber.hendryadrian.com/article/19455/cert-agid-analyzes-mirax-android-",
+      "url": "https://t.me/cybernotif/38925",
+      "hot_value": "4",
+      "summary_zh": null,
+      "thumbnail": null,
+      "published_at": "2026-11-18T10:00:05+00:00",
+      "extra": {
+        "channel": "cybernotif",
+        "translate": true
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "53c26764d5d2",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 3
+        }
+      ]
+    }
+  ],
+  "dropped": [
     {
       "source": "bilibili",
       "rank": 1,
@@ -748,6 +1753,54 @@
       ]
     },
     {
+      "source": "papers",
+      "rank": 1,
+      "title": "G-quadruplex profiling using single-cell CUT&Tag offers insight into the epigenetic landscape of the developing mouse brain.",
+      "title_zh": "使用单细胞CUT&Tag进行G-四链体分析，为发育中小鼠大脑的表观遗传景观提供见解。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43026565/",
+      "hot_value": null,
+      "summary_zh": "G-四链体（G4）是非经典DNA结构，因其在基因调控中的潜在作用以及在神经退行性疾病和癌症中的作用而日益受到关注。尽管具有生物学意义，G4结构尚未在组织和细胞类型间被系统研究。在本研究中，我们采用G4单细胞CUT&Tag（G4 scCUT&Tag）来表征出生后小鼠脑细胞中的G4景观，利用scRNA-Seq和scATAC-Seq数据集中常用的单细胞分析方法。使用常规单细胞组学工作流处理并探索我们的数据，我们基于G4异质性区分出不同的细胞谱系，并确定一部分谱系特异性基因显示独特的启动子G4。与scRNA-Seq基因表达谱的多组学整合，使用基于协方差的技术（典型相关分析）和基于迁移学习的方法，能够更准确地注释细胞类型。这些整合不仅揭示G4信号与基因表达之间的相关性，还证明G4 scCUT&Tag能够详细检查复杂组织中的G4异质性，并支持G4谱与其他组学层面的整合分析，为发育中大脑的表观基因组景观",
+      "thumbnail": null,
+      "published_at": "2026-11-13",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Genome biology",
+        "doi": "10.1186/s13059-026-04339-w",
+        "tier": "英文顶刊",
+        "mode": "all",
+        "description": "G-quadruplexes (G4s) are non-canonical DNA structures that have gained increasing attention for their potential roles in gene regulation and role in neurodegenerative diseases and cancer. Despite their biological significance, G4 structures have not been studied systematically across tissues and cell types. In this study, we employ G4 single-cell CUT&Tag (G4 scCUT&Tag) to characterize G4 landscapes in postnatal mouse brain cells, leveraging single-cell analytical approaches commonly used in scRNA-Seq and scATAC-Seq datasets. Using conventional single-cell omics workflows to process and explore our data, we distinguish distinct cell lineages based on G4 heterogeneity and establish that a subset of lineage-specific genes show unique promoter G4s. Multi-omics integration with scRNA-Seq gene expression profiles, using both a covariance-based technique (canonical correlation analysis) and a transfer learning-based approach, enables more accurate cell-type annotation. These integrations not only reveal correlations between G4 signal and gene expression, but demonstrate that G4 scCUT&Tag enables detailed examination of G4 heterogeneity in complex tissues and supports integrative analysis of G4 profiles with other omics layers, offering new insights into the epigenomic landscapes of the developing brain. Our findings establish G4 scCUT&Tag as a framework for investigating the cellular heterogeneity of G4 landscapes in complex tissues and provide a basis for exploring their relationships with gene regulation and other layers of chromatin organization.",
+        "identifier": "43026565",
+        "dedupe_key": "doi:10.1186/s13059-026-04339-w",
+        "topic_hit": [
+          "单细胞聚类",
+          "生物信息"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": [
+          "attention"
+        ]
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": 0,
+      "cluster_id": "974f9331b4f9",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        }
+      ]
+    },
+    {
       "source": "telegram",
       "rank": 1,
       "title": "Huntress reports CVE-2026-84869 exploitation against MSP technicians, including a rogue ScreenConnect client deployed in one observed case. It found 688,000 guest file-run requests across 42 servers and advises patching technician clients and hunting for exposure. 🔗 https://cyber.hendryadrian.com/ar",
@@ -799,85 +1852,6 @@
       ]
     },
     {
-      "source": "youtube",
-      "rank": 1,
-      "title": "TXT (투모로우바이투게더) 'Angel Bite' Official MV",
-      "title_zh": "TXT（투모로우바이투게더）'Angel Bite'官方MV",
-      "url": "https://youtube.com/watch?v=M9G4guYg-i8",
-      "hot_value": "5411145",
-      "summary_zh": "TXT新曲Angel Bite官方MV，粉丝必看的韩团视觉作品。",
-      "thumbnail": "https://i.ytimg.com/vi/M9G4guYg-i8/hqdefault.jpg",
-      "published_at": "2026-11-16T08:58:08Z",
-      "extra": {
-        "video_id": "M9G4guYg-i8",
-        "region": "US",
-        "channel": "HYBE LABELS",
-        "description": "TXT (투모로우바이투게더) 'Angel Bite' Official MV\n\nCredits:\nDirector: DQM\nAssistant Director : MonkeyChicken (Kim Dongkyu, Lee Jinseop), Kim Miseon\n\nProduction: blue\nExecutive Producer: Euis\nProducer: Jeong Kiwook, Yoon Damyoung, Choi Hari, Im Chaeryun\n\nPA: ASSIST\nHwang Chanwon, Lee Hakyoung, Yu Hyeonseok, K"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "8f966cd0daea",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 2,
-      "title": "《最礼乐崩坏の一集》",
-      "title_zh": "《最礼乐崩坏の一集》",
-      "url": "https://b23.tv/BV1b2sK6aEJ9",
-      "hot_value": "638472",
-      "summary_zh": null,
-      "thumbnail": "http://i2.hdslb.com/bfs/archive/90bb5c12fae82425e158f5c51e9142a019427af0.jpg",
-      "published_at": "2026-11-17T04:00:00+00:00",
-      "extra": {
-        "bvid": "BV1b2sK6aEJ9",
-        "owner": "伤心欲茄222"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b6d8e369978f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 2,
-      "title": "APEC峰会有哪些领导人参加",
-      "title_zh": "APEC峰会有哪些领导人参加",
-      "url": "https://www.douyin.com/search/APEC%E5%B3%B0%E4%BC%9A%E6%9C%89%E5%93%AA%E4%BA%9B%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%8F%82%E5%8A%A0",
-      "hot_value": "11273517",
-      "summary_zh": null,
-      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/oYLznfBV9AtpBxpFIfHg77BCEo7eQtZBBWoAQG~noop.jpeg?lk3s=bfd515bb&x-expires=1794931200&x-signature=oc1LX0eh44E%2BPsMv3%2F0ysPU9i%2Fc%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2750628"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "4fadc61f0c33",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
       "source": "feed",
       "rank": 2,
       "title": "长鑫科技：LPDDR6 将拓展智能驾驶等场景，车规存储需求呈增长态势",
@@ -899,61 +1873,6 @@
       "is_new": true,
       "rank_delta": "new",
       "cluster_id": "1f41d8a8f0b8",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 2,
-      "title": "mvanhorn/last30days-skill",
-      "title_zh": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "hot_value": "135 stars today",
-      "summary_zh": "AI代理跨平台调研话题并生成有据总结，适合快速研究。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "language": "Python"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "ab6267882557",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 2,
-      "title": "什么因素对秋招影响更大？",
-      "title_zh": "什么因素对秋招影响更大？",
-      "url": "https://www.nowcoder.com/feed/main/detail/b4812169ebd943b9ab1a001eb54e7ef7",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招"
-        ],
-        "description": ""
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "259442aac12d",
       "cluster_size": 1,
       "rank_history": [
         {
@@ -1123,35 +2042,6 @@
       ]
     },
     {
-      "source": "nowcoder",
-      "rank": 3,
-      "title": "转行嵌入式学习路线(已拿下55万offer",
-      "title_zh": "转行嵌入式学习路线(已拿下55万offer",
-      "url": "https://www.nowcoder.com/feed/main/detail/311456f92a8f4d3aa5170c9fd9408329",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "offer"
-        ],
-        "description": ""
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "c6bc025c50c5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
       "source": "papers",
       "rank": 3,
       "title": "CellStressDB: an AI-powered database of cellular responses to physical stressors",
@@ -1187,129 +2077,17 @@
           "rank": 3
         }
       ]
-    }
-  ],
-  "dropped": [
-    {
-      "source": "bilibili",
-      "rank": 1,
-      "title": "【伪纪录片】镜 化",
-      "title_zh": "【伪纪录片】镜 化",
-      "url": "https://b23.tv/BV1Uesp6yEsM",
-      "hot_value": "2996654",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/5a202db2daa18fc4ffbdef57b233b587dad063e7.jpg",
-      "published_at": "2026-11-15T10:47:59+00:00",
-      "extra": {
-        "bvid": "BV1Uesp6yEsM",
-        "owner": "虚构柠檬"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "f1127aad765d",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 1,
-      "title": "习近平将同普京特朗普会晤",
-      "title_zh": "习近平将同普京特朗普会晤",
-      "url": "https://www.douyin.com/search/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E5%90%8C%E6%99%AE%E4%BA%AC%E7%89%B9%E6%9C%97%E6%99%AE%E4%BC%9A%E6%99%A4",
-      "hot_value": "12109006",
-      "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-i-dy/dc546dd61b6a40f3b6b4d97c05a6e2a0~noop.jpeg?lk3s=bfd515bb&x-expires=1794841200&x-signature=2sHv9gvHQopnj7kGqpxNKPLIPCk%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2748056"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "2fe7f5fecacc",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 1,
-      "title": "小鹏集团 2026 财年第三财季归母亏损 8.68 亿元，同比增长 127.9%",
-      "title_zh": "小鹏集团 2026 财年第三财季归母亏损 8.68 亿元，同比增长 127.9%",
-      "url": "https://www.ithome.com/1/027/884.htm",
-      "hot_value": null,
-      "summary_zh": "IT之家 11 月 16 日消息，小鹏集团今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）报告： 营业总收入 ：242.76 亿元，同比增长 19.1%，环比增长 23% 毛利润 ：46 亿元，同比增长 12.08%，环比增长 12.65% 毛利率 ：18.9% 归母净利润 ：-8.68 亿元，同比增长 127.9%，环比下降 35.1% 基本每股收益 ：-0.45 元，同比亏损扩大 125%，环比亏损收窄 35.71% 稀释每股收益 ：-0.45 元，同比亏损扩大 125%，环比亏损收窄 35.71% 资产负债率 ：74.29% AI 解读 本季总营收超出市场一致预期（约 231.70 亿元），归母净亏损略小于市场预期（约 -8.61 亿元）， 整体业绩略超机构预期 。 公司概况与本季业绩亮点 小鹏集团是全球领",
-      "thumbnail": null,
-      "published_at": "2026-11-16T09:43:48+00:00",
-      "extra": {
-        "feed_name": "IT之家",
-        "tab": "ai",
-        "route": "/ithome/it",
-        "translate": false,
-        "description": "IT之家 11 月 16 日消息，小鹏集团今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）报告： 营业总收入 ：242.76 亿元，同比增长 19.1%，环比增长 23% 毛利润 ：46 亿元，同比增长 12.08%，环比增长 12.65% 毛利率 ：18.9% 归母净利润 ：-8.68 亿元，同比增长 127.9%，环比下降 35.1% 基本每股收益 ：-0.45 元，同比亏损扩大 125%，环比亏损收窄 35.71% 稀释每股收益 ：-0.45 元，同比亏损扩大 125%，环比亏损收窄 35.71% 资产负债率 ：74.29% AI 解读 本季总营收超出市场一致预期（约 231.70 亿元），归母净亏损略小于市场预期（约 -8.61 亿元）， 整体业绩略超机构预期 。 公司概况与本季业绩亮点 小鹏集团是全球领",
-        "dedupe_key": "https://www.ithome.com/1/027/884.htm"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "db3adde17033",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 1,
-      "title": "27届秋招总结",
-      "title_zh": "27届秋招总结",
-      "url": "https://www.nowcoder.com/feed/main/detail/8728b646d6804bb39887361da6715910",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招"
-        ],
-        "description": ""
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "dfd93a88c09e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
-        }
-      ]
     },
     {
       "source": "telegram",
-      "rank": 1,
-      "title": "📰 BleepingComputer Microsoft pushes Windows emergency updates to fix activation failures Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...] #CyberNews #Infosec",
-      "title_zh": "📰 BleepingComputer 微软推送 Windows 紧急更新修复激活失败 微软发布了紧急带外更新，修复本月安全更新导致的 Windows 激活和授权失败。[...] #CyberNews #Infosec",
-      "url": "https://t.me/cyber_security_feed/37392",
-      "hot_value": "8",
+      "rank": 3,
+      "title": "📰 BleepingComputer Court clears brothers of $25 million Ethereum crypto heist charges US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...] #CyberNews #",
+      "title_zh": "📰 BleepingComputer 法院宣判兄弟俩2500万美元以太坊加密货币盗窃指控不成立 美国地区法官Jessica Clarke宣判两名被控通过利用以太坊区块链漏洞在约12秒内窃取2500万美元加密货币的兄弟无罪。[...] #CyberNews #",
+      "url": "https://t.me/cyber_security_feed/37422",
+      "hot_value": "11",
       "summary_zh": null,
       "thumbnail": null,
-      "published_at": "2026-11-16T09:07:11+00:00",
+      "published_at": "2026-11-17T10:07:10+00:00",
       "extra": {
         "channel": "cyber_security_feed",
         "translate": true
@@ -1317,22 +2095,22 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "ce3b25895e58",
+      "cluster_id": "f13a24a569f0",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "weibo",
-      "rank": 1,
-      "title": "中俄美元首会晤将在深圳举行",
-      "title_zh": "中俄美元首会晤将在深圳举行",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%B0%86%E5%9C%A8%E6%B7%B1%E5%9C%B3%E4%B8%BE%E8%A1%8C%23",
-      "hot_value": "1205630",
+      "rank": 3,
+      "title": "2026APEC这些看点值得期待",
+      "title_zh": "2026APEC这些看点值得期待",
+      "url": "https://s.weibo.com/weibo?q=%232026APEC%E8%BF%99%E4%BA%9B%E7%9C%8B%E7%82%B9%E5%80%BC%E5%BE%97%E6%9C%9F%E5%BE%85%23",
+      "hot_value": "619953",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": null,
@@ -1342,356 +2120,39 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "aa99793d8c7e",
-      "cluster_size": 2,
+      "cluster_id": "5e0c9d2c78db",
+      "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "youtube",
-      "rank": 1,
-      "title": "Top 50 Christmas Songs of ALL Time 🎅 Best Christmas Music Playlist 🎄🎁 Merry Christmas Songs",
-      "title_zh": "史上最伟大的 50 首圣诞歌曲 🎅 最佳圣诞音乐播放列表 🎄🎁 圣诞快乐歌曲",
-      "url": "https://youtube.com/watch?v=o2LLvKf608Y",
-      "hot_value": "181922",
-      "summary_zh": "圣诞金曲合集：50首经典圣诞歌曲播放列表，营造节日温暖氛围。",
-      "thumbnail": "https://i.ytimg.com/vi/o2LLvKf608Y/hqdefault.jpg",
-      "published_at": "2026-11-15T07:39:30Z",
+      "rank": 3,
+      "title": "The Last Modded GTA 5 Free Roam Video...",
+      "title_zh": "最后一个模组版GTA 5自由漫游视频……",
+      "url": "https://youtube.com/watch?v=wt_W2w_N_Jk",
+      "hot_value": "2186594",
+      "summary_zh": "GTA5改装自由漫游收官视频，老玩家情怀告别之作。",
+      "thumbnail": "https://i.ytimg.com/vi/wt_W2w_N_Jk/hqdefault.jpg",
+      "published_at": "2026-11-16T20:13:06Z",
       "extra": {
-        "video_id": "o2LLvKf608Y",
+        "video_id": "wt_W2w_N_Jk",
         "region": "US",
-        "channel": "Winter Glow Christmas",
-        "description": "Top 50 Christmas Songs of ALL Time 🎅 Best Christmas Music Playlist 🎄🎁 Merry Christmas Songs\n❄️🎁🎄 Welcome to Winter Glow Christmas ✨\nLet the warmth of Christmas fill your heart with beautiful melodies, timeless memories, and the magical spirit of the holiday season. ❤️\n\n🎶 **TRACKLIST**\n\n\n✨ **CONNECT "
+        "channel": "SMii7Y",
+        "description": "The end of an era... potentially. There have been so many incredible moments on this game. Thank you for sticking around through all of it!\n\nMERCH Available now! https://smii7y.store/\n\nUse code S7 on Gamer Supps for 10% OFF your order\nGet my GamerSupps flavor, GOOD here!: https://gamersupps.gg/s7\n\nC"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "feb0a84dde9d",
+      "cluster_id": "508e7d800427",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 2,
-      "title": "“46块3，问清一条规则。”",
-      "title_zh": "“46块3，问清一条规则。”",
-      "url": "https://b23.tv/BV1VBs76qE16",
-      "hot_value": "1670705",
-      "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/7155219e45baa29b68001b7e0ff43cbcb7d4a679.jpg",
-      "published_at": "2026-11-15T00:20:00+00:00",
-      "extra": {
-        "bvid": "BV1VBs76qE16",
-        "owner": "我爱吃派大星"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "549beac7df2f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 2,
-      "title": "第一视角记录APEC瞬间",
-      "title_zh": "第一视角记录APEC瞬间",
-      "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E8%AE%B0%E5%BD%95APEC%E7%9E%AC%E9%97%B4",
-      "hot_value": "12040339",
-      "summary_zh": null,
-      "thumbnail": "https://p26-sign.douyinpic.com/tos-cn-p-0015/oAiBMmHVeAIBBIeIi2TWH7YCE25fIQBRBzUAIB~noop.jpeg?lk3s=bfd515bb&x-expires=1794841200&x-signature=rHJaSXIoEzISyzr0UO%2FugQ9%2FpfY%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2747560"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "81dcb29bbf7a",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 2,
-      "title": "美国连续 3 天上万航班延误或取消，交通部长甩锅“历史问题”并拒绝道歉",
-      "title_zh": "美国连续 3 天上万航班延误或取消，交通部长甩锅“历史问题”并拒绝道歉",
-      "url": "https://www.ithome.com/1/027/879.htm",
-      "hot_value": null,
-      "summary_zh": "IT之家 11 月 16 日消息，北京时间 11 月 14 日凌晨，美国航空交通管制系统发生大规模通信故障， 美国联邦航空管理局（FAA）在约半小时内将局部停飞升级为全国性地面停飞 ，要求所有待起飞航班留在地面，直至另行通知。 图源：Pixabay 据央视新闻今日报道，美国航空运输业在经历联邦航空管理局（FAA）全国航班停飞事件后， 预计将于当地时间 11 月 16 日全面恢复正常 。 根据 CCTV国际时讯 最新报道，当地时间 11 月 15 日，美国交通部长达菲在接受美国全国广播公司采访时表示， 他不会为 11 月 13 日发生的全美航班地面停飞事件道歉 。达菲称， 虽然事情发生在他的任期内，但其根源是历史遗留问题 。 达菲称，无论是民主党还是共和党都对此事件负有责任， 因为美国航空业的基础设施投资不足可追溯至二三十年前 。 IT之家注意到，截至当晚，全美有超过 11500 架次航班受",
-      "thumbnail": null,
-      "published_at": "2026-11-16T09:42:29+00:00",
-      "extra": {
-        "feed_name": "IT之家",
-        "tab": "ai",
-        "route": "/ithome/it",
-        "translate": false,
-        "description": "IT之家 11 月 16 日消息，北京时间 11 月 14 日凌晨，美国航空交通管制系统发生大规模通信故障， 美国联邦航空管理局（FAA）在约半小时内将局部停飞升级为全国性地面停飞 ，要求所有待起飞航班留在地面，直至另行通知。 图源：Pixabay 据央视新闻今日报道，美国航空运输业在经历联邦航空管理局（FAA）全国航班停飞事件后， 预计将于当地时间 11 月 16 日全面恢复正常 。 根据 CCTV国际时讯 最新报道，当地时间 11 月 15 日，美国交通部长达菲在接受美国全国广播公司采访时表示， 他不会为 11 月 13 日发生的全美航班地面停飞事件道歉 。达菲称， 虽然事情发生在他的任期内，但其根源是历史遗留问题 。 达菲称，无论是民主党还是共和党都对此事件负有责任， 因为美国航空业的基础设施投资不足可追溯至二三十年前 。 IT之家注意到，截至当晚，全美有超过 11500 架次航班受",
-        "dedupe_key": "https://www.ithome.com/1/027/879.htm"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "73c2e15f44c5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 2,
-      "title": "27届硕士第二次秋招总结1——互联网开发方向",
-      "title_zh": "27届硕士第二次秋招总结1——互联网开发方向",
-      "url": "https://www.nowcoder.com/feed/main/detail/5753b3e960ee49798f2e6e5df11d8511",
-      "hot_value": "命中 1 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招"
-        ],
-        "description": ""
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "a5eff9e6a6d7",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 2,
-      "title": "A Topology-Feature Disentangled Deep Clustering Method for scRNA-seq Based on Graph-to-MLP Distillation.",
-      "title_zh": "一种基于图到MLP蒸馏的scRNA-seq拓扑特征解缠深度聚类方法。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43021569/",
-      "hot_value": null,
-      "summary_zh": "图神经网络（GNN）由于能够建模细胞间的拓扑关系，已逐渐成为单细胞RNA测序（scRNA-seq）数据聚类分析的主流方法。然而，其实际应用仍面临以下挑战：（1）过度平滑破坏细胞异质性；（2）预构建图引入端到端依赖；（3）大规模细胞图计算密集。为充分利用scRNA-seq数据中的表达谱和拓扑信息并克服这些限制，本文提出一种融入AdaBoost原理的图到MLP（G2M）知识蒸馏方法，并在此基础上构建图解缠单细胞聚类框架——scAdaG2M。该框架利用GNN教师模型在细胞图上学习细胞间高阶拓扑关系和局部邻域结构，而多个轻量MLP学生模型在无图设置下进行特征学习。结合AdaBoost式动态重加权策略，该框架增强了对难以区分细胞、边界模糊细胞和潜在稀有细胞群的表征能力，从而缓解过度平滑导致的细胞异质性稀释。同时，该框架有效解耦基于图的建模与无图推理，减少对预构建图的端到端依赖，并显著降低大规模细胞图",
-      "thumbnail": null,
-      "published_at": "2026-11-13",
-      "extra": {
-        "subsource": "pubmed",
-        "journal": "Bioinformatics (Oxford, England)",
-        "doi": "10.1093/bioinformatics/btag827",
-        "tier": "英文顶刊",
-        "mode": "filter",
-        "description": "Graph neural networks (GNNs), owing to their ability to model topological relationships between cells, have gradually emerged as a mainstream approach in the clustering analysis of single-cell RNA sequencing (scRNA-seq) data. However, their practical application still faces the following challenges: (1) excessive smoothing undermines cellular heterogeneity; (2) pre-constructed graphs introduce end-to-end dependencies; (3) large-scale cellular graph computations are computationally intensive. To fully utilise the expression profiles and topological information contained within scRNA-seq data and overcome these limitations, this paper proposes a Graph-to-MLP (G2M) knowledge distillation method incorporating AdaBoost principles, and builds upon this to develop a graph-disentangled single-cell clustering framework-scAdaG2M. This framework utilises a GNN teacher model to learn higher-order topological relationships and local neighbourhood structures between cells on a cellular graph, whilst multiple lightweight MLP student models perform feature learning in an ungraphed setting. By combining this with an AdaBoost-style dynamic reweighting strategy, the framework enhances the model's ability to characterise cells that are difficult to distinguish, cells with blurred boundaries, and potentially rare cell populations, thereby mitigating the dilution of cellular heterogeneity caused by over-smoothing. At the same time, this framework effectively decouples graph-based modelling from graph-free reasoning, reduces the end-to-end reliance on pre-constructed graphs, and significantly reduces the computational overhead associated with large-scale cellular graphs. All datasets used in this study are publicly available. Detailed information about all the single-cell datasets analyzed in this paper is provided in Supplementary Table 1. The source code is available at https://github.com/gxl1110/scAdaG2M and https://doi.org/10.5281/zenodo.21512950. Supplementary data are available at Bioinformatics online.",
-        "identifier": "43021569",
-        "dedupe_key": "doi:10.1093/bioinformatics/btag827",
-        "topic_hit": [
-          "单细胞聚类",
-          "稀有细胞",
-          "生物信息"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": [
-          "graph neural network",
-          "GNN"
-        ]
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "4244e602cedc",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "telegram",
-      "rank": 2,
-      "title": "🤖 Claude rebuilt the Starship catch in 3D, and you can play it in a browser Wharton professor Ethan Mollick gave Anthropic's Fable and Opus models one job: \"find video of the Starship catch. Render the last 40 seconds or so in 3D in 3js with extreme detail. Let me switch views. No need to include th",
-      "title_zh": "🤖 Claude 用 3D 重建了星舰捕获，你可以在浏览器里玩 沃顿教授 Ethan Mollick 给 Anthropic 的 Fable 和 Opus 模型布置了一个任务：“找星舰捕获的视频。用 3js 以极高细节把最后 40 秒左右渲染成 3D。让我切换视角。不需要包含 th",
-      "url": "https://t.me/aipost/8810",
-      "hot_value": "938",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-11-16T09:02:02+00:00",
-      "extra": {
-        "channel": "aipost",
-        "translate": true
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "21f4287c89d4",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 2,
-      "title": "无畏中了笔巨款",
-      "title_zh": "无畏中了笔巨款",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A0%E7%95%8F%E4%B8%AD%E4%BA%86%E7%AC%94%E5%B7%A8%E6%AC%BE%23",
-      "hot_value": "1012718",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "6b34c614d2d0",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "bilibili",
-      "rank": 3,
-      "title": "意念控制！推倒巨型多米诺！",
-      "title_zh": "意念控制！推倒巨型多米诺！",
-      "url": "https://b23.tv/BV11fWo6aEFf",
-      "hot_value": "829047",
-      "summary_zh": null,
-      "thumbnail": "http://i2.hdslb.com/bfs/archive/6abd425b60b88efa25b860963e3af104abbb886a.jpg",
-      "published_at": "2026-11-12T13:55:10+00:00",
-      "extra": {
-        "bvid": "BV11fWo6aEFf",
-        "owner": "剑客范十三"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "1d35eb3decb5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "douyin",
-      "rank": 3,
-      "title": "10月国民经济运行总体平稳向新向优",
-      "title_zh": "10月国民经济运行总体平稳向新向优",
-      "url": "https://www.douyin.com/search/10%E6%9C%88%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E8%BF%90%E8%A1%8C%E6%80%BB%E4%BD%93%E5%B9%B3%E7%A8%B3%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98",
-      "hot_value": "11687943",
-      "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/o46A7BdZAuaBntaV7PiCBB9VpEQ2QEF6IfkefD~noop.jpeg?lk3s=bfd515bb&x-expires=1794841200&x-signature=r06688Pav87haJsikx%2BwGL8niyk%3D&from=3218412987",
-      "published_at": null,
-      "extra": {
-        "sentence_id": "2748816"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "3131504c1e1a",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "nowcoder",
-      "rank": 3,
-      "title": "秋招0offer，人生完蛋了吗",
-      "title_zh": "秋招0offer，人生完蛋了吗",
-      "url": "https://www.nowcoder.com/feed/main/detail/b4b21d2530874969aeaf07bebdce1706",
-      "hot_value": "命中 2 个关键词",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "subsource": "rsshub",
-        "keyword_hit": [
-          "秋招",
-          "offer"
-        ],
-        "description": ""
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "eaee4569167f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "weibo",
-      "rank": 3,
-      "title": "一组图速览什么是APEC",
-      "title_zh": "一组图速览什么是APEC",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%BB%84%E5%9B%BE%E9%80%9F%E8%A7%88%E4%BB%80%E4%B9%88%E6%98%AFAPEC%23",
-      "hot_value": "716105",
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "category": null
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "c76ca1658da2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 3
         }
       ]
@@ -1699,25 +2160,25 @@
     {
       "source": "bilibili",
       "rank": 4,
-      "title": "命运让他们彼此对立，也让他们彼此靠近｜上",
-      "title_zh": "命运让他们彼此对立，也让他们彼此靠近｜上",
-      "url": "https://b23.tv/BV1jHsp69Ekg",
-      "hot_value": "1908104",
+      "title": "陈翔六点半：假如上学是修仙",
+      "title_zh": "陈翔六点半：假如上学是修仙",
+      "url": "https://b23.tv/BV1Ahsc6ME4o",
+      "hot_value": "1273859",
       "summary_zh": null,
-      "thumbnail": "http://i1.hdslb.com/bfs/archive/d1b39f1368dea0224896b0e10e20ed1cb4f4b7a6.jpg",
-      "published_at": "2026-11-15T10:20:51+00:00",
+      "thumbnail": "http://i2.hdslb.com/bfs/archive/31db67e1f0e2f794d172a97d8157b0dfe9042580.jpg",
+      "published_at": "2026-11-16T10:35:00+00:00",
       "extra": {
-        "bvid": "BV1jHsp69Ekg",
-        "owner": "Foyege弗曳哥"
+        "bvid": "BV1Ahsc6ME4o",
+        "owner": "陈翔六点半"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "0bc50beb949e",
+      "cluster_id": "a6ee179748b0",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 4
         }
       ]
@@ -1725,24 +2186,24 @@
     {
       "source": "douyin",
       "rank": 4,
-      "title": "火箭147:119奇才",
-      "title_zh": "火箭147:119奇才",
-      "url": "https://www.douyin.com/search/%E7%81%AB%E7%AE%AD147%3A119%E5%A5%87%E6%89%8D",
-      "hot_value": "11138777",
+      "title": "在深圳读懂APEC中国故事",
+      "title_zh": "在深圳读懂APEC中国故事",
+      "url": "https://www.douyin.com/search/%E5%9C%A8%E6%B7%B1%E5%9C%B3%E8%AF%BB%E6%87%82APEC%E4%B8%AD%E5%9B%BD%E6%95%85%E4%BA%8B",
+      "hot_value": "11037577",
       "summary_zh": null,
-      "thumbnail": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-p-0015/oE9dpi7I92QIAi8PrvYIP8viTTY3B2aCx6pIA~noop.jpeg?lk3s=bfd515bb&x-expires=1794841200&x-signature=wzzDsiZuct7flIMHH8I%2BUXuRLSE%3D&from=3218412987",
+      "thumbnail": "https://p11-sign.douyinpic.com/tos-cn-p-0015/oowJSVv641AYBI3G31PAa048PiIXHiIIkQrT7~noop.jpeg?lk3s=bfd515bb&x-expires=1794931200&x-signature=Wj62TeoEc85SB5QoYxnVK4vjmkM%3D&from=3218412987",
       "published_at": null,
       "extra": {
-        "sentence_id": "2748060"
+        "sentence_id": "2749598"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "96916a87aeef",
+      "cluster_id": "544660d46ef1",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 4
         }
       ]
@@ -1755,7 +2216,7 @@
       "title": "CVPR 2027 截止",
       "title_zh": "CVPR 2027 截止",
       "url": "https://cvpr.thecvf.com/Conferences/2027",
-      "hot_value": "距截止 1 天",
+      "hot_value": "距截止 0 天",
       "summary_zh": "IEEE/CVF Conference on Computer Vision and Pattern Recognition · Seattle, WA, United States · 官网",
       "thumbnail": null,
       "published_at": "2026-11-17T11:59:59+00:00",
@@ -1763,21 +2224,17 @@
         "subsource": "ai-deadlines",
         "conference": "CVPR",
         "deadline": "2026-11-17T11:59:59+00:00",
-        "days_left": 1,
+        "days_left": 0,
         "link": "https://cvpr.thecvf.com/Conferences/2027",
         "full_name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
         "location": "Seattle, WA, United States"
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "02b7349cee7a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 2
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 2
@@ -1800,6 +2257,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 1
         }
       ]
@@ -1810,7 +2271,7 @@
       "title": "ACL 2027 截止",
       "title_zh": "ACL 2027 截止",
       "url": "https://2027.aclweb.org/",
-      "hot_value": "距截止 50 天",
+      "hot_value": "距截止 49 天",
       "summary_zh": "Annual Meeting of the Association for Computational Linguistics · Kyoto, Japan · 官网",
       "thumbnail": null,
       "published_at": "2027-01-05T11:59:59+00:00",
@@ -1818,21 +2279,17 @@
         "subsource": "ai-deadlines",
         "conference": "ACL",
         "deadline": "2027-01-05T11:59:59+00:00",
-        "days_left": 50,
+        "days_left": 49,
         "link": "https://2027.aclweb.org/",
         "full_name": "Annual Meeting of the Association for Computational Linguistics",
         "location": "Kyoto, Japan"
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "416521fdefd2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 3
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 3
@@ -1855,6 +2312,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 2
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 2
         }
       ]
@@ -1865,7 +2326,7 @@
       "title": "ISMB 2027 截止",
       "title_zh": "ISMB 2027 截止",
       "url": "https://www.iscb.org/ismbeccb2027/",
-      "hot_value": "距截止 60 天",
+      "hot_value": "距截止 59 天",
       "summary_zh": "International Conference on Intelligent Systems for Molecular Biology · Copenhagen, Denmark · 官网",
       "thumbnail": null,
       "published_at": "2027-01-15T11:59:00+00:00",
@@ -1873,21 +2334,17 @@
         "subsource": "ai-deadlines",
         "conference": "ISMB",
         "deadline": "2027-01-15T11:59:00+00:00",
-        "days_left": 60,
+        "days_left": 59,
         "link": "https://www.iscb.org/ismbeccb2027/",
         "full_name": "International Conference on Intelligent Systems for Molecular Biology",
         "location": "Copenhagen, Denmark"
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "ef8a16b9d93b",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 4
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 4
@@ -1910,6 +2367,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 3
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 3
         }
       ]
@@ -1943,16 +2404,12 @@
           "机器学习"
         ]
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "21f183cb244e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 21
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 21
@@ -1975,6 +2432,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 21
         }
       ]
@@ -2007,16 +2468,12 @@
           "智能体"
         ]
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "275b1142e536",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 22
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 22
@@ -2039,6 +2496,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 22
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 22
         }
       ]
@@ -2069,16 +2530,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "0f3899815dcb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 23
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 23
@@ -2101,6 +2558,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 23
         }
       ]
@@ -2131,16 +2592,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "e3b383e32d83",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 24
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 24
@@ -2163,6 +2620,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 24
         }
       ]
@@ -2193,16 +2654,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "88d128bf6e20",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 25
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 25
@@ -2225,6 +2682,10 @@
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 25
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 25
         }
       ]
@@ -2254,16 +2715,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "df5e12bc430c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 28
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 28
@@ -2287,16 +2744,20 @@
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 28
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 28
         }
       ]
     },
     {
       "source": "telegram",
-      "rank": 41,
+      "rank": 39,
       "title": "For all the info from today's update and a look back at 13 years of Telegram features — check out our blog: https://telegram.org/blog/welcome-messages-buttons-TG-13 August Features 1 • 2 • 3 • 4 • 5 • More",
       "title_zh": "关于今天更新的所有信息以及Telegram 13年功能回顾——请查看我们的博客：https://telegram.org/blog/welcome-messages-buttons-TG-13 八月功能 1 • 2 • 3 • 4 • 5 • 更多",
       "url": "https://t.me/telegram/460",
-      "hot_value": "2.6M",
+      "hot_value": "2.62M",
       "summary_zh": null,
       "thumbnail": null,
       "published_at": "2026-08-26T19:12:34+00:00",
@@ -2304,16 +2765,12 @@
         "channel": "telegram",
         "translate": true
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 2,
       "cluster_id": "3e7cca968a7c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 38
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 39
@@ -2337,12 +2794,16 @@
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 41
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 39
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 73,
+      "rank": 54,
       "title": "1.13.0a2",
       "title_zh": "1.13.0a2",
       "url": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2",
@@ -2358,16 +2819,12 @@
         "description": "https://scanpy.scverse.org/en/stable/release-notes/#v1-13-0a2",
         "dedupe_key": "https://github.com/scverse/scanpy/releases/tag/1.13.0a2"
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
-      "rank_delta": -26,
+      "rank_delta": 19,
       "cluster_id": "768fc0d2e613",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 88
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 87
@@ -2391,383 +2848,16 @@
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 73
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 77,
-      "title": "Data Science Intern (Data Analytics & AI) 108216",
-      "title_zh": "Data Science Intern (Data Analytics & AI) 108216",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Data-Analytics---AI-_R108216",
-      "hot_value": null,
-      "summary_zh": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, W",
-      "thumbnail": null,
-      "published_at": "2026年10月05日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 34,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "5af75ecaf321",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 91
         },
         {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 90
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 90
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 90
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 73
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 77
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 78,
-      "title": "Data Science Intern 107974",
-      "title_zh": "Data Science Intern 107974",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Analytics---6-month-internship_R107974",
-      "hot_value": null,
-      "summary_zh": "Business Unit Tencent Games was established in 2003. We are a leading global platform for game development, operations and publishing, and the largest online game community in China. Tencent Games has",
-      "thumbnail": null,
-      "published_at": "2026年09月03日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 34,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "e5794d9db6eb",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 91
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 74
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 78
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 79,
-      "title": "腾讯云-AgentRuntime研发高级工程师for AI产品",
-      "title_zh": "腾讯云-AgentRuntime研发高级工程师for AI产品",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2099353703831224320",
-      "hot_value": null,
-      "summary_zh": "1.深入 WorkBuddy、ima、企业微信、小微等腾讯核心 Agent 业务，与业务团队联合完成 AgentRuntime 的方案设计、研发接入、性能优化和生产落地； 2.围绕对话式 Agent、常驻 Agent、长任务及多 Agent 等运行模式，持续建设生命周期管理、状态持久化、暂停恢复、弹性扩缩容、工具执行和网络访问等 Runtime 能力； 3.解决核心业务生产环境中的复杂系统问题，能",
-      "thumbnail": null,
-      "published_at": "2026年09月14日",
-      "extra": {
-        "company": "腾讯",
-        "city": "深圳",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 34,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "bda4c8495936",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 92
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 75
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 79
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 80,
-      "title": "Data Science Intern",
-      "title_zh": "Data Science Intern",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Game-Engine-R-D-Specialist_R106237-1",
-      "hot_value": null,
-      "summary_zh": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the w",
-      "thumbnail": null,
-      "published_at": "2026年02月24日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 34,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "58f9c55a2a00",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 93
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 80
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 81,
-      "title": "Data Science Intern 107259",
-      "title_zh": "Data Science Intern 107259",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107259-2",
-      "hot_value": null,
-      "summary_zh": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the w",
-      "thumbnail": null,
-      "published_at": "2026年05月06日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 34,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "93dd669d01c2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 94
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 77
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 81
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 82,
-      "title": "Data Science Intern 107361",
-      "title_zh": "Data Science Intern 107361",
-      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern_R107361-1",
-      "hot_value": null,
-      "summary_zh": "About the Hiring Team Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the w",
-      "thumbnail": null,
-      "published_at": "2026年04月22日",
-      "extra": {
-        "company": "腾讯",
-        "city": "新加坡",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 34,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "b781642bb044",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 96
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 95
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 78
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 82
-        }
-      ]
-    },
-    {
-      "source": "jobs",
-      "rank": 86,
-      "title": "腾讯云-大数据产品客户成功经理-for 海外",
-      "title_zh": "腾讯云-大数据产品客户成功经理-for 海外",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2047217902628794368",
-      "hot_value": null,
-      "summary_zh": "1.负责大数据产品国内及海外大项目交付管理，按合同约定完成产品交付，对产品交付的范围、进度、质量负责； 2.负责交付后客户维护和深耕，客户全生命周期管理，能够根据客户业务特点和需求，引导客户使用产品并进行深层价值落地，对客户大数据产品系统的健康度、使用深度负责，周期性拜访客户，维护客户关系； 3.据客户业务需求撰写方案，提供产品培训，解决用户关于产品的各种使用问题，持续挖掘客户业务场景，并为客户提",
-      "thumbnail": null,
-      "published_at": "2026年10月20日",
-      "extra": {
-        "company": "腾讯",
-        "city": "深圳",
-        "keywords_hit": [
-          "AI for Science"
-        ]
-      },
-      "days_on_board": 34,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "97af6ca01a6b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 100
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 99
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 82
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 86
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 54
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 87,
+      "rank": 64,
       "title": "Version 5.6.0",
       "title_zh": "版本5.6.0",
       "url": "https://github.com/satijalab/seurat/releases/tag/v5.6.0",
@@ -2783,16 +2873,12 @@
         "description": "Changes Additions Added setThreads and getThreads to control threading in supported C++ kernels and uwot UMAP backends Updated NormalizeData to use threaded sparse log-normalization and reduce matrix-copying overhead Updated FindVariableFeatures to share a sparse VST implementation across assay versions with threaded standardized-variance calculations Updated ScaleData to center, scale, and clip d",
         "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.6.0"
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
-      "rank_delta": -6,
-      "cluster_id": "bf128c562147",
-      "cluster_size": 1,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
       "rank_history": [
-        {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 84
-        },
         {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
           "rank": 83
@@ -2816,59 +2902,441 @@
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
           "rank": 87
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 64
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 65,
+      "title": "scvi-tools 1.5.1",
+      "title_zh": "scvi-tools 1.5.1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-09-10T12:03:41+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.1"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "92de253c91a7",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 80
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 82
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 65
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 67,
+      "title": "scvi-tools 1.5.0.post1",
+      "title_zh": "scvi-tools 1.5.0.post1",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0.post1",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-07-09T17:34:20+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0.post1"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "8a4eca2177ca",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 84
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 67
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 68,
+      "title": "scvi-tools 1.5.0",
+      "title_zh": "scvi-tools 1.5.0",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-07-09T08:06:25+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.5.0"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "8b146ac8159b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 85
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 68
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 69,
+      "title": "Version 5.5.1",
+      "title_zh": "版本5.5.1",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.1",
+      "hot_value": null,
+      "summary_zh": "变更 新增 在RunUMAP中添加了uwot.init参数，可选自定义UMAP初始化方法（#10386）。修复 修复了PrepSCTFindMarkers在多模型情况下因theta过滤不当导致某些有效基因计数为零的问题（#10410）。修复了FindClusters在向resolution传递向量且使用自定义元数据时未正确设置元数据的问题。",
+      "thumbnail": null,
+      "published_at": "2026-06-26T13:14:06+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added uwot.init parameter to RunUMAP to optionally customize method of UMAP initialization ( #10386 ) Fixes Fixed bug in PrepSCTFindMarkers in the multi-model case that produced zero counts for some valid genes due to an incorrect filter for theta ( #10410 ) Fixed issue with FindClusters not setting metadata properly when a vector of resolutions is passed to resolution and a cust",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.5.1"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 87
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 86
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 69
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 71,
+      "title": "scvi-tools 1.4.3",
+      "title_zh": "scvi-tools 1.4.3",
+      "url": "https://github.com/scverse/scvi-tools/releases/tag/1.4.3",
+      "hot_value": null,
+      "summary_zh": "所有变更请见发布说明。此版本可通过PyPi获取：pip install scvi-tools。Conda版本将随后发布（通常不超过2天）。如有问题请在GitHub上报告。",
+      "thumbnail": null,
+      "published_at": "2026-05-12T13:29:21+00:00",
+      "extra": {
+        "feed_name": "scvi-tools 发版",
+        "tab": "tools",
+        "route": "https://github.com/scverse/scvi-tools/releases.atom",
+        "translate": true,
+        "description": "See the release notes for all changes. This release is available via PyPi: pip install scvi-tools Conda availability will follow (< 2 days typically) Please report any issues on GitHub .",
+        "dedupe_key": "https://github.com/scverse/scvi-tools/releases/tag/1.4.3"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "bbea1c662507",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 88
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 71
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 72,
+      "title": "Version 5.5.0",
+      "title_zh": "版本5.5.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.5.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 在ScaleData.IterableMatrix（BPCells）中添加了对vars.to.regress和latent.data的支持（#10300）。在SCTransform中添加了警告，当指定参考SCT模型时，do.correct.umi被硬设为F（#10329，#10366）。在FindMarkers/FindAllMarkers中，当在列主存储顺序的IterableMatrix（BPCells）上运行时添加了警告（#10365）。添加了plot_typ...",
+      "thumbnail": null,
+      "published_at": "2026-04-22T14:06:49+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added support for vars.to.regress and latent.data in ScaleData.IterableMatrix (BPCells) ( #10300 ) Added warning to SCTransform to notify that do.correct.umi is hard set to F when a reference SCT model is specified ( #10329 , #10366 ) Added warning to FindMarkers / FindAllMarkers when running on an IterableMatrix (BPCells) with column-major storage order ( #10365 ) Added plot_typ",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.5.0"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 92
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 89
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 72
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 73,
+      "title": "Version 5.4.0",
+      "title_zh": "版本5.4.0",
+      "url": "https://github.com/satijalab/seurat/releases/tag/v5.4.0",
+      "hot_value": null,
+      "summary_zh": "变更 新增 添加了对10x Space Ranger 4.0输出的支持（带分割的Visium数据）。更新了数据加载函数Load10X_Spatial、Read10X_Image。更新了GetTissueCoordinates.VisiumV2。更新了空间可视化函数SpatialPlot、SingleSpatialPlot、SpatialDimPlot、SpatialFeaturePlot。添加了辅助函数Read10X_Segmentations、Read10X_HD_GeoJson、Format10X_GeoJson_CellI...",
+      "thumbnail": null,
+      "published_at": "2025-12-15T15:22:32+00:00",
+      "extra": {
+        "feed_name": "seurat 发版",
+        "tab": "tools",
+        "route": "https://github.com/satijalab/seurat/releases.atom",
+        "translate": true,
+        "description": "Changes Additions Added support for 10x Space Ranger 4.0 outputs (Visium data with segmentations) Updated data loading functions Load10X_Spatial , Read10X_Image Updated GetTissueCoordinates.VisiumV2 Updated spatial visualization functions SpatialPlot , SingleSpatialPlot , SpatialDimPlot , SpatialFeaturePlot Added helper functions Read10X_Segmentations , Read10X_HD_GeoJson , Format10X_GeoJson_CellI",
+        "dedupe_key": "https://github.com/satijalab/seurat/releases/tag/v5.4.0"
+      },
+      "days_on_board": 35,
+      "is_new": false,
+      "rank_delta": 23,
+      "cluster_id": "73041ba6c337",
+      "cluster_size": 2,
+      "rank_history": [
+        {
+          "run_at": "2026-11-12T09:57:45.705243+00:00",
+          "rank": 95
+        },
+        {
+          "run_at": "2026-11-13T09:43:01.154501+00:00",
+          "rank": 91
+        },
+        {
+          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "rank": 94
+        },
+        {
+          "run_at": "2026-11-15T09:36:53.507951+00:00",
+          "rank": 93
+        },
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 90
+        },
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 96
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 73
         }
       ]
     },
     {
       "source": "jobs",
-      "rank": 87,
-      "title": "光子 AI-AI Infra工程师",
-      "title_zh": "光子 AI-AI Infra工程师",
-      "url": "http://careers.tencent.com/jobdesc.html?postId=2066702542833893376",
+      "rank": 76,
+      "title": "Data Science Intern (Data Analytics & AI) 108216",
+      "title_zh": "Data Science Intern (Data Analytics & AI) 108216",
+      "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/Singapore-CapitaSky/Data-Science-Intern--Data-Analytics---AI-_R108216",
       "hot_value": null,
-      "summary_zh": "1.模型训练和推理平台开发； 2.研究并应用模型优化技术到训练流程和在线服务中，提高运行时性能，降低资源占用； 3.业务侧模型部署和评测； 4.团队 gpu 资源管理与调度。",
+      "summary_zh": "Business Unit WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, W",
       "thumbnail": null,
-      "published_at": "2026年11月13日",
+      "published_at": "2026年10月05日",
       "extra": {
         "company": "腾讯",
-        "city": "深圳",
+        "city": "新加坡",
         "keywords_hit": [
           "AI for Science"
         ]
       },
-      "days_on_board": 34,
+      "days_on_board": 35,
       "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "9f84d3c11ab6",
+      "rank_delta": 1,
+      "cluster_id": "5af75ecaf321",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-11T09:34:43.336282+00:00",
-          "rank": 102
-        },
-        {
           "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 102
+          "rank": 91
         },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 100
+          "rank": 90
         },
         {
           "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 100
+          "rank": 90
         },
         {
           "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 100
+          "rank": 90
         },
         {
           "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 83
+          "rank": 73
         },
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 87
+          "rank": 77
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 76
         }
       ]
     }
