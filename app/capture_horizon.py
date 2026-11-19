@@ -8,11 +8,11 @@ import logging
 import os
 import re
 import tempfile
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote, urljoin, urlsplit
 
-import feedparser
 import httpx
 from selectolax.parser import HTMLParser
 
@@ -30,19 +30,21 @@ def safe_url(value: str | None, base: str = SITE_URL) -> str:
 
 
 def parse_feed(content: bytes) -> dict:
-    feed = feedparser.parse(content)
-    if feed.bozo and not feed.entries:
+    feed = ET.fromstring(content)
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    if feed.tag != "{http://www.w3.org/2005/Atom}feed":
         raise ValueError("Horizon returned an invalid feed")
     issues, items, seen = [], [], set()
-    for entry in feed.entries[:7]:
-        issue_url = safe_url(str(entry.get("link") or ""))
-        match = re.search(r"\d{4}-\d{2}-\d{2}", str(entry.get("title") or ""))
+    for entry in feed.findall("a:entry", ns)[:7]:
+        link = next((node for node in entry.findall("a:link", ns)
+                     if node.get("rel", "alternate") == "alternate"), None)
+        issue_url = safe_url(link.get("href") if link is not None else "")
+        match = re.search(r"\d{4}-\d{2}-\d{2}", entry.findtext("a:title", "", ns))
         if not issue_url or not match:
             continue
         issue_date = match.group()
         datetime.strptime(issue_date, "%Y-%m-%d")
-        parts = entry.get("content") or []
-        body = parts[0].get("value", "") if parts else entry.get("summary", "")
+        body = entry.findtext("a:content", "", ns) or entry.findtext("a:summary", "", ns)
         tree = HTMLParser(str(body))
         for node in tree.css("script, style, iframe, form"):
             node.decompose()
