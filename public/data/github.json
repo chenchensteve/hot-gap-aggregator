@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-11-18T10:19:41.832518+00:00",
+  "generated_at": "2026-11-19T10:38:57.363076+00:00",
   "source": "github",
   "status": {
     "source": "github",
     "status": "ok",
-    "item_count": 15,
-    "duration_ms": 3188,
+    "item_count": 19,
+    "duration_ms": 2790,
     "error": null,
-    "run_at": "2026-11-18T10:19:41.832518+00:00"
+    "run_at": "2026-11-19T10:38:57.363076+00:00"
   },
   "items": [
     {
       "source": "github",
       "rank": 1,
-      "title": "elementalsouls/Claude-BugHunter",
-      "title_zh": "elementalsouls/Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "hot_value": "1,005 stars today",
-      "summary_zh": "Claude漏洞猎手：82项技能加681份报告模式，助红队高效挖洞。",
+      "title": "cursor/plugins",
+      "title_zh": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "hot_value": "314 stars today",
+      "summary_zh": "Cursor插件规范与官方插件，扩展编辑器能力。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-        "language": "Python"
+        "description": "Cursor plugin specification and official plugins",
+        "language": "TypeScript"
       },
       "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "2b3bd62acc09",
+      "rank_delta": 7,
+      "cluster_id": "fb7f8e976cb0",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 9
-        },
-        {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 1
+          "rank": 8
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 8
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 1
         }
       ]
@@ -47,10 +47,36 @@
     {
       "source": "github",
       "rank": 2,
+      "title": "HKUDS/CLI-Anything",
+      "title_zh": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "hot_value": "389 stars today",
+      "summary_zh": "让所有软件变成智能体原生，提供CLI-Hub入口。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "2c630d391e68",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 3,
       "title": "mvanhorn/last30days-skill",
       "title_zh": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "hot_value": "696 stars today",
+      "hot_value": "1,059 stars today",
       "summary_zh": "AI代理跨平台调研话题并生成有据总结，适合快速研究。",
       "thumbnail": null,
       "published_at": null,
@@ -58,9 +84,9 @@
         "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
         "language": "Python"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -1,
       "cluster_id": "ab6267882557",
       "cluster_size": 1,
       "rank_history": [
@@ -71,47 +97,9 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 2
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 3,
-      "title": "alibaba/open-code-review",
-      "title_zh": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "hot_value": "763 stars today",
-      "summary_zh": "阿里开源代码审查工具，混合架构精准行级评论，内置多语言安全规则。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-        "language": "Go"
-      },
-      "days_on_board": 5,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "ee41dc481c41",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 1
         },
         {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 3
         }
       ]
@@ -119,86 +107,10 @@
     {
       "source": "github",
       "rank": 4,
-      "title": "Tencent/LoopForge",
-      "title_zh": "Tencent/LoopForge",
-      "url": "https://github.com/Tencent/LoopForge",
-      "hot_value": "591 stars today",
-      "summary_zh": "腾讯自托管编码代理工作流，含人工审批门控。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-        "language": "Go"
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "64bfdc15f723",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 13
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 5,
-      "title": "dream-num/univer",
-      "title_zh": "dream-num/univer",
-      "url": "https://github.com/dream-num/univer",
-      "hot_value": "1,774 stars today",
-      "summary_zh": "Univer开源办公SDK，可嵌入AI代理的编辑计算协作功能。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "eb9db1e91cb5",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 5
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 6,
       "title": "getarcaneapp/arcane",
       "title_zh": "getarcaneapp/arcane",
       "url": "https://github.com/getarcaneapp/arcane",
-      "hot_value": "618 stars today",
+      "hot_value": "547 stars today",
       "summary_zh": "现代化Docker管理工具，界面友好人人可用，值得运维关注。",
       "thumbnail": null,
       "published_at": null,
@@ -206,9 +118,9 @@
         "description": "Modern Docker Management, Designed for Everyone",
         "language": "Go"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "56e044716a00",
       "cluster_size": 1,
       "rank_history": [
@@ -219,16 +131,136 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 6
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 5,
+      "title": "NVIDIA/SkillEvaluator",
+      "title_zh": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "hot_value": "312 stars today",
+      "summary_zh": "NVIDIA技能评估框架，多层级质检AI代理技能，含安全扫描与CI模板。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+        "language": "Python"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "eb89a6026b7d",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-16T09:54:02.263034+00:00",
+          "rank": 12
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 6,
+      "title": "nvm-sh/nvm",
+      "title_zh": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "hot_value": "237 stars today",
+      "summary_zh": "nvm是管理多个Node.js版本的POSIX兼容bash脚本。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "language": "Shell"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "59cd05c72d2c",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 6
         }
       ]
     },
     {
       "source": "github",
       "rank": 7,
+      "title": "astral-sh/uv",
+      "title_zh": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "hot_value": "258 stars today",
+      "summary_zh": "uv超快Python包管理器，Rust编写，大幅提速依赖安装。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "An extremely fast Python package and project manager, written in Rust.",
+        "language": "Rust"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c17b6efe5dbc",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 8,
+      "title": "google-research/paper-orchestra",
+      "title_zh": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "hot_value": "1,524 stars today",
+      "summary_zh": "多智能体框架自动撰写AI研究论文，学术自动化值得关注。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+        "language": "Python"
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": 7,
+      "cluster_id": "93d4164ebb82",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 15
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 9,
       "title": "google-labs-code/stitch-skills",
       "title_zh": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "hot_value": "350 stars today",
+      "hot_value": "365 stars today",
       "summary_zh": "Stitch技能库：为Stitch MCP服务器提供AI代理技能，兼容主流编码代",
       "thumbnail": null,
       "published_at": null,
@@ -236,9 +268,9 @@
         "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
         "language": "TypeScript"
       },
-      "days_on_board": 3,
+      "days_on_board": 4,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "57164f3c3e5e",
       "cluster_size": 1,
       "rank_history": [
@@ -253,65 +285,9 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 7
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 8,
-      "title": "cursor/plugins",
-      "title_zh": "cursor/plugins",
-      "url": "https://github.com/cursor/plugins",
-      "hot_value": "201 stars today",
-      "summary_zh": "Cursor插件规范与官方插件，扩展编辑器能力。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "Cursor plugin specification and official plugins",
-        "language": "TypeScript"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "fb7f8e976cb0",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 8
         },
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 8
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 9,
-      "title": "obra/superpowers",
-      "title_zh": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "hot_value": "1,917 stars today",
-      "summary_zh": "obra/superpowers：代理技能框架，软件开发方法论。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "An agentic skills framework & software development methodology that works.",
-        "language": "Shell"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "3d0d90fc2d2a",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 9
         }
       ]
@@ -319,90 +295,10 @@
     {
       "source": "github",
       "rank": 10,
-      "title": "ag-ui-protocol/ag-ui",
-      "title_zh": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "hot_value": "1,445 stars today",
-      "summary_zh": "AG-UI协议，让AI代理接入前端应用实现交互。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 4,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "c4f9640e43e4",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 2
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 10
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 10
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 11,
-      "title": "backnotprop/plannotator",
-      "title_zh": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "hot_value": "691 stars today",
-      "summary_zh": "团队协作规划工具，可标注代码并一键反馈给AI代理。",
-      "thumbnail": null,
-      "published_at": null,
-      "extra": {
-        "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-        "language": "TypeScript"
-      },
-      "days_on_board": 5,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "0bc42c1ce475",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 4
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 11
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 11
-        }
-      ]
-    },
-    {
-      "source": "github",
-      "rank": 12,
       "title": "sveltejs/svelte",
       "title_zh": "sveltejs/svelte",
       "url": "https://github.com/sveltejs/svelte",
-      "hot_value": "477 stars today",
+      "hot_value": "692 stars today",
       "summary_zh": "Svelte前端框架，简洁高效易上手，适合Web开发者了解。",
       "thumbnail": null,
       "published_at": null,
@@ -410,9 +306,9 @@
         "description": "web development for the rest of us",
         "language": "JavaScript"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "9843f76dcd01",
       "cluster_size": 1,
       "rank_history": [
@@ -423,16 +319,132 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 12
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 11,
+      "title": "jquery/jquery",
+      "title_zh": "jquery/jquery",
+      "url": "https://github.com/jquery/jquery",
+      "hot_value": "266 stars today",
+      "summary_zh": "jQuery经典JS库，简化DOM操作，前端开发常青树。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "jQuery JavaScript Library",
+        "language": "JavaScript"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ed4da01d6d0a",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 12,
+      "title": "appwrite/appwrite",
+      "title_zh": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "hot_value": "232 stars today",
+      "summary_zh": "Appwrite开源云后端，集成认证数据库存储等，开发者利器。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+        "language": "TypeScript"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "5afc2064a0e3",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 12
         }
       ]
     },
     {
       "source": "github",
       "rank": 13,
+      "title": "openvinotoolkit/openvino",
+      "title_zh": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "hot_value": "24 stars today",
+      "summary_zh": "OpenVINO开源工具包，优化部署AI推理，提升性能。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "language": "C++"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cc3b9ce6cda7",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 14,
+      "title": "obra/superpowers",
+      "title_zh": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "hot_value": "822 stars today",
+      "summary_zh": "obra/superpowers：代理技能框架，软件开发方法论。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "An agentic skills framework & software development methodology that works.",
+        "language": "Shell"
+      },
+      "days_on_board": 3,
+      "is_new": false,
+      "rank_delta": -5,
+      "cluster_id": "3d0d90fc2d2a",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-17T10:51:43.342351+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 9
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 15,
       "title": "affaan-m/ECC",
       "title_zh": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
-      "hot_value": "883 stars today",
+      "hot_value": "1,108 stars today",
       "summary_zh": "智能体性能优化系统，强化记忆安全。",
       "thumbnail": null,
       "published_at": null,
@@ -440,9 +452,9 @@
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "9317f65b1d4f",
       "cluster_size": 1,
       "rank_history": [
@@ -453,66 +465,114 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 13
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 15
         }
       ]
     },
     {
       "source": "github",
-      "rank": 14,
-      "title": "jingyaogong/minimind",
-      "title_zh": "jingyaogong/minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "hot_value": "192 stars today",
-      "summary_zh": "两小时从零训练64M参数大模型。",
+      "rank": 16,
+      "title": "DeanChensj/jiangshan-map",
+      "title_zh": "DeanChensj/jiangshan-map",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "hot_value": "218 stars today",
+      "summary_zh": "中国历史交互地图，横跨18朝198快照，直观呈现疆域变迁。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-        "language": "Python"
+        "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+        "language": "JavaScript"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "84c8de82dc8a",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "e34ffadd88da",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 14
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 14
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 16
         }
       ]
     },
     {
       "source": "github",
-      "rank": 15,
-      "title": "google-research/paper-orchestra",
-      "title_zh": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "hot_value": "1,072 stars today",
-      "summary_zh": "多智能体框架自动撰写AI研究论文，学术自动化值得关注。",
+      "rank": 17,
+      "title": "n8n-io/n8n",
+      "title_zh": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "hot_value": "325 stars today",
+      "summary_zh": "n8n：可视化加代码的工作流自动化平台，原生AI，400+集成，可自托管。",
       "thumbnail": null,
       "published_at": null,
       "extra": {
-        "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-        "language": "Python"
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "language": "TypeScript"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "93d4164ebb82",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c2653fcd7b0d",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 15
-        },
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 18,
+      "title": "solidjs/solid",
+      "title_zh": "solidjs/solid",
+      "url": "https://github.com/solidjs/solid",
+      "hot_value": "40 stars today",
+      "summary_zh": "Solid声明式JS UI库，高效灵活，构建高性能界面。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+        "language": "TypeScript"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c54bd38464ea",
+      "cluster_size": 1,
+      "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 15
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "source": "github",
+      "rank": 19,
+      "title": "punkpeye/awesome-mcp-servers",
+      "title_zh": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "hot_value": "53 stars today",
+      "summary_zh": "MCP服务器精选合集，一站式发现AI代理工具生态。",
+      "thumbnail": null,
+      "published_at": null,
+      "extra": {
+        "description": "A collection of MCP servers.",
+        "language": null
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "84d3921ca723",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 19
         }
       ]
     }

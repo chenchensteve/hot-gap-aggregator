@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T10:19:41.832518+00:00",
+  "generated_at": "2026-11-19T10:38:57.363076+00:00",
   "source": "papers",
   "status": {
     "source": "papers",
     "status": "ok",
-    "item_count": 68,
-    "duration_ms": 18761,
+    "item_count": 83,
+    "duration_ms": 14482,
     "error": null,
-    "run_at": "2026-11-18T10:19:41.832518+00:00"
+    "run_at": "2026-11-19T10:38:57.363076+00:00"
   },
   "items": [
     {
@@ -37,14 +37,18 @@
           "benchmark"
         ]
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "6e10157aff26",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 1
         }
       ]
@@ -77,7 +81,7 @@
           "graph neural network"
         ]
       },
-      "days_on_board": 6,
+      "days_on_board": 7,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "a327854abe96",
@@ -106,49 +110,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 2
         }
       ]
     },
     {
       "source": "papers",
       "rank": 3,
-      "title": "CellStressDB: an AI-powered database of cellular responses to physical stressors.",
-      "title_zh": "CellStressDB：一个AI驱动的细胞对物理应激源反应数据库。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43042471/",
-      "hot_value": null,
-      "summary_zh": "物理应激源通过触发协调的应激反应程序深刻影响细胞行为，这些程序调控信号传导、基因表达、代谢和细胞命运。在此，我们展示CellStressDB（https://cellstressdb.omic.tech），一个用于探索细胞对物理应激源反应的AI驱动数据库。当前版本包含来自131项转录组研究的数据，涵盖人类和小鼠九个物理应激类别和21个组织类别的2,364,816个细胞和1205个bulk样本观测。数据和分析组织为2848个索引分析条目，跨越71个规范物种-组织-应激背景，并保留详细暴露条件。CellStressDB通过22个组织感知分类器提供本体引导的细胞类型注释，并整合941个Geneformer检查点用于背景特异性计算机扰动。分析包括应激反应程序、差异基因表达、功能富集、调控子活性、细胞类型组成和细胞间通讯（适用时），以及候选化合物优先级排序、可下载数据集和模型，以及用户提供的转录组数",
-      "thumbnail": null,
-      "published_at": "2026-11-17",
-      "extra": {
-        "subsource": "pubmed",
-        "journal": "Nucleic acids research",
-        "doi": "10.1093/nar/gkag1193",
-        "tier": "英文顶刊",
-        "mode": "filter",
-        "description": "Physical stressors profoundly influence cellular behavior by triggering coordinated stress-response programs that regulate signaling, gene expression, metabolism, and cell fate. Here, we present CellStressDB (https://cellstressdb.omic.tech), an AI-powered database for exploring cellular responses to physical stressors. The current release contains data from 131 transcriptomic studies, with 2 364 816 cell and 1205 bulk sample observations from human and mouse across nine physical-stress classes and 21 tissue categories. Data and analyses are organized into 2848 indexed analysis entries across 71 canonical species-tissue-stress contexts with detailed exposure conditions retained. CellStressDB provides ontology-guided cell-type annotation through 22 tissue-aware classifiers and incorporates 941 Geneformer checkpoints for context-specific in silico perturbation. Analyses include stress-response programs, differential gene expression, functional enrichment, regulon activity, cell-type composition, and cell-cell communication where applicable, with candidate compound prioritization, downloadable datasets and models, and analysis of user-provided transcriptomic data. Annotation evaluation and known-factor recovery analyses indicated context-dependent performance and coverage across biological settings. The mouse radiation-intestine example identifies Stat1 as a candidate regulator of radiation-induced intestinal injury supported by independent experimental evidence. Overall, CellStressDB provides an integrated, AI-enabled framework for exploring and interpreting cellular responses to physical stressors and generating testable hypotheses.",
-        "identifier": "43042471",
-        "dedupe_key": "doi:10.1093/nar/gkag1193",
-        "topic_hit": [
-          "单细胞聚类"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "47b938114d49",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 4,
       "title": "SUN for scRNA-seq: stable-interval and embedding-based approximate silhouette guided Louvain resolution selection",
       "title_zh": "SUN用于scRNA-seq：稳定区间和基于嵌入的近似轮廓引导Louvain分辨率选择",
       "url": "https://doi.org/10.1186/s12859-026-06766-9",
@@ -172,7 +143,7 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 5,
+      "days_on_board": 6,
       "is_new": false,
       "rank_delta": 1,
       "cluster_id": "a3a48d93ae76",
@@ -197,50 +168,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 5,
-      "title": "CROST 2.0: an expanded repository of spatial transcriptomics",
-      "title_zh": "CROST 2.0：扩展的空间转录组学资源库",
-      "url": "https://doi.org/10.1093/nar/gkag1190",
-      "hot_value": null,
-      "summary_zh": "摘要 CROST（https://ngdc.cncb.ac.cn/crost）是一个公共空间转录组学资源，提供精选数据集、标准化分析结果、结构化空间知识和交互式探索工具。在2.0版本中，我们的集合扩展到544个项目和3538个样本，较1.0版本（182个项目和1033个样本）增长近三倍。我们还大幅扩展了空间共定位和空间可变癌症基因的衍生资源。为促进空间微环境分析，CROST 2.0引入了一个分析框架，包括 niche相关差异表达、空间分辨基因集活性分析、空间相互作用热点和主题分析，以及分子和细胞类型niche分析。CROST 2.0还提供Spatial Compare功能，用于比较样本间的空间基因表达、细胞类型分布和niche组成。它引入了Cancer NicheDE模块以系统表征癌症niche相关差异表达，并整合了在线细胞类型注释工具SCType，使单细胞参考信息可用于空间转录组分析。这",
-      "thumbnail": null,
-      "published_at": "2026-11-14",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Nucleic Acids Research",
-        "mode": "filter",
-        "issn": "1362-4962",
-        "doi": "10.1093/nar/gkag1190",
-        "description": "Abstract CROST (https://ngdc.cncb.ac.cn/crost) is a public spatial transcriptomics resource that offers curated datasets, standardized analytical results, structured spatial knowledge, and interactive exploration tools. In version 2.0, our collection has expanded to 544 projects and 3538 samples, nearly a three-fold increase from version 1.0 (182 projects and 1033 samples). We have also substantially expanded the derived resources for spatial colocalization and spatially variable cancer genes. To facilitate spatial microenvironment analysis, CROST 2.0 introduces an analytical framework comprising niche-associated differential expression, spatially resolved gene-set activity analysis, spatial interaction hotspot and topic analyses, and molecular and cell-type niche analysis. CROST 2.0 also provides the Spatial Compare function to compare spatial gene expression, cell-type distributions, and niche composition across samples. It introduces the Cancer NicheDE module to systematically characterize cancer niche-associated differential expression and integrates an online cell-type annotation tool, SCType, enabling the use of single-cell reference information in spatial transcriptomic analysis. These updates extend CROST into an integrated spatial transcriptomics resource for characterizing spatial microenvironments, investigating cancer-associated spatial features, and comparing spatial patterns across samples.",
-        "dedupe_key": "doi:10.1093/nar/gkag1190",
-        "topic_hit": [
-          "单细胞聚类",
-          "生物信息"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "093ab916218f",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 5
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 3
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 6,
+      "rank": 4,
       "title": "GLAlign integrates single-cell multi-omics data via global manifold and local marker gene alignment",
       "title_zh": "GLAlign通过全局流形和局部标记基因比对整合单细胞多组学数据",
       "url": "https://doi.org/10.1093/bib/bbag633",
@@ -264,9 +201,9 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 6,
+      "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "451f5a01c6d0",
       "cluster_size": 1,
       "rank_history": [
@@ -293,73 +230,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 6
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 7,
-      "title": "RankMap: rank-based reference mapping for fast and robust cell type annotation in spatial and single-cell transcriptomics",
-      "title_zh": "RankMap：基于排名的参考映射，用于空间和单细胞转录组学中快速稳健的细胞类型注释",
-      "url": "https://doi.org/10.1186/s12859-026-06699-3",
-      "hot_value": null,
-      "summary_zh": null,
-      "thumbnail": null,
-      "published_at": "2026-10-30",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "BMC Bioinformatics",
-        "mode": "all",
-        "issn": "1471-2105",
-        "doi": "10.1186/s12859-026-06699-3",
-        "description": "",
-        "dedupe_key": "doi:10.1186/s12859-026-06699-3",
-        "topic_hit": [
-          "单细胞聚类"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 19,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "c93448190ef6",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 1
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 3
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 7
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 8,
+      "rank": 5,
       "title": "HGMetaADR: a multimodal heterogeneous graph meta-learning framework for generalized adverse drug reaction prediction",
       "title_zh": "HGMetaADR：用于广义药物不良反应预测的多模态异质图元学习框架",
       "url": "https://doi.org/10.1093/bib/bbag539",
@@ -384,9 +264,9 @@
           "attention"
         ]
       },
-      "days_on_board": 6,
+      "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 3,
       "cluster_id": "d256addb9159",
       "cluster_size": 1,
       "rank_history": [
@@ -413,55 +293,90 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 8
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 9,
-      "title": "Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression.",
-      "title_zh": "联合单细胞捕获Cas9编辑和转录组，揭示对基因表达的靶向和非靶向效应。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43040035/",
-      "hot_value": null,
-      "summary_zh": "用CRISPR-Cas9进行基因组工程的一个长期障碍是无法在单细胞分辨率下测量编辑结果及其功能效应。在此我们提出Superb-seq，通过整合Cas9编辑、T7原位转录和单细胞RNA测序来捕获单细胞编辑和转录组效应。我们对来自三种细胞系的35,000个细胞进行了Superb-seq。使用七条guide RNA靶向10,000个K562细胞中的四个染色质重塑基因，Superb-seq检测到5,761个编辑细胞、所有靶向位点和36个非靶向位点。与Perturb-seq相比，Superb-seq改善了对下游扰动对基因表达效应的估计。我们将Superb-seq与4种bulk非靶向检测方法进行比较，在3条基准guide中鉴定出6到210个编辑位点。19个非靶向编辑与差异基因表达相关，其中9个具有细胞类型特异性。总之，Superb-seq通过将单细胞编辑与基因表达变化联系起来，阐明了Cas9基因组编辑",
-      "thumbnail": null,
-      "published_at": "2026-11-16",
-      "extra": {
-        "subsource": "pubmed",
-        "journal": "Nature methods",
-        "doi": "10.1038/s41592-026-03319-z",
-        "tier": "英文顶刊",
-        "mode": "filter",
-        "description": "A longstanding barrier in genome engineering with CRISPR-Cas9 has been the inability to measure editing outcomes and their functional effects at single-cell resolution. Here we present Superb-seq, which captures single-cell edits and transcriptome effects by integrating Cas9 editing, T7 in situ transcription and single-cell RNA sequencing. We performed Superb-seq on 35,000 cells from three cell lines. Using seven guide RNAs to target four chromatin remodeler genes in 10,000 K562 cells, Superb-seq detected 5,761 edited cells, all on-target sites and 36 off-target sites. Superb-seq improved estimation of downstream perturbation effects on gene expression compared to Perturb-seq. We compared Superb-seq to 4 bulk off-target detection methods and identified between 6 and 210 edit sites across 3 benchmarking guides. Nineteen off-target edits were associated with differential gene expression, nine of which were cell type-specific. In summary, Superb-seq illuminates the consequences of Cas9 genome editing by connecting single-cell edits with changes in gene expression.",
-        "identifier": "43040035",
-        "dedupe_key": "doi:10.1038/s41592-026-03319-z",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "ccaa7132c174",
-      "cluster_size": 2,
-      "rank_history": [
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 9
         },
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 9
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 5
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 10,
+      "rank": 6,
+      "title": "GI-DB: a comprehensive variant database for exploring the extensive genetic diversity of the Indian population.",
+      "title_zh": "GI-DB：一个用于探索印度人群广泛遗传多样性的综合变异数据库。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053325/",
+      "hot_value": null,
+      "summary_zh": "印度人口具有广泛的民族语言和生物地理多样性，在全球基因组资源中代表性严重不足，限制了南亚基因组医学的发展。为解决这一问题，作为GenomeIndia计划（印度政府生物技术部）的一部分，对来自83个人群的约10000个基因组进行了测序。在此，我们推出GI-DB（访问地址：https://ibdc.dbt.gov.in/gidb/），这是一个公共资源，收录了1.36亿个高置信度变异，其中包括4400万个不存在于其他全球和南亚数据库中的变异。GI-DB可作为印度各人群遗传变异的群体特异性参考资源。它可支持罕见病、复杂疾病和药物基因组学中临床相关变异的解读。该数据库的结构可提供部落与非部落群体、生物地理和民族语言类别的等位基因频率分层。交互式浏览器便于探索感兴趣的变异和基因，提供来自VEP、ClinVar等工具的详细注释，并与1000 Genomes、gnomAD和GenomeAsia等全球数据库",
+      "thumbnail": null,
+      "published_at": "2026-11-19",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nucleic acids research",
+        "doi": "10.1093/nar/gkag1179",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "The Indian population, characterized by extensive ethnolinguistic and biogeographical diversity, is significantly underrepresented in global genomic resources limiting the development of genomic medicine in South Asia. To address this, ~10 000 genomes from 83 populations were sequenced as part of the GenomeIndia initiative (Department of Biotechnology, Government of India). Here, we present GI-DB (accessible at https://ibdc.dbt.gov.in/gidb/), a public resource cataloging 136 million high-confidence variants, including 44 million variants which are not present in other global and South Asian databases. GI-DB serves as a population-specific reference resource for genetic variation across Indian populations. It can support the interpretation of clinically relevant variations for rare disease, complex disorders, and pharmacogenomics. The database is structured to provide allele frequency stratification across tribal and non-tribal groups, biogeography, and ethnolinguistic categories. The interactive browser facilitates exploration of variants and genes of interest, offering detailed annotations from tools like VEP, ClinVar, and comparisons with global databases like 1000 Genomes, gnomAD, and GenomeAsia. Researchers can search using different modalities and access data programmatically. GI-DB is a foundational resource for genomics-informed public health and clinical genetics, tailored for the Indian population.",
+        "identifier": "43053325",
+        "dedupe_key": "doi:10.1093/nar/gkag1179",
+        "topic_hit": [
+          "稀有细胞"
+        ],
+        "priority_rank": 1,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "14c96d85b5f6",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 7,
+      "title": "Global patterns and drivers of bee richness and endemism on islands.",
+      "title_zh": "岛屿蜜蜂丰富度和特有性的全球格局及驱动因素。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43052449/",
+      "hot_value": null,
+      "summary_zh": "岛屿在全球生物多样性中占比过高，但昆虫——包括蜜蜂等宝贵传粉者——在岛屿生物地理学研究中的代表性仍然不足。在此，我们呈现一份全球岛屿蜜蜂名录，记录了305个岛屿上的4147个物种。尽管岛屿仅占地球陆地面积约6%，却支撑着全球已知蜜蜂多样性的约20%，且42%的岛屿物种为特有种，约占所有已知蜜蜂物种的8%。岛屿蜜蜂物种丰富度在中纬度达到峰值（至少在北半球），与大陆趋势一致。本地丰富度随岛屿面积增加而上升，随隔离程度增加而下降，与其他类群的格局一致。岛屿物种-面积关系的强度因生物群系而异，在地中海型系统中最为陡峭，这些系统相对于开花植物多样性也支撑着不成比例的高蜜蜂丰富度。特有种数量在大热带岛屿上最高，反映了广泛的原地多样化。蜜蜂特有性的主要中心包括马达加斯加、马来亚（大巽他群岛和新几内亚）以及夏威夷群岛，在那里单一大型Hylaeus（Nesoprosopis）辐射占主导。在能够支撑特有物种的",
+      "thumbnail": null,
+      "published_at": "2026-11-18",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nature",
+        "doi": "10.1038/s41586-026-11325-6",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Islands account for a disproportionate share of global biodiversity1, yet insects, including invaluable pollinators such as bees2, remain underrepresented in island biogeography research3. Here we present a global checklist of island bees, recording 4,147 species across 305 islands. Although islands comprise only about 6% of the Earth's land area, they support around 20% of known global bee diversity, and 42% of insular species are endemic, making up around 8% of all known bee species. Island bee species richness peaks at mid-latitudes (at least in the Northern Hemisphere), mirroring continental trends4. Native richness increases with island area and declines with isolation, consistent with patterns in other taxa5. The strength of island species-area relationships varies among biomes and is steepest in Mediterranean-type systems, which also support disproportionately high bee richness relative to flowering plant diversity. The number of endemic species is highest on large tropical islands, reflecting extensive in situ diversification. Major centres of bee endemism include Madagascar, Malesia (the Greater Sundas and New Guinea) and the Hawaiian islands, where a single large radiation of Hylaeus (Nesoprosopis) dominates6. Among islands that are capable of supporting endemic species, endemism scales strongly with total richness. These findings highlight the need to integrate island bee diversity into global conservation planning and position bees as a model for understanding insect evolution and conservation on islands.",
+        "identifier": "43052449",
+        "dedupe_key": "doi:10.1038/s41586-026-11325-6",
+        "topic_hit": [
+          "稀有细胞"
+        ],
+        "priority_rank": 1,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cc6ad28d41ec",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 8,
       "title": "AnnST: robust cross-section tissue domain label transfer in spatial transcriptomics via contrastive learning and optimal transport",
       "title_zh": "AnnST：通过对比学习和最优传输在空间转录组学中实现稳健的跨切片组织域标签转移",
       "url": "https://doi.org/10.1186/s12859-026-06754-z",
@@ -486,9 +401,9 @@
           "contrastive learning"
         ]
       },
-      "days_on_board": 5,
+      "days_on_board": 6,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "670bdf865334",
       "cluster_size": 1,
       "rank_history": [
@@ -511,12 +426,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 10
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 8
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 11,
+      "rank": 9,
       "title": "ASAOT: an accentuated structure-differentiated asymmetric optimal transport model for cell type and single-cell spatial mapping",
       "title_zh": "ASAOT：一种用于细胞类型和单细胞空间映射的增强结构差异化非对称最优传输模型",
       "url": "https://doi.org/10.1093/bib/bbag615",
@@ -541,9 +460,9 @@
           "benchmark"
         ]
       },
-      "days_on_board": 5,
+      "days_on_board": 6,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "4d274d9769c7",
       "cluster_size": 1,
       "rank_history": [
@@ -566,12 +485,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 11
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 9
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 12,
+      "rank": 10,
       "title": "spOT-NMF: gene expression deconvolution via optimal transport with proximity-aware niche mapping for spatial transcriptomics",
       "title_zh": "spOT-NMF：通过最优传输与邻近感知生态位映射进行基因表达反卷积用于空间转录组学",
       "url": "https://doi.org/10.1093/bib/bbag606",
@@ -596,16 +519,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 13,
+      "days_on_board": 14,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "10ad055e4b6e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 6
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 7
@@ -629,12 +548,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 12
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 10
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 13,
+      "rank": 11,
       "title": "Identifying multi-omics spatial domains via masked autoencoder and diffusion-based latent regularization with SpaMEDM",
       "title_zh": "通过掩码自编码器和基于扩散的潜在正则化与SpaMEDM识别多组学空间域",
       "url": "https://doi.org/10.1093/bib/bbag520",
@@ -662,16 +585,12 @@
           "attention"
         ]
       },
-      "days_on_board": 13,
+      "days_on_board": 14,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "91fe3aa8b90f",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 7
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 8
@@ -695,12 +614,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 13
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 11
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 14,
+      "rank": 12,
       "title": "Structured multi-view relational learning for drug response prediction",
       "title_zh": "用于药物反应预测的结构化多视图关系学习",
       "url": "https://doi.org/10.1093/bib/bbag619",
@@ -725,16 +648,12 @@
           "deep learning"
         ]
       },
-      "days_on_board": 11,
+      "days_on_board": 12,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "dc4eed5e8622",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 8
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 9
@@ -758,12 +677,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 14
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 12
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 15,
+      "rank": 13,
       "title": "Multi-omics survival prediction under modality incompleteness via dynamic modality graphs and product-of-experts fusion",
       "title_zh": "通过动态模态图和专家乘积融合在模态不完整下的多组学生存预测",
       "url": "https://doi.org/10.1093/bib/bbag596",
@@ -788,16 +711,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 14,
+      "days_on_board": 15,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 2,
       "cluster_id": "3a22f3c6e202",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 9
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 10
@@ -821,28 +740,32 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 15
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 13
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 16,
-      "title": "TAFFISH: shell-native command-level reproducibility for bioinformatics.",
-      "title_zh": "TAFFISH：生物信息学的shell原生命令级可重复性。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43045664/",
+      "rank": 14,
+      "title": "PlanMine 4.0: an updated database for planarian genomics and transcriptomics.",
+      "title_zh": "PlanMine 4.0：更新的涡虫基因组学和转录组学数据库。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053340/",
       "hot_value": null,
-      "summary_zh": "生物信息学分析通常依赖shell命令和小型shell脚本，其可执行上下文难以保存、检查和重用。TAFFISH通过将命令行工具调用和轻量级shell流程打包为可安装、版本化和可检查的可执行单元来填补这一空白。通过精选的公共Hub，TAFFISH索引命令接口、执行后端、平台约束、发布元数据和冒烟测试/验证记录。这些组件共同提供了一个命令级可重复性层，可直接在普通shell中工作，也可从现有工作流系统调用。TAFFISH用Common Lisp实现，以Apache-2.0发布。TAFFISH 0.10.1版本及源代码、文档和公共Hub资源可在https://github.com/taffish/taffish、https://taffish.com、https://taffish.github.io和https://github.com/taffish/获取。提交的软件版本、冻结的Hub快照、测",
+      "summary_zh": "PlanMine是一个基于网络的资源，旨在促进涡虫（自由生活的扁形动物，以其大量成体干细胞和非凡再生能力而闻名）的基因组、转录组和基因表达数据集的生物信息学分析。本次更新纳入了广泛研究的Schmidtea属多个物种的高质量基因组序列和注释，包括模型涡虫Schmidtea mediterranea的有性和无性品系，同时将扁形动物门（涡虫）的转录组覆盖范围扩展至70个物种。新增表达研究和工具，以辅助批量和单细胞RNA-seq数据的可视化和分析。这些资源将共同进一步赋能S. mediterranea的互补机制研究，以及探索再生、寄生和其他性状进化的比较方法，而这一日益可操作的門是理想的模型系统。PlanMine 4.0数据库可免费访问：https://planmine-v4.mpinat.mpg.de。",
       "thumbnail": null,
-      "published_at": "2026-11-17",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "pubmed",
-        "journal": "Bioinformatics (Oxford, England)",
-        "doi": "10.1093/bioinformatics/btag825",
+        "journal": "Nucleic acids research",
+        "doi": "10.1093/nar/gkag1078",
         "tier": "英文顶刊",
         "mode": "filter",
-        "description": "Bioinformatics analyses often rely on shell commands and small shell scripts whose executable context is difficult to preserve, inspect and reuse. TAFFISH addresses this gap by packaging command-line tool calls and lightweight shell flows as installable, versioned and inspectable executable units. Through a curated public Hub, TAFFISH indexes command interfaces, execution backends, platform constraints, release metadata and smoke-test/validation records. Together, these components provide a command-level reproducibility layer that works directly in ordinary shells and can also be invoked from existing workflow systems. TAFFISH is implemented in Common Lisp and released under Apache-2.0. TAFFISH version 0.10.1, together with the source code, documentation and public Hub resources, is available at https://github.com/taffish/taffish, https://taffish.com, https://taffish.github.io and https://github.com/taffish/. The submitted software release, frozen Hub snapshot, test data, command logs, checksums and reproducibility package are archived at https://doi.org/10.5281/zenodo.21054185. The authors will maintain the software and public resources for at least two years after publication. Supplementary data are available at Bioinformatics online.",
-        "identifier": "43045664",
-        "dedupe_key": "doi:10.1093/bioinformatics/btag825",
+        "description": "PlanMine is a web-based resource designed to facilitate bioinformatics analyses of genome, transcriptome, and gene expression datasets from planarians, free-living flatworms most well known for their large population of adult stem cells and extraordinary regenerative capabilities. This update incorporates high-quality genome sequences and annotations for multiple species in the widely studied Schmidtea genus, including both sexual and asexual strains of the model planarian Schmidtea mediterranea, while also expanding coverage of transcriptomes across the phylum Platyhelminthes (flatworms) to 70 species. New expression studies and tools are added to aid in the visualization and analysis of both bulk and single-cell RNA-seq data. Together, these resources will further empower complementary mechanistic studies in S. mediterranea and comparative approaches exploring the evolution of regeneration, parasitism, and other traits for which this increasingly tractable phylum represents an ideal model system. The PlanMine 4.0 database is freely accessible at https://planmine-v4.mpinat.mpg.de.",
+        "identifier": "43053340",
+        "dedupe_key": "doi:10.1093/nar/gkag1078",
         "topic_hit": [
           "生物信息"
         ],
@@ -852,11 +775,85 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "382e418009d0",
+      "cluster_id": "7c3e585bb700",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 15,
+      "title": "CoralDB: a comprehensive functional and evolutionary multi-omics database for stony corals.",
+      "title_zh": "CoralDB：一个用于石珊瑚的综合功能和进化多组学数据库。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053336/",
+      "hot_value": null,
+      "summary_zh": "石珊瑚是珊瑚礁生态系统的基础物种，但从整合多组学角度对其生物学的研究仍不充分。尽管基因组和其他组学资源的快速积累为理解珊瑚进化、发育、适应和共生提供了机会，但访问和利用这些资源仍然具有挑战性。在此，我们推出CoralDB（http://www.coraldb.net），一个以基因组为中心的综合多组学资源，系统整合石珊瑚及其全生物的多组学、进化、生态和表型数据。CoralDB覆盖414个物种，整合约19421个数据集，包括12个数据维度。此外，CoralDB提供有价值的定制数据集和分析资源，包括标准化功能注释、基因家族和泛基因组图谱、宏观和微观共线性分析、时空表达模式、细胞类型标记、系统发育资源以及共生体相关数据。集成的基因组浏览器和交互模块支持灵活的数据查询、过滤、分析、可视化以及与公共数据库的链接。CoralDB提供了一个可访问且可扩展的平台，将帮助珊瑚研究社区管理不断扩展的多组学资源，",
+      "thumbnail": null,
+      "published_at": "2026-11-19",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nucleic acids research",
+        "doi": "10.1093/nar/gkag1210",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Stony corals are foundation species of coral reef ecosystems, yet their biology remains insufficiently explored from an integrative multi-omics perspective. Although the rapid accumulation of genomic and other omics resources offers opportunities to understand coral evolution, development, adaptation, and symbiosis, accessing and utilizing these resources remain challenging. Here, we present CoralDB (http://www.coraldb.net), a comprehensive, genome-centered multi-omics resource that systematically consolidates multi-omics, evolutionary, ecological, and phenotypic data for stony corals and their holobionts. CoralDB covers 414 species and integrates approximately 19 421 datasets, including 12 data dimensions. Moreover, CoralDB offers valuable customized datasets and analytical resources, including standardized functional annotations, gene-family and pan-genome profiles, macro- and microsynteny analyses, spatiotemporal expression patterns, cell-type markers, phylogenetic resources, and symbiont-associated data. An integrated genome browser and interactive modules support flexible data querying, filtering, analysis, visualization, and links to public databases. CoralDB provides an accessible and extensible platform that will help the coral research community manage expanding multi-omics resources, accelerate discoveries in coral biology, evolution, symbiosis, and conservation, and facilitate deeper understanding of reef resilience under accelerating global environmental change.",
+        "identifier": "43053336",
+        "dedupe_key": "doi:10.1093/nar/gkag1210",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "2eee266ad20f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 16,
+      "title": "DGIdb in 2026: an interoperable resource for the druggable genome.",
+      "title_zh": "DGIdb 2026：一个可互操作的可成药基因组资源。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053331/",
+      "hot_value": null,
+      "summary_zh": "药物-基因相互作用数据库（DGIdb；https://dgidb.org）是一个开放获取的聚合知识库，对来自多种治疗和生物医学来源的药物-基因相互作用和基因注释数据进行标准化和集中管理。自上次更新以来，DGIdb扩展了数据内容并新增工具，以更好地支持编程访问和本地部署。本版本更新了现有来源，并纳入了三个新的相互作用数据来源，包括来自Molecular Oncology Almanac、PRISM Repurposing Dataset和Broad Institute Drug Repurposing Hub的注释数据。为简化计算工作流的数据访问，我们开发了dgiPy和dgiR，即Python和R客户端库，提供对DGIdb API的标准化访问。此外，我们现在提供版本化Docker镜像和一个公共数据仓库，包含当前和历史DGIdb数据发布的TSV和SQL格式。连同对网络界面的持续改进，这些新资源",
+      "thumbnail": null,
+      "published_at": "2026-11-19",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nucleic acids research",
+        "doi": "10.1093/nar/gkag1191",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "The Drug-Gene Interaction Database (DGIdb; https://dgidb.org) is an open-access aggregate knowledgebase that normalizes and centralizes drug-gene interaction and gene annotation data from diverse therapeutic and biomedical sources. Since its previous update, DGIdb has expanded its data content and added new tooling to better support programmatic access and local deployment. This release updates existing sources and incorporates three new sources of interaction data, including annotation data from the Molecular Oncology Almanac, the PRISM Repurposing Dataset, and the Broad Institute Drug Repurposing Hub. To streamline data access for computational workflows, we have developed dgiPy and dgiR, Python and R client libraries that provide standardized access to the DGIdb API. We additionally now provide versioned Docker images and a public data repository containing current and historical DGIdb data releases in TSV and SQL formats. Together with continued improvements to the web interface, these new resources expand FAIR, transparent, and reproducible access to drug-gene interaction data in the bioinformatics community.",
+        "identifier": "43053331",
+        "dedupe_key": "doi:10.1093/nar/gkag1191",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "dc3d35977fda",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 16
         }
       ]
@@ -864,22 +861,22 @@
     {
       "source": "papers",
       "rank": 17,
-      "title": "Database resources of the National Genomics Data Center, China National Center for Bioinformation in 2027.",
-      "title_zh": "国家基因组科学数据中心、中国国家生物信息中心2027年数据库资源。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43042473/",
+      "title": "TISCH3: an expanded resource for single-cell and spatial transcriptomics of the tumor microenvironment.",
+      "title_zh": "TISCH3：扩展的肿瘤微环境单细胞和空间转录组学资源。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053329/",
       "hot_value": null,
-      "summary_zh": "国家基因组科学数据中心（NGDC）作为中国国家生物信息中心（CNCB）的一部分，为全球学术界和产业界提供一系列数据库资源和网络服务。鉴于多组学数据的快速增长以及人工智能对高质量 curated 数据的内在依赖，CNCB-NGDC 持续提升数据完整性、可用性和可及性，促进知识发现，支持数据驱动研究。过去一年，CNCB-NGDC 扩展和更新了核心数据库资源，加强了与国际合作者的数据交换和共享。发布了13个新资源，涵盖基因组与变异（HLA 和 NMVR）、健康与疾病（PWAS Atlas、CoVAR-KG、HONOR、IBDkb 和 MTB-ImmunogenKG）、生物多样性与生物合成（iCellOmics、iPangolin、SesbaniaOmics 和 Vita Taxonomy）以及工具（π-OmicsKit 和 DeepSeMS）。所有资源和服务均可在 https://ngdc.cn",
+      "summary_zh": "肿瘤免疫单细胞中心（TISCH）是一个精选资源，用于探索肿瘤微环境的单细胞RNA测序（scRNA-seq）数据。在此，我们推出TISCH3，将单细胞集合从190个数据集扩展至408个，并引入69个空间转录组学数据集，总计477个数据集。新增的218个scRNA-seq数据集涵盖48种癌症类型，空间集合涵盖27种癌症类型。空间样本单独策展和处理，单细胞参考可估计每个spot的细胞类型组成。空间工作区包括六个模块：Overview、GeneExp、空间可变基因（SVG）、CellAssoc、Communication和Downloads。这些模块提供样本元数据和质量控制视图、空间基因表达图谱、SVG排序、细胞类型相关性和条件性spot内共现分析、推断的细胞-细胞通讯网络以及可下载的数据和结果。TISCH3保留了TISCH2的单细胞分析能力，并将其扩展至肿瘤微环境的空间探索。该数据库无需注册即可",
       "thumbnail": null,
-      "published_at": "2026-11-17",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "pubmed",
         "journal": "Nucleic acids research",
-        "doi": "10.1093/nar/gkag1081",
+        "doi": "10.1093/nar/gkag1227",
         "tier": "英文顶刊",
         "mode": "filter",
-        "description": "The National Genomics Data Center (NGDC), as part of the China National Center for Bioinformation (CNCB), provides a family of database resources and web services to both academic and industrial communities worldwide. Given the rapid growth of multi-omics data and the intrinsic dependence of artificial intelligence on high-quality curated data, CNCB-NGDC continues to enhance data integrity, usability, and accessibility, facilitate knowledge discovery, and support data-driven research. Over the past year, CNCB-NGDC has expanded and updated its core database resources and strengthened data exchange and sharing with international collaborators. Thirteen new resources have been released, covering genome and variation (HLA and NMVR), health and disease (PWAS Atlas, CoVAR-KG, HONOR, IBDkb, and MTB-ImmunogenKG), biodiversity and biosynthesis (iCellOmics, iPangolin, SesbaniaOmics, and Vita Taxonomy), and tools (π-OmicsKit and DeepSeMS). All resources and services are publicly accessible at https://ngdc.cncb.ac.cn.",
-        "identifier": "43042473",
-        "dedupe_key": "doi:10.1093/nar/gkag1081",
+        "description": "The Tumor Immune Single Cell Hub (TISCH) is a curated resource for exploring single-cell RNA sequencing (scRNA-seq) data from the tumor microenvironment. Here, we present TISCH3, which expands the single-cell collection from 190 to 408 datasets and introduces 69 spatial transcriptomics datasets, bringing the total to 477 datasets. The 218 newly added scRNA-seq datasets span 48 cancer types, and the spatial collection spans 27 cancer types. Spatial samples are curated and processed individually, and single-cell references enable estimation of cell-type composition at each spot. The spatial workspace comprises six modules: Overview, GeneExp, spatially variable genes (SVGs), CellAssoc, Communication, and Downloads. These modules provide sample metadata and quality-control views, spatial gene expression maps, ranking of SVG, cell-type correlation and conditional intra-spot co-occurrence analyses, inferred cell-cell communication networks, and downloadable data and results. TISCH3 retains the single-cell analysis capabilities of TISCH2 and extends them to spatial exploration of the tumor microenvironment. The database is freely available without registration at https://tisch3.compbio.cn/.",
+        "identifier": "43053329",
+        "dedupe_key": "doi:10.1093/nar/gkag1227",
         "topic_hit": [
           "生物信息"
         ],
@@ -889,11 +886,11 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "c4dd62ca5fc3",
+      "cluster_id": "31cce0620e80",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 17
         }
       ]
@@ -901,22 +898,22 @@
     {
       "source": "papers",
       "rank": 18,
-      "title": "X-BCRdb: a cross-disease BCR-paired single-cell database for B-lineage-cell clonotype-transcriptome analysis.",
-      "title_zh": "X-BCRdb：一个跨疾病 BCR 配对单细胞数据库，用于 B 谱系细胞克隆型-转录组分析。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43042468/",
+      "title": "scCVD: a comprehensive single-cell omics atlas of cerebrovascular disease.",
+      "title_zh": "scCVD：一个全面的脑血管疾病单细胞组学图谱。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053323/",
       "hot_value": null,
-      "summary_zh": "B 细胞及其克隆重排的 B 细胞受体（BCR）构成体液免疫的细胞和分子基础。单细胞 RNA 测序结合 V(D)J 分析现在能够将 BCR 克隆型直接与 B 细胞转录状态关联；然而，现有免疫受体资源通常偏向 T 细胞/TCR 或 BCR 特异性分析深度有限。在此，我们提出 X-BCRdb，一个跨疾病单细胞数据库，用于 BCR 库、B 细胞转录状态和克隆演化的整合分析。当前版本整合了61项研究、1401个样本和903名受试者，涵盖45个疾病或生理类别和13个组织组。它包含2,402,995个处理后的 B 谱系细胞，其中包括1,565,870个具有匹配转录组和 BCR 信息的细胞，以及3,993,244条注释 BCR 记录。统一分析流程支持标准化 B 细胞注释和 BCR 库表征，包括克隆型分配、SHM 分析、同种型分析、VH/VL 配对、谱系重建和公共克隆型分析。网络界面将这些受体特征与跨个体样",
+      "summary_zh": "脑血管疾病（CVD）是全球死亡和残疾的主要原因。CVD病理最初损伤脑血管，但涉及整个神经血管单元，包括内皮细胞和壁细胞、星形胶质细胞、小胶质细胞、神经元以及血管周围成纤维细胞和浸润的外周免疫细胞。CVD的单细胞研究产生了大量分散且注释异质的图谱，但从未补充有组织的可视化和整合分析。在此，我们推出scCVD（https://scportal.cn/sccvd），一个整合的CVD scRNA-seq和scATAC-seq数据单细胞数据库，表征CVD相关基因在多种细胞类型和疾病阶段的表达模式和染色质可及性。当前版本包含来自四个物种（人、小鼠、大鼠和狨猴）的701个高质量样本，涵盖超过468万个细胞。所有数据集均经人工策展和标准化，统一元数据涵盖疾病与对照状态、疾病时间点和实验干预。scCVD提供差异表达、功能富集、轨迹推断、细胞-细胞通讯、转录因子调控网络和染色质可及性分析模块，以及交互式可视化",
       "thumbnail": null,
-      "published_at": "2026-11-17",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "pubmed",
         "journal": "Nucleic acids research",
-        "doi": "10.1093/nar/gkag1192",
+        "doi": "10.1093/nar/gkag1198",
         "tier": "英文顶刊",
         "mode": "filter",
-        "description": "B cells and their clonally rearranged B-cell receptors (BCRs) form the cellular and molecular basis of humoral immunity. Single-cell RNA sequencing coupled with V(D)J profiling now enables BCR clonotypes to be linked directly to B-cell transcriptional states; however, existing immune-receptor resources are often T-cell/TCR-oriented or limited in BCR-specific analytical depth. Here, we present X-BCRdb, a cross-disease single-cell database for integrated analysis of BCR repertoires, B-cell transcriptional states, and clonal evolution. The current release harmonizes 61 studies, 1401 samples, and 903 subjects across 45 disease or physiological categories and 13 tissue groups. It contains 2 402 995 processed B-lineage cells, including 1 565 870 cells with matched transcriptome and BCR information, and 3 993 244 annotated BCR records. A unified analytical workflow supports standardized B-cell annotation and BCR repertoire characterization, including clonotype assignment, SHM profiling, isotype analysis, VH/VL pairing, lineage reconstruction, and public clonotype analysis. The web interface links these receptor features with B-cell transcriptional states across individual samples, studies and diseases, and provides global CDR3 similarity search, data download, and API access. X-BCRdb is freely available at https://xbcrdb.net/ and provides a systematic platform for studying disease-associated B-lineage-cell responses and facilitating the prioritization of candidate BCR sequences for downstream antibody discovery and functional validation.",
-        "identifier": "43042468",
-        "dedupe_key": "doi:10.1093/nar/gkag1192",
+        "description": "Cerebrovascular disease (CVD) is the leading cause of death and disability worldwide. Initially insulting the cerebral vasculature, CVD pathology engages the entire neurovascular unit, including endothelial and mural cells, astrocytes, microglia, neurons, and the perivascular fibroblasts and infiltrating peripheral immune cells. Single-cell studies over CVD have generated enormous scattered and heterogeneously annotated atlases, which never supplement an organized visualization and an integrated analysis. Here, we present scCVD (https://scportal.cn/sccvd), an integrated single-cell database of scRNA-seq and scATAC-seq data for CVD that characterises expression patterns and chromatin accessibility of CVD-related genes across diverse cell types and disease stages. The current release comprises 701 high-quality samples from four species (human, mouse, rat, and marmoset), encompassing over 4.68 million cells. All datasets were manually curated and standardized, with harmonised metadata covering disease versus control status, disease time points and experimental interventions. scCVD provides analysis modules for differential expression, functional enrichment, trajectory inference, cell-cell communication, transcription factor regulatory networks, and chromatin accessibility, together with interactive visualisation. scCVD also supports convenient data browsing and retrieval, customisable online analysis and batch download, facilitating systematic investigation of cellular heterogeneity and molecular regulatory mechanisms in CVD.",
+        "identifier": "43053323",
+        "dedupe_key": "doi:10.1093/nar/gkag1198",
         "topic_hit": [
           "生物信息"
         ],
@@ -926,11 +923,11 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "e98aed034bd2",
+      "cluster_id": "1163c86faa0d",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 18
         }
       ]
@@ -938,22 +935,22 @@
     {
       "source": "papers",
       "rank": 19,
-      "title": "tRNA database 2026, extended compilation of tRNA sequences and tRNA genes.",
-      "title_zh": "tRNA 数据库 2026，tRNA 序列和 tRNA 基因的扩展汇编。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43042467/",
+      "title": "Hypothalamic volume and cell-type changes in ageing and Alzheimer's disease.",
+      "title_zh": "衰老和阿尔茨海默病中下丘脑体积和细胞类型变化。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43052445/",
       "hot_value": null,
-      "summary_zh": "tRNAdb 数据库发布于15年前以上，最初是 Mathias Sprinzl 可追溯至1970年代末的转移 RNA（tRNA）数据开创性收集的扩展。在其生命周期中，tRNAdb 被广泛使用，累计引用超过1000次。在此，我们呈现 tRNAdb 2026，https://tdb.bioinf.uni-leipzig.de/，一个托管于莱比锡大学的更新版本。tRNAdb 2026 的数据覆盖范围增加约10倍，包含超过500,000条新的线粒体和核 tRNA 序列以及未更改的遗留数据集。重要的是，遗留数据集的标识符和元数据与原始数据库保持一致，确保先前发表的引用仍然有效且可查找。扩展数据集整合了公开可用的 tRNA 注释和使用当代预测流程生成的序列，随后进行半自动 curation 以确保注释质量和一致性。此外，与 gtRNAdb 等外部资源的交叉引用促进了与现有 tRNA 注释框架的互操作性",
+      "summary_zh": "代谢、应激反应、睡眠、昼夜节律和神经内分泌过程的改变是衰老和神经退行性疾病的关键特征。这些基本过程由下丘脑调控，但其功能不同的亚区和细胞类型在人类衰老和阿尔茨海默病（AD）中如何变化仍 largely 未探索。在此，我们推出HypoAD，一个衰老和AD中人类下丘脑的图谱，包括458个个体的高分辨率磁共振成像，以及来自年轻参与者、AD患者和年龄匹配的非痴呆对照参与者的614403个细胞核的单核RNA测序。我们显示，调控代谢、应激和昼夜节律的下丘脑亚区特别脆弱，在衰老和AD中体积和基因表达均出现显著变化。在分子层面，机器学习模型将炎症反应和昼夜节律调控因子确定为AD的关键细胞预测因子。这些特征反映在特定细胞类型中：小胶质细胞转变为促炎状态，而睡眠调节和昼夜节律调节下丘脑亚区内的抑制性神经元表现出最深刻的转录改变，包括配体-受体相互作用和G蛋白偶联受体信号传导的紊乱。HypoAD提供了衰老和AD",
       "thumbnail": null,
-      "published_at": "2026-11-17",
+      "published_at": "2026-11-18",
       "extra": {
         "subsource": "pubmed",
-        "journal": "Nucleic acids research",
-        "doi": "10.1093/nar/gkag1130",
+        "journal": "Nature",
+        "doi": "10.1038/s41586-026-11305-w",
         "tier": "英文顶刊",
         "mode": "filter",
-        "description": "The tRNAdb database, published >15 years ago, originated as an extension of Mathias Sprinzl's seminal collection of transfer RNA (tRNA) data dating back to the late 1970s. Throughout its lifespan, the tRNAdb has been used extensively, accumulating >1000 citations. Here, we present tRNAdb 2026, https://tdb.bioinf.uni-leipzig.de/, an updated version hosted at Leipzig University. The tRNAdb 2026 features an ~10-fold increase in data coverage, containing >500 000 new mitochondrial and nuclear tRNA sequences together with the unaltered legacy dataset. Importantly, identifiers and metadata of the legacy dataset remain consistent with the original database, ensuring that previously published references remain valid and findable. The expanded dataset integrates publicly available tRNA annotations and sequences generated using contemporary prediction pipelines followed by semiautomated curation to ensure annotation quality and consistency. In addition, cross-references to external resources such as gtRNAdb facilitate interoperability with existing tRNA annotation frameworks. A modern web-based frontend provides intuitive and efficient access to tRNAdb 2026, while an Application Programming Interface enables automated data retrieval and integration into bioinformatics workflows. To support transparent scientific documentation and reproducibility across future updates, we added a versioning system for both current and future database releases.",
-        "identifier": "43042467",
-        "dedupe_key": "doi:10.1093/nar/gkag1130",
+        "description": "Alterations in metabolism, stress response, sleep, circadian rhythms and neuroendocrine processes are key features of ageing and neurodegeneration1,2. These fundamental processes are regulated by the hypothalamus, yet how its functionally distinct subregions and cell types change during human ageing and Alzheimer's disease (AD) remains largely unexplored. Here we present HypoAD, an atlas of the human hypothalamus in ageing and AD, including high-resolution magnetic resonance imaging from 458 individuals and single-nucleus RNA sequencing of 614,403 nuclei from young participants, patients with AD and age-matched non-dementia control participants. We show that hypothalamic subregions governing metabolism, stress and circadian rhythms are particularly vulnerable, showing notable changes in both volumes and gene expression during ageing and AD. At the molecular level, machine learning models identified the inflammatory response and regulators of circadian rhythms as key cellular predictors of AD. These signatures were reflected in specific cell types: microglia transitioned to a pro-inflammatory state, whereas inhibitory neurons within sleep-regulating and circadian-regulating hypothalamic subregions showed the most profound transcriptional alterations, including disruptions in ligand-receptor interactions and G-protein-coupled receptor signalling. HypoAD provides a high-resolution volumetric map and a transcriptomic atlas of the human hypothalamus in ageing and AD, relating lifestyle and behavioural changes to the relevant volumetric and molecular pathways. In addition, HypoAD provides a framework to investigate hypothalamic dysfunction and establishes a roadmap for targeted interventions aimed at mitigating physiological disruptions to potentially slow disease progression.",
+        "identifier": "43052445",
+        "dedupe_key": "doi:10.1038/s41586-026-11305-w",
         "topic_hit": [
           "生物信息"
         ],
@@ -963,11 +960,11 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "e9a6668f99ce",
+      "cluster_id": "d09dbc2d6a29",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 19
         }
       ]
@@ -997,14 +994,18 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "df61a26e3ae7",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 20
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 20
         }
       ]
@@ -1038,16 +1039,12 @@
           "机器学习"
         ]
       },
-      "days_on_board": 35,
+      "days_on_board": 36,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "21f183cb244e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 21
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 21
@@ -1070,6 +1067,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 21
         }
       ]
@@ -1102,16 +1103,12 @@
           "智能体"
         ]
       },
-      "days_on_board": 35,
+      "days_on_board": 36,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "275b1142e536",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 22
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 22
@@ -1134,6 +1131,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 22
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 22
         }
       ]
@@ -1164,16 +1165,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 35,
+      "days_on_board": 36,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "0f3899815dcb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 23
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 23
@@ -1196,6 +1193,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 23
         }
       ]
@@ -1226,16 +1227,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 35,
+      "days_on_board": 36,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "e3b383e32d83",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 24
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 24
@@ -1258,6 +1255,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 24
         }
       ]
@@ -1288,16 +1289,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 35,
+      "days_on_board": 36,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "88d128bf6e20",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 25
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 25
@@ -1320,6 +1317,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 25
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 25
         }
       ]
@@ -1349,16 +1350,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 14,
+      "days_on_board": 15,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "324c9bd85a8a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 26
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 26
@@ -1381,6 +1378,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 26
         }
       ]
@@ -1410,16 +1411,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 14,
+      "days_on_board": 15,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "ee861349262e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 27
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 27
@@ -1442,6 +1439,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 27
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 27
         }
       ]
@@ -1471,16 +1472,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 35,
+      "days_on_board": 36,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "df5e12bc430c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 28
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 28
@@ -1503,6 +1500,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 28
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 28
         }
       ]
@@ -1532,7 +1533,7 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 6,
+      "days_on_board": 7,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "4bb373d2609e",
@@ -1561,6 +1562,10 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 29
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 29
         }
       ]
     },
@@ -1573,7 +1578,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;针对单颗FPGA资源受限难以加速大规模神经网络，且FPGA集群面临架构设计复杂、任务划分低效及自动化工具链缺失等挑战，提出面向FPGA集群的端到端自动化部署框架TH-FCAD（automated deployment framework for large-scale neural networks on FPGA clusters）。首先，构建基于TH-Express的2级互连集群架构，融合全局互连与局部互连，实现高带宽、低延迟的跨节点通信；其次，提出延迟平衡优化与模型切分方法，将大规模模型均匀切分为多加速核并保持核间延时均衡；最后，设计集群感知映射算法，联合FPGA资源约束与通信拓扑自动生成最优映射，以最小化通信开销。构建了完整的工具链，实现了从PyTorch/TensorFlow模型到集群的端到端自动化编译部署。基于16节点FPGA集群的评估表明，部",
       "thumbnail": null,
-      "published_at": "2026-11-18",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1590,16 +1595,12 @@
           "神经网络"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "b3d553a819fd",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 29
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 30
@@ -1619,6 +1620,10 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 30
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 30
         }
       ]
     },
@@ -1631,7 +1636,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;近年来，稀疏矩阵-密集矩阵乘（SpMM）已成为科学计算、图处理和深度学习等多个领域的核心算子和制约系统性能的瓶颈。然而，现有通用GPU上的SpMM实现普遍存在能效比、资源利用率低的问题，而一些专用的加速器虽然在规则计算上展现出了优异的能效比，但缺乏对不规则的稀疏矩阵运算的高效支持。针对此问题，基于高通量数据流众核处理器（DFU），提出了一种面向数据流架构的稀疏矩阵高效处理内核DFU-SpMM。首先提出数据流指令复用的分层稀疏矩阵处理方法，对稀疏数据进行重组织以减少SpMM内核的数据流图重传次数，同时，对于不同稀疏块使用不同的策略对其进行处理。然后提出面向流图优化的自适应汇编代码生成方法，引入观察者-执行者的思想，以突破现有DFU在SpMM内核生成方面的能力限制，并从任务分配和寄存器重用2个角度对代码生成过程中的数据流图构造进行优化。代表性数据集上的实验结果",
       "thumbnail": null,
-      "published_at": "2026-11-18",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1648,16 +1653,12 @@
           "深度学习"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "e21d014111c8",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 30
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 31
@@ -1677,6 +1678,10 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 31
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 31
         }
       ]
     },
@@ -1689,7 +1694,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;随着云计算、大数据和人工智能的快速发展，数据安全与隐私保护已成为亟待解决的核心问题。2021年Arm提出机密计算架构（confidential compute architecture，CCA），通过硬件级隔离机制为敏感计算任务提供可信执行环境，保障数据与代码在使用过程中的安全性。尽管在用户态机密执行、设备隔离与系统安全增强等基于CCA的研究中已有初步成果，但整体来看，该领域仍处于起步阶段，现有研究较为分散，缺乏对架构发展与技术体系的系统性梳理。同时，部分研究重复构建底层关键机制，却未能总结技术共性。另一些工作则更关注功能实现，而对潜在攻击面及未来风险的分析不足。针对上述问题，对CCA在机密计算中的关键技术机制与研究进展进行系统分析，并对近年来具有代表性的成果进行分类归纳，涵盖执行环境扩展、设备隔离、应用适配与安全增强等方面的设计思路与实现路径。在此基础上",
       "thumbnail": null,
-      "published_at": "2026-11-18",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1706,16 +1711,12 @@
           "人工智能"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "c692f0b35f3a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 31
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 32
@@ -1735,6 +1736,10 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 32
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 32
         }
       ]
     },
@@ -1747,7 +1752,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;在Text-to-SQL任务中，模型通常需要大规模的标注数据进行训练，而标注这些数据往往耗费大量的时间和人力成本。因此，数据稀缺性成为制约该领域发展、尤其是在特定领域应用中的关键瓶颈。在此背景下，基于大语言模型（large language model，LLM）的数据增强虽已成为一种有效的解决方案，然而当前Text-to-SQL领域的大多数现有方法严重依赖于原始数据集的分布，且其合成的数据往往缺乏可靠性与可解释性。针对上述问题，提出了一种思维链引导的数据合成方法SCoT-SQL。通过整合自然语言指令与包括数据库模式及表内容在内的符号知识，有效指引大模型减少数据合成过程中的语义错误。为确保合成数据的高质量，SCoT-SQL结合了模型自一致性投票与执行验证机制来进行严格的数据过滤。此外，还引入了基于思维链推理的模型自反馈机制对合成数据进行校准，在修正SQL查询",
       "thumbnail": null,
-      "published_at": "2026-11-18",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1766,16 +1771,12 @@
           "大模型"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "a51b4744c999",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 32
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 33
@@ -1795,6 +1796,10 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 33
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 33
         }
       ]
     },
@@ -1807,7 +1812,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;针对现有图像描述方法难以同时兼顾全局语义与细粒度细节、生成结果易偏泛化或关键信息遗漏的问题，提出一种基于共性-特性协同建模与多专家融合的多特征图像描述生成模型EAFCC（expert-aware fusion with common-specific collaboration）。该模型并行接收网格特征、区域特征与分割特征，在编码阶段首先通过预融合模块对多源异构特征进行隐式对齐。在共享语义空间中提取跨特征一致的共性信息，同时为各特征流保留差异化表达基础。随后利用共享Transformer编码器建模共性表征，并通过对比学习约束进一步增强其一致性与判别性。同时，采用3条独立编码分支对不同特征流进行特性建模，以保留与特征类型相关的细粒度补充信息，并借助多专家门控路由机制实现特性信息的动态加权融合。最后，将增强后的共性特征与融合后的特性特征进行协同整合，经跳跃连接",
       "thumbnail": null,
-      "published_at": "2026-11-18",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1824,16 +1829,12 @@
           "对比学习"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "4e11e16fa711",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 33
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 34
@@ -1853,6 +1854,10 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 34
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 34
         }
       ]
     },
@@ -1865,7 +1870,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;深度学习技术日益赋能皮肤病诊断应用，使其诊断性能稳步提升。然而，这类数据驱动的深度学习模型存在严重的偏见问题。若将存在偏见的系统部署于临床应用，势必会对特定群体（如非代表性群体）造成不公平对待。确保决策的公平性已成为一个至关重要且亟待解决的问题。现有研究表明，提升公平性往往以降低诊断性能为代价。因此，为了在诊断性能和公平性之间取得更优权衡，同时减轻对非代表性群体的不公平对待，提出一个增强型平衡增量蒸馏网络（enhanced balanced incremental distillation network，EBID-Net）。具体而言，该模型借助平衡记忆内存整合不同群体的分布开展增量训练，促使代表性群体辅助非代表性群体学习知识。此外，将全局信息融入上下文注意力机制，捕捉不同空间位置特征间的交互关系，从而在增量学习过程中获得更稳健的特征表示。实验结果显示，E",
       "thumbnail": null,
-      "published_at": "2026-11-18",
+      "published_at": "2026-11-19",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1882,16 +1887,12 @@
           "深度学习"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "6a5dad8f75d2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 34
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 35
@@ -1910,6 +1911,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 35
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 35
         }
       ]
@@ -1939,16 +1944,12 @@
           "deep learning"
         ]
       },
-      "days_on_board": 14,
+      "days_on_board": 15,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "6de487dfa531",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 35
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 36
@@ -1971,6 +1972,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 36
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 36
         }
       ]
@@ -2000,7 +2005,7 @@
           "attention"
         ]
       },
-      "days_on_board": 6,
+      "days_on_board": 7,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "93eea8bf2bea",
@@ -2028,6 +2033,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 37
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 37
         }
       ]
@@ -2062,16 +2071,12 @@
           "智能体"
         ]
       },
-      "days_on_board": 31,
+      "days_on_board": 32,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "bf1108cac1d3",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 36
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 38
@@ -2094,6 +2099,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 38
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 38
         }
       ]
@@ -2125,16 +2134,12 @@
           "大模型"
         ]
       },
-      "days_on_board": 22,
+      "days_on_board": 23,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "13a3f0d8665f",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 37
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 39
@@ -2157,6 +2162,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 39
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 39
         }
       ]
@@ -2187,16 +2196,12 @@
           "大语言模型"
         ]
       },
-      "days_on_board": 16,
+      "days_on_board": 17,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "08066d94eb01",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 38
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 40
@@ -2219,6 +2224,10 @@
         },
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "rank": 40
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 40
         }
       ]
@@ -2251,16 +2260,12 @@
           "attention"
         ]
       },
-      "days_on_board": 13,
+      "days_on_board": 14,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "6b5b8c1c7f11",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 41
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 42
@@ -2284,49 +2289,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 41
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 41
         }
       ]
     },
     {
       "source": "papers",
       "rank": 42,
-      "title": "Large-scale Neuron Community Discovery Reveals Neuron-Sparse Behaviors in Language Models",
-      "title_zh": "大规模神经元群落发现揭示语言模型中的神经元稀疏行为",
-      "url": "http://arxiv.org/abs/2611.23112v1",
-      "hot_value": null,
-      "summary_zh": "我们能在语言模型的神经元中发现哪些可复用的计算单元？先前工作表明，单个前向传播通常可以在事后稀疏化为小群神经元，但这些群是否形成跨输入复用的连贯计算实体尚不清楚。我们引入神经元群落发现，一种无监督方法，用于寻找跨提示重复出现且在其跨越的层内对常见计算具有因果必要性和充分性的神经元群。该方法结合基于梯度的归因、连接反复共同归因神经元的图以及社区检测。应用于 Llama-3.1-8B 使用一千万条提示，它发现了数千个候选群落。我们在留出提示上通过三项因果测试评估它们：群落必要性、层子集内的充分性以及层必要性。这些测试识别出其移除会破坏预测且其保留能维持预测的群，尽管在测试层中消融了剩余 MLP 神经元。发现的群落支持语法一致、token 概率校准、固定短语、上下文复制、加法和乘法等功能。在所有层中群落上限为128个神经元时，10.3%的留出提示至少有一层的贡献以神经元稀疏方式得到解释。当要求至",
-      "thumbnail": null,
-      "published_at": "2026-11-17T17:33:20Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.LG",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "What reusable units of computation can we discover within a language model's neurons? Prior work has shown that individual forward passes can often be sparsified post-hoc to small groups of neurons, but it has been unclear whether these groups form coherent computational entities reused across inputs. We introduce neuron community discovery, an unsupervised method for finding neuron groups that recur across prompts and are causally necessary and sufficient, within the layers they span, for common computations. The method combines gradient-based attribution, a graph connecting neurons that are repeatedly attributed together, and community detection. Applied to Llama-3.1-8B using ten million prompts, it discovers thousands of candidate communities. We evaluate them on held-out prompts through three causal tests: community necessity, sufficiency within a layer subset, and layer necessity. These tests identify groups whose removal disrupts predictions and whose retention preserves predictions despite ablating the remaining MLP neurons in the tested layers. Discovered communities support functions like grammatical agreement, token-probability calibration, fixed phrases, in-context copying, addition, and multiplication. With communities capped at 128 neurons across all layers, 10.3% of held-out prompts have at least one layer's contribution explained on a neuron-sparse basis. Coverage remains 8.7% when requiring at least four layers and 3.3% when requiring at least twelve. These results show that small groups of existing neurons can provide reusable computational components across prompts, and that such groups can be discovered at scale.",
-        "identifier": "2611.23112",
-        "dedupe_key": "arxiv:2611.23112",
-        "topic_hit": [
-          "单细胞聚类"
-        ],
-        "priority_rank": 0,
-        "keyword_hit": []
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "0f2d8be7e85e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 42
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 43,
       "title": "Reproducible quantum clustering for single-cell transcriptome atlases",
       "title_zh": "用于单细胞转录组图谱的可复现量子聚类",
       "url": "http://arxiv.org/abs/2611.11745v1",
@@ -2349,16 +2321,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "7d090f724132",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 43
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 43
@@ -2382,12 +2350,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 43
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 42
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 44,
+      "rank": 43,
       "title": "Beyond AUC: Do Mammography Risk Models Predict When Cancer Occurs?",
       "title_zh": "超越AUC：乳腺X线摄影风险模型能预测癌症何时发生吗？",
       "url": "http://arxiv.org/abs/2611.20274v1",
@@ -2412,9 +2384,9 @@
           "deep learning"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": 1,
       "cluster_id": "b5fd6b62a35e",
       "cluster_size": 1,
       "rank_history": [
@@ -2425,12 +2397,130 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 44
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 43
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 44,
+      "title": "Learning to Interact in Multi-Agent Self-Play for Controllable Autonomous Driving Scenario Generation",
+      "title_zh": "在多智能体自博弈中学习交互以生成可控自动驾驶场景。",
+      "url": "http://arxiv.org/abs/2611.24876v1",
+      "hot_value": null,
+      "summary_zh": "大规模多智能体自博弈在仿真中有效训练鲁棒驾驶策略，但控制这些模型生成特定的安全关键边缘案例仍是一个关键挑战。现有的目标条件自博弈框架主要依赖静态地图位置目标，无法可靠产生复杂的智能体交互，如激进尾随或对抗性加塞。这些智能体交互对于严格的自动驾驶汽车（AV）测试是必要的。为解决这一问题，我们提出一个扩展的多智能体自博弈框架，引入智能体相对的动态目标。通过以这一扩展目标表示作为策略条件，我们的框架实现了有针对性的、可控的场景合成。我们证明，我们的方法成功生成了静态目标基线无法模拟的交互式驾驶行为，为AV测试中的长尾场景生成提供了灵活工具。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T18:23:29Z",
+      "extra": {
+        "subsource": "arxiv",
+        "field": "cs.RO",
+        "doi": null,
+        "tier": "预印本",
+        "mode": "filter",
+        "description": "Large-scale, multi-agent self-play trains robust driving policies effectively in simulation, but controlling these models to generate specific, safety-critical edge cases remains a key challenge. Existing goal-conditioned self-play frameworks rely primarily on static map-location goals and fail to reliably produce complex agent interactions such as aggressive tailgating or adversarial cut-offs. These agent interactions are necessary for rigorous autonomous vehicle (AV) testing. To address this, we present an extended multi-agent self-play framework that introduces agent-relative dynamic goals. By conditioning policies on this extended goal representation, our framework enables targeted, controllable scenario synthesis. We demonstrate that our approach successfully generates interactive driving behaviors that static-goal baselines cannot simulate, providing a flexible tool for long-tail scenario generation in AV testing.",
+        "identifier": "2611.24876",
+        "dedupe_key": "arxiv:2611.24876",
+        "topic_hit": [
+          "稀有细胞"
+        ],
+        "priority_rank": 1,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "1f65a3f98204",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 44
         }
       ]
     },
     {
       "source": "papers",
       "rank": 45,
+      "title": "Rare-Tail Statistics For Learning Biased Gaussian Halfspaces with Label Noise",
+      "title_zh": "用于学习带标签噪声的偏置高斯半空间的稀有尾部统计。",
+      "url": "http://arxiv.org/abs/2611.24181v1",
+      "hot_value": null,
+      "summary_zh": "我们重新审视在存在标签噪声的情况下学习一般高斯半空间的经典问题，特别关注大偏置区域，在该区域中，若干标准标签噪声模型被推测存在信息-计算差距。具体而言，我们提出并分析稀有尾部均值估计器，这是一种极其简单的一次性统计量，仅对观察到的少数类取平均。在大偏置区域，经典平均法（Servedio, 1999）及相关全局一阶矩统计量可证明是次优的，而稀有尾部均值估计器在广泛的标签噪声模型下以信息论样本率（模对数因子）恢复目标半空间方向，包括probit噪声和远离边界衰减非常缓慢的边界依赖噪声。值得注意的是，我们的保证允许接近决策边界的标签几乎随机，同时仍能从少量样本中给出强方向恢复。该估计器还在无噪声和有噪声区域之间干净地插值：无噪声时，它达到与经典基于可分性的方法相同的样本率；在低噪声或远离边界衰减的噪声下，即使线性可分性已被破坏，它仍保持该速率。作为一个应用，我们考虑一个两阶段课程，其中源样本（其",
+      "thumbnail": null,
+      "published_at": "2026-11-18T10:22:16Z",
+      "extra": {
+        "subsource": "arxiv",
+        "field": "stat.ML",
+        "doi": null,
+        "tier": "预印本",
+        "mode": "filter",
+        "description": "We revisit the classical problem of learning general Gaussian halfspaces in the presence of label noise, with particular focus on the large-bias regime, where information-computation gaps are conjectured in several standard label-noise models. Concretely, we present and analyze the rare-tail mean estimator, an extremely simple one-shot statistic that averages only the observed minority class. In the large-bias regime, classical Averaging (Servedio, 1999) and related global first-moment statistics are provably suboptimal, while the rare-tail mean estimator recovers the target halfspace direction at the information-theoretic sample rate (modulo log factors) under a broad class of label noise models, including probit noise and margin-dependent noise with very slow decay away from the boundary. Notably, our guarantees allow labels arbitrarily close to the decision boundary to be nearly random, while still giving strong directional recovery from a small number of samples. The estimator also cleanly interpolates between the noiseless and noisy regimes: without noise, it attains the same sample rate as classical separability-based methods for realizable halfspaces, and under low noise, or noise that decays away from the boundary, it keeps this rate even after linear separability has been destroyed. As an application, we consider a two-stage curriculum in which source samples, whose noise may be arbitrarily close to $1/2$ near the boundary and decay very slowly away from it, precede target samples, whose noise flips every label at the same rate, i.e., random classification noise (RCN). Since both stages share the same Bayes optimal halfspace, our estimator supplies the directional warm start needed by existing refinement routines, and together they learn the RCN target at the information-theoretic sample rate in the large-bias regime, up to log factors.",
+        "identifier": "2611.24181",
+        "dedupe_key": "arxiv:2611.24181",
+        "topic_hit": [
+          "稀有细胞"
+        ],
+        "priority_rank": 1,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d137636ccc2f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 45
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 46,
+      "title": "Prognosis Without Prediction: The Intrinsic Geometry of Survival",
+      "title_zh": "无预测的预后：生存的内在几何。",
+      "url": "http://arxiv.org/abs/2611.24799v1",
+      "hot_value": null,
+      "summary_zh": "在高维环境中建模系统性失败从根本上受限于试图预测稀疏、噪声或删失终点的监督算法。为打破对显式结果回归的依赖，我们设计了自组织生存流形（SOSM）框架，这是一种深度学习架构，将无监督表示学习与生存标签解耦，并将事件时间进展视为涌现的几何属性。该系统将异质多组学阵列投影到由伪时间加权、曲率最小化图拉普拉斯算子支配的统一潜在空间，沿低耗散测地流组织患者轨迹。为验证该框架，我们将此架构应用于一个184例透明细胞肾细胞癌多组学队列。在确定性5折交叉验证流程中，SOSM达到平均一致性指数0.768 ± 0.068，而折外风险分层产生显著的生存差异（log-rank p < 0.001），高风险患者的局部流形耗散增加14.7%。此外，探查网络编码器权重确认，模型在无监督特征选择的情况下自主恢复了疾病进展的经典代谢和微环境驱动因素。通过证明系统性失败可以映射为几何相变，SOSM建立了一个可推广的计算引擎，",
+      "thumbnail": null,
+      "published_at": "2026-11-18T17:42:23Z",
+      "extra": {
+        "subsource": "arxiv",
+        "field": "cs.LG",
+        "doi": null,
+        "tier": "预印本",
+        "mode": "filter",
+        "description": "Modeling systemic failure in high-dimensional environments is fundamentally limited by supervised algorithms that attempt to predict sparse, noisy or censored endpoints. To break this reliance on explicit outcome regression, we engineered the Self-Organizing Survival Manifolds (SOSM) framework, a deep learning architecture that decouples unsupervised representation learning from survival labels and treats time-to-event progression as an emergent geometric property. The system projects heterogeneous multi-omics arrays into a unified latent space governed by a pseudotime-weighted, curvature-minimizing graph Laplacian, organizing patient trajectories along low-dissipation geodesic flows. To validate the framework, we applied this architecture to a 184-patient clear cell renal cell carcinoma multi-omics cohort. Across a deterministic 5-fold cross-validation pipeline, SOSM achieved a mean Concordance Index of $0.768 \\pm 0.068$, while out-of-fold risk stratification yielded significant survival divergence (log-rank $p < 0.001$) accompanied by a 14.7% increase in local manifold dissipation among high-risk patients. Furthermore, interrogating the network's encoder weights confirmed that the model autonomously recovered canonical metabolic and microenvironmental drivers of disease progression without supervised feature selection. By demonstrating that systemic failure can be mapped as a geometric phase transition, SOSM establishes a generalizable computational engine for prognostic modeling across biological, industrial and financial complex systems.",
+        "identifier": "2611.24799",
+        "dedupe_key": "arxiv:2611.24799",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "deep learning",
+          "representation learning"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "99d5f8a2a3f2",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 46
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 47,
       "title": "HoloGene: Learning to Lift Sliced Spatial Transcriptomics to Holistic 3D Gene Fields",
       "title_zh": "HoloGene：学习将切片空间转录组学提升为整体3D基因场",
       "url": "http://arxiv.org/abs/2611.20368v1",
@@ -2455,59 +2545,63 @@
           "autoencoder"
         ]
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": -2,
       "cluster_id": "a0bbdaa0f223",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 45
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 47
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 46,
-      "title": "Dynamic Hierarchical Interleaved Bloom Filter: An Updatable Index for Large-Scale Fast Sequence Search",
-      "title_zh": "动态分层交错布隆过滤器：用于大规模快速序列搜索的可更新索引",
-      "url": "https://doi.org/10.64898/2026.08.26.747224",
+      "rank": 48,
+      "title": "Inferring single-cell gene expression profiles from multicellular spatial transcriptomics data with st2sc",
+      "title_zh": "用st2sc从多细胞空间转录组学数据推断单细胞基因表达谱。",
+      "url": "https://doi.org/10.64898/2026.11.10.765653",
       "hot_value": null,
-      "summary_zh": "动机：测序成本的持续下降促进了可用测序数据的指数增长，欧洲核苷酸档案（ENA）和序列读取档案（SRA）等公共数据库达到数拍字节量级。这促使开发更可扩展的工具用于常见生物信息学任务。其中一个任务是近似搜索参考数据集中的短序列模式，如基因或 reads。近年来，已提出多种索引数据结构用于搜索大型测序数据库。最先进的索引，分层交错布隆过滤器（HIBF），是首个能够索引一百万个样本的索引。然而，其静态设计需要在存储库增长时进行昂贵的完全重建，促使扩展以支持动态更新。结果：在本文中，我们通过扩展 HIBF 以部分重建来支持高效更新，引入一种可扩展且可更新的序列搜索索引。我们通过从超过100 TB 压缩 reads 跨超过39,000个完整人类 RNA-Seq 样本迭代创建索引，以连续批次100更新，展示了 Dynamic HIBF 的大规模数据能力。为与最先进工具进行基准测试，我们在5,000个样本",
+      "summary_zh": "空间转录组学（ST）能够定量测量组织切片内的基因表达，但目前空间分辨率有限，因为每个spot聚合了多个细胞的信号。从这些多细胞测量中恢复单细胞基因表达谱需要两个步骤：明确识别单个细胞和准确估计每个基因的表达。尽管现有方法已证明恢复单细胞表达谱的可行性，但准确估计单个细胞的基因水平表达仍是一个重要挑战。为解决这一挑战，我们提出st2sc（空间转录组学到单细胞），一个从多细胞ST数据推断单细胞基因谱的端到端框架。st2sc引入一种新颖的注意力梯度流跟踪（AGFT）算法，从视觉-基因Transformer中提取注意力图，以在无预定义背景约束的情况下识别候选细胞实例。检测到的实例随后由一组在多实例、多目标回归设置下训练的回归器使用，以预测精确的单细胞基因表达计数。在合成和类Visium数据集上的综合评估表明，st2sc在准确分割细胞实例和预测基因计数方面显著优于最先进方法。该方法还可解析Visiu",
       "thumbnail": null,
-      "published_at": "2026-11-14",
+      "published_at": "2026-11-15",
       "extra": {
         "subsource": "biorxiv",
         "field": "bioinformatics",
-        "doi": "10.64898/2026.08.26.747224",
+        "doi": "10.64898/2026.11.10.765653",
         "tier": "预印本",
         "mode": "all",
-        "description": "Motivation: A continued decrease in sequencing costs has facilitated the exponential increase in available sequencing data, with public databases like the European Nucleotide Archive (ENA) and Sequence Read Archive (SRA) reaching well in the order of petabases. This has been the incentive to develop more scalable tools for common bioinformatics tasks. One such task is the approximate searching of short sequence patterns like genes or reads in reference data sets. In recent years, a variety of indexing data structures have been proposed for searching large sequencing databases. The state-of-the-art index, the Hierarchical Interleaved Bloom Filter (HIBF), was first-in-class to index one million samples. However, its static design necessitates costly full reconstructions as repositories grow, motivating an extension to support dynamic updates. Results: In this paper, we introduce a scalable and updatable sequence-search index by extending the HIBF with partial rebuilding to support efficient updates. We demonstrate the Dynamic HIBF's capacity for large-scale data by iteratively creating an index from over 100 TB of compressed reads across more than 39,000 full human RNA-Seq samples, updated in consecutive batches of 100. To benchmark against state-of-the-art tools, we evaluated incremental performance on a subset of 5,000 samples sub-sampled to 1% of their original read depth. In this comparative setting, the dynamic HIBF completed the sequential insertion of all 5,000 samples in 5.3 hours--23 to 42 times faster than competing methods and twice as fast as the static HIBF.",
-        "dedupe_key": "doi:10.64898/2026.08.26.747224",
+        "description": "Spatial transcriptomics (ST) enables the quantitative measurement of gene expression within tissue sections but is currently limited in spatial resolution, as each spot aggregates signals from multiple cells. Recovering single-cell gene expression profiles from these multicellular measurements requires two steps: explicit identification of individual cells and accurate estimation of per-gene expression. While existing methods have demonstrated the feasibility of recovering single-cell expression profiles, accurately estimating gene-level expression for individual cells remains an important challenge. To address this challenge, we propose st2sc (Spatial Transcriptomics to Single-Cell), an end-to-end framework for inferring single-cell gene profiles from multicellular ST data. st2sc introduces a novel Attention Gradient Flow Tracking (AGFT) algorithm that extracts attention maps from a Vision-Gene Transformer to identify candidate cell instances without predefined background constraints. The detected instances are then used by a set of regressors trained under a multiple-instance, multiple-target regression setting to predict precise single-cell gene expression counts. Comprehensive evaluations on synthetic and Visium-like datasets demonstrate that st2sc significantly outperforms state-of-the-art methods in accurately segmenting cellular instances and predicting gene counts. The method can further resolve contested 2um bin in Visium HD. Application to human IPF lung showed the model can recover the subtype marker level analysis. This advancement further improves single-cell resolution analysis in spatial transcriptomics, facilitating more accurate downstream biological analyses.",
+        "dedupe_key": "doi:10.64898/2026.11.10.765653",
         "topic_hit": [
           "生物信息"
         ],
         "priority_rank": 2,
         "keyword_hit": [
-          "benchmark"
+          "attention"
         ]
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "81b232f6719a",
+      "cluster_id": "8f8267ab3320",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 46
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 48
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 47,
+      "rank": 49,
       "title": "More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology",
       "title_zh": "更多基因，更快推理：从组织学高效预测大面板空间转录组",
       "url": "http://arxiv.org/abs/2611.17899v1",
@@ -2532,7 +2626,7 @@
           "benchmark"
         ]
       },
-      "days_on_board": 3,
+      "days_on_board": 4,
       "is_new": false,
       "rank_delta": -2,
       "cluster_id": "07b9cbe2554e",
@@ -2549,12 +2643,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 47
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 49
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 48,
+      "rank": 50,
       "title": "Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data",
       "title_zh": "融合图学习与成对学习，从scRNA-seq数据推断基因调控网络",
       "url": "http://arxiv.org/abs/2611.13801v1",
@@ -2579,16 +2677,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 8,
+      "days_on_board": 9,
       "is_new": false,
       "rank_delta": -2,
       "cluster_id": "489bbb127176",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 45
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 44
@@ -2612,12 +2706,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 48
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 50
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 49,
+      "rank": 51,
       "title": "Publications as benchmarks: auditing AI agents on spatial transcriptomics alignment",
       "title_zh": "出版物作为基准：审计AI智能体在空间转录组对齐上的表现",
       "url": "http://arxiv.org/abs/2611.11796v1",
@@ -2642,16 +2740,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
       "rank_delta": -2,
       "cluster_id": "ecc1a1d6287e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 47
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 46
@@ -2675,12 +2769,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 49
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 51
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 50,
+      "rank": 52,
       "title": "Synchronized Optimal Transport Reconstructs Coupled Transcriptomic and Chromatin Dynamics",
       "title_zh": "同步最优传输重建耦合的转录组与染色质动态",
       "url": "http://arxiv.org/abs/2611.08853v1",
@@ -2705,16 +2803,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 10,
+      "days_on_board": 11,
       "is_new": false,
       "rank_delta": -2,
       "cluster_id": "244d7bd47401",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 48
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 47
@@ -2738,12 +2832,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 50
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 52
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 51,
+      "rank": 53,
       "title": "HistoTx: Early fusion of H&E images and spatial transcriptomics at varying spatial transcriptomics resolution with self-supervised learning",
       "title_zh": "HistoTx：在不同空间转录组学分辨率下，通过自监督学习对H&E图像和空间转录组学进行早期融合",
       "url": "http://arxiv.org/abs/2611.02681v1",
@@ -2769,16 +2867,12 @@
           "self-supervised"
         ]
       },
-      "days_on_board": 16,
+      "days_on_board": 17,
       "is_new": false,
       "rank_delta": -2,
       "cluster_id": "9cb293ad1c15",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 49
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 48
@@ -2802,12 +2896,90 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 51
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 53
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 52,
+      "rank": 54,
+      "title": "Horizontal Flow Matching for Single-Cell Spatiotemporal Dynamics",
+      "title_zh": "用于单细胞时空动力学的水平流匹配。",
+      "url": "http://arxiv.org/abs/2611.24764v1",
+      "hot_value": null,
+      "summary_zh": "从空间转录组学学习细胞的时空动力学需要连接在不同坐标系中获取的不同细胞快照。切片的旋转或平移可能表现为细胞运动，并扭曲推断的对应关系。我们引入水平流匹配，它在共享刚体运动的意义下学习组织组织、分子状态和细胞丰度的变化。动力学遵循连续性-反应方程，其作用对共享刚体运动不赋予成本，由此产生的水平投影器在学习过程中从空间预测误差中、在生成过程中从预测速度中去除该分量。一个等价的端点问题在Wasserstein–Fisher–Rao几何中联合估计对应关系和相对位姿，并产生解析路径，其速度和生长作为回归目标。回归这些目标在理想群体条件下恢复水平动力学。我们的模型HORIZON使用等变Transformer从当前组织预测速度和生长，从而可以从单个初始快照连续生成组织。在扰动坐标系中观察的模拟组织上，对齐改善了重建，投影减少了刚性漂移。在四个空间转录组学时间序列上，HORIZON比现有空间和不平衡轨迹方",
+      "thumbnail": null,
+      "published_at": "2026-11-18T17:16:53Z",
+      "extra": {
+        "subsource": "arxiv",
+        "field": "cs.LG",
+        "doi": null,
+        "tier": "预印本",
+        "mode": "filter",
+        "description": "Learning the spatiotemporal dynamics of cells from spatial transcriptomics requires connecting snapshots of different cells acquired in different coordinate frames. A rotation or translation of a section can appear as cell movement and distort the inferred correspondence. We introduce horizontal flow matching, which learns changes in tissue organization, molecular state, and cell abundance up to shared rigid motion. The dynamics follow a continuity--reaction equation whose action assigns no cost to shared rigid motion, and the resulting horizontal projector removes this component from spatial prediction errors during learning and from predicted velocities during generation. An equivalent endpoint problem jointly estimates correspondence and relative pose in Wasserstein--Fisher--Rao geometry and yields analytic paths whose velocity and growth serve as regression targets. Regressing these targets recovers the horizontal dynamics under ideal population conditions. Our model, HORIZON, uses an equivariant transformer to predict velocity and growth from the current tissue, so that a tissue can be generated continuously from a single initial snapshot. On a simulated tissue observed in perturbed coordinate frames, alignment improves reconstruction and projection reduces rigid drift. On four spatial transcriptomics time courses, HORIZON reconstructs tissue geometry, gene expression, and cell abundance more accurately than existing spatial and unbalanced trajectory methods, and interpolates held-out developmental stages.",
+        "identifier": "2611.24764",
+        "dedupe_key": "arxiv:2611.24764",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "e2e9c4e9e81f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 54
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 55,
+      "title": "SCOPE: Single-Cell Omics Prediction from Histology via RNA-Protein Prior Enhancement",
+      "title_zh": "SCOPE：通过RNA-蛋白质先验增强从组织学预测单细胞组学。",
+      "url": "http://arxiv.org/abs/2611.24104v1",
+      "hot_value": null,
+      "summary_zh": "从常规H&E图像预测细胞的RNA和蛋白质含量可将空间分子谱分析扩展到现有切片档案。然而，H&E-空间蛋白质组学和H&E-空间转录组学配对数据集均受可用标记物数量和高质量、细胞分辨数据不足的限制。我们提出SCOPE（通过RNA-蛋白质先验增强的单细胞组学预测），一个统一框架，利用RNA和蛋白质之间的生物学互补信息来解决单组学监督可用性有限的问题。我们的关键见解是，尽管RNA和蛋白质代表不同的分子模态，但它们的生物学关系提供了有价值的共享知识，可有益于单组学预测任务。为此，SCOPE引入生物学信息生物标志物先验以增强共享基因水平表示，通过基因-蛋白质对应和分子关联实现跨RNA和蛋白质模态的知识转移。通过利用这些互补关系，SCOPE使两个预测任务都能受益于富含跨组学生物学知识的共享骨干。此外，其生物标志物相关性设计便于预测未见标记物，将空间分辨分子谱分析扩展到直接监督目标之外。在涵盖16个器官的",
+      "thumbnail": null,
+      "published_at": "2026-11-18T09:24:45Z",
+      "extra": {
+        "subsource": "arxiv",
+        "field": "cs.CV",
+        "doi": null,
+        "tier": "预印本",
+        "mode": "filter",
+        "description": "Predicting the RNA and protein content of cells from routine H&E images could extend spatial molecular profiling to existing slide archives. However, both H&E-spatial proteomics and H&E-spatial transcriptomics paired datasets are limited by the number of available markers and the insufficient availability of high-quality, cell-resolved data. We present SCOPE (Single-Cell Omics Prediction via RNA-protein prior Enhancement), a unified framework that leverages biologically complementary information between RNA and proteins to address the limited availability of single-omics supervision. Our key insight is that, although RNA and proteins represent distinct molecular modalities, their biological relationships provide valuable shared knowledge that can benefit single-omics prediction tasks. To this end, SCOPE introduces biologically informed biomarker priors to enhance shared gene-level representations, enabling knowledge transfer across RNA and protein modalities through gene-protein correspondence and molecular associations. By exploiting these complementary relationships, SCOPE enables both prediction tasks to benefit from a shared backbone enriched with cross-omics biological knowledge. Furthermore, its biomarker correlation design facilitates the prediction of unseen markers, extending spatially resolved molecular profiling beyond directly supervised targets. Across test datasets spanning 16 organs, SCOPE improves the average RNA Pearson correlation over the strongest baseline by 8.8%. On two external protein cohorts, it improves the average Pearson correlation over the strongest baseline by 9.7% for seen markers and 11.9% for unseen markers.",
+        "identifier": "2611.24104",
+        "dedupe_key": "arxiv:2611.24104",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cb2a278c3058",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 55
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 56,
       "title": "ST-FateFlow: Continuous Gene-Spatial Reconstruction with Differentiation-Potential Learning from Time-Resolved Spatial Transcriptomics",
       "title_zh": "ST-FateFlow：从时间分辨空间转录组学通过分化潜能学习进行连续基因-空间重建",
       "url": "http://arxiv.org/abs/2611.22256v1",
@@ -2830,21 +3002,25 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": -4,
       "cluster_id": "8ea04737157f",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 52
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 56
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 53,
+      "rank": 57,
       "title": "Weight-Space Programming Changes How an LLM Uses Python for Computational Biology",
       "title_zh": "权重空间编程改变LLM在计算生物学中使用Python的方式",
       "url": "http://arxiv.org/abs/2611.20566v1",
@@ -2867,9 +3043,9 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -4,
       "cluster_id": "e0c58ec1b821",
       "cluster_size": 1,
       "rank_history": [
@@ -2880,141 +3056,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 53
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 57
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 54,
-      "title": "Multicellular signaling in reverse cardiac remodeling revealed by integrated bulk and single-nucleus transcriptomics",
-      "title_zh": "通过整合 bulk 和单核转录组学揭示逆向心脏重塑中的多细胞信号传导",
-      "url": "https://doi.org/10.64898/2026.01.12.699040",
-      "hot_value": null,
-      "summary_zh": "心力衰竭源于持续生物力学应力触发的适应不良多细胞重塑。尽管机械卸载可以促进逆向重塑，但恢复往往不完全，其机制基础仍不清楚。使用可逆小鼠压力超负荷模型结合 bulk 和单核转录组学，我们证明逆向重塑代表一种 actively maintained 但受限的多细胞状态。卸载改善了心脏功能并部分恢复了细胞外基质和代谢程序，而炎症和线粒体功能障碍特征持续存在。心肌细胞和内皮细胞 largely 重建了稳态转录状态，而成纤维细胞保留了主导残余病理的激活程序。多细胞因子分析描绘了一个可逆代谢应激程序和一个跨心脏细胞类型协调的持续炎症-线粒体程序。细胞-细胞通讯分析将淋巴内皮细胞识别为恢复的关键指导性调节因子。值得注意的是，淋巴衍生的 Reelin（RELN）直接抑制小鼠和人类心肌细胞中的病理性胎儿基因激活，揭示了一种以前未被认识的淋巴血管分泌机制，该机制在慢性心力衰竭中限制心肌恢复。",
-      "thumbnail": null,
-      "published_at": "2026-11-14",
-      "extra": {
-        "subsource": "biorxiv",
-        "field": "molecular biology",
-        "doi": "10.64898/2026.01.12.699040",
-        "tier": "预印本",
-        "mode": "all",
-        "description": "Heart failure results from maladaptive multicellular remodeling triggered by sustained biomechanical stress. Although mechanical unloading can promote reverse remodeling, recovery is frequently incomplete and its mechanistic basis remains unclear. Using a reversible murine pressure-overload model combined with bulk and single-nucleus transcriptomics, we demonstrate that reverse remodeling represents an actively maintained yet constrained multicellular state. Unloading improved cardiac function and partially restored extracellular matrix and metabolic programs, whereas inflammatory and mitochondrial dysfunction signatures persisted. Cardiomyocytes and endothelial cells largely re-established homeostatic transcriptional states, while fibroblasts retained activated programs that dominated residual pathology. Multicellular factor analysis delineated a reversible metabolic stress program and a persistent inflammatory-mitochondrial program coordinated across cardiac cell types. Cell-cell communication analysis identified lymphatic endothelial cells as key instructive regulators of recovery. Notably, lymphatic-derived Reelin (RELN) directly suppressed pathological fetal gene activation in murine and human cardiomyocytes, uncovering a previously unrecognized lymphoangiocrine mechanism that constrains myocardial recovery in chronic heart failure.",
-        "dedupe_key": "doi:10.64898/2026.01.12.699040",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "bc414e096d6c",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 54
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 55,
-      "title": "CellChat Hotspot: A Targeted Approach to Cell Cell Communication Analysis With Spatial transcriptomics Validation.",
-      "title_zh": "CellChat Hotspot：一种针对细胞-细胞通讯分析的靶向方法，具有空间转录组学验证。",
-      "url": "https://doi.org/10.64898/2026.11.09.765280",
-      "hot_value": null,
-      "summary_zh": "摘要。近年来，单细胞 RNA 测序（scRNA seq）通过 CellChat 等细胞-细胞通讯（CCC）工具使得研究细胞间通讯成为可能。尽管具有潜力，这些方法仍然难以解释，特别是当全局分析生成可能包含生物学无关信号的复杂相互作用网络时。为解决这一限制，我们开发了一个称为 CellChat Hotspot 的框架，旨在提高推断通讯网络的生物学可解释性。该方法将基因集富集分析与上下文驱动的过滤策略相结合，在通讯推断之前基于功能相关性选择基因和细胞。应用于 II 期结肠癌数据，CellChat Hotspot 能够识别与复发相关的条件特异性相互作用模式。非复发患者显示免疫相关过程的富集，而复发案例则以与侵袭和转移相关的通路为特征。值得注意的是，在复发患者中观察到 CALB1+ 和基质细胞之间 HSPG 通路相互作用的丧失，表明细胞基质粘附机制可能被破坏。为验证这一发现的可靠性，我们将框架应用于",
-      "thumbnail": null,
-      "published_at": "2026-11-14",
-      "extra": {
-        "subsource": "biorxiv",
-        "field": "bioinformatics",
-        "doi": "10.64898/2026.11.09.765280",
-        "tier": "预印本",
-        "mode": "all",
-        "description": "Abstract. In recent years, single cell RNA sequencing (scRNA seq) has enabled the investigation of intercellular communication through Cell Cell Communication (CCC) tools such as CellChat. Despite their potential, these approaches remain challenging to interpret, particularly when global analyses generate complex interaction networks that may include biologically irrelevant signals. To address this limitation, we developed a framework termed CellChat Hotspot, designed to improve the biological interpretability of inferred communication networks. This approach integrates gene set enrichment analysis with a context driven filtering strategy, selecting both genes and cells based on their functional relevance prior to communication inference. Applied to stage II colon cancer data, CellChat Hotspot enabled the identification of condition-specific interaction patterns associated with recurrence. Non recurrent patients showed enrichment of immune related processes, whereas recurrent cases were characterized by pathways associated with invasion and metastasis. Notably, a loss of interaction in the HSPG pathway between CALB1+ and stromal cells was observed in recurrent patients, suggesting a potential disruption of cell matrix adhesion mechanisms. To verify the reliability of this finding, we applied the framework to spatial transcriptomics data, which confirmed the presence of the HSPG2 DAG1 interaction in non-recurrent tumors and its near absence in recurrent ones. Overall, this framework provides a biologically guided strategy for studying intercellular communication in complex systems such as the tumor microenvironment.",
-        "dedupe_key": "doi:10.64898/2026.11.09.765280",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "2a60c560c8e8",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 55
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 56,
-      "title": "PDO Drug Screening Data for Evaluating and Training AI Drug Response Prediction Models",
-      "title_zh": "用于评估和训练AI药物反应预测模型的PDO药物筛选数据",
-      "url": "http://arxiv.org/abs/2611.15769v1",
-      "hot_value": null,
-      "summary_zh": "抗癌药物反应预测（DRP）对于精准肿瘤学和治疗开发至关重要。目前，大多数DRP模型是使用永生化癌细胞系的药物筛选数据开发的，这些数据在基因组和分子水平上可能与患者肿瘤存在显著差异，尽管患者肿瘤反应是最终的预测目标。为帮助弥合这一差距并使DRP模型更接近其预期的临床应用，我们使用患者来源类器官（PDO）进行了四项药物筛选研究，PDO比永生化细胞系更忠实地再现患者肿瘤。这些研究产生了用于改进和评估DRP模型的数据，包括PDO系的多组学图谱、药物特征数据和治疗反应测量。利用这些数据，我们在三种模型构建场景下重新训练和评估了多个公开可用的DRP模型：仅使用细胞系数据训练模型、使用细胞系和PDO联合数据训练模型、以及在细胞系数据上预训练模型后在PDO数据上微调。然后我们在这些分析场景中评估和比较了模型在PDO上的预测性能。此外，我们还评估了不同实验室使用不同检测技术和/或实验方案生成的药物筛选活力数",
-      "thumbnail": null,
-      "published_at": "2026-11-11T17:49:41Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "q-bio.QM",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "all",
-        "description": "Anti-cancer drug response prediction (DRP) is critically important for precision oncology and therapeutic development. Currently, most DRP models are developed using drug screening data from immortalized cancer cell lines, which can differ substantially from patient tumors at the genomic and molecular levels, even though patient tumor response is the ultimate prediction target. To help bridge this gap and bring DRP models closer to their intended clinical application, we conducted four drug screening studies using patient-derived organoids (PDOs), which more faithfully recapitulate patient tumors than immortalized cell lines. These studies generated data for improving and evaluating DRP models, including multi-omics profiles of PDO lines, drug feature data, and treatment response measurements. Using these data, we retrained and evaluated multiple publicly available DRP models under three model-building scenarios: training models using cell line data only, training models using combined cell line and PDO data, and pretraining models on cell line data followed by fine-tuning on PDO data. We then evaluated and compared model prediction performance on PDOs across these analysis scenarios. In addition, we also assessed the consistency of drug screening viability data generated by different laboratories using different assay technologies and/or experimental protocols.",
-        "identifier": "2611.15769",
-        "dedupe_key": "arxiv:2611.15769",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 6,
-      "is_new": false,
-      "rank_delta": -5,
-      "cluster_id": "9062a35c2e2c",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 50
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 51
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 50
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 49
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 51
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 56
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 57,
+      "rank": 58,
       "title": "Synaptic Dendritic Neuron Model (scDNM) for Cell Type Classification in Single-Cell RNA Sequencing Data",
       "title_zh": "突触树突神经元模型（scDNM）用于单细胞RNA测序数据中的细胞类型分类",
       "url": "http://arxiv.org/abs/2611.10207v1",
@@ -3037,16 +3088,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": -5,
+      "rank_delta": -1,
       "cluster_id": "a1709f1b46d2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 51
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 52
@@ -3070,43 +3117,9 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 57
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 58,
-      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
-      "title_zh": "Spool：混合视觉-语言模型的低延迟流式推理",
-      "url": "http://arxiv.org/abs/2611.23228v1",
-      "hot_value": null,
-      "summary_zh": "视觉无障碍代理和机器人等应用需要及时回答关于最近视频内容的问题，在有限的历史帧窗口内（例如最近两分钟）。混合视觉-语言模型（VLM）将注意力与线性循环层如 Gated DeltaNet（GDN）交错，对此设置具有吸引力，但维护滑动窗口成本高昂。原因是循环层将所有过去帧组合成共享状态，因此过期旧帧通常需要重新运行整个窗口通过模型。我们观察到循环更新在状态中是仿射的，具有输入依赖系数，因此每帧的效果可以捕获为可结合组合的变换。我们提出 Spool，一个免训练框架，缓存每帧状态变换并在窗口推进时高效组合它们，从每个循环层的状态中移除过期帧而无需通过骨干重放帧。移除在每个层内是精确的；与注意力中的键值驱逐一样，过期帧可以通过早期层计算的缓存输入保留残余影响。我们设计了专用数据结构和 GPU 内核以实现低缓存和组合开销。在五个开源混合 VLM 和四个视频推理基准上，Spool 在所有20个模型-基准",
-      "thumbnail": null,
-      "published_at": "2026-11-17T18:59:27Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.CV",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Applications such as visual accessibility agents and robotics require answering questions about recent video content promptly, over a bounded window of past frames (e.g., the last two minutes). Hybrid vision-language models (VLMs), which interleave attention with linear recurrent layers such as Gated DeltaNet (GDN), are attractive for this setting, but maintaining a sliding window is expensive. The reason is that recurrent layers combine all past frames into a shared state, so expiring old frames normally requires re-running the entire window through the model. We observe that the recurrent update is affine in the state with input-dependent coefficients, so the effect of each frame can be captured as a transformation that composes associatively. We present Spool, a training-free framework that caches per-frame state transformations and composes them efficiently as the window advances, removing expired frames from each recurrent layer's state without replaying frames through the backbone. Removal is exact within each layer; as with key-value eviction in attention, expired frames can retain residual influence through the cached inputs computed by earlier layers. We design a dedicated data structure and GPU kernels to achieve low caching and composition overhead. Across five open-source hybrid VLMs and four video reasoning benchmarks, Spool achieves the lowest p95 time-to-first-token in all 20 model-benchmark tests, reducing it by a geometric mean of $6.6\\times$ over the faster of two recent vLLM baselines, while improving accuracy by 2.3 percentage points on average.",
-        "identifier": "2611.23228",
-        "dedupe_key": "arxiv:2611.23228",
-        "topic_hit": [],
-        "priority_rank": 999,
-        "keyword_hit": [
-          "benchmark",
-          "attention"
-        ]
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "89bcbee366d2",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 58
         }
       ]
@@ -3114,36 +3127,33 @@
     {
       "source": "papers",
       "rank": 59,
-      "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
-      "title_zh": "StringQFT：一个用于 AI 辅助理论物理的多用途教科书资源",
-      "url": "http://arxiv.org/abs/2611.23225v1",
+      "title": "Centromere divergence and allopolyploidy reshape carnivorous sundew genomes",
+      "title_zh": "着丝粒分化和异源多倍体重塑食虫茅膏菜基因组。",
+      "url": "https://doi.org/10.1101/2025.07.27.666937",
       "hot_value": null,
-      "summary_zh": "我们呈现 StringQFT 作为量子场论弦构造的教科书集合以及 AI 辅助理论物理的基础设施。该集合包括18卷、190章和3,795页，涵盖 brane probes、brane webs、几何工程、F-理论构造、包裹 M5-branes 和精确世界面构造。其开卷基准清单包含1,073个项目，包括499个具有自动有限答案检查的项目。对于检索增强生成，它提供1,371条链接到教科书来源和 PDF 位置的章节记录，以及本地词汇检索器。训练数据准备通过21个私有的、来源链接的示例说明。对于代理，它暴露19个具有指定输入和有限域的计算工具，将工具使用与教科书推导连接。我们通过具体问题、检索段落和有限计算说明这些用途。教科书集合和 accompanying 资源可在 https://github.com/xingyang-yu/StringQFT 获取。",
+      "summary_zh": "着丝粒对染色体功能至关重要，但对比鲜明的着丝粒架构如何塑造多倍体基因组进化和植物多样化仍未解决。在单着丝粒染色体中，着丝粒活性限于一个染色体区域；在全着丝粒染色体中，它沿染色体长度分布。杂交后基因组加倍可将具有不同着丝粒、重复序列组成和重排历史的染色体组置于同一细胞核中。我们研究了这种基因组合并是否与食虫石竹目后来的染色体重塑相关，重点关注推定全着丝粒Drosera regia和单着丝粒D. capensis的染色体水平组装。两种茅膏菜保留广泛的共线性连续性和相关的多倍体祖先，但其现有基因组差异显著。D. regia保留若干祖先染色体融合和分散的候选着丝粒相关卫星重复序列，而D. capensis具有更强的内部重复、广泛重排和局部化着丝粒。系统发育基因组学和结构分析表明D. regia具有网状进化历史，其基因组一部分显示出与捕蝇草谱系的优先结构亲和性。D. regia表现出与六倍体一致的三",
       "thumbnail": null,
-      "published_at": "2026-11-17T18:58:40Z",
+      "published_at": "2026-11-15",
       "extra": {
-        "subsource": "arxiv",
-        "field": "hep-th",
-        "doi": null,
+        "subsource": "biorxiv",
+        "field": "genomics",
+        "doi": "10.1101/2025.07.27.666937",
         "tier": "预印本",
-        "mode": "filter",
-        "description": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains 1,073 items, including 499 with automatic finite-answer checking. For retrieval-augmented generation, it provides 1,371 section records linked to textbook sources and PDF locations, together with a local lexical retriever. Training-data preparation is illustrated by 21 private, source-linked examples. For agents, it exposes 19 calculation tools with specified inputs and finite domains, connecting tool use to textbook derivations. We illustrate these uses through specific questions, retrieved passages and finite calculations. The textbook collection and accompanying resources are available at https://github.com/xingyang-yu/StringQFT.",
-        "identifier": "2611.23225",
-        "dedupe_key": "arxiv:2611.23225",
+        "mode": "all",
+        "description": "Centromeres are essential for chromosome function, yet how contrasting centromere architectures shape polyploid genome evolution and plant diversification remains unresolved. In monocentric chromosomes, centromeric activity is restricted to one chromosomal region; in holocentric chromosomes, it is distributed along the chromosome length. Hybridization followed by genome doubling can place chromosome sets with different centromeres, repeat complements, and rearrangement histories in the same nucleus. We examined whether such genomic mergers are associated with later chromosome restructuring in carnivorous Caryophyllales, focusing on chromosome-scale assemblies of putatively holocentric Drosera regia and monocentric D. capensis. The two sundews retain broad syntenic continuity and related polyploid ancestry, but their present genomes differ sharply. D. regia preserves several ancestral chromosomal fusions and dispersed candidate centromere-associated satellite repeats, whereas D. capensis has stronger internal duplication, extensive rearrangement, and localized centromeres. Phylogenomic and structural analyses suggest a reticulate evolutionary history for D. regia, with part of its genome showing preferential structural affinity to the Venus flytrap lineage. Whereas D. regia exhibits threefold syntenic depth consistent with hexaploidy, D. capensis exhibits sixfold depth consistent with dodecaploidy, and structural comparisons do not support simple doubling of the extant D. regia-like architecture. Repeat profiling across a broad sample of Drosera also shows rapid turnover and species-level differences in centromere-associated DNA. These results place centromere organization alongside polyploid history and chromosome restructuring as a major axis of genome evolution in sundews.",
+        "dedupe_key": "doi:10.1101/2025.07.27.666937",
         "topic_hit": [],
         "priority_rank": 999,
-        "keyword_hit": [
-          "benchmark"
-        ]
+        "keyword_hit": []
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "15a4a25cb73d",
+      "cluster_id": "3c040409b5a4",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 59
         }
       ]
@@ -3151,43 +3161,550 @@
     {
       "source": "papers",
       "rank": 60,
-      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
-      "title_zh": "LLM 代理还需要被告知如何自我改进吗？",
-      "url": "http://arxiv.org/abs/2611.23219v1",
+      "title": "CLASSIFICATION OF PROKARYOTIC DNA METHYLTRANSFERASES BY CATALYTIC DOMAIN TOPOLOGY",
+      "title_zh": "按催化域拓扑对原核DNA甲基转移酶进行分类。",
+      "url": "https://doi.org/10.1101/2023.12.13.571470",
       "hot_value": null,
-      "summary_zh": "LLM 代理越来越多地驱动自己的学习。自我改进方法将模型优化的各种组件委托给模型本身。随着模型变得更有能力，这引发一个基本问题：这些越来越有能力的模型是否仍然需要我们指定它们应如何自我改进？在本文中，我们研究一种自主范式，其中给定基本原语、资源和自我改进的一般目标，代理构建自己的自学习算法用于基于上下文的优化。使用游戏玩法作为测试平台，一个冻结的 LLM 代理获得计算预算和用于收集经验和更新文本文档的工具，并允许自由实验，没有外部强加的循环或访问真实世界数据。我们发现足够有能力的模型在这些条件下确实自我改进，展示了与自我调节学习的经典认知框架和机器学习文献中关于自生成课程的结构一致的策略。此外，我们研究学习的文本产物转移到外部基准的程度，观察到跨不同游戏视野、机制和3D导航的改进。",
+      "summary_zh": "原核DNA甲基转移酶（MTases）是必需酶，在限制-修饰系统中发挥关键作用，防止自身DNA被限制酶降解。此外，它们还参与基因表达调控、DNA修复、DNA复制等过程。在此，我们提出一种基于催化域3D拓扑的原核MTases新分类，解决了Malone和Bujnicki先前方案的局限性。后者将MTases分为{beta}、{gamma}等类别，已使用超过20年。我们通过分析38个实验确定的3D结构和若干AlphaFold预测模型，识别出七个MTases结构类别（A-G），并针对Swiss-Prot中所有已审阅DNA MTases验证了该分类。每个类别的催化域不仅在结构上而且在保守基序上具有同源性。我们的分类系统为理解原核DNA MTases的多样性和进化提供了框架，可应用于基因组注释和进化研究。",
       "thumbnail": null,
-      "published_at": "2026-11-17T18:57:10Z",
+      "published_at": "2026-11-15",
       "extra": {
-        "subsource": "arxiv",
-        "field": "cs.LG",
-        "doi": null,
+        "subsource": "biorxiv",
+        "field": "genomics",
+        "doi": "10.1101/2023.12.13.571470",
         "tier": "预印本",
-        "mode": "filter",
-        "description": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, and a general goal for self-improvement, agents construct their own self-learning algorithm for context-based optimization. Using the setting of gameplay as a testbed, a frozen LLM agent is given a compute budget and tools for collecting experience and updating text documents, and allowed to freely experiment without an externally imposed loop or access to real-world data. We find that sufficiently capable models do self-improve under these conditions, demonstrating strategies that align with classic cognitive frameworks for self-regulated learning and constructs from machine learning literature on self-generated curricula. Furthermore, we study the extent to which the learned text artifacts transfer to external benchmarks, observing improvement across different game horizons, mechanics, and 3D navigation.",
-        "identifier": "2611.23219",
-        "dedupe_key": "arxiv:2611.23219",
+        "mode": "all",
+        "description": "Prokaryotic DNA methyltransferases (MTases) are essential enzymes that play a crucial role in restriction-modification systems, preventing the degradation of self DNA by restriction enzymes. In addition, they contribute to the regulation of gene expression, DNA repair, DNA replication, and other processes. Here, we propose a novel classification of prokaryotic MTases based on the 3D topology of the catalytic domain, which addresses the limitations of the previous scheme developed by Malone and Bujnicki. The latter, which grouped MTases into categories such as , {beta}, {gamma}, etc., has been in use for over 20 years. We identified seven structural classes (A-G) of MTases by analyzing 38 experimentally determined 3D structures and several AlphaFold-predicted models, and validated the classification against all reviewed DNA MTases from Swiss-Prot. The catalytic domains of each class exhibit homology not only in structure but also in conserved motifs. Our classification system provides a framework for understanding the diversity and evolution of prokaryotic DNA MTases, with applications in genomic annotation and evolutionary studies.",
+        "dedupe_key": "doi:10.1101/2023.12.13.571470",
         "topic_hit": [],
         "priority_rank": 999,
-        "keyword_hit": [
-          "benchmark"
-        ]
+        "keyword_hit": []
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "8d6666eca904",
+      "cluster_id": "ed0324a045f1",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 60
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 48,
+      "rank": 50,
+      "title": "Conference networking made simple, in three short videos",
+      "title_zh": "会议社交变得简单，三个短视频。",
+      "url": "https://www.nature.com/articles/d41586-026-03678-9",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03678-9 在房间里与人交际是一项可以练习和准备的技能。方法如下。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03678-9 Working the room is a skill you can practise and prepare for. Here’s how.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03678-9"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ab5eb411f31f",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 50
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 51,
+      "title": "First observation of a giant star swallowing its neighbour",
+      "title_zh": "首次观测到一颗巨星吞噬其邻居",
+      "url": "https://www.nature.com/articles/d41586-026-03784-8",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03784-8 这一发现为恒星合并内部发生的过程提供了新见解——另外，利用量子物理安全精确定位某人的位置。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03784-8 Finding provides new insights into what happens within stellar mergers — plus, using quantum physics to securely pinpoint someone’s location.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03784-8"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ff5c04e1741b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 51
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 52,
+      "title": "How to make AI data centres more sustainable",
+      "title_zh": "如何让AI数据中心更可持续",
+      "url": "https://www.nature.com/articles/d41586-026-03708-6",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03708-6 科技公司和政府在数据中心扩张上面临反对，部分原因是其巨大的电力需求。它们绝不能使用化石燃料供电。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03708-6 Tech companies and governments face opposition over data centres’ expansion, in part because of their huge power requirements. They must not be powered with fossil fuels.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03708-6"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "08cbd8a70a61",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 52
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 53,
+      "title": "Microbiome home tests are taking off. Can they be trusted?",
+      "title_zh": "微生物组居家检测正在兴起。它们可信吗？",
+      "url": "https://www.nature.com/articles/d41586-026-03710-y",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03710-y 我们的记者把她的粪便寄了出去，想看看两家公司对她的微生物组怎么说。以下是她的发现。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03710-y Our reporter mailed off her poo to find out what two companies say about her microbiome. Here’s what she found.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03710-y"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "698a36d2074a",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 53
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 54,
+      "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
+      "title_zh": "热带土地利用集约化以预期和意外的方式重塑生物多样性",
+      "url": "https://www.nature.com/articles/d41586-026-03602-1",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03602-1 过去几十年全球农业需求增加，推动了一些世界上生物多样性最丰富地区的土地利用集约化。对印度尼西亚苏门答腊约4万种物种（从土壤微生物到脊椎动物）的评估显示，农业集约化通过s威胁生物多样性",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03602-1 Global agricultural demand has increased over the past few decades, driving land-use intensification in some of the world’s most biodiverse regions. An assessment of some 40,000 species, from soil microorganisms to vertebrates, in Sumatra, Indonesia, reveals that agricultural intensification threatens biodiversity through s",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03602-1"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f7c7d63966a9",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 54
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 55,
+      "title": "Kings of the jungle? This early human had surprising survival skills that rivalled ours",
+      "title_zh": "丛林之王？这位早期人类的生存技能令人惊讶，可与我们的相媲美",
+      "url": "https://www.nature.com/articles/d41586-026-03777-7",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03777-7 在中国南方发现的牙齿挑战了直立人仅限于林地和稀树草原的观点。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03777-7 Teeth found in south China challenge the idea that Homo erectus was limited to woodlands and savannahs.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03777-7"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f1fc6ea40614",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 55
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 56,
+      "title": "Intra-stellar: a star inside a giant star",
+      "title_zh": "恒星内部：一颗巨星内部的一颗恒星",
+      "url": "https://www.nature.com/articles/d41586-026-03273-y",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03273-y 对仙女座星系一颗巨星的长期监测首次揭示了另一颗恒星在该巨星包层内轨道的衰减。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03273-y Long-term monitoring of a giant star in the Andromeda galaxy reveals, for the first time, the decay of the orbit of another star inside the giant’s envelope.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03273-y"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "836e989da332",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 56
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 57,
+      "title": "Glucose-powered implant brings devices for treating diabetes a step closer",
+      "title_zh": "葡萄糖供电植入物让治疗糖尿病的设备更近一步",
+      "url": "https://www.nature.com/articles/d41586-026-03377-5",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03377-5 一种在血糖高时刺激大脑与内脏之间主要神经的设备，在糖尿病大鼠模型中是一种有效疗法。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03377-5 A device that stimulates the main nerve between the brain and the internal organs when blood sugar is high is an effective therapy in rat models of diabetes.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03377-5"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "ed96ff548de8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 57
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 58,
+      "title": "Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
+      "title_zh": "用于钙钛矿太阳能电池和叠层的带边扩展异质界面",
+      "url": "https://www.nature.com/articles/s41586-026-11427-1",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/s41586-026-11427-1 用于钙钛矿太阳能电池和叠层的带边扩展异质界面",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11427-1 Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
+        "dedupe_key": "https://www.nature.com/articles/s41586-026-11427-1"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f7fae646a510",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 58
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 59,
+      "title": "Poxviruses probably evolved in the digestive system of animals",
+      "title_zh": "痘病毒很可能在动物消化系统中进化",
+      "url": "https://www.nature.com/articles/d41586-026-03436-x",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03436-x 感染单细胞真核生物的大型和巨型DNA病毒在环境中很丰富，但很少在肠道微生物组中发现。在人类和动物消化系统中普遍存在的此类病毒的发现，揭示了肠道微生物组一个长期被忽视的方面，阐明了痘病毒的起源",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03436-x Large and giant DNA viruses that infect unicellular eukaryotes are abundant in the environment but have rarely been found in the gut microbiome. The discovery of such viruses that prevail in the digestive system of humans and animals exposes a long-overlooked facet of the gut microbiome that clarifies the origin of poxvirus",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03436-x"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "898ba558ff34",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 59
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 60,
+      "title": "Meet ‘egoviruses’: the surprise microbes living in the guts of millions of people",
+      "title_zh": "认识“egoviruses”：生活在数百万人肠道中的意外微生物",
+      "url": "https://www.nature.com/articles/d41586-026-03766-w",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03766-w Egoviruses可能是感染单细胞生物的巨型病毒与能感染人类的巨型病毒之间的进化缺失环节。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03766-w Egoviruses could be the evolutionary missing link between giant viruses that infect single-celled organisms and those that can infect people.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03766-w"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "b0e31e352f17",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 60
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 61,
+      "title": "A new view of Amazonian leaf seasonality",
+      "title_zh": "亚马逊叶片季节性新视角",
+      "url": "https://www.nature.com/articles/d41586-026-03490-5",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03490-5 亚马逊雨林大部分曾被认为是常绿的，但高分辨率卫星图像显示，其中许多树木的无叶期可能比预期更长。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03490-5 Much of the Amazon rainforest was thought to be evergreen, but high-resolution satellite imagery reveals that many of its trees can remain leafless for longer than expected.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03490-5"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "450eafbffeba",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 61
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 62,
+      "title": "Injured locusts heal or are cannibalized depending on levels of a bacterial odour molecule",
+      "title_zh": "受伤的蝗虫根据一种细菌气味分子的水平要么愈合要么被同类相食",
+      "url": "https://www.nature.com/articles/d41586-026-03599-7",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03599-7 当迁徙蝗虫受伤时，生活在其体内或体表的细菌产生的一种气味化学物质会激活免疫系统，帮助它们对抗致病因子。然而，当伤口较大且该化学物质浓度过高时，它会吸引同类相食的蝗虫。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03599-7 When migratory locusts are injured, an odorous chemical produced by bacteria living in or on their bodies activates the immune system, helping them to fight disease-causing agents. However, when a wound is large and the chemical becomes too concentrated, it attracts cannibalistic locusts.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03599-7"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "40a374233c42",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 62
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 63,
+      "title": "Are you a budding science sleuth? Take our plagiarism quiz to test your skills",
+      "title_zh": "你是初露头角的科学侦探吗？参加我们的剽窃测验来测试你的技能",
+      "url": "https://www.nature.com/articles/d41586-026-03040-z",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03040-z 侦探和出版商利用“折磨短语”来检测研究欺诈。有时它们也能让人会心一笑。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03040-z Sleuths and publishers seize on ‘tortured phrases’ to detect research fraud. Sometimes they can raise a smile.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03040-z"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "cc150e43d832",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 63
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 64,
+      "title": "AI must be held accountable — value statements won’t protect human dignity",
+      "title_zh": "AI必须被问责——价值声明不会保护人类尊严",
+      "url": "https://www.nature.com/articles/d41586-026-03717-5",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月18日；doi:10.1038/d41586-026-03717-5 科技公司不能成为自身监管合规的裁判。数百年的历史解释了原因。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 18 November 2026; doi:10.1038/d41586-026-03717-5 Technology companies can’t be the judges of their own regulatory compliance. Centuries of history explain why.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03717-5"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "62cbefa69db5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 64
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 65,
+      "title": "Transforming molecular evolutionary analyses with protein foundation models",
+      "title_zh": "用蛋白质基础模型转变分子进化分析",
+      "url": "https://www.nature.com/articles/s41592-026-03304-6",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月18日；doi:10.1038/s41592-026-03304-6 这篇观点文章追溯了进化分析从早期替换矩阵到协同进化模型的历史，并提出蛋白质基础模型通过实现单序列进化分析来补充经典统计模型，并将使该领域从建模独立残基差异转变",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 18 November 2026; doi:10.1038/s41592-026-03304-6 This Perspective traces the history of evolutionary analysis from early substitution matrices to coevolutionary models and proposes that protein foundation models complement classical statistical models by enabling single-sequence evolutionary analysis and will shift the field from modeling independent residue diffe",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03304-6"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "fb5cdf530478",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 65
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 66,
+      "title": "A zero-shot spillover denoiser for highly multiplexed images",
+      "title_zh": "用于高度多重图像的零样本溢出降噪器",
+      "url": "https://www.nature.com/articles/s41592-026-03263-y",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月18日；doi:10.1038/s41592-026-03263-y SpillOT是一种用于多重成像数据的零样本降噪和溢出校正工具。",
+      "thumbnail": null,
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 18 November 2026; doi:10.1038/s41592-026-03263-y SpillOT is a zero-shot denoising and spillover correction tool for multiplexed imaging data.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03263-y"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f9d7f59b8af8",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 66
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 68,
       "title": "Tracing the genetic roots of cellular identity in tumors",
       "title_zh": "追踪肿瘤中细胞身份的遗传根源",
       "url": "https://www.nature.com/articles/s41592-026-03291-8",
@@ -3203,9 +3720,9 @@
         "description": "Nature Methods, Published online: 16 November 2026; doi:10.1038/s41592-026-03291-8 A new Bayesian framework, Echidna, integrates bulk whole-genome sequencing with single-cell RNA sequencing to connect clonal copy-number states with transcriptional programs, providing a tractable way to ask how much of a tumor cell’s identity is encoded by its genome.",
         "dedupe_key": "https://www.nature.com/articles/s41592-026-03291-8"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 12,
+      "rank_delta": -20,
       "cluster_id": "5e82e5f80e58",
       "cluster_size": 1,
       "rank_history": [
@@ -3216,12 +3733,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 48
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 68
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 49,
+      "rank": 69,
       "title": "Echidna: a Bayesian framework for integrative inference of copy number alterations impacting phenotypic plasticity",
       "title_zh": "Echidna：用于整合推断影响表型可塑性的拷贝数改变的贝叶斯框架",
       "url": "https://www.nature.com/articles/s41592-026-03279-4",
@@ -3237,9 +3758,9 @@
         "description": "Nature Methods, Published online: 16 November 2026; doi:10.1038/s41592-026-03279-4 Echidna integrates genomic and transcriptomics data to reveal how copy number alterations shape tumor evolution and therapy resistance.",
         "dedupe_key": "https://www.nature.com/articles/s41592-026-03279-4"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 12,
+      "rank_delta": -20,
       "cluster_id": "a7510359aa06",
       "cluster_size": 1,
       "rank_history": [
@@ -3250,12 +3771,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 49
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 69
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 50,
+      "rank": 70,
       "title": "Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression",
       "title_zh": "联合单细胞捕获Cas9编辑和转录组揭示对基因表达的靶向和非靶向效应",
       "url": "https://www.nature.com/articles/s41592-026-03319-z",
@@ -3271,11 +3796,11 @@
         "description": "Nature Methods, Published online: 16 November 2026; doi:10.1038/s41592-026-03319-z Superb-seq integrates CRISPR–Cas9, T7 in situ transcription and scRNA-seq to capture genome edits and gene expression in single cells.",
         "dedupe_key": "https://www.nature.com/articles/s41592-026-03319-z"
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 12,
-      "cluster_id": "ccaa7132c174",
-      "cluster_size": 2,
+      "rank_delta": -20,
+      "cluster_id": "adba501cc042",
+      "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-17T10:51:43.342351+00:00",
@@ -3284,12 +3809,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 50
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 70
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 57,
+      "rank": 76,
       "title": "PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases",
       "title_zh": "PANGEA：跨多样生物背景的整合细胞图谱，能够系统分析人类疾病中的多细胞反应",
       "url": "https://www.nature.com/articles/s41592-026-03295-4",
@@ -3305,9 +3834,9 @@
         "description": "Nature Methods, Published online: 12 November 2026; doi:10.1038/s41592-026-03295-4 PANGEA is a comprehensive single-cell transcriptomic atlas of 160 human diseases across 48 organs.",
         "dedupe_key": "https://www.nature.com/articles/s41592-026-03295-4"
       },
-      "days_on_board": 6,
+      "days_on_board": 7,
       "is_new": false,
-      "rank_delta": 22,
+      "rank_delta": -19,
       "cluster_id": "48c9ed7bc967",
       "cluster_size": 1,
       "rank_history": [
@@ -3334,12 +3863,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 57
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 76
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 58,
+      "rank": 77,
       "title": "Advancing multimodal tools to decode organoid complexity",
       "title_zh": "推进多模态工具以解码类器官复杂性",
       "url": "https://www.nature.com/articles/s41592-026-03320-6",
@@ -3355,16 +3888,12 @@
         "description": "Nature Methods, Published online: 11 November 2026; doi:10.1038/s41592-026-03320-6 This Review examines the current state-of-the-art for organoid profiling and existing knowledge gaps in this area.",
         "dedupe_key": "https://www.nature.com/articles/s41592-026-03320-6"
       },
-      "days_on_board": 7,
+      "days_on_board": 8,
       "is_new": false,
-      "rank_delta": 23,
+      "rank_delta": -19,
       "cluster_id": "2af75a0e502c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 65
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 61
@@ -3388,12 +3917,16 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 58
+        },
+        {
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
+          "rank": 77
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 59,
+      "rank": 78,
       "title": "In situ profiling of plasma cell clonality with image-based single-cell transcriptomics",
       "title_zh": "基于图像的单细胞转录组学对浆细胞克隆性的原位分析",
       "url": "https://www.nature.com/articles/s41592-026-03296-3",
@@ -3409,16 +3942,12 @@
         "description": "Nature Methods, Published online: 10 November 2026; doi:10.1038/s41592-026-03296-3 BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics.",
         "dedupe_key": "https://www.nature.com/articles/s41592-026-03296-3"
       },
-      "days_on_board": 8,
+      "days_on_board": 9,
       "is_new": false,
-      "rank_delta": 23,
+      "rank_delta": -19,
       "cluster_id": "148b3a4fb9c6",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 70
-        },
         {
           "run_at": "2026-11-13T09:43:01.154501+00:00",
           "rank": 66
@@ -3442,114 +3971,10 @@
         {
           "run_at": "2026-11-18T10:19:41.832518+00:00",
           "rank": 59
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 61,
-      "title": "High school science ambitions",
-      "title_zh": "高中科学志向",
-      "url": "https://www.nature.com/articles/s41592-026-03323-3",
-      "hot_value": null,
-      "summary_zh": "Nature Methods，在线发表：2026年11月09日；doi:10.1038/s41592-026-03323-3 Brain Bee竞赛让高中生向科学职业目标迈进。",
-      "thumbnail": null,
-      "published_at": "2026-11-09T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature Methods",
-        "tab": "papers",
-        "route": "https://www.nature.com/nmeth.rss",
-        "translate": true,
-        "description": "Nature Methods, Published online: 09 November 2026; doi:10.1038/s41592-026-03323-3 The Brain Bee competitions let high schoolers leap toward a science career goal.",
-        "dedupe_key": "https://www.nature.com/articles/s41592-026-03323-3"
-      },
-      "days_on_board": 9,
-      "is_new": false,
-      "rank_delta": 23,
-      "cluster_id": "bd1f8da7e362",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 73
         },
         {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 68
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
+          "run_at": "2026-11-19T10:38:57.363076+00:00",
           "rank": 78
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 78
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 75
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 84
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 61
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 62,
-      "title": "Looking back on the adolescence of GFP research",
-      "title_zh": "回顾GFP研究的青春期",
-      "url": "https://www.nature.com/articles/s41592-026-03335-z",
-      "hot_value": null,
-      "summary_zh": "Nature Methods，在线发表：2026年11月09日；doi:10.1038/s41592-026-03335-z 围绕GFP的长期谜团在1990年代后半叶被揭开。这份来自Aequorea victoria水母的特殊礼物不是巧合，而是命运。",
-      "thumbnail": null,
-      "published_at": "2026-11-09T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature Methods",
-        "tab": "papers",
-        "route": "https://www.nature.com/nmeth.rss",
-        "translate": true,
-        "description": "Nature Methods, Published online: 09 November 2026; doi:10.1038/s41592-026-03335-z Long-standing mysteries surrounding GFP were uncovered in the latter half of the 1990s. This special gift from the Aequorea victoria jellyfish was not a coincidence but destiny.",
-        "dedupe_key": "https://www.nature.com/articles/s41592-026-03335-z"
-      },
-      "days_on_board": 9,
-      "is_new": false,
-      "rank_delta": 23,
-      "cluster_id": "1c2ed39ea345",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-12T09:57:45.705243+00:00",
-          "rank": 74
-        },
-        {
-          "run_at": "2026-11-13T09:43:01.154501+00:00",
-          "rank": 69
-        },
-        {
-          "run_at": "2026-11-14T09:05:45.154060+00:00",
-          "rank": 79
-        },
-        {
-          "run_at": "2026-11-15T09:36:53.507951+00:00",
-          "rank": 79
-        },
-        {
-          "run_at": "2026-11-16T09:54:02.263034+00:00",
-          "rank": 76
-        },
-        {
-          "run_at": "2026-11-17T10:51:43.342351+00:00",
-          "rank": 85
-        },
-        {
-          "run_at": "2026-11-18T10:19:41.832518+00:00",
-          "rank": 62
         }
       ]
     }
