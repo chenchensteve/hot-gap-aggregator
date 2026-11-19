@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { deepMergePrefs, loadPrefs, prefBoolean, prefString, prefStringArray, savePrefs, type Prefs } from './prefs';
+import HorizonView, { type HorizonFeed } from './HorizonView';
 
 type HistoryPoint = { run_at: string; rank: number };
 type Item = {
@@ -63,12 +64,12 @@ const sourceNames: Record<string, string> = {
   weibo: '微博', bilibili: 'B站', github: 'GitHub', youtube: 'YouTube', douyin: '抖音',
   telegram: 'Telegram', gongkao: '公考', xiaohongshu: '小红书雷达', papers: '顶刊',
   nowcoder: '牛客', jobs: '岗位', ai: 'AI动态', tools: '工具更新', qiuzhao: '秋招', alerts: '预警',
-  portals: '官方招聘入口',
+  portals: '官方招聘入口', horizon: 'Horizon 精选',
 };
 const itemSourceName = (source: string) => source === 'conf_deadlines' ? '会议 Deadline' : sourceNames[source] ?? source;
 
 const defaultTabs = ['all', ...Object.keys(sourceNames), 'trends'];
-const lazyTabs = new Set(['gongkao', 'papers', 'jobs', 'ai', 'tools', 'trends', 'alerts', 'qiuzhao', 'portals']);
+const lazyTabs = new Set(['gongkao', 'papers', 'jobs', 'ai', 'tools', 'trends', 'alerts', 'qiuzhao', 'portals', 'horizon']);
 const tabLabel = (tab: string) => tab === 'all' ? '全部' : tab === 'trends' ? '趋势' : sourceNames[tab] ?? tab;
 
 const tabOrderFromPrefs = (prefs: Prefs) => {
@@ -860,6 +861,7 @@ function App() {
   const [jobQuicklinks, setJobQuicklinks] = useState<Quicklink[]>([]);
   const [qiuzhaoItems, setQiuzhaoItems] = useState<QiuzhaoItem[]>([]);
   const [portalGroups, setPortalGroups] = useState<PortalGroup[]>([]);
+  const [horizonFeed, setHorizonFeed] = useState<HorizonFeed | null>(null);
   const [tabItems, setTabItems] = useState<Record<string, Item[]>>({});
   const [tabStates, setTabStates] = useState<Record<string, SourceState>>({});
   const [tabLoading, setTabLoading] = useState<string | null>(null);
@@ -1033,6 +1035,10 @@ function App() {
         const next = await readJson<QiuzhaoFeed>('/data/qiuzhao.json');
         setQiuzhaoItems(next.items);
         setTabStates((current) => ({ ...current, qiuzhao: { source: 'qiuzhao', status: 'ok', item_count: next.items.length } }));
+      } else if (active === 'horizon') {
+        const next = await readJson<HorizonFeed>('/data/server-horizon.json');
+        setHorizonFeed(next);
+        setTabStates((current) => ({ ...current, horizon: { source: 'horizon', status: 'ok', item_count: next.items.length } }));
       } else if (active === 'portals') {
         const next = await readJson<PortalsFeed>('/data/portals.json');
         setPortalGroups(next.groups);
@@ -1139,8 +1145,10 @@ function App() {
       </aside>
     </div>}
     <section className="mx-auto w-full min-w-0 max-w-6xl px-4 py-5 sm:px-6 sm:py-8">
+      {active === 'horizon' && tabLoading !== active ? <HorizonView feed={horizonFeed} error={tabErrors.horizon} /> : <>
       {active === 'all' && pinned.length > 0 && <section className="mb-9 rounded-3xl border border-orange-200 bg-gradient-to-br from-orange-50 to-amber-50 p-5 text-slate-950 dark:border-orange-900 dark:from-orange-950/30 dark:to-amber-950/20 dark:text-white"><div className="mb-4"><span className="rounded-full bg-orange-500 px-3 py-1 text-xs font-black text-white">全网都在关注</span><p className="mt-2 text-xs opacity-60">至少 3 个平台同时出现的热点信号</p></div><div className="grid gap-3 sm:grid-cols-2">{pinned.map((item) => <button key={item.cluster_id} onClick={(event) => showCluster(event, item)} className="rounded-2xl bg-white/70 p-4 text-left shadow-sm dark:bg-black/20"><b className="line-clamp-2">{item.title_zh || item.title}</b><small className="mt-2 block text-orange-600">{item.cluster_size} 个平台正在讨论 →</small></button>)}</div></section>}
       {tabLoading === active ? <div role="status" className="rounded-2xl border border-dashed border-[var(--line)] p-12 text-center font-bold text-[var(--muted)]">正在按需加载{tabLabel(active)}数据…</div> : active === 'mail-deadlines' && user?.is_admin ? <MailDeadlinesView /> : active === 'mail-inbox' && user?.is_admin && mailInboxVisible ? <MailInboxView /> : active === 'trends' ? <TrendView trends={trends} /> : active === 'alerts' ? <AlertsView feed={alerts} /> : active === 'xiaohongshu' ? <XhsView items={items} /> : active === 'gongkao' ? <GongkaoView items={items} sites={sites} provinces={gongkaoProvinces} onProvincesChange={(next) => updatePrefs({ gongkao_provinces: next })} /> : active === 'papers' ? <PapersView items={items} deadlines={deadlines} deadlineState={deadlineState} onlyPriority={papersOnlyPriority} onToggle={() => updatePrefs({ papers_only_priority: !papersOnlyPriority })} unavailable={unavailable} error={state?.error} onCluster={showCluster} /> : active === 'jobs' ? <JobsView items={items} quicklinks={jobQuicklinks} unavailable={unavailable} error={state?.error} /> : active === 'ai' ? <AiView items={items} unavailable={unavailable} error={state?.error} /> : active === 'tools' ? <ToolsView items={items} unavailable={unavailable} error={state?.error} /> : active === 'qiuzhao' ? <QiuzhaoLinks items={qiuzhaoItems} /> : active === 'portals' ? <PortalsView groups={portalGroups} /> : <><div className="mb-4 flex items-center justify-between gap-3 text-xs text-[var(--muted)]"><span>{active === 'all' ? '全网信号流' : `${sourceNames[active]}热榜`}</span>{highlightCluster ? <button className="rounded-full bg-orange-100 px-3 py-1 font-bold text-orange-700" onClick={() => setHighlightCluster(null)}>正在高亮同簇 · 清除</button> : <span>{items.length} 条</span>}</div>{items.length > 0 && <ProgressiveHotList items={items} onCluster={showCluster} highlightCluster={highlightCluster} />}{feed && items.length === 0 && <div className="rounded-2xl border border-dashed border-[var(--line)] p-12 text-center text-[var(--muted)]">{unavailable ? <><p className="font-bold text-[var(--ink)]">这个来源暂不可用</p><p className="mt-2 text-xs">{state?.error || tabErrors[active] || '采集端已安全降级，不影响其它来源。'}</p></> : '这个来源暂时没有数据。'}</div>}</>}
+      </>}
     </section>
   </main>;
 }

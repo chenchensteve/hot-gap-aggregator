@@ -1,0 +1,4 @@
+# Independent of recruitment collection and Feishu refresh. Server timezone: Asia/Shanghai.
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+17 */6 * * * root cd /opt/hot-gap-aggregator && /usr/bin/flock -n /run/lock/hot-gap-horizon.lock /usr/bin/timeout 120 .venv/bin/python -m app.capture_horizon --output /var/www/hot-gap/data/server-horizon.json >> /var/log/hot-gap-horizon.log 2>&1

@@ -196,7 +196,7 @@ async def test_playwright_sources_are_strictly_serial(monkeypatch) -> None:
             await asyncio.sleep(0.01)
             return (
                 '<li><a href="/notice">事业单位公开招聘工作人员公告</a>'
-                '<span>2026-09-10</span></li>'
+                f'<span>{date.today().isoformat()}</span></li>'
             )
         finally:
             active -= 1
@@ -232,7 +232,7 @@ async def test_html_sources_keep_the_existing_parallelism(monkeypatch) -> None:
             await asyncio.sleep(0.01)
             return (
                 '<li><a href="/notice">事业单位公开招聘工作人员公告</a>'
-                '<span>2026-09-10</span></li>'
+                f'<span>{date.today().isoformat()}</span></li>'
             )
         finally:
             active -= 1
@@ -269,7 +269,7 @@ async def test_playwright_timeout_releases_slot_and_next_source_completes(monkey
                 cancelled.set()
         return (
             '<li><a href="/notice">事业单位公开招聘工作人员公告</a>'
-            '<span>2026-09-10</span></li>'
+            f'<span>{date.today().isoformat()}</span></li>'
         )
 
     monkeypatch.setattr(collector, "_html", fake_html)

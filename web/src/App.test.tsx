@@ -35,6 +35,40 @@ const dataResponse = (url: string) => {
 };
 
 describe('authenticated app bootstrap', () => {
+  it('loads Horizon only when opened and lets a reader filter attributed stories', async () => {
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input);
+      if (url === '/api/me') return json({ username: 'reader', is_admin: false });
+      if (url === '/api/settings') return json({ prefs: {}, updated_at: null });
+      if (url === '/data/server-horizon.json') return json({
+        generated_at: new Date().toISOString(), latest_issue: '2026-11-18',
+        issues: [{ date: '2026-11-18', url: 'https://example.org/digest', item_count: 1 }],
+        items: [{ id: 'one', title: 'Horizon 精选样例', url: 'https://example.org/original', digest_url: 'https://example.org/digest#one', issue_date: '2026-11-18', category: '科技新闻', score: 8, summary: '来自 Horizon 的中文摘要', tags: ['AI'], discussion_url: '' }],
+      });
+      return dataResponse(url) ?? json({}, 404);
+    });
+    vi.stubGlobal('fetch', fetchMock);
+    render(<App />);
+    await screen.findByText('reader');
+    expect(fetchMock.mock.calls.some(([url]) => String(url) === '/data/server-horizon.json')).toBe(false);
+    fireEvent.click(screen.getByRole('button', { name: 'Horizon 精选' }));
+    expect(await screen.findByText('Horizon 精选样例')).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: '阅读原文 ↗' })).toHaveAttribute('href', 'https://example.org/original');
+  });
+
+  it('skips Horizon data requests when its navigation tab is hidden', async () => {
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input);
+      if (url === '/api/me') return json({ username: 'reader', is_admin: false });
+      if (url === '/api/settings') return json({ prefs: { tab_hidden: ['horizon'] }, updated_at: null });
+      return dataResponse(url) ?? json({}, 404);
+    });
+    vi.stubGlobal('fetch', fetchMock);
+    render(<App />);
+    await screen.findByText('reader');
+    expect(screen.queryByRole('button', { name: 'Horizon 精选' })).not.toBeInTheDocument();
+    expect(fetchMock.mock.calls.some(([url]) => String(url) === '/data/server-horizon.json')).toBe(false);
+  });
   beforeEach(() => localStorage.clear());
   afterEach(() => { cleanup(); vi.unstubAllGlobals(); vi.restoreAllMocks(); });
 
