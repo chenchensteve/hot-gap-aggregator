@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T11:28:51.570961+00:00",
+  "generated_at": "2026-11-26T11:03:25.435709+00:00",
   "source": "papers",
   "status": {
     "source": "papers",
     "status": "ok",
-    "item_count": 75,
-    "duration_ms": 37216,
+    "item_count": 83,
+    "duration_ms": 28452,
     "error": null,
-    "run_at": "2026-11-25T11:28:51.570961+00:00"
+    "run_at": "2026-11-26T11:03:25.435709+00:00"
   },
   "items": [
     {
@@ -37,16 +37,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 5,
+      "days_on_board": 6,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "6e10157aff26",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 1
-        },
         {
           "run_at": "2026-11-21T09:58:26.589415+00:00",
           "rank": 2
@@ -65,6 +61,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 1
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 1
         }
       ]
@@ -97,16 +97,12 @@
           "graph neural network"
         ]
       },
-      "days_on_board": 13,
+      "days_on_board": 14,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "a327854abe96",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 2
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 1
@@ -130,12 +126,54 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 2
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 2
         }
       ]
     },
     {
       "source": "papers",
       "rank": 3,
+      "title": "Systematic clustering alignment and feature characterization for single-cell omics using ACE-OF-Clust",
+      "title_zh": "使用ACE-OF-Clust进行单细胞组学的系统聚类对齐和特征表征",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014944",
+      "hot_value": null,
+      "summary_zh": "聚类广泛用于识别细胞分辨率转录组数据中的细胞类型，包括单细胞RNA测序（scRNA-seq）和空间转录组学（ST）。混合成员聚类分配跨聚类的分数成员关系，并捕捉硬聚类之外的连续变异，但整合和解释任一方法的结果因“聚类对齐问题”而变得复杂，该问题源于标签切换、多模态和模型设置差异（包括聚类数量不同）。我们引入ACE-OF-Clust，实现单细胞聚类的四步工作流：多重聚类、聚类对齐、模型比较和识别信息特征。ACE-OF-Clust引入聚类解决方案的直接比较，评估与注释的一致性，并利用特征级聚类谱来优先区分细胞类型的基因，以及评估基因集如何贡献聚类模式。我们使用PBMC scRNA-seq数据、乳腺癌和小鼠胚胎ST数据以及单细胞多组学数据展示了其效用。ACE-OF-Clust量化跨组学聚类变异性，并提出推定的跨组学调控联系。总体而言，ACE-OF-Clust提高了单细胞聚类的可解释性、灵活性和稳",
+      "thumbnail": null,
+      "published_at": "2026-11-25",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "PLOS Computational Biology",
+        "mode": "all",
+        "issn": "1553-7358",
+        "doi": "10.1371/journal.pcbi.1014944",
+        "description": "Clustering is widely used to identify cell types in cellular-resolution transcriptomic data, including single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics (ST). Mixed-membership clustering assigns fractional memberships across clusters and captures continuous variation beyond hard clustering, but integrating and interpreting results from either approach is complicated by the “clustering alignment problem,” which arises from label switching, multi-modality, and differences in model settings (including differing numbers of clusters). We introduce ACE-OF-Clust , enabling a four-step workflow for single-cell clustering: multiple clustering, clustering alignment, model comparison, and identification of informative features. ACE-OF-Clust introduces direct comparison of clustering solutions, assesses consistency against annotations, and leverages feature-level clustering profiles to prioritize genes discriminating among cell types, as well as to evaluate how gene sets contribute to clustering patterns. We demonstrate its utility using PBMC scRNA-seq data, breast cancer and mouse embryo ST data, and single-cell multi-omic data. ACE-OF-Clust quantifies cross-omic clustering variability and suggests putative cross-omic regulatory links. Overall, ACE-OF-Clust increases the interpretability, flexibility, and robustness of single-cell clustering, providing a scalable tool for studying cellular heterogeneity and gene expression dynamics.",
+        "dedupe_key": "doi:10.1371/journal.pcbi.1014944",
+        "topic_hit": [
+          "单细胞聚类",
+          "生物信息"
+        ],
+        "priority_rank": 0,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "55fdd5748137",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 4,
       "title": "SUN for scRNA-seq: stable-interval and embedding-based approximate silhouette guided Louvain resolution selection",
       "title_zh": "SUN用于scRNA-seq：稳定区间和基于嵌入的近似轮廓引导Louvain分辨率选择",
       "url": "https://doi.org/10.1186/s12859-026-06766-9",
@@ -159,16 +197,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 12,
+      "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": -1,
       "cluster_id": "a3a48d93ae76",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 3
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 4
@@ -192,12 +226,16 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 3
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 4
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 4,
+      "rank": 5,
       "title": "GLAlign integrates single-cell multi-omics data via global manifold and local marker gene alignment",
       "title_zh": "GLAlign通过全局流形和局部标记基因比对整合单细胞多组学数据",
       "url": "https://doi.org/10.1093/bib/bbag633",
@@ -221,17 +259,13 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 13,
+      "days_on_board": 14,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": -1,
       "cluster_id": "451f5a01c6d0",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 4
-        },
-        {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 6
         },
@@ -254,68 +288,9 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 4
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 5,
-      "title": "HGMetaADR: a multimodal heterogeneous graph meta-learning framework for generalized adverse drug reaction prediction",
-      "title_zh": "HGMetaADR：用于广义药物不良反应预测的多模态异质图元学习框架",
-      "url": "https://doi.org/10.1093/bib/bbag539",
-      "hot_value": null,
-      "summary_zh": "摘要 早期识别药物不良反应（ADR），即正常剂量用药后出现的有害或非预期反应，对于减少临床试验失败和相关经济成本至关重要。然而，现有ADR数据集常呈现长尾标签分布，且稀有副作用缺乏足够训练样本，使普通监督学习模型难以泛化到代表性不足的类别。为解决这些问题，我们提出HGMetaADR，一种用于ADR预测的新型基于异质图的元学习框架。该方法构建在多模态生物医学知识图上，整合互补的药物相关数据，包括分子结构、蛋白质序列、副作用和治疗适应症。它采用分层注意力机制捕捉异质实体间的语义依赖，并采用模型无关的元学习策略增强对小样本类别的适应能力。我们在少样本、零样本和多数三种情景下评估HGMetaADR，以模拟真实世界条件。大量实验表明，HGMetaADR始终优于最先进基线。此外，消融研究和通路富集分析揭示了连接蛋白质靶点、治疗适应症和副作用的潜在生物学机制，从而验证了将异质生物医学知识纳入ADR建模的",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag539",
-        "description": "Abstract Early identification of adverse drug reactions (ADRs), which refer to harmful or unintended responses to medications taken at normal doses, is crucial for reducing clinical trial failures and associated economic costs. However, existing ADR datasets often exhibit a long-tailed label distribution and lack sufficient training examples for rare side effects, making it difficult for vanilla supervised learning models to generalize to underrepresented classes. To address these issues, we propose HGMetaADR, a novel heterogeneous graph-based meta-learning framework for ADR prediction. Built upon a multimodal biomedical knowledge graph, this approach integrates complementary drug-related data, including molecular structures, protein sequences, side effects, and therapeutic indications. It employs a hierarchical attention mechanism to capture semantic dependencies across heterogeneous entities and adopts a model-agnostic meta-learning strategy to enhance adaptation to small-sample classes. We evaluate HGMetaADR under three scenarios—few-shot, zero-shot, and majority—to simulate real-world conditions. Extensive experiments demonstrate that HGMetaADR consistently outperforms state-of-the-art baselines. Furthermore, ablation studies and pathway enrichment analyses reveal the underlying biological mechanisms linking protein targets, therapeutic indications, and side effects, thereby validating the effectiveness of incorporating heterogeneous biomedical knowledge into ADR modeling.",
-        "dedupe_key": "doi:10.1093/bib/bbag539",
-        "topic_hit": [
-          "稀有细胞"
-        ],
-        "priority_rank": 1,
-        "keyword_hit": [
-          "attention"
-        ]
-      },
-      "days_on_board": 13,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "d256addb9159",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 5
         },
         {
-          "run_at": "2026-11-20T10:10:21.999332+00:00",
-          "rank": 7
-        },
-        {
-          "run_at": "2026-11-21T09:58:26.589415+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-22T09:55:40.106894+00:00",
-          "rank": 8
-        },
-        {
-          "run_at": "2026-11-23T10:55:28.794729+00:00",
-          "rank": 5
-        },
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 6
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 5
         }
       ]
@@ -323,22 +298,22 @@
     {
       "source": "papers",
       "rank": 6,
-      "title": "Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data.",
-      "title_zh": "桥接图学习和成对学习用于从scRNA-seq数据推断基因调控网络。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43076031/",
+      "title": "pdb_cpp: a C ++ library with Python bindings for fast parsing, interface analysis and docking evaluation of macromolecular complexes.",
+      "title_zh": "pdb_cpp：一个带有Python绑定的C++库，用于快速解析、界面分析和对接评估大分子复合物。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43087146/",
       "hot_value": null,
-      "summary_zh": "基因调控网络（GRN）捕捉转录因子（TF）调控基因的潜在相互作用。基于基因表达数据，现有的GRN推断方法通常分为两类：基于图的方法，将GRN建模为整体图；基于成对的方法，将GRN分解为单个TF-靶基因对进行建模。然而，每种方法都表现出局限性，而这些局限性恰恰是对方的优势。基于图的方法由于依赖单一训练图而容易过拟合，而基于成对的方法则受益于丰富的TF-靶基因训练对。相比之下，基于成对的方法忽略了全局拓扑结构，而这对全面捕捉调控机制至关重要。为解决这些局限性，我们提出了scGPL，一个端到端统一框架，联合建模全局调控拓扑和局部相互作用。scGPL从全局调控图中提取宏观特征，并引入动态的、重要性引导的子图采样机制来捕捉细粒度局部依赖。通过融合全局表示与子图增强的局部特征，我们的框架弥合了两种范式之间的差距，既纳入了必要的全图拓扑依赖，又保留了成对方法的数据丰富优势。在七个基准数据集上的大量实验表",
+      "summary_zh": "pdb_cpp是一个开源C++库，带有Python绑定，在单一共享坐标表示上统一了坐标解析、原子选择、氢键检测、溶剂可及表面积计算以及基于DockQ和TM-score/US-align的结构比较，无需重复格式转换即可对对接和AlphaFold预测的复合物进行快速端到端评估。pdb_cpp用C++实现并带有Python绑定，以GPL-2.0-or-later许可证分发，可从PyPI和GitHub获取：https://github.com/samuelmurail/pdb_cpp。文档见https://pdb-cpp.readthedocs.io。峰值内存使用、DockQ、TM-score和SASA的补充图和基准结果可在Bioinformatics在线获取。",
       "thumbnail": null,
-      "published_at": "2026-11-24",
+      "published_at": "2026-11-25",
       "extra": {
         "subsource": "pubmed",
         "journal": "Bioinformatics (Oxford, England)",
-        "doi": "10.1093/bioinformatics/btag830",
+        "doi": "10.1093/bioinformatics/btag872",
         "tier": "英文顶刊",
         "mode": "filter",
-        "description": "Gene regulatory networks (GRNs) capture the underlying interactions through which transcription factors (TFs) regulate genes. Based on gene expression data, existing GRN inference approaches generally fall into two categories: graph-based methods, which model the GRN as a whole graph, and pairwise-based methods, which decompose the GRN into individual TF-target gene pairs for modeling. However, each approach exhibits limitations that are precisely the strengths of its counterpart. Graph-based methods tend to overfit due to their reliance on a single training graph, whereas pairwise-based methods benefit from abundant TF-target training pairs. In contrast, pairwise-based methods overlook the global topological structure, which is essential for comprehensively capturing regulatory mechanisms. To address these limitations, we propose scGPL, an end-to-end unified framework that jointly models global regulatory topology and local interactions. scGPL extracts macro-level features from the global regulatory graph and introduces a dynamic, importance-guided subgraph sampling mechanism to capture fine-grained local dependencies. By fusing global representations with subgraph-enhanced local features, our framework bridges the gap between the two paradigms, incorporating essential whole-graph topological dependencies while retaining the data abundance advantage of pairwise methods. Extensive experiments on seven benchmark datasets demonstrate that scGPL consistently achieves state-of-the-art performance, with up to 13.7% improvement over the strongest baseline, validating the effectiveness of our integrative design. The source code is maintained on GitHub (https://github.com/talent-hang/scGPL), and the datasets and versioned releases are archived at https://doi.org/10.5281/zenodo.21608485 for reproducibility.",
-        "identifier": "43076031",
-        "dedupe_key": "doi:10.1093/bioinformatics/btag830",
+        "description": "pdb_cpp is an open-source C ++ library with Python bindings that unifies coordinate parsing, atom selection, hydrogen-bond detection, solvent-accessible surface area calculation, and DockQ and TM-score/US-align based structural comparison on one shared coordinate representation, enabling fast end-to-end evaluation of docked and AlphaFold-predicted complexes without repeated format conversion. pdb_cpp is implemented in C ++ with Python bindings, distributed under the GPL-2.0-or-later license, and available from PyPI and GitHub at https://github.com/samuelmurail/pdb_cpp. Documentation is available at https://pdb-cpp.readthedocs.io. Supplementary figures and benchmark results for peak memory usage, DockQ, TM-score, and SASA are available online at Bioinformatics.\\.",
+        "identifier": "43087146",
+        "dedupe_key": "doi:10.1093/bioinformatics/btag872",
         "topic_hit": [
           "生物信息"
         ],
@@ -350,11 +325,11 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "8f3c31ed72e0",
+      "cluster_id": "fa91aeebade7",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 6
         }
       ]
@@ -362,6 +337,86 @@
     {
       "source": "papers",
       "rank": 7,
+      "title": "mirCCC: Repression-aware graph learning for miRNA-mediated cell-cell communication inference",
+      "title_zh": "mirCCC：用于miRNA介导的细胞间通讯推断的抑制感知图学习",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014494",
+      "hot_value": null,
+      "summary_zh": "细胞间通讯分析通常关注蛋白质配体和受体，因此错过了细胞外囊泡转移microRNA这一癌症中的重要信号通路。在这里我们表明，可以通过检测已验证miRNA靶基因表达的协调下降，从标准单细胞RNA测序推断microRNA介导的通讯。我们开发了mirCCC，一个计算框架，估计细胞特异性microRNA活性，建模细胞外囊泡转移的细胞发送和接收能力，并从转录组数据学习microRNA解析的通讯图。在具有强混杂信号的合成基准中，mirCCC有所改善，而所有比较方法都下降。应用于人类结直肠癌图谱，mirCCC恢复了已知的结直肠癌相关microRNA，并识别了汇聚于与TGF-β和Wnt/β-catenin信号相关的可塑性程序的基质和髓系到上皮通讯。这些结果为在现有单细胞图谱中研究细胞外囊泡介导的通讯提供了实用途径。",
+      "thumbnail": null,
+      "published_at": "2026-11-25",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "PLOS Computational Biology",
+        "mode": "all",
+        "issn": "1553-7358",
+        "doi": "10.1371/journal.pcbi.1014494",
+        "description": "Cell-cell communication analyses usually focus on protein ligands and receptors and therefore miss extracellular vesicle transfer of microRNAs, an important route of signalling in cancer. Here we show that microRNA-mediated communication can be inferred from standard single-cell RNA sequencing by detecting coordinated decreases in the expression of validated miRNA target genes. We developed mirCCC, a computational framework that estimates cell-specific microRNA activity, models cellular sending and receiving capacity for extracellular vesicle transfer, and learns microRNA-resolved communication graphs from transcriptomic data. In synthetic benchmarks with strong confounding signals, mirCCC improved whereas all comparison methods declined. Applied to a human colorectal cancer atlas, mirCCC recovered known colorectal cancer-associated microRNAs and identified stromal- and myeloid-to-epithelial communication converging on a plasticity program linked to TGF- β and Wnt/ β -catenin signalling. These results provide a practical route for studying extracellular vesicle-mediated communication in existing single-cell atlases.",
+        "dedupe_key": "doi:10.1371/journal.pcbi.1014494",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f783b940af7b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 8,
+      "title": "Generating scRNA-seq data from bulk RNA-seq using a Gaussian mixture variational autoencoder",
+      "title_zh": "使用高斯混合变分自编码器从bulk RNA-seq生成scRNA-seq数据",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014979",
+      "hot_value": null,
+      "summary_zh": "单细胞RNA测序（scRNA-seq）在单细胞分辨率提供详细的、全基因组范围的基因表达谱，能够识别驱动疾病的细胞类型和基因。然而，scRNA-seq仍然昂贵，即使在最广泛的人类疾病研究中生成的样本也极其有限。相比之下，bulk RNA-seq数据丰富，但对所有细胞类型的基因表达取平均，丢失了细胞特异性细节。为了进一步利用丰富的RNA-seq数据，已开发出使用scRNA-seq作为参考从bulk数据推断细胞类型比例和平均表达的方法。此外，生成式AI模型已被开发用于生成更多现有scRNA-seq数据集、从bulk生成空间转录组数据，以及从bulk生成完整的单细胞数据集（带有不完整的单细胞数据），用于大型队列研究。然而，缺乏专门致力于从bulk RNA-seq数据生成代表性单细胞RNA-seq的工具。为解决这个问题，我们开发了一个创新的模块化框架，称为Bulk2SC，充分利用强大的生成式AI方法",
+      "thumbnail": null,
+      "published_at": "2026-11-25",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "PLOS Computational Biology",
+        "mode": "all",
+        "issn": "1553-7358",
+        "doi": "10.1371/journal.pcbi.1014979",
+        "description": "Single-cell RNA sequencing (scRNA-seq) provides detailed, genome-wide gene expression profiles at single-cell resolution, enabling the identification of disease-driving cell types and genes. However, scRNA-seq remains costly, and there are extremely limited samples generated in even the most extensive human disease studies. In contrast, bulk RNA-seq data is abundant but averages gene expression across all cell types, losing cell-specific detail. To further leverage this abundance of RNA-seq data, methods have been developed to infer cell type proportions and average expression from bulk data using scRNA-seq as a reference. Additionally, generative AI models have been developed to generate more of an existing scRNA-seq dataset, spatial transcriptome data from bulk, and a complete single-cell dataset from bulk, with an incomplete set of single-cell data, for large cohort studies. However, there is a lack of tools specifically dedicated to generating representative single-cell RNA-seq from bulk RNA-seq data. To address this, we develop an innovative, modular framework, termed Bulk2SC, that takes full advantage of powerful generative AI approaches and existing scRNA-seq data to generate representative scRNA-seq data from bulk RNA-seq. Bulk2SC uses a Gaussian mixture variational autoencoder for data generation together with any tool that predicts cell type proportions from bulk RNA-seq data. We demonstrate the superior performance of Bulk2SC relative to tools that generate scRNA-seq from bulk RNA-seq as part of broader computational frameworks on published datasets from multiple tissue types. We also apply and assess Bulk2SC on a benchmark deconvolution dataset that contains paired bulk and single nucleus RNA-seq data. The modular design of Bulk2SC allows for deconvolution of single datasets as well as straightforward implementation within larger computational frameworks.",
+        "dedupe_key": "doi:10.1371/journal.pcbi.1014979",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "autoencoder",
+          "variational",
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "29311f6f01f4",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 9,
       "title": "ZipAEr: A compressive convolutional autoencoder for high-dimensional spatial omics data at subcellular resolution",
       "title_zh": "ZipAEr：一种用于亚细胞分辨率高维空间组学数据的压缩卷积自编码器",
       "url": "https://doi.org/10.1186/s12859-026-06682-y",
@@ -387,9 +442,9 @@
           "deep learning"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": 0,
+      "rank_delta": -2,
       "cluster_id": "88e2afc407fe",
       "cluster_size": 1,
       "rank_history": [
@@ -400,94 +455,9 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 7
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 8,
-      "title": "SpatialMuSC: Spatial Graph-Conditioned Diffusion Refinement for Robust Spatial Multi-Omics Integration.",
-      "title_zh": "SpatialMuSC：用于稳健空间多组学整合的空间图条件扩散精炼。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43074186/",
-      "hot_value": null,
-      "summary_zh": "新兴空间多组学技术能够同时分析同一组织切片内的多个分子层，为在天然空间背景下探究组织结构提供了新机会。然而，测序衍生的空间多组学数据常受内在扰动影响，如技术噪声、缺失值、稀疏性和测量偏差。这些扰动使主要使用空间图进行邻域聚合的现有方法不足以恢复连续组织区域结构，而无约束表示学习可能传播噪声关联并导致空间域碎片化。我们提出SpatialMuSC，一个稳健的空间多组学整合框架，以空间图条件扩散精炼和扰动不变融合一致性为核心。SpatialMuSC将空间拓扑作为条件信息引入潜在扩散过程，使空间邻接能够指导邻域聚合、空间结构传播和潜在状态的图感知去噪。扰动不变融合一致性进一步促进扰动观察下稳定的多组学融合。我们在不同组织和测序平台的各种空间多组学数据集上评估SpatialMuSC，包括10x Visium、Stereo-CITE-seq、SPOTS和空间表观基因组-转录组数据。在这些基准上，Spa",
-      "thumbnail": null,
-      "published_at": "2026-11-23",
-      "extra": {
-        "subsource": "pubmed",
-        "journal": "Bioinformatics (Oxford, England)",
-        "doi": "10.1093/bioinformatics/btag851",
-        "tier": "英文顶刊",
-        "mode": "filter",
-        "description": "Emerging spatial multi-omics technologies enable the simultaneous profiling of multiple molecular layers within the same tissue section, offering new opportunities to interrogate tissue organization in its native spatial context. However, sequencing-derived spatial multi-omics data are often affected by intrinsic perturbations, such as technical noise, missing values, sparsity and measurement bias. These perturbations make existing methods that mainly use spatial graphs for neighborhood aggregation insufficient to recover continuous tissue-region structures, while unconstrained representation learning may propagate noisy associations and lead to fragmented spatial domains. We present SpatialMuSC, a robust spatial multi-omics integration framework centering on spatial graph-conditioned diffusion refinement and perturbation-invariant fusion consistency. SpatialMuSC introduces spatial topology as conditional information into the latent diffusion process, enabling spatial adjacency to guide neighborhood aggregation, spatial structure propagation and graph-aware denoising of latent states. Perturbation-invariant fusion consistency further encourages stable multi-omic fusion under perturbed observations. We evaluate SpatialMuSC on diverse spatial multi-omics datasets across different tissues and sequencing platforms, including 10x Visium, Stereo-CITE-seq, SPOTS and spatial epigenome-transcriptome data. Across these benchmarks, SpatialMuSC consistently outperforms ten state-of-the-art methods in spatial domain identification and tissue-structure preservation. Ablation analyses confirm the contributions of graph-conditioned diffusion refinement and perturbation-invariant fusion consistency, rather than post hoc graph smoothing or graph propagation alone. In particular, SpatialMuSC effectively distinguishes adjacent tissue regions, preserves block-wise smoothness and layered architectures, and shows more stable performance in missing-observation stress tests, while hippocampal marker, enrichment, and paired RNA-ATAC analyses identify a GCL-associated neuronal program and a TTR-associated accessibility feature in a choroid plexus-enriched domain. The source code is available at https://github.com/CSUBioGroup/SpatialMuSC. Supplementary data are available online.",
-        "identifier": "43074186",
-        "dedupe_key": "doi:10.1093/bioinformatics/btag851",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "representation learning",
-          "benchmark"
-        ]
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "e67eb510672f",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 8
         },
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 8
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 9,
-      "title": "GLAND: Resolving small and non-continuous tissue domains via a hybrid attention mechanism.",
-      "title_zh": "GLAND：通过混合注意力机制解析小型和非连续组织域。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43074184/",
-      "hot_value": null,
-      "summary_zh": "空间转录组技术的最新进展通过实现具有相应空间背景的高通量基因表达谱分析，为组织结构提供了前所未有的洞察。虽然识别空间域是理解组织异质性和功能组织的前提，但当前计算方法往往无法解析非连续或小型域，这些域尽管具有生物学意义，却表现出复杂的空间分布。我们提出GLAND，一个具有混合注意力机制的深度学习框架，旨在捕获多尺度空间依赖。GLAND利用空间离群检测策略精炼空间图， coupled with 一个混合编码器，同时捕获长程生物相似性和局部空间连续性。在39个切片和7个空间转录组平台上的全面基准测试表明，GLAND在识别传统连续空间域以及非连续和小型域方面均取得优越性能。在复杂肿瘤微环境中，GLAND准确解析非连续肿瘤区域和小型淋巴聚集体。其学习到的spot嵌入通过保留远端位置肿瘤域的转录组身份来桥接空间间隙，促进异质性组织景观的统一表征。GLAND可在https://github.com/C",
-      "thumbnail": null,
-      "published_at": "2026-11-23",
-      "extra": {
-        "subsource": "pubmed",
-        "journal": "Bioinformatics (Oxford, England)",
-        "doi": "10.1093/bioinformatics/btag857",
-        "tier": "英文顶刊",
-        "mode": "filter",
-        "description": "Recent advances in spatial transcriptomic technology provide unprecedented insights into tissue architecture by enabling high-throughput gene expression profiling with the corresponding spatial context. While identifying spatial domains is a prerequisite for understanding tissue heterogeneity and functional organization, current computational methods often fail to resolve non-continuous or small domains that, despite their biological significance, exhibit complex spatial distribution. We present GLAND, a deep learning framework with a hybrid attention mechanism designed to capture multi-scale spatial dependencies. GLAND utilizes a spatial outlier detection strategy to refine the spatial graph, coupled with a hybrid encoder that simultaneously captures long-range biological similarity and localized spatial continuity. Comprehensive benchmarking across 39 slices and 7 spatial transcriptomic platforms demonstrates that GLAND achieves superior performance in identifying not only traditional continuous spatial domains but also non-continuous and small domains. Within the complex tumor microenvironment, GLAND accurately resolves non-continuous tumor regions and small lymphoid aggregates. Its learned spot embeddings bridge spatial gaps by preserving the transcriptomic identity of tumor domains across distal locations, facilitating a unified characterization of heterogeneous tissue landscapes. GLAND is freely available at https://github.com/CSUBioGroup/GLAND. All data have been deposited to Zenodo at https://zenodo.org/records/18756215. Supplementary data are available at Bioinformatics online.",
-        "identifier": "43074184",
-        "dedupe_key": "doi:10.1093/bioinformatics/btag857",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "deep learning",
-          "benchmark",
-          "attention"
-        ]
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": 0,
-      "cluster_id": "19b14a55976e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 9
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 9
         }
       ]
@@ -519,9 +489,9 @@
           "attention"
         ]
       },
-      "days_on_board": 4,
+      "days_on_board": 5,
       "is_new": false,
-      "rank_delta": 2,
+      "rank_delta": 0,
       "cluster_id": "1f78c574b781",
       "cluster_size": 1,
       "rank_history": [
@@ -543,6 +513,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 10
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 10
         }
       ]
@@ -574,16 +548,12 @@
           "contrastive learning"
         ]
       },
-      "days_on_board": 12,
+      "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 2,
+      "rank_delta": 0,
       "cluster_id": "670bdf865334",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 8
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 10
@@ -606,6 +576,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 11
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 11
         }
       ]
@@ -637,16 +611,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 12,
+      "days_on_board": 13,
       "is_new": false,
-      "rank_delta": 2,
+      "rank_delta": 0,
       "cluster_id": "4d274d9769c7",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 9
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 11
@@ -669,6 +639,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 12
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 12
         }
       ]
@@ -700,16 +674,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 2,
+      "rank_delta": 0,
       "cluster_id": "10ad055e4b6e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 10
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 12
@@ -732,6 +702,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 13
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 13
         }
       ]
@@ -763,14 +737,18 @@
           "benchmark"
         ]
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "8184b4cadc28",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 14
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 14
         }
       ]
@@ -805,16 +783,12 @@
           "attention"
         ]
       },
-      "days_on_board": 20,
+      "days_on_board": 21,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": 0,
       "cluster_id": "91fe3aa8b90f",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 11
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 13
@@ -838,12 +812,55 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 15
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 15
         }
       ]
     },
     {
       "source": "papers",
       "rank": 16,
+      "title": "Evaluating agentic bioinformatics through functionality, evidence, and validation",
+      "title_zh": "通过功能性、证据和验证评估代理式生物信息学",
+      "url": "https://doi.org/10.1093/bib/bbag650",
+      "hot_value": null,
+      "summary_zh": "摘要 大语言模型智能体越来越多地规划、执行和解读生物分析，但流畅的回复、成功的工具调用和基准性能本身并不能确立科学可信度。现有综述从互补视角审视生物智能体，包括应用、架构、智能体能力、证据支撑和评估，但很少针对同一系统–用例轨迹将这些属性联合操作化。我们通过将可检查的工作流轨迹——而非仅架构或最终输出——作为主要分析单元来填补这一空白。我们引入功能–证据–验证（FEV）框架，该框架区分已展示的工作流操作、对行动和主张的可追溯支持，以及用例特定工作流评估所报告的严谨性。验证将成功执行与可重放计算、科学评估和前瞻性实证测试区分开来。使用FEV，我们映射了七个生物信息学领域中319条智能体或智能体邻近的系统–用例记录和35个基准或评估资源。八篇出版物对两个类别均有贡献，产生346篇唯一出版物。在预设标准下，167条记录被归类为完全智能体，152条为智能体邻近。跨领域来看，规划和工具介导的执行被记",
+      "thumbnail": null,
+      "published_at": "2026-11-01",
+      "extra": {
+        "subsource": "crossref",
+        "tier": "英文顶刊",
+        "journal": "Briefings in Bioinformatics",
+        "mode": "filter",
+        "issn": "1477-4054",
+        "doi": "10.1093/bib/bbag650",
+        "description": "Abstract Large language model agents increasingly plan, execute, and interpret biological analyses, yet fluent responses, successful tool calls, and benchmark performance alone do not establish scientific credibility. Existing reviews examine biological agents from complementary perspectives, including application, architecture, agentic capability, evidence grounding, and evaluation, but rarely operationalize these properties jointly for the same system–use-case trajectory. We address this gap by treating the inspectable workflow trajectory, rather than architecture or final output alone, as the primary unit of analysis. We introduce the Functionality–Evidence–Validation (FEV) framework, which separates demonstrated workflow operations, traceable support for actions and claims, and the reported rigor of use-case-specific workflow evaluation. Validation distinguishes successful execution from replayable computation, scientific assessment, and prospective empirical testing. Using FEV, we map 319 agentic or agent-adjacent system–use-case records and 35 benchmark or evaluation resources across seven bioinformatics domains. Eight publications contributed to both categories, yielding 346 unique publications. Under prespecified criteria, 167 records were classified as full-agentic and 152 as agent-adjacent. Across domains, planning and tool-mediated execution were documented more frequently than replayability, prospective empirical testing, and closed-loop empirical refinement. Benchmark performance, database grounding, model predictions, and retrospective biological observations provided distinct forms of evidence but did not independently establish replayability or validate the agent-controlled workflow. These findings characterize reporting within the curated evidence map rather than field-wide prevalence. FEV provides a practical basis for comparing systems and designing transparent, auditable, and scientifically accountable bioinformatics workflows.",
+        "dedupe_key": "doi:10.1093/bib/bbag650",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "0867ccc0f4ca",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 17,
       "title": "Structured multi-view relational learning for drug response prediction",
       "title_zh": "用于药物反应预测的结构化多视图关系学习",
       "url": "https://doi.org/10.1093/bib/bbag619",
@@ -868,16 +885,12 @@
           "deep learning"
         ]
       },
-      "days_on_board": 18,
+      "days_on_board": 19,
       "is_new": false,
-      "rank_delta": 1,
+      "rank_delta": -1,
       "cluster_id": "dc4eed5e8622",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 12
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 14
@@ -901,44 +914,9 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 16
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 17,
-      "title": "<scp>DiffKnock</scp> : diffusion-based knockoff inference for neural networks with applications to single-cell RNA-sequencing data",
-      "title_zh": "<scp>DiffKnock</scp>：基于扩散的神经网络敲除推断及其在单细胞RNA测序数据中的应用",
-      "url": "https://doi.org/10.1093/bib/bbag645",
-      "hot_value": null,
-      "summary_zh": "摘要 高通量单细胞RNA测序（scRNA-seq）技术彻底改变了我们表征细胞异质性和解析基因调控机制的能力。然而，这些数据本质上是高维且相关的，对统计推断和特征选择构成重大挑战。在严格控假发现的同时识别疾病相关基因，仍是scRNA-seq数据分析中的关键挑战。传统方法通常依赖参数假设，可能无法捕捉复杂关系，并在高维设置中遭受膨胀的假发现率（FDR）。我们引入DiffKnock，一个基于扩散的敲除框架，用于高维特征选择并具有有限样本FDR控制。DiffKnock解决了现有敲除方法的两个关键局限：保持复杂特征依赖和检测非线性关联。我们的方法利用扩散模型生成有效敲除，并采用基于神经网络的梯度和过滤统计量构建反对称特征重要性度量。通过模拟，DiffKnock表现出比基于自编码器、基于GAN和基于高斯的敲除方法更高的功效，同时保持目标FDR，表明在具有复杂非线性关系的场景中性能优越。通过将该方法应用",
-      "thumbnail": null,
-      "published_at": "2026-11-01",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "Briefings in Bioinformatics",
-        "mode": "filter",
-        "issn": "1477-4054",
-        "doi": "10.1093/bib/bbag645",
-        "description": "Abstract High-throughput single-cell RNA-sequencing (scRNA-seq) technologies have revolutionized our ability to characterize cellular heterogeneity and dissect gene regulatory mechanisms. These data, however, are inherently high-dimensional and correlated, posing substantial challenges for statistical inference and feature selection. Identifying disease-related genes, while rigorously controlling false discoveries, remains a key challenge in scRNA-seq data analysis. Traditional methods often rely on parametric assumptions, which may fail to capture complex relationships and can suffer from inflated false discovery rates (FDRs) in high-dimensional settings. We introduce DiffKnock, a diffusion-based knockoff framework for high-dimensional feature selection with finite-sample FDR control. DiffKnock addresses two key limitations of existing knockoff methods: preserving complex feature dependencies and detecting nonlinear associations. Our approach leverages diffusion models to generate valid knockoffs and employs neural network-based gradient and filter statistics to construct antisymmetric feature importance measures. Through simulations, DiffKnock demonstrates higher power than autoencoder-based, GAN-based, and Gaussian-based knockoff methods while maintaining target FDR, indicating superior performance in scenarios with complex nonlinear relationships. By applying the method to murine single-cell RNA-seq data of LPS-stimulated macrophages, we also identified canonical NF-$\\kappa $B target genes (Ccl3, Hmox1). In another application to Religious Orders Study and Rush Memory and Aging Project donor-level pseudobulk transcriptomic data, DiffKnock further identifies a strong microglial signal for CERAD score, with PTPRG emerging as the most stable selected gene under both gradient- and filter-based statistics. These results highlight that, by combining flexible deep generative models with rigorous statistics, DiffKnock is a powerful and reliable tool for analyzing scRNA-seq data and other high-dimensional structured data.",
-        "dedupe_key": "doi:10.1093/bib/bbag645",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "autoencoder"
-        ]
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "e5560411100e",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 17
         }
       ]
@@ -946,22 +924,22 @@
     {
       "source": "papers",
       "rank": 18,
-      "title": "Cardiomyocyte-derived circulating extracellular vesicles enable a non-invasive liquid biopsy of human myocardium.",
-      "title_zh": "心肌细胞来源的循环细胞外囊泡实现人类心肌的无创液体活检。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43078100/",
+      "title": "Web-based analysis of microscopy images with Galaxy Image Analysis",
+      "title_zh": "基于Web的显微图像分析，使用Galaxy Image Analysis",
+      "url": "https://doi.org/10.1186/s12859-026-06755-y",
       "hot_value": null,
-      "summary_zh": "对难以采样组织的无创探查仍然是人类健康的核心挑战。在此，我们识别并表征了心肌细胞来源的细胞外囊泡（EV；“心囊泡”）作为心肌的液体接口。整合诱导多能干细胞来源的心肌细胞、遗传模型和多组学，我们识别了两个心肌细胞富集的表面标志物（POPDC2和CHRNE），使得能够从人血浆中进行基于抗体的心囊泡免疫捕获。心囊泡富集心肌细胞转录本，在心力衰竭和心肌梗死中表现出疾病特异性转录特征。配对的人类心肌组织-血浆分析证明了心脏富集（相对于批量EV）并与心肌单核转录谱一致。在接受体外循环的患者中，心囊泡捕获了与心肌细胞（而非成纤维细胞、内皮细胞和髓系细胞）对缺血应激反应平行的快速动态转录变化。功能基因组学表明心囊泡转录本与大型人群中 心肌细胞特异性心血管疾病易感性相关。心囊泡可能捕捉人类中反映遗传疾病易感性的动态心肌细胞状态，支持基于EV的心肌无创液体活检方法。",
+      "summary_zh": "摘要 背景 我们提出Galaxy Image Analysis，一个用于基于Web分析高内涵和高通量细胞显微图像数据的软件套件。Galaxy Image Analysis构建于Galaxy平台之上，这是一个开源科学工作流管理系统，能够实现工作流升级、协作数据分析和可重复科学。虽然Galaxy最初为分析基因组测序数据而开发，我们通过为不同图像分析任务开发工具和工作流扩展了Galaxy生态系统。结果 Galaxy Image Analysis具有基于Web的图形用户界面，用户友好，非常适合非专家和云环境。所开发的基于Web的软件提供广泛的显微图像分析工具，可组合构建更强大的自动化工作流。工具和工作流包括图像增强、细胞分割、细胞计数、特征提取、图像配准和可视化。还包括验证和性能评估工具。该软件已成功应用于不同生物应用中的细胞显微图像分析。展示了图像分析工具和工作流的用例。我们还进行了定量评估，包",
       "thumbnail": null,
-      "published_at": "2026-11-23",
+      "published_at": "2026-11-26",
       "extra": {
-        "subsource": "pubmed",
-        "journal": "Cell",
-        "doi": "10.1016/j.cell.2026.10.050",
+        "subsource": "crossref",
         "tier": "英文顶刊",
-        "mode": "filter",
-        "description": "Non-invasive interrogation of difficult-to-sample tissues remains a central challenge in human health. Here, we identify and characterize cardiomyocyte-derived extracellular vesicles (EVs; \"cardiovesicles\") as a liquid interface to the myocardium. Integrating induced pluripotent stem cell-derived cardiomyocytes, genetic models, and multi-omics, we identify two cardiomyocyte-enriched surface markers (POPDC2 and CHRNE), enabling antibody-based cardiovesicle immunocapture from human plasma. Cardiovesicles are enriched for cardiomyocyte transcripts, exhibiting disease-specific transcriptional signatures in heart failure and myocardial infarction. Paired human myocardial tissue-plasma analyses demonstrate cardiac enrichment (versus bulk EVs) and concordance with myocardial single-nucleus transcriptional profiles. In patients undergoing cardiopulmonary bypass, cardiovesicles capture rapid, dynamic transcriptional changes that parallel cardiomyocyte (not fibroblast, endothelial, and myeloid) responses to ischemic stress. Functional genomics implicates cardiovesicle transcripts in cardiomyocyte cell-specific cardiovascular disease liability in large human populations. Cardiovesicles may capture dynamic cardiomyocyte states in humans that reflect genetic disease liability, supporting an EV-based approach to non-invasive liquid biopsy of the myocardium.",
-        "identifier": "43078100",
-        "dedupe_key": "doi:10.1016/j.cell.2026.10.050",
+        "journal": "BMC Bioinformatics",
+        "mode": "all",
+        "issn": "1471-2105",
+        "doi": "10.1186/s12859-026-06755-y",
+        "description": "Abstract Background We present Galaxy Image Analysis, a software suite for web-based analysis of high-content and high-throughput cell microscopy image data. Galaxy Image Analysis builds upon the Galaxy platform, an open-source scientific workflow management system, which enables upscaling workflows, collaborative data analysis, and reproducible science. While Galaxy was originally developed for analyzing genomic sequencing data, we have extended the Galaxy ecosystem by developing tools and workflows for different image analysis tasks. Results Galaxy Image Analysis has a web-based graphical user interface, is user-friendly, and well-suited for non-experts and cloud environments. The developed web-based software provides a wide spectrum of tools for microscopy image analysis, which can be combined to build more powerful automated workflows. The tools and workflows comprise image enhancement, cell segmentation, cell counting, feature extraction, image registration, and visualization. Tools for validation and performance evaluation are also included. The software was successfully applied for analyzing cell microscopy images in different biological applications. Use cases of image analysis tools and workflows are presented. We also performed a quantitative evaluation including a comparison with other tools. Conclusions The web-based software suite Galaxy Image Analysis has a high level of user adoption. The software is open-source and publicly available. Galaxy Image Analysis is an important bioinformatics resource for researchers in the life sciences.",
+        "dedupe_key": "doi:10.1186/s12859-026-06755-y",
         "topic_hit": [
           "生物信息"
         ],
@@ -971,11 +949,11 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "14bd164942b4",
+      "cluster_id": "c0721466da02",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 18
         }
       ]
@@ -983,71 +961,22 @@
     {
       "source": "papers",
       "rank": 19,
-      "title": "LACA: a cross-species single-cell resource for exploring longevity and aging-associated cellular and molecular programs",
-      "title_zh": "LACA：一个用于探索长寿和衰老相关细胞与分子程序的跨物种单细胞资源",
-      "url": "https://doi.org/10.1093/nar/gkag1129",
+      "title": "Heterogeneity co-evolves with architecture to determine colon cancer outcome.",
+      "title_zh": "异质性与架构共同演化决定结肠癌结局。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43086445/",
       "hot_value": null,
-      "summary_zh": "摘要 不同物种可具有不同的最大寿命，一些具有非凡的长寿，但其 underlying 细胞和分子机制仍知之甚少。尽管单细胞转录组学快速发展，但将单细胞基因表达谱与物种寿命系统关联的资源有限。我们在此展示长寿与衰老细胞图谱（LACA），这是一个整合134个物种单细胞转录组数据集及其最大寿命的数据库。LACA包含来自单细胞数据集的超过1.48亿个细胞和190个注释细胞类型。LACA还具有跨物种分析工具箱，包括长寿基因比较、基因-寿命相关性和细胞-寿命相关性。这些工具使研究人员无需 extensive 计算专业知识即可更好地解读进化上保守的长寿机制和物种特异性长寿机制适应的进化。LACA还提供百岁老人单细胞图谱和人类免疫衰老多组学图谱，展示该资源的分析能力，以及11个用于长寿相关分析的不同模块、一个包括 curated 长寿知识库的 integrated 知识图谱，和一个检索增强研究代理以进一步促",
+      "summary_zh": "肿瘤内异质性源于遗传、表观遗传和表型多样性，在癌症中普遍存在，是治愈性治疗的根本障碍1,2。这些异质性细胞状态如何在肿瘤内出现并共同演化仍知之甚少。在此，我们开发了一个深度学习框架，在亚细胞分辨率下量化结直肠癌组织架构和核形态以预测患者结局。将其与空间转录组学、多重免疫荧光和患者来源类器官整合，我们识别出肿瘤架构与癌细胞状态之间的共同演化关系。我们识别出结直肠癌中驱动细胞状态多样化的架构界面，通过促进不同的癌症干细胞程序。具体而言，组织碎片化产生压缩力激活YAP，抑制经典干细胞程序并诱导胎儿/再生干细胞状态，最初表现为具有部分上皮–间质转化（EMT）特征的混合状态。随后通过TGFβ的肿瘤–基质通讯将这些状态多样化为不同的干细胞和EMT状态。反过来，β-catenin活性调节肿瘤细胞对架构线索的响应性。总体而言，这项工作识别出细胞状态与组织架构之间的前馈环路，驱动癌症异质性和细胞状态多样化。",
       "thumbnail": null,
-      "published_at": "2026-11-20",
+      "published_at": "2026-11-25",
       "extra": {
-        "subsource": "crossref",
+        "subsource": "pubmed",
+        "journal": "Nature",
+        "doi": "10.1038/s41586-026-11301-0",
         "tier": "英文顶刊",
-        "journal": "Nucleic Acids Research",
         "mode": "filter",
-        "issn": "1362-4962",
-        "doi": "10.1093/nar/gkag1129",
-        "description": "Abstract Different species can have various maximum lifespans, some with exceptional longevity, yet the underlying cellular and molecular mechanisms remain poorly understood. Despite rapid advances in single-cell transcriptomics, resources that systematically connect single-cell gene expression profiles to species lifespan are limited. We hereby present the Longevity & Aging Cell Atlas (LACA), a database that integrates single-cell transcriptomic datasets across 134 species with their maximum lifespans. LACA includes over 148 million cells with 190 annotated cell types from single-cell datasets. LACA also has a cross-species analytical toolbox of longevity gene comparison, gene–lifespan correlation, and cell–lifespan correlation. These tools allow researchers to better interpret both evolutionarily conserved longevity mechanisms and the evolution of species-specific adaptations in longevity mechanisms without extensive computational expertise. LACA also provides a centenarian single-cell atlas and a human immune aging multi-omics atlas, demonstrating the analytical capability of the resource, as well as 11 different modules for longevity-related analysis, an integrated knowledge graph including curated longevity knowledge bases, and a retrieval-augmented research agent to further facilitate functional interpretation. The database is freely available at https://www.longevityaging.net/ or http://8.142.154.29/LACA/.",
-        "dedupe_key": "doi:10.1093/nar/gkag1129",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 3,
-      "is_new": false,
-      "rank_delta": 1,
-      "cluster_id": "18d6a42b7f11",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-20T10:10:21.999332+00:00",
-          "rank": 16
-        },
-        {
-          "run_at": "2026-11-23T10:55:28.794729+00:00",
-          "rank": 17
-        },
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 20
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 19
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 20,
-      "title": "A hybrid mixture approach for clustering and characterizing biomedical data",
-      "title_zh": "一种用于生物医学数据聚类和表征的混合混合方法",
-      "url": "https://doi.org/10.1371/journal.pcbi.1014974",
-      "hot_value": null,
-      "summary_zh": "基于模型的聚类（MBC）广泛用于识别生物医学数据中的潜在分组和表征异质结构。然而，现代生物医学研究常生成大样本量和多变量的数据集，标准MBC方法难以可靠高效拟合。因子分析混合（MFA）通过少数潜在因子表示高维协方差结构，从而降低协方差维度，部分解决了这一挑战。然而，当前MFA估计方法由于嵌套EM型算法收敛缓慢，对大规模数据往往计算上不切实际。此外，许多现有实现要求各聚类具有相同数量的潜在因子，限制了捕捉组特定结构的能力。我们提出一种混合无矩阵计算方案，用于准确高效估计高斯因子分析混合，避免显式构建或存储大协方差矩阵。我们进一步开发了允许不同聚类具有不同因子数量的广义版本，为组特定表征提供额外灵活性。模拟研究表明，所提方法比现有方法收敛显著更快，尤其在高维设置中，同时保持高聚类和估计精度。应用于Wisconsin乳腺癌数据集、淋巴瘤基因表达数据集和人脑单细胞RNA测序数据集，展示了对良恶性乳",
-      "thumbnail": null,
-      "published_at": "2026-11-20",
-      "extra": {
-        "subsource": "crossref",
-        "tier": "英文顶刊",
-        "journal": "PLOS Computational Biology",
-        "mode": "all",
-        "issn": "1553-7358",
-        "doi": "10.1371/journal.pcbi.1014974",
-        "description": "Model-based clustering (MBC) is widely used for identifying latent groups and characterizing heterogeneous structures in biomedical data. However, modern biomedical studies often generate datasets with large sample sizes and many variables, for which standard MBC approaches can be difficult to fit reliably and efficiently. Mixture of factor analyzers (MFA) addresses part of this challenge by representing high-dimensional covariance structures through a few underlying factors, thereby reducing the covariance dimensionality. However, current estimation methods for MFA are often computationally impractical for massive data due to the slow convergence of nested EM-type algorithms. Moreover, many existing implementations require a common number of latent factors across clusters, limiting their ability to capture group-specific structures. We propose a hybrid matrix-free computational scheme for accurate and efficient estimation of Gaussian mixture of factor analyzers, which avoids explicit construction or storage of large covariance matrices. We further develop a generalized version that allows different clusters to have varying numbers of factors, providing additional flexibility for group-specific characterization. Simulation studies show that the proposed approach achieves substantially faster convergence than the existing method, especially in high-dimensional settings, while preserving high clustering and estimation accuracy. Applications to the Wisconsin breast cancer dataset, a lymphoma gene-expression dataset, and a human brain single-cell RNA sequencing dataset demonstrate accurate identification of benign/malignant breast tumors, lymphoma subtypes, and neuronal and astrocytic cell populations. The fitted factor-loading structures reveal biologically meaningful differences in nuclear morphology for breast tumors, with malignant samples showing stronger irregularity-related variation, group-specific gene-expression heterogeneity among the three lymphoma subtypes, and distinct patterns of transcriptional variation between neurons and astrocytes, with neuronal variation reflecting a broader set of coordinated transcriptional directions and astrocytic variation concentrated in a more compact latent structure.",
-        "dedupe_key": "doi:10.1371/journal.pcbi.1014974",
+        "description": "Intratumoural heterogeneity, originating from genetic, epigenetic and phenotypic diversity, is pervasive in cancer and a fundamental barrier to curative treatment1,2. How these heterogeneous cell states emerge and co-evolve within tumours remains poorly understood. Here we develop a deep-learning framework that quantifies colorectal cancer tissue architecture and nuclear morphology at subcellular resolution to predict patient outcome. Integrating this with spatial transcriptomics, multiplex immunofluorescence and patient-derived organoids, we identify a co-evolutionary relationship between tumour architecture and cancer cell states. We identify architectural interfaces in colorectal cancer that drive cell state diversification by promoting distinct cancer stem cell programmes. Specifically, tissue fragmentation generates compressive forces that activate YAP, suppressing classical stem cell programmes and inducing fetal/regenerative stem cell states that initially manifest as hybrid states with features of partial epithelial-to-mesenchymal transition (EMT). Subsequent tumour-stroma communication through TGFβ diversifies these into distinct stem cell and EMT states. Reciprocally, β-catenin activity tunes tumour cell responsiveness to architectural cues. Collectively, this work identifies a feedforward loop between cell states and tissue architecture that drives cancer heterogeneity and cell state diversification. Machine-learning-based analyses harness this co-dependency, independently of mutational status or cancer stage, to predict patient outcome.",
+        "identifier": "43086445",
+        "dedupe_key": "doi:10.1038/s41586-026-11301-0",
         "topic_hit": [
           "生物信息"
         ],
@@ -1057,15 +986,48 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "a78cffdf04c6",
+      "cluster_id": "1730555b07f2",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-23T10:55:28.794729+00:00",
-          "rank": 18
-        },
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 20,
+      "title": "Single-cell variant-to-enhancer-to-gene map for coronary artery disease.",
+      "title_zh": "冠状动脉疾病的单细胞变异–增强子–基因图谱。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43086439/",
+      "hot_value": null,
+      "summary_zh": "尽管冠状动脉疾病（CAD）全基因组关联研究（GWAS）已识别数百个位点，大多数变异位于非编码区，掩盖了驱动疾病的因果基因程序和细胞类型1,2。在此，我们对来自44人的冠状动脉进行了基因表达和染色质可及性的单核多组学分析，以构建全基因组单细胞变异–增强子–基因图谱。我们在主要血管细胞类型中识别出11,269个染色质可及性数量性状位点（caQTL），包括平滑肌细胞（SMC）中与CAD相关的caQTL。使用动态单细胞caQTL建模3，我们显示变异对染色质的影响在SMC状态间变化。例如，rs658956通过破坏AP-1基序介导的FGGY-DT增强子抑制，随着SMC向纤维肌细胞命运转变而放大。我们接下来在15条人冠状动脉中进行全基因组高通量染色体构象捕获（Hi-C），显示ADAMTS7 CAD位点中的rs4887091对CCCTC结合因子占据和环强度具有等位基因依赖性效应。整合Hi-C、Hi-C与染",
+      "thumbnail": null,
+      "published_at": "2026-11-25",
+      "extra": {
+        "subsource": "pubmed",
+        "journal": "Nature",
+        "doi": "10.1038/s41586-026-11275-z",
+        "tier": "英文顶刊",
+        "mode": "filter",
+        "description": "Although coronary artery disease (CAD) genome-wide association studies (GWAS) have identified hundreds of loci, most variants lie in non-coding regions, obscuring the causal gene programmes and cell types driving disease1,2. Here we performed single-nucleus multi-omic profiling of gene expression and chromatin accessibility in human coronary arteries from 44 people to construct a genome-wide single-cell variant-to-enhancer-to-gene map. We identified 11,269 chromatin accessibility quantitative trait loci (caQTLs) across principal vascular cell types, including CAD-associated caQTLs in smooth muscle cells (SMCs). Using dynamic single-cell caQTL modelling3, we show that variant effects on chromatin vary across SMC states. For example, rs658956 -mediated suppression of the FGGY-DT enhancer through disruption of an AP-1 motif is amplified as SMCs transition towards a fibromyocyte fate. We next performed genome-wide high-throughput chromosome conformation capture (Hi-C) in 15 human coronary arteries, showing that rs4887091 in the ADAMTS7 CAD locus has allele-dependent effects on CCCTC-binding factor occupancy and loop strength. Integrating Hi-C, Hi-C with chromatin immunoprecipitation and in vitro clustered regularly interspaced short palindromic repeats interference (CRISPRi) nominated AMOTL2 as a distal SMC-specific CAD gene whose loss promotes proliferation and suppresses contractile identity. Finally, arrayed Perturb-seq of GWAS-nominated enhancers converged on extracellular matrix remodelling as a core SMC disease programme. Together, these findings provide a framework for mapping non-coding GWAS variants to cell types, chromatin states and gene programmes in human disease.",
+        "identifier": "43086439",
+        "dedupe_key": "doi:10.1038/s41586-026-11275-z",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "47f8c8dbf471",
+      "cluster_size": 1,
+      "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 20
         }
       ]
@@ -1099,16 +1061,12 @@
           "机器学习"
         ]
       },
-      "days_on_board": 42,
+      "days_on_board": 43,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "21f183cb244e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 21
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 21
@@ -1131,6 +1089,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 21
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 21
         }
       ]
@@ -1163,16 +1125,12 @@
           "智能体"
         ]
       },
-      "days_on_board": 42,
+      "days_on_board": 43,
       "is_new": false,
       "rank_delta": 0,
       "cluster_id": "275b1142e536",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 22
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 22
@@ -1195,6 +1153,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 22
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 22
         }
       ]
@@ -1224,14 +1186,18 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "e115c0776fce",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 23
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 23
         }
       ]
@@ -1262,16 +1228,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 42,
+      "days_on_board": 43,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "0f3899815dcb",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 23
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 23
@@ -1294,6 +1256,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 24
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 24
         }
       ]
@@ -1324,16 +1290,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 42,
+      "days_on_board": 43,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "e3b383e32d83",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 24
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 24
@@ -1356,6 +1318,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 25
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 25
         }
       ]
@@ -1386,16 +1352,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 42,
+      "days_on_board": 43,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "88d128bf6e20",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 25
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 25
@@ -1418,6 +1380,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 26
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 26
         }
       ]
@@ -1447,16 +1413,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 21,
+      "days_on_board": 22,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "324c9bd85a8a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 26
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 26
@@ -1479,6 +1441,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 27
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 27
         }
       ]
@@ -1508,16 +1474,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 21,
+      "days_on_board": 22,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "ee861349262e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 27
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 27
@@ -1540,6 +1502,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 28
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 28
         }
       ]
@@ -1569,16 +1535,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 42,
+      "days_on_board": 43,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "df5e12bc430c",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 28
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 28
@@ -1601,6 +1563,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 29
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 29
         }
       ]
@@ -1630,16 +1596,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 13,
+      "days_on_board": 14,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "4bb373d2609e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 29
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 29
@@ -1663,6 +1625,10 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 30
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 30
         }
       ]
     },
@@ -1675,7 +1641,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;针对单颗FPGA资源受限难以加速大规模神经网络，且FPGA集群面临架构设计复杂、任务划分低效及自动化工具链缺失等挑战，提出面向FPGA集群的端到端自动化部署框架TH-FCAD（automated deployment framework for large-scale neural networks on FPGA clusters）。首先，构建基于TH-Express的2级互连集群架构，融合全局互连与局部互连，实现高带宽、低延迟的跨节点通信；其次，提出延迟平衡优化与模型切分方法，将大规模模型均匀切分为多加速核并保持核间延时均衡；最后，设计集群感知映射算法，联合FPGA资源约束与通信拓扑自动生成最优映射，以最小化通信开销。构建了完整的工具链，实现了从PyTorch/TensorFlow模型到集群的端到端自动化编译部署。基于16节点FPGA集群的评估表明，部",
       "thumbnail": null,
-      "published_at": "2026-11-25",
+      "published_at": "2026-11-26",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1692,16 +1658,12 @@
           "神经网络"
         ]
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "b3d553a819fd",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 30
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 30
@@ -1725,6 +1687,10 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 31
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 31
         }
       ]
     },
@@ -1737,7 +1703,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;近年来，稀疏矩阵-密集矩阵乘（SpMM）已成为科学计算、图处理和深度学习等多个领域的核心算子和制约系统性能的瓶颈。然而，现有通用GPU上的SpMM实现普遍存在能效比、资源利用率低的问题，而一些专用的加速器虽然在规则计算上展现出了优异的能效比，但缺乏对不规则的稀疏矩阵运算的高效支持。针对此问题，基于高通量数据流众核处理器（DFU），提出了一种面向数据流架构的稀疏矩阵高效处理内核DFU-SpMM。首先提出数据流指令复用的分层稀疏矩阵处理方法，对稀疏数据进行重组织以减少SpMM内核的数据流图重传次数，同时，对于不同稀疏块使用不同的策略对其进行处理。然后提出面向流图优化的自适应汇编代码生成方法，引入观察者-执行者的思想，以突破现有DFU在SpMM内核生成方面的能力限制，并从任务分配和寄存器重用2个角度对代码生成过程中的数据流图构造进行优化。代表性数据集上的实验结果",
       "thumbnail": null,
-      "published_at": "2026-11-25",
+      "published_at": "2026-11-26",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1754,16 +1720,12 @@
           "深度学习"
         ]
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "e21d014111c8",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 31
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 31
@@ -1787,6 +1749,10 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 32
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 32
         }
       ]
     },
@@ -1799,7 +1765,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;随着云计算、大数据和人工智能的快速发展，数据安全与隐私保护已成为亟待解决的核心问题。2021年Arm提出机密计算架构（confidential compute architecture，CCA），通过硬件级隔离机制为敏感计算任务提供可信执行环境，保障数据与代码在使用过程中的安全性。尽管在用户态机密执行、设备隔离与系统安全增强等基于CCA的研究中已有初步成果，但整体来看，该领域仍处于起步阶段，现有研究较为分散，缺乏对架构发展与技术体系的系统性梳理。同时，部分研究重复构建底层关键机制，却未能总结技术共性。另一些工作则更关注功能实现，而对潜在攻击面及未来风险的分析不足。针对上述问题，对CCA在机密计算中的关键技术机制与研究进展进行系统分析，并对近年来具有代表性的成果进行分类归纳，涵盖执行环境扩展、设备隔离、应用适配与安全增强等方面的设计思路与实现路径。在此基础上",
       "thumbnail": null,
-      "published_at": "2026-11-25",
+      "published_at": "2026-11-26",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1816,16 +1782,12 @@
           "人工智能"
         ]
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "c692f0b35f3a",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 32
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 32
@@ -1849,6 +1811,10 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 33
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 33
         }
       ]
     },
@@ -1861,7 +1827,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;在Text-to-SQL任务中，模型通常需要大规模的标注数据进行训练，而标注这些数据往往耗费大量的时间和人力成本。因此，数据稀缺性成为制约该领域发展、尤其是在特定领域应用中的关键瓶颈。在此背景下，基于大语言模型（large language model，LLM）的数据增强虽已成为一种有效的解决方案，然而当前Text-to-SQL领域的大多数现有方法严重依赖于原始数据集的分布，且其合成的数据往往缺乏可靠性与可解释性。针对上述问题，提出了一种思维链引导的数据合成方法SCoT-SQL。通过整合自然语言指令与包括数据库模式及表内容在内的符号知识，有效指引大模型减少数据合成过程中的语义错误。为确保合成数据的高质量，SCoT-SQL结合了模型自一致性投票与执行验证机制来进行严格的数据过滤。此外，还引入了基于思维链推理的模型自反馈机制对合成数据进行校准，在修正SQL查询",
       "thumbnail": null,
-      "published_at": "2026-11-25",
+      "published_at": "2026-11-26",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1880,16 +1846,12 @@
           "大模型"
         ]
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "a51b4744c999",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 33
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 33
@@ -1913,6 +1875,10 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 34
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 34
         }
       ]
     },
@@ -1925,7 +1891,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;针对现有图像描述方法难以同时兼顾全局语义与细粒度细节、生成结果易偏泛化或关键信息遗漏的问题，提出一种基于共性-特性协同建模与多专家融合的多特征图像描述生成模型EAFCC（expert-aware fusion with common-specific collaboration）。该模型并行接收网格特征、区域特征与分割特征，在编码阶段首先通过预融合模块对多源异构特征进行隐式对齐。在共享语义空间中提取跨特征一致的共性信息，同时为各特征流保留差异化表达基础。随后利用共享Transformer编码器建模共性表征，并通过对比学习约束进一步增强其一致性与判别性。同时，采用3条独立编码分支对不同特征流进行特性建模，以保留与特征类型相关的细粒度补充信息，并借助多专家门控路由机制实现特性信息的动态加权融合。最后，将增强后的共性特征与融合后的特性特征进行协同整合，经跳跃连接",
       "thumbnail": null,
-      "published_at": "2026-11-25",
+      "published_at": "2026-11-26",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -1942,16 +1908,12 @@
           "对比学习"
         ]
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "4e11e16fa711",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 34
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 34
@@ -1975,6 +1937,10 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 35
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 35
         }
       ]
     },
@@ -1987,7 +1953,7 @@
       "hot_value": null,
       "summary_zh": "<br/><p>&lt;p&lt;深度学习技术日益赋能皮肤病诊断应用，使其诊断性能稳步提升。然而，这类数据驱动的深度学习模型存在严重的偏见问题。若将存在偏见的系统部署于临床应用，势必会对特定群体（如非代表性群体）造成不公平对待。确保决策的公平性已成为一个至关重要且亟待解决的问题。现有研究表明，提升公平性往往以降低诊断性能为代价。因此，为了在诊断性能和公平性之间取得更优权衡，同时减轻对非代表性群体的不公平对待，提出一个增强型平衡增量蒸馏网络（enhanced balanced incremental distillation network，EBID-Net）。具体而言，该模型借助平衡记忆内存整合不同群体的分布开展增量训练，促使代表性群体辅助非代表性群体学习知识。此外，将全局信息融入上下文注意力机制，捕捉不同空间位置特征间的交互关系，从而在增量学习过程中获得更稳健的特征表示。实验结果显示，E",
       "thumbnail": null,
-      "published_at": "2026-11-25",
+      "published_at": "2026-11-26",
       "extra": {
         "subsource": "cn_journal_rss",
         "tier": "中文核心",
@@ -2004,16 +1970,12 @@
           "深度学习"
         ]
       },
-      "days_on_board": 9,
+      "days_on_board": 10,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "6a5dad8f75d2",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 35
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 35
@@ -2036,6 +1998,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 36
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 36
         }
       ]
@@ -2065,16 +2031,12 @@
           "deep learning"
         ]
       },
-      "days_on_board": 21,
+      "days_on_board": 22,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "6de487dfa531",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 36
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 36
@@ -2097,6 +2059,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 37
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 37
         }
       ]
@@ -2126,16 +2092,12 @@
           "attention"
         ]
       },
-      "days_on_board": 13,
+      "days_on_board": 14,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "93eea8bf2bea",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 37
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 37
@@ -2158,6 +2120,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 38
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 38
         }
       ]
@@ -2192,16 +2158,12 @@
           "智能体"
         ]
       },
-      "days_on_board": 38,
+      "days_on_board": 39,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "bf1108cac1d3",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 38
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 38
@@ -2224,6 +2186,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 39
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 39
         }
       ]
@@ -2255,16 +2221,12 @@
           "大模型"
         ]
       },
-      "days_on_board": 29,
+      "days_on_board": 30,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "13a3f0d8665f",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 39
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 39
@@ -2287,6 +2249,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 40
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 40
         }
       ]
@@ -2318,14 +2284,18 @@
           "benchmark"
         ]
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "215ab7b46d1c",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 41
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 41
         }
       ]
@@ -2358,9 +2328,9 @@
           "benchmark"
         ]
       },
-      "days_on_board": 2,
+      "days_on_board": 3,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "ccd3930297c2",
       "cluster_size": 1,
       "rank_history": [
@@ -2370,6 +2340,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 42
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 42
         }
       ]
@@ -2399,16 +2373,12 @@
         "priority_rank": 0,
         "keyword_hit": []
       },
-      "days_on_board": 16,
+      "days_on_board": 17,
       "is_new": false,
-      "rank_delta": -1,
+      "rank_delta": 0,
       "cluster_id": "7d090f724132",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 42
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 42
@@ -2432,44 +2402,46 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 43
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 43
         }
       ]
     },
     {
       "source": "papers",
       "rank": 44,
-      "title": "SOTS: Signature-based Optimal Transport Selection",
-      "title_zh": "SOTS：基于签名的最优传输选择",
-      "url": "http://arxiv.org/abs/2611.31525v1",
+      "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
+      "title_zh": "为覆盖而收集，以证据重放：面向长时程智能体的自适应高效同策略蒸馏",
+      "url": "http://arxiv.org/abs/2611.34756v1",
       "hot_value": null,
-      "summary_zh": "机器学习模型的训练数据选择是工业应用中的关键瓶颈，其中专家注释昂贵且耗时。现有的时间序列核心集选择方法要么完全忽略时间结构，要么无法处理可变长度、不规则采样、多通道信号，这是工业监测和测试中最常见的设置。我们引入SOTS（基于签名的最优传输选择），一个用于不规则多元时间序列（IMTS）分类的无监督核心集选择框架。每个样本被映射到截断路径签名，捕捉其通道的联合几何结构，核心集通过贪婪最小化候选子集与全数据集的经验签名分布之间的切片Wasserstein距离来选择，我们为随机核心集建立了该准则的收敛保证。我们在一个真实世界、高度不平衡的工业I&C测试数据集上验证SOTS，其中SOTS-Greedy仅使用30%的训练数据就超过全数据集准确率的95%，在大多数预算下优于标准核心集基线。这一优势推广到公共UEA常规多元时间序列基准，特别是当类别判别信息纯粹是几何时。",
+      "summary_zh": "完全在线同策略蒸馏（OPD）对长时程智能体成本高昂，因为每次更新依赖新鲜环境 rollout。前缀重放通过从存储历史中采样当前学生响应提供高效替代，减少长尾 rollout 的空闲时间，并允许每条收集轨迹支持多次更新。然而，我们对完整前缀重放管线的分析识别出长时程设置中的两个局限。在轨迹收集中，仅教师轨迹错过学生诱导的历史，而更广泛的历史覆盖可能降低教师可靠性。在轨迹重用中，固定的基于位置的调度无法识别可能出现在任意轨迹深度的关键决策。我们引入CARE-OPD（Collect for coverAge, Replay with Evidence）来解决这两个局限。学生种子教师补全和响应级置信度门控扩大历史覆盖同时过滤不可靠更新。事后重放分配随后使用下游执行证据选择有影响的轮次。在长时程任务软件工程和深度研究中，CARE-OPD优于在线OPD和先前前缀重放基线。在SWE-bench Veri",
       "thumbnail": null,
-      "published_at": "2026-11-23T20:33:18Z",
+      "published_at": "2026-11-25T17:27:31Z",
       "extra": {
         "subsource": "arxiv",
-        "field": "cs.LG",
+        "field": "cs.CL",
         "doi": null,
         "tier": "预印本",
         "mode": "filter",
-        "description": "Training data selection for machine learning models is a critical bottleneck in industrial applications where expert annotation is costly and time-consuming. Existing coreset selection methods for time series either ignore temporal structure entirely or cannot handle variable-length, irregularly sampled, multi-channel signals, the setting most common in industrial monitoring and testing. We introduce SOTS (Signature-based Optimal Transport Selection), an unsupervised coreset selection framework for irregular multivariate time series (IMTS) classification. Each sample is mapped to a truncated path signature, capturing the joint geometric structure of its channels, and the coreset is selected by greedily minimizing the Sliced Wasserstein distance between the empirical signature distributions of the candidate subset and the full dataset, a criterion for which we establish a convergence guarantee for random coresets. We validate SOTS on a real-world, highly imbalanced industrial I&C testing dataset, where SOTS-Greedy exceeds 95% of full-dataset accuracy using only 30% of the training data, outperforming standard coreset baselines at most budgets. This advantage generalizes to public UEA regular multivariate time series benchmarks specifically when class-discriminative information is purely geometric.",
-        "identifier": "2611.31525",
-        "dedupe_key": "arxiv:2611.31525",
+        "description": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh environment rollouts. Prefix replay offers an efficient alternative by sampling current-student responses from stored histories, reducing idle time for long-tail rollouts and allowing each collected trajectory to support multiple updates. However, our analysis of the complete prefix replay pipeline identifies two limitations in long-horizon settings. In trajectory collection, teacher-only trajectories miss student-induced histories, while broader history coverage can reduce teacher reliability. In trajectory reuse, fixed position-based schedules cannot identify critical decisions that may occur at any trajectory depth. We introduce CARE-OPD (Collect for coverAge, Replay with Evidence) to address both limitations. Student-seeded teacher completions and response-level confidence gating expand history coverage while filtering unreliable updates. Hindsight replay allocation then uses downstream execution evidence to select consequential turns. Across long-horizon tasks Software Engineering and Deep Research, CARE-OPD outperforms online OPD and prior prefix replay baselines. On SWE-bench Verified, it raises task success to 59.5% while reducing end-to-end training time by 45% and environment actions by 44% relative to asynchronous online OPD.",
+        "identifier": "2611.34756",
+        "dedupe_key": "arxiv:2611.34756",
         "topic_hit": [
           "稀有细胞"
         ],
         "priority_rank": 1,
-        "keyword_hit": [
-          "benchmark"
-        ]
+        "keyword_hit": []
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "958a1c80e578",
+      "cluster_id": "6b0dde7f8f81",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 44
         }
       ]
@@ -2477,6 +2449,123 @@
     {
       "source": "papers",
       "rank": 45,
+      "title": "Layer-Weighted Source-Anchored Transfer Learning for Multi-Omics Survival Prediction and Risk Stratification in Younger Breast Cancer Patients",
+      "title_zh": "面向年轻乳腺癌患者多组学生存预测和风险分层的层加权源锚定迁移学习",
+      "url": "https://doi.org/10.64898/2026.11.01.763494",
+      "hot_value": null,
+      "summary_zh": "背景——年轻乳腺癌患者（<50岁）常表现为更具侵袭性的疾病和独特分子特征，但针对该群体的预测模型因样本量小而不够有力。大多数现有模型基于老年人群构建，可能无法直接转化，尤其是在多种组学数据类型间。为解决此问题，我们开发了分层源锚定迁移弹性网（LSAT-EN），它自适应地从老年源队列借用，同时允许借用强度根据源队列和目标队列之间的相似性在不同组学层间变化，同时执行EN变量选择。方法——年龄[≥]60、[≥]55和[≥]50岁的患者被用作源，以改善<50岁患者的预测。LSAT-EN在组相关模拟和整合6个组学层的TCGA-BRCA中评估。2-4年二元生存通过AUC评估；删失生存通过Harrell's C-index和2-5年逆概率删失加权（IPCW）AUC评估。结果——在模拟中，LSAT-EN在中等源–目标异质性（σ=0.25；0.747-0.802）下达到最高AUC，在目标训练样本量（nT）上",
+      "thumbnail": null,
+      "published_at": "2026-11-22",
+      "extra": {
+        "subsource": "biorxiv",
+        "field": "bioinformatics",
+        "doi": "10.64898/2026.11.01.763494",
+        "tier": "预印本",
+        "mode": "all",
+        "description": "Background- Younger breast cancer patients (<50 years) often present with more aggressive disease and distinct molecular characteristics, yet predictive models for this group are underpowered due to small sample sizes. Most existing models are built on older populations and may not translate directly, particularly across multiple omics data types. To address this, we developed Layered Source-Anchored Transfer Elastic Net (LSAT-EN), which adaptively borrows from the older source cohort while allowing borrowing strength to vary across omics layers according to their similarity between source and target cohorts, while performing EN variable selection. Methods -Patients aged [&ge;]60, [&ge;]55, and [&ge;]50 years were used as the source to improve prediction in patients aged <50 years. LSAT-EN were evaluated in group-correlated simulations and in TCGA-BRCA integrating 6 omics layers. Binary survival at 2-4 years was assessed by AUC; censored survival by Harrell's C-index and 2-5-year inverse probability of censoring weighted (IPCW) AUC. Results - In simulation, LSAT-EN achieved the highest AUC under moderate source-target heterogeneity ({sigma}=0.25; 0.747-0.802), outperforming GAS-EN (0.735-0.767), overall EN (0.683-0.710), individual EN (0.646-0.767), and glmtrans EN (0.640-0.733) across target training sample sizes (nT). Its advantage was greatest under higher source-target heterogeneity ({sigma}=4), particularly with small nT, where LSAT-EN achieved AUCs of 0.689-0.789 compared with 0.590-0.771 across competing methods. In TCGA-BRCA data, LSAT-EN improved discrimination relative to overall and individual EN in all binary and Cox models across all time horizons and source age groups. LSAT-EN was robust in stratifying high and low risk groups across molecular and clinical subgroups, while LSATEN-derived risk scores captured breast cancer-relevant pathway in survival models across time horizons, along with identifying most important miRNA signals. Conclusion- LSAT-EN is a powerful TL method for improving prediction and risk stratification for younger breast cancer patients; The framework may support prediction in other underrepresented populations with limited target-cohort data to advance cancer disparity ML research.",
+        "dedupe_key": "doi:10.64898/2026.11.01.763494",
+        "topic_hit": [
+          "稀有细胞",
+          "生物信息"
+        ],
+        "priority_rank": 1,
+        "keyword_hit": []
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "55077d2d70e9",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 45
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 46,
+      "title": "A gene informed benchmark for BioScoring of pathology foundation models",
+      "title_zh": "面向病理基础模型BioScoring的基因知情基准",
+      "url": "http://arxiv.org/abs/2611.34930v1",
+      "hot_value": null,
+      "summary_zh": "病理基础模型通常通过分类和检索等下游任务性能进行比较。虽然此类基准衡量模型有多大用处，但它们不提供模型所代表生物学的洞见。我们引入BioScore，一个量化图像编码器捕获细胞身份程度的基准，以同一组织的空间转录组学作为参考。稀疏自编码器将编码器的patch嵌入拆分为稀疏特征，我们将其聚类为固定数量的组。BioScore随后测量，对于由标记基因定义的52种细胞身份中的每一种，某一组在组织上跟随该身份表达的特异性程度。由于自编码器训练完全无监督，匹配表明模型仅从图像就代表了该细胞身份。我们对8个病理基础模型和3个自然图像模型评分。每个病理模型得分都高于每个自然图像模型（0.299–0.371 vs 0.214–0.232），配对检验将病理模型分为三个层级。与监督探针不同，BioScore无需标签，从数据构建参考，甚至可从少量切片评分，但其对编码器的排名与探针相同。其按身份分解表明每个编码器捕获",
+      "thumbnail": null,
+      "published_at": "2026-11-25T18:59:13Z",
+      "extra": {
+        "subsource": "arxiv",
+        "field": "cs.LG",
+        "doi": null,
+        "tier": "预印本",
+        "mode": "filter",
+        "description": "Pathology foundation models are usually compared by their performance on downstream tasks such as classification and retrieval. While such benchmarks measure how useful a model is, they provide no insight into the biology it represents. We introduce BioScore, a benchmark that quantifies how well an image encoder captures cell identities, with spatial transcriptomics of the same tissue as the reference. A sparse autoencoder splits the encoder's patch embeddings into sparse features, which we cluster into a fixed number of groups. BioScore then measures, for each of 52 cell identities defined by marker genes, how specifically one group follows the identity's expression over the tissue. Because the autoencoder training is fully unsupervised, a match shows that the model represents the cell identity from the image alone. We score 8 pathology foundation models and 3 natural-image models. Every pathology model scores above every natural-image model (0.299--0.371 \\vs 0.214--0.232), and paired tests separate three tiers among the pathology models. Unlike a supervised probe, BioScore needs no labels, builds its reference from the data and scores even from few sections, yet it ranks the encoders as a probe does. Its per-identity breakdown indicates which cell identities each encoder captures or misses.",
+        "identifier": "2611.34930",
+        "dedupe_key": "arxiv:2611.34930",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "autoencoder",
+          "foundation model",
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "6f73c6c2c1aa",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 46
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 47,
+      "title": "Resolving cell states in spatial transcriptomics with SCATTER",
+      "title_zh": "用SCATTER解析空间转录组学中的细胞状态",
+      "url": "http://arxiv.org/abs/2611.34798v1",
+      "hot_value": null,
+      "summary_zh": "一个捕获spot可包含来自多种细胞类型的转录本。spot之间的差异可能反映细胞类型比例变化、某一细胞类型内表达变化，或两者兼有，使得从混合计数推断局部细胞类型表达困难。我们开发SCATTER，从空间转录组计数、坐标和注释单细胞参考数据估计每个spot每种细胞类型的比例和相对表达谱。SCATTER使用局部空间上下文加权参考细胞谱，然后联合拟合所得谱和细胞类型比例以重建spot计数。Cell2location估计正则化比例。拟合后，SCATTER使用学习的基因特异性校准因子和拟合比例在细胞类型间分配观察计数。在由成像数据构建的五个伪spot基准中，与DestVI、PANDA和STged成对比较时，SCATTER在82.8-99.8%的评估基因–细胞类型对中与实测表达的跨spot相关性更高。在乳腺癌Xenium数据中，它恢复了与肿瘤邻域和调控子评分相关的基因表达。在乳腺癌Visium数据中，推断",
+      "thumbnail": null,
+      "published_at": "2026-11-25T17:50:26Z",
+      "extra": {
+        "subsource": "arxiv",
+        "field": "q-bio.QM",
+        "doi": null,
+        "tier": "预印本",
+        "mode": "all",
+        "description": "A capture spot can contain transcripts from multiple cell types. Differences between spots may reflect changes in cell-type proportions, expression within a cell type, or both, making local cell-type expression difficult to infer from mixed counts. We developed SCATTER to estimate cell-type proportions and relative expression profiles for each cell type at each spot from spatial transcriptomic counts, coordinates, and annotated single-cell reference data. SCATTER weights reference cell profiles using local spatial context, then jointly fits the resulting profiles and cell-type proportions to reconstruct spot counts. Cell2location estimates regularize the proportions. After fitting, SCATTER uses learned gene-specific calibration factors and fitted proportions to allocate observed counts among cell types. In five pseudo-spot benchmarks constructed from imaging data, SCATTER achieved higher cross-spot correlations with measured expression for 82.8-99.8% of evaluated gene-cell type pairs in pairwise comparisons with DestVI, PANDA, and STged. In breast cancer Xenium data, it recovered gene expression associated with the tumor neighborhood and regulon scores. In breast cancer Visium data, inferred stromal and macrophage expression showed distinct associations with neighborhood malignant cell proportions. In multiple sclerosis brain tissue, SCATTER recovered lesion-associated glial expression programs. In colorectal cancer Visium HD data, it mapped cell-type-specific programs at the invasive front and ranked candidate ligand-receptor pairs. SCATTER enables analysis of spatial expression variation within cell types from mixed tissue measurements.",
+        "identifier": "2611.34798",
+        "dedupe_key": "arxiv:2611.34798",
+        "topic_hit": [
+          "生物信息"
+        ],
+        "priority_rank": 2,
+        "keyword_hit": [
+          "benchmark"
+        ]
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "4f368736942e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 47
+        }
+      ]
+    },
+    {
+      "source": "papers",
+      "rank": 48,
       "title": "Cancer multi-omics joint dimension reduction leads to reliable and interpretable survival predictions",
       "title_zh": "癌症多组学联合降维带来可靠且可解释的生存预测",
       "url": "http://arxiv.org/abs/2611.32382v1",
@@ -2501,59 +2590,25 @@
           "benchmark"
         ]
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": -3,
       "cluster_id": "f9417276c6a5",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 45
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 46,
-      "title": "MicroBioAgent: an AI agent for automated microbiome analysis",
-      "title_zh": "MicroBioAgent：用于自动化微生物组分析的AI代理",
-      "url": "https://doi.org/10.64898/2026.11.17.767465",
-      "hot_value": null,
-      "summary_zh": "微生物组数据分析需要针对特定生物学问题、测序模式和数据属性定制的流程。然而，构建和执行这些流程需要导航异构软件依赖、参考数据库和多步参数调优。在此，我们提出MicroBioAgent，一个自主的、领域特定的代理框架，将高层次生物学查询转化为跨16S rRNA扩增子、基于参考的鸟枪法和基于从头组装的宏基因组学的可执行、研究特定流程。MicroBioAgent不依赖静态流程模板，而是采用闭环执行架构：它在用户控制的环境中动态选择和运行生物信息学工具，同时迭代检查中间输出以调整下游分析决策。此外，为解决宏基因组计算的长时间运行特性，我们引入异步后台任务管理机制，将LLM token消耗降低50%以上，同时实现实时计划调整和自动化工作流恢复。我们在三个复杂度递增的基准上系统评估MicroBioAgent：（1）番茄根际微生物组的配对扩增子和鸟枪法分析，（2）结直肠癌队列中的分类和功能分析结合机器学",
-      "thumbnail": null,
-      "published_at": "2026-11-21",
-      "extra": {
-        "subsource": "biorxiv",
-        "field": "bioinformatics",
-        "doi": "10.64898/2026.11.17.767465",
-        "tier": "预印本",
-        "mode": "all",
-        "description": "Microbiome data analysis demands customized workflows tailored to specific biological questions, sequencing modalities, and data properties. However, constructing and executing these workflows requires navigating heterogeneous software dependencies, reference databases, and multi-step parameter tuning. Here, we present MicroBioAgent, an autonomous, domain-specific agent framework that translates high-level biological queries into executable, study-specific pipelines across 16S rRNA amplicon, reference-based shotgun, and de novo assembly-based metagenomics. Rather than relying on static pipeline templates, MicroBioAgent employs a closed-loop execution architecture: it dynamically selects and runs bioinformatics tools within user-controlled environments while iteratively inspecting intermediate outputs to adapt downstream analytical decisions. Furthermore, to address the long-running nature of metagenomic computation, we introduce an asynchronous background task-management mechanism that reduces LLM token consumption by over 50% while enabling real-time plan adjustment and automated workflow resumption. We systematically evaluated MicroBioAgent across three benchmarks of increasing complexity: (1) paired amplicon and shotgun profiling of tomato rhizosphere microbiomes, (2) taxonomic and functional profiling coupled with machine-learning classification in a colorectal cancer cohort, and (3) de novo metagenomic assembly, metagenome-assembled genome (MAG) binning, and metabolic pathway reconstruction in a polyethylene degradation study. Across all benchmarks, MicroBioAgent faithfully recapitulated the primary biological findings of the original studies, exhibiting high analytical concordance despite expected tool- and database-dependent variations. In systematic robustness evaluations across 27 independent runs spanning three backbone large language models and three prompt-complexity tiers, MicroBioAgent achieved a 98.8% task completion rate and yielded highly reproducible diversity and differential-abundance estimates. MicroBioAgent establishes a scalable, adaptive paradigm for end-to-end computational microbiome research.",
-        "dedupe_key": "doi:10.64898/2026.11.17.767465",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "benchmark"
-        ]
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "36fc552a0cf6",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 46
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 48
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 47,
+      "rank": 49,
       "title": "GaLF-ST: Gaussian Latent Fields for Spatial Transcriptomics Reconstruction",
       "title_zh": "GaLF-ST：用于空间转录组重建的高斯潜在场",
       "url": "http://arxiv.org/abs/2611.27143v1",
@@ -2578,9 +2633,9 @@
           "benchmark"
         ]
       },
-      "days_on_board": 3,
+      "days_on_board": 4,
       "is_new": false,
-      "rank_delta": -3,
+      "rank_delta": -2,
       "cluster_id": "b15c0760c929",
       "cluster_size": 1,
       "rank_history": [
@@ -2595,12 +2650,16 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 47
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 49
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 48,
+      "rank": 50,
       "title": "An Explainable and Scalable Hierarchical Tensor Framework for Integrating Multi-Omics and Digital Pathomics",
       "title_zh": "一个用于整合多组学和数字病理学的可解释且可扩展的分层张量框架",
       "url": "http://arxiv.org/abs/2611.25584v1",
@@ -2625,7 +2684,7 @@
           "autoencoder"
         ]
       },
-      "days_on_board": 6,
+      "days_on_board": 7,
       "is_new": false,
       "rank_delta": -2,
       "cluster_id": "c41cc0a72a2f",
@@ -2654,76 +2713,16 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 48
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 50
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 49,
-      "title": "Prognosis Without Prediction: The Intrinsic Geometry of Survival",
-      "title_zh": "无预测的预后：生存的内在几何。",
-      "url": "http://arxiv.org/abs/2611.24799v1",
-      "hot_value": null,
-      "summary_zh": "在高维环境中建模系统性失败从根本上受限于试图预测稀疏、噪声或删失终点的监督算法。为打破对显式结果回归的依赖，我们设计了自组织生存流形（SOSM）框架，这是一种深度学习架构，将无监督表示学习与生存标签解耦，并将事件时间进展视为涌现的几何属性。该系统将异质多组学阵列投影到由伪时间加权、曲率最小化图拉普拉斯算子支配的统一潜在空间，沿低耗散测地流组织患者轨迹。为验证该框架，我们将此架构应用于一个184例透明细胞肾细胞癌多组学队列。在确定性5折交叉验证流程中，SOSM达到平均一致性指数0.768 ± 0.068，而折外风险分层产生显著的生存差异（log-rank p < 0.001），高风险患者的局部流形耗散增加14.7%。此外，探查网络编码器权重确认，模型在无监督特征选择的情况下自主恢复了疾病进展的经典代谢和微环境驱动因素。通过证明系统性失败可以映射为几何相变，SOSM建立了一个可推广的计算引擎，",
-      "thumbnail": null,
-      "published_at": "2026-11-18T17:42:23Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "cs.LG",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "Modeling systemic failure in high-dimensional environments is fundamentally limited by supervised algorithms that attempt to predict sparse, noisy or censored endpoints. To break this reliance on explicit outcome regression, we engineered the Self-Organizing Survival Manifolds (SOSM) framework, a deep learning architecture that decouples unsupervised representation learning from survival labels and treats time-to-event progression as an emergent geometric property. The system projects heterogeneous multi-omics arrays into a unified latent space governed by a pseudotime-weighted, curvature-minimizing graph Laplacian, organizing patient trajectories along low-dissipation geodesic flows. To validate the framework, we applied this architecture to a 184-patient clear cell renal cell carcinoma multi-omics cohort. Across a deterministic 5-fold cross-validation pipeline, SOSM achieved a mean Concordance Index of $0.768 \\pm 0.068$, while out-of-fold risk stratification yielded significant survival divergence (log-rank $p < 0.001$) accompanied by a 14.7% increase in local manifold dissipation among high-risk patients. Furthermore, interrogating the network's encoder weights confirmed that the model autonomously recovered canonical metabolic and microenvironmental drivers of disease progression without supervised feature selection. By demonstrating that systemic failure can be mapped as a geometric phase transition, SOSM establishes a generalizable computational engine for prognostic modeling across biological, industrial and financial complex systems.",
-        "identifier": "2611.24799",
-        "dedupe_key": "arxiv:2611.24799",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": [
-          "deep learning",
-          "representation learning"
-        ]
-      },
-      "days_on_board": 7,
-      "is_new": false,
-      "rank_delta": -2,
-      "cluster_id": "99d5f8a2a3f2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-11-20T10:10:21.999332+00:00",
-          "rank": 45
-        },
-        {
-          "run_at": "2026-11-21T09:58:26.589415+00:00",
-          "rank": 45
-        },
-        {
-          "run_at": "2026-11-22T09:55:40.106894+00:00",
-          "rank": 45
-        },
-        {
-          "run_at": "2026-11-23T10:55:28.794729+00:00",
-          "rank": 46
-        },
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 47
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 49
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 50,
+      "rank": 51,
       "title": "HoloGene: Learning to Lift Sliced Spatial Transcriptomics to Holistic 3D Gene Fields",
       "title_zh": "HoloGene：学习将切片空间转录组学提升为整体3D基因场",
       "url": "http://arxiv.org/abs/2611.20368v1",
@@ -2748,16 +2747,12 @@
           "autoencoder"
         ]
       },
-      "days_on_board": 8,
+      "days_on_board": 9,
       "is_new": false,
-      "rank_delta": -2,
+      "rank_delta": -1,
       "cluster_id": "a0bbdaa0f223",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 47
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 46
@@ -2781,12 +2776,16 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 50
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 51
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 51,
+      "rank": 52,
       "title": "Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data",
       "title_zh": "融合图学习与成对学习，从scRNA-seq数据推断基因调控网络",
       "url": "http://arxiv.org/abs/2611.13801v1",
@@ -2811,16 +2810,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 15,
+      "days_on_board": 16,
       "is_new": false,
-      "rank_delta": -2,
+      "rank_delta": -1,
       "cluster_id": "489bbb127176",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 50
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 48
@@ -2844,12 +2839,16 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 51
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 52
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 52,
+      "rank": 53,
       "title": "Publications as benchmarks: auditing AI agents on spatial transcriptomics alignment",
       "title_zh": "出版物作为基准：审计AI智能体在空间转录组对齐上的表现",
       "url": "http://arxiv.org/abs/2611.11796v1",
@@ -2874,16 +2873,12 @@
           "benchmark"
         ]
       },
-      "days_on_board": 16,
+      "days_on_board": 17,
       "is_new": false,
-      "rank_delta": -2,
+      "rank_delta": -1,
       "cluster_id": "ecc1a1d6287e",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 51
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 49
@@ -2907,12 +2902,16 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 52
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 53
         }
       ]
     },
     {
       "source": "papers",
-      "rank": 53,
+      "rank": 54,
       "title": "Bayesian Learning of Spatially Heterogeneous Causal Structure in Spatial Transcriptomics",
       "title_zh": "空间转录组学中空间异质因果结构的贝叶斯学习",
       "url": "http://arxiv.org/abs/2611.33094v1",
@@ -2935,51 +2934,18 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": -1,
       "cluster_id": "5ac5b3de7294",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 53
-        }
-      ]
-    },
-    {
-      "source": "papers",
-      "rank": 54,
-      "title": "Bayesian Data Integration and Model Updating in Probabilistic Digital Twins",
-      "title_zh": "概率数字孪生中的贝叶斯数据集成与模型更新",
-      "url": "http://arxiv.org/abs/2611.31620v1",
-      "hot_value": null,
-      "summary_zh": "本文提出一个框架，用于概率数字孪生中利用随时间收集的多源数据进行序贯贝叶斯更新。该框架根据观测与数字状态的关系区分属性数据和行为数据。属性数据直接告知不确定模型参数的一个子集，因此可使用高效的专用贝叶斯更新方法纳入。行为数据通过预测模型提供间接信息，需要求解贝叶斯反问题。为降低相关计算成本，引入一种基于主动学习的代理策略，该策略随数字状态演化，并在与后验推断相关的区域自适应地细化预测模型。该框架用一个理想化悬臂梁示例和一个受水位变化和腐蚀影响的运河墙岩土案例研究进行评估。示例展示了互补数据源——包括等式观测和来自观测系统存活的不等式信息——如何告知不确定参数和系统可靠性。所提出的基于代理的更新方案产生的后验估计和预测精度与基于物理的更新相当，同时所需模型评估次数大幅减少。因此，所提出的框架支持工程系统概率数字孪生中的多源更新和可靠性评估。",
-      "thumbnail": null,
-      "published_at": "2026-11-23T22:06:24Z",
-      "extra": {
-        "subsource": "arxiv",
-        "field": "stat.AP",
-        "doi": null,
-        "tier": "预印本",
-        "mode": "filter",
-        "description": "This paper proposes a framework for sequential Bayesian updating in probabilistic digital twins using data from multiple sources collected over time. The framework distinguishes between property data and behavior data, according to how observations relate to the digital state. Property data directly inform a subset of the uncertain model parameters and can therefore be incorporated using efficient dedicated Bayesian updating methods. Behavior data provide indirect information through the prediction model and require the solution of a Bayesian inverse problem. To reduce the associated computational cost, an active-learning-based surrogate strategy is introduced that evolves with the digital state and adaptively refines the prediction model in regions relevant to posterior inference. The framework is evaluated using an idealized cantilever beam example and a geotechnical case study of a canal wall subject to varying water levels and corrosion. The examples show how complementary data sources, including both equality observations and inequality information from observed system survival, can inform uncertain parameters and system reliability. The proposed surrogate-based updating scheme yields posterior estimates and prediction accuracy comparable to those of physics-based updating while requiring substantially fewer model evaluations. The proposed framework thus supports multi-source updating and reliability assessment in probabilistic digital twins of engineering systems.",
-        "identifier": "2611.31620",
-        "dedupe_key": "arxiv:2611.31620",
-        "topic_hit": [
-          "生物信息"
-        ],
-        "priority_rank": 2,
-        "keyword_hit": []
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "b054dab2df0b",
-      "cluster_size": 1,
-      "rank_history": [
+        },
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 54
         }
       ]
@@ -3008,14 +2974,18 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": 0,
       "cluster_id": "23ab6aba99a5",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 55
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 55
         }
       ]
@@ -3023,60 +2993,35 @@
     {
       "source": "papers",
       "rank": 56,
-      "title": "Horizontal Flow Matching for Single-Cell Spatiotemporal Dynamics",
-      "title_zh": "用于单细胞时空动力学的水平流匹配。",
-      "url": "http://arxiv.org/abs/2611.24764v1",
+      "title": "Smyd1 regulates H3K4me3 to support adaptive fatty acid oxidation in the adult heart during lipid overload",
+      "title_zh": "Smyd1调控H3K4me3以支持成年心脏在脂质过载期间的适应性脂肪酸氧化",
+      "url": "https://doi.org/10.64898/2026.11.18.763125",
       "hot_value": null,
-      "summary_zh": "从空间转录组学学习细胞的时空动力学需要连接在不同坐标系中获取的不同细胞快照。切片的旋转或平移可能表现为细胞运动，并扭曲推断的对应关系。我们引入水平流匹配，它在共享刚体运动的意义下学习组织组织、分子状态和细胞丰度的变化。动力学遵循连续性-反应方程，其作用对共享刚体运动不赋予成本，由此产生的水平投影器在学习过程中从空间预测误差中、在生成过程中从预测速度中去除该分量。一个等价的端点问题在Wasserstein–Fisher–Rao几何中联合估计对应关系和相对位姿，并产生解析路径，其速度和生长作为回归目标。回归这些目标在理想群体条件下恢复水平动力学。我们的模型HORIZON使用等变Transformer从当前组织预测速度和生长，从而可以从单个初始快照连续生成组织。在扰动坐标系中观察的模拟组织上，对齐改善了重建，投影减少了刚性漂移。在四个空间转录组学时间序列上，HORIZON比现有空间和不平衡轨迹方",
+      "summary_zh": "肥胖和代谢综合征是心力衰竭的主要风险因素，脂肪酸氧化（FAO）受损是肥胖相关心肌病代谢功能障碍的关键 contributor。然而，心脏如何维持FAO并适应慢性脂质过载仍知之甚少。在此，我们识别SET和MYND结构域包含蛋白1（Smyd1），一种肌肉特异性组蛋白甲基转移酶，作为响应脂质过载的心脏代谢早期代偿调节因子。在野生型小鼠心脏中，高脂饮食（HFD）喂养在代谢应激早中期诱导Smyd1表达和H3K4me3水平短暂增加，两者在长期HFD暴露期间均回到基线水平。单细胞RNA测序进一步揭示这种Smyd1表达适应性增加主要发生在心肌细胞中。相反，心脏特异性Smyd1杂合敲除小鼠在HFD喂养后表现出加速的心脏功能障碍、左心室扩张、心肌纤维化增加和生存率降低。机制上，Smyd1缺失损害关键FAO相关基因的适应性上调并降低心脏FAO活性。此外，共免疫沉淀分析揭示Smyd1与过氧化物酶体增殖物激活受体α",
       "thumbnail": null,
-      "published_at": "2026-11-18T17:16:53Z",
+      "published_at": "2026-11-22",
       "extra": {
-        "subsource": "arxiv",
-        "field": "cs.LG",
-        "doi": null,
+        "subsource": "biorxiv",
+        "field": "cell biology",
+        "doi": "10.64898/2026.11.18.763125",
         "tier": "预印本",
-        "mode": "filter",
-        "description": "Learning the spatiotemporal dynamics of cells from spatial transcriptomics requires connecting snapshots of different cells acquired in different coordinate frames. A rotation or translation of a section can appear as cell movement and distort the inferred correspondence. We introduce horizontal flow matching, which learns changes in tissue organization, molecular state, and cell abundance up to shared rigid motion. The dynamics follow a continuity--reaction equation whose action assigns no cost to shared rigid motion, and the resulting horizontal projector removes this component from spatial prediction errors during learning and from predicted velocities during generation. An equivalent endpoint problem jointly estimates correspondence and relative pose in Wasserstein--Fisher--Rao geometry and yields analytic paths whose velocity and growth serve as regression targets. Regressing these targets recovers the horizontal dynamics under ideal population conditions. Our model, HORIZON, uses an equivariant transformer to predict velocity and growth from the current tissue, so that a tissue can be generated continuously from a single initial snapshot. On a simulated tissue observed in perturbed coordinate frames, alignment improves reconstruction and projection reduces rigid drift. On four spatial transcriptomics time courses, HORIZON reconstructs tissue geometry, gene expression, and cell abundance more accurately than existing spatial and unbalanced trajectory methods, and interpolates held-out developmental stages.",
-        "identifier": "2611.24764",
-        "dedupe_key": "arxiv:2611.24764",
+        "mode": "all",
+        "description": "Obesity and metabolic syndrome are major risk factors for heart failure, and impaired fatty acid oxidation (FAO) is a key contributor to metabolic dysfunction in obesity-related cardiomyopathy. However, how the heart maintains FAO and adapts to chronic lipid overload remains poorly understood. Here, we identify SET and MYND domain-containing protein 1 (Smyd1), a muscle-specific histone methyltransferase, as an early compensatory regulator of cardiac metabolism in response to lipid overload. In wild-type mouse hearts, high-fat diet (HFD) feeding induced transient increases in Smyd1 expression and H3K4me3 levels during the early-to-mid phase of metabolic stress, both of which returned to baseline levels during prolonged HFD exposure. Single-cell RNA sequencing further revealed that this adaptive increase in Smyd1 expression occurred predominantly in cardiomyocytes. In contrast, cardiac-specific Smyd1 heterozygous knockout mice exhibited accelerated cardiac dysfunction, left ventricular dilation, increased myocardial fibrosis, and reduced survival following HFD feeding. Mechanistically, Smyd1 deficiency impaired the adaptive upregulation of key FAO-related genes and reduced cardiac FAO activity. Furthermore, co-immunoprecipitation analysis revealed an interaction between Smyd1 and peroxisome proliferator-activated receptor alpha (PPAR), suggesting a potential mechanism by which Smyd1 supports FAO gene expression. Taken together, these findings identify Smyd1 as an early compensatory regulator that supports FAO-dependent metabolic adaptation and protects the heart against lipid overload-induced cardiac dysfunction. This adaptive mechanism, involving H3K4me3 regulation and the Smyd1-PPAR interaction, may provide potential therapeutic targets for therapeutic strategies aimed at preserving cardiac metabolic flexibility in obesity-related cardiomyopathy.",
+        "dedupe_key": "doi:10.64898/2026.11.18.763125",
         "topic_hit": [
           "生物信息"
         ],
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 7,
-      "is_new": false,
-      "rank_delta": -4,
-      "cluster_id": "e2e9c4e9e81f",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "259d374422a6",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 54
-        },
-        {
-          "run_at": "2026-11-20T10:10:21.999332+00:00",
-          "rank": 51
-        },
-        {
-          "run_at": "2026-11-21T09:58:26.589415+00:00",
-          "rank": 51
-        },
-        {
-          "run_at": "2026-11-22T09:55:40.106894+00:00",
-          "rank": 51
-        },
-        {
-          "run_at": "2026-11-23T10:55:28.794729+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 52
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 56
         }
       ]
@@ -3106,16 +3051,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 7,
+      "days_on_board": 8,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": 0,
       "cluster_id": "cb2a278c3058",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 55
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 52
@@ -3138,6 +3079,10 @@
         },
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "rank": 57
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 57
         }
       ]
@@ -3167,16 +3112,12 @@
         "priority_rank": 2,
         "keyword_hit": []
       },
-      "days_on_board": 8,
+      "days_on_board": 9,
       "is_new": false,
-      "rank_delta": -4,
+      "rank_delta": 0,
       "cluster_id": "8ea04737157f",
       "cluster_size": 1,
       "rank_history": [
-        {
-          "run_at": "2026-11-19T10:38:57.363076+00:00",
-          "rank": 56
-        },
         {
           "run_at": "2026-11-20T10:10:21.999332+00:00",
           "rank": 53
@@ -3200,42 +3141,46 @@
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 58
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 58
         }
       ]
     },
     {
       "source": "papers",
       "rank": 59,
-      "title": "BioLoom: Scaling Biomedical Vision-Language Models by Learning from the Structure of Scientific Articles",
-      "title_zh": "BioLoom：通过从科学文章结构中学习来扩展生物医学视觉-语言模型",
-      "url": "http://arxiv.org/abs/2611.33151v1",
+      "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
+      "title_zh": "AI原生自编码器通信的频谱自适应与迁移学习",
+      "url": "http://arxiv.org/abs/2611.34942v1",
       "hot_value": null,
-      "summary_zh": "具有对比图像-文本预训练的生物医学视觉-语言模型（VLM）的发展一直由扩展到越来越大和多样化的图像-文本数据集驱动。除了扩展之外，进一步进展可以来自从现有数据中学习更丰富的表示。我们假设科学文献的结构本身提供了额外的监督来源：图、面板、标题和伴随的文章文本编码了跨模态的丰富关系。然而，将这些视为独立的图像-文本对忽略了它们的关系。为解决这一限制，我们将这些结构关系纳入对比图像-文本监督。我们保留精确的图像-文本匹配，同时为相关对（例如一个面板和兄弟面板的标题）引入较弱的正监督。我们上调同一内容类型的跨文章负例，以鼓励更精细的区分。我们还使用视觉内容、原始图标题和提及段落来丰富面板描述。将面板与这些描述配对，并将整图与其原始标题配对，得到Loom52M，一个包含5240万个图像-文本对的数据集，涵盖科学图表和生物医学图像。使用Loom52M，BioLoom（DFN-2B）在来自10个领域43",
+      "summary_zh": "端到端物理层学习用自编码器（AE）取代单独的调制、编码和检测操作，该自编码器由发射机和接收机处联合训练的编码器–解码器对组成。本文研究使用AE的AI原生通信，并量化信道模型中训练–测试失配的敏感性。仅在AWGN信道上训练的模型在匹配条件下达到低误码率（BER），但在具有实际前端损伤的Rayleigh衰落上严重退化。为减少适应新信道条件所需的时间和能量，我们提出一种低延迟迁移学习过程，从AWGN预训练系统开始，仅微调发射机和接收机层的一小部分子集，同时冻结其余部分。我们进一步将层选择表述为预算约束优化问题，识别适应期间要更新的最具信息量的参数。这在适应轻量前端到衰落和损伤诱导的混合时保留学习的信号几何和深层决策结构。对于AE通信，我们显示部分更新消除失配诱导的错误底并接近完全重训练模型的BER。我们提供逐层研究并量化资源–性能权衡，显示适度适应大幅降低BER，同时减少训练时间、乘加（MAC）",
       "thumbnail": null,
-      "published_at": "2026-11-24T18:59:04Z",
+      "published_at": "2026-11-25T18:59:57Z",
       "extra": {
         "subsource": "arxiv",
-        "field": "cs.CV",
+        "field": "cs.NI",
         "doi": null,
         "tier": "预印本",
         "mode": "filter",
-        "description": "The development of biomedical vision-language models (VLMs) with contrastive image-text pretraining has been driven by scaling to increasingly large and diverse image-text datasets. Beyond scaling, further progress can come from learning richer representations from existing data. We hypothesize that the structure of scientific literature itself provides an additional source of supervision: figures, panels, captions, and accompanying article text encode rich relationships across modalities. Yet, treating these as independent image-text pairs overlooks their relationships. To address this limitation, we incorporate these structural relationships into contrastive image-text supervision. We preserve exact image-text matches while introducing weaker positive supervision for related pairs, such as a panel and the caption of a sibling panel. We upweight cross-article negatives of the same content type to encourage finer discrimination. We also enrich panel descriptions using visual content, original figure captions, and mentioning paragraphs. Pairing panels with these descriptions and whole figures with their original captions yields Loom52M, a dataset of 52.4 million image-text pairs spanning scientific charts and biomedical images. Using Loom52M, BioLoom (DFN-2B) achieves 56.82% domain-balanced mean accuracy across 67 zero-shot classification tasks from 43 datasets in 10 domains, compared with 48.77% for MedPMC-CLIP. On BioLoomBench with concise captions and BioMedFlickr, it achieves bidirectional mean Recall@1 of 63.20% and 10.59%, versus 46.37% and 7.55% for the respective strongest evaluated baselines, BiomedCLIP and MedPMC-CLIP. Code, datasets, benchmarks, and models are available at https://bioloom-clip.github.io/.",
-        "identifier": "2611.33151",
-        "dedupe_key": "arxiv:2611.33151",
+        "description": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity to training-test mismatch in channel models. Models trained only on an AWGN channel achieve low bit error rates (BERs) under matched conditions but degrade severely on Rayleigh fading with practical front-end impairments. To reduce the time and energy required to adapt to new channel conditions, we propose a low-latency transfer-learning procedure that starts from an AWGN-pretrained system and fine-tunes only a small subset of transmitter and receiver layers while freezing the remainder. We further formulate layer selection as a budget-constrained optimization problem that identifies the most informative parameters to update during adaptation. This preserves the learned signal geometry and the deep decision structure while adapting lightweight front ends to fading- and impairment-induced mixing. For AE communications, we show that partial updates remove the mismatch-induced error floor and approach the BER of fully retrained models. We provide a layer-wise study and quantify resource-performance trade-offs, showing that modest adaptation substantially reduces BER while cutting training time, multiply-accumulate (MAC) operations, energy consumption, and the fraction of updated parameters for resource-efficient implementation.",
+        "identifier": "2611.34942",
+        "dedupe_key": "arxiv:2611.34942",
         "topic_hit": [],
         "priority_rank": 999,
         "keyword_hit": [
-          "benchmark"
+          "autoencoder"
         ]
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "a1a364b81517",
+      "cluster_id": "b1063185a8b9",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 59
         }
       ]
@@ -3243,22 +3188,22 @@
     {
       "source": "papers",
       "rank": 60,
-      "title": "iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction",
-      "title_zh": "iWAM：无需显式未来预测的世界模型高效动作预测",
-      "url": "http://arxiv.org/abs/2611.33141v1",
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "title_zh": "面向困难数学问题的多样替代推理轨迹",
+      "url": "http://arxiv.org/abs/2611.34928v1",
       "hot_value": null,
-      "summary_zh": "世界-动作模型（WAM）在预训练视频生成模型上构建策略，其前提是预测场景如何演变有助于确定如何行动。然而，生成未来场景对于实时控制来说代价高昂。这促使人们寻找未来想象的高效代理，但如何在不牺牲动作预测质量的情况下训练此类代理仍不清楚。有效的代理不需要生成高分辨率帧；它只需要提供足够的信息来区分可能的未来。这引出了iWAM背后的设计原则：与其去噪整个未来帧，我们能否将动作策略条件于单次视频模型评估的中间特征？我们表明答案是肯定的。利用流匹配模型的可逆动力学，我们将每个训练未来反转为相应的潜在噪声向量。然而，在该潜在变量上的单次速度评估不一定产生用于动作预测的信息性特征。因此，我们学习一个双向流映射，以摊销未来生成计算，使单次模型评估能够提供有效的条件特征。在推理时，我们从先验中采样一个潜在噪声向量，并仅使用一次视频骨干前向传递来条件化策略。在模拟基准和真实机器人上，iWAM恢复了WAM的泛化",
+      "summary_zh": "对大型语言模型（LLM）进行数学推理后训练通常依赖最终答案通过验证器的被接受轨迹。然而，对于困难数学问题，此类轨迹在独立蒙特卡洛（MC）采样下可能稀少。为解决此问题，我们提出多样替代推理轨迹（DART），一种轨迹挖掘方法，从被拒绝轨迹开始，将其分解为推理步骤，并按位置加权不确定性排序。然后使用参考答案引导和元思维为高排名步骤生成刻意不同的替代候选，再完成所得轨迹。在贪心未解决的DeepMath-103K问题上，DART在匹配生成轨迹数量下比MC采样多恢复37%的问题。其每恢复问题的估计生成成本几乎相同，而每接受轨迹成本低30%。在DART挖掘的轨迹上后训练Llama-3.1-8B-Instruct在MATH-500和AIME基准的六项评估中五项达到最高点估计。这些结果表明，用DART重新审视被拒绝轨迹可扩大问题覆盖并提供有效后训练数据。",
       "thumbnail": null,
-      "published_at": "2026-11-24T18:56:04Z",
+      "published_at": "2026-11-25T18:59:11Z",
       "extra": {
         "subsource": "arxiv",
-        "field": "cs.RO",
+        "field": "cs.CL",
         "doi": null,
         "tier": "预印本",
         "mode": "filter",
-        "description": "World-action models (WAMs) build policies on pretrained video-generation models, on the premise that predicting how a scene evolves helps determine how to act. However, generating future scenes is expensive for real-time control. This motivates efficient proxies for future imagination, but how to train such proxies without sacrificing action-prediction quality remains unclear. An effective proxy need not generate a high-resolution frame; it only needs to provide enough information to distinguish between possible futures. This leads to the design principle behind iWAM: rather than denoising an entire future frame, can we condition the action policy on intermediate features from a single video-model evaluation? We show that the answer is yes. Exploiting the reversible dynamics of flow-matching models, we invert each training future into the corresponding latent noise vector. However, a single velocity evaluation at this latent does not necessarily yield informative features for action prediction. We therefore learn a bidirectional flow map that amortizes future-generation computation, enabling a single model evaluation to provide effective conditioning features. At inference, we sample a latent noise vector from the prior and condition the policy using just one video-backbone forward pass. Across simulated benchmarks and real robots, iWAM recovers the generalization benefits of WAMs while substantially reducing its inference cost.",
-        "identifier": "2611.33141",
-        "dedupe_key": "arxiv:2611.33141",
+        "description": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces. On greedy-unsolved DeepMath-103K problems, DART recovers 37% more problems than MC sampling at a matched number of generated traces. Its estimated generation cost per recovered problem is nearly identical, while its cost per accepted trace is 30% lower. Post-training Llama-3.1-8B-Instruct on traces mined by DART achieves the highest point estimate in five of six evaluations across MATH-500 and AIME benchmarks. These results demonstrate that revisiting rejected traces with DART can expand problem coverage and provide effective post-training data.",
+        "identifier": "2611.34928",
+        "dedupe_key": "arxiv:2611.34928",
         "topic_hit": [],
         "priority_rank": 999,
         "keyword_hit": [
@@ -3268,18 +3213,318 @@
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "2a3a6feadede",
+      "cluster_id": "573f7b119649",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 60
         }
       ]
     },
     {
       "source": "feed",
-      "rank": 20,
+      "rank": 30,
+      "title": "Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
+      "title_zh": "在玻璃化过程中用超声激发减轻冷冻电镜中的优选取向",
+      "url": "https://www.nature.com/articles/s41592-026-03382-6",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月26日；doi:10.1038/s41592-026-03382-6 在玻璃化过程中用超声波激发冷冻电镜样品有助于减轻困扰蛋白质结构测定的优选颗粒取向问题。",
+      "thumbnail": null,
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 26 November 2026; doi:10.1038/s41592-026-03382-6 Exciting cryo-electron microscopy specimens with ultrasonic waves during vitrification helps mitigate the preferred particle orientation problem that plagues protein structure determination.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03382-6"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "f10aa58f968b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 30
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 31,
+      "title": "Large-scale quantitative assessment of tissue preparation and staining conditions for robust multiplexed imaging of FFPE tissue samples",
+      "title_zh": "对FFPE组织样品稳健多重成像的组织制备和染色条件的大规模定量评估",
+      "url": "https://www.nature.com/articles/s41592-026-03317-1",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月26日；doi:10.1038/s41592-026-03317-1 本注册报告定量评估组织制备和染色条件对成像的影响。",
+      "thumbnail": null,
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 26 November 2026; doi:10.1038/s41592-026-03317-1 This Registered Report quantitatively evaluates the impact of tissue preparation and staining conditions on imaging.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03317-1"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "5c99481999c5",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 46,
+      "title": "The leading cities in the world for high-quality research in 2025",
+      "title_zh": "2025年全球高质量研究领先城市",
+      "url": "https://www.nature.com/articles/d41586-026-03468-3",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03468-3 关于Nature Index中表现最佳科学城市的十年数据。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03468-3 A decade of data on the top-performing science cities in the Nature Index.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03468-3"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "29d7ccc18a9e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 46
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 47,
+      "title": "Dual proofs of legendary Riemann hypothesis stun mathematicians",
+      "title_zh": "传奇黎曼猜想的双重证明震惊数学家",
+      "url": "https://www.nature.com/articles/d41586-026-03853-y",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03853-y 专家表示AI和人类撰写的证明将需要仔细检查—— plus，COP31气候会议的后续影响。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03853-y Experts say the AI and human-written proofs will need careful checking — plus, the fallout from the COP31 climate conference.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03853-y"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "c437a0a619c3",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 47
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 48,
+      "title": "An in situ redox-converted molecule for all-perovskite tandem solar cells",
+      "title_zh": "一种用于全钙钛矿叠层太阳能电池的原位氧化还原转化分子",
+      "url": "https://www.nature.com/articles/s41586-026-11465-9",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/s41586-026-11465-9 一种用于全钙钛矿叠层太阳能电池的原位氧化还原转化分子",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/s41586-026-11465-9 An in situ redox-converted molecule for all-perovskite tandem solar cells",
+        "dedupe_key": "https://www.nature.com/articles/s41586-026-11465-9"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "4eb4829b7ad6",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 48
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 49,
+      "title": "How Singapore has turned a nation into a smart-city testing ground",
+      "title_zh": "新加坡如何将一个国家变成智慧城市试验场",
+      "url": "https://www.nature.com/articles/d41586-026-03472-7",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03472-7 该城邦的紧凑规模和集中治理使数字基础设施能够以异常速度和一致性引入。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03472-7 The city-state’s compact size and centralized governance allow digital infrastructure to be introduced with unusual speed and consistency.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03472-7"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "e3eb5f60409b",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 49
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 50,
+      "title": "How arteries keep their shape in the face of overgrowth-inducing mutations",
+      "title_zh": "动脉如何在促生长突变面前保持形状",
+      "url": "https://www.nature.com/articles/d41586-026-03491-4",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03491-4 为什么癌症相关突变导致某些血管异常发育，而不是动脉？答案在于受影响细胞的身份和成熟度。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03491-4 Why do cancer-associated mutations cause some blood vessels to develop abnormally, but not arteries? The answer lies in the identity and maturity of the affected cells.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03491-4"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "85b6139b629d",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 50
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 51,
+      "title": "What is the Riemann hypothesis? A guide to the famed conjecture that rules prime numbers",
+      "title_zh": "什么是黎曼猜想？支配素数的著名猜想指南",
+      "url": "https://www.nature.com/articles/d41586-026-03854-x",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03854-x 数学中最大的问题与科学家熟悉的一种统计检验有关。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03854-x The biggest problem in mathematics has to do with a statistical test familiar to scientists.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03854-x"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "4480e098e623",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 51
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 52,
+      "title": "Saving Nepal’s wild orchids — in photos",
+      "title_zh": "拯救尼泊尔野生兰花——图片报道",
+      "url": "https://www.nature.com/articles/d41586-026-03475-4",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03475-4 因其观赏和药用价值而备受珍视，每年数百种兰花被非法采集和出售。现在，环保主义者Reshu Bashyal正领导保护它们的努力。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03475-4 Prized for their ornamental and medicinal value, hundreds of orchids are illegally harvested and sold each year. Now, conservationist Reshu Bashyal is leading an effort to protect them.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03475-4"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "4466a0b3b6f4",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 52
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 53,
+      "title": "A fine-grained reconstruction of barley’s evolutionary history",
+      "title_zh": "大麦进化史的精细重建",
+      "url": "https://www.nature.com/articles/d41586-026-03494-1",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03494-1 来自大麦属Hordeum全属的染色体级基因组序列揭示了大规模结构变异、古老基因交换的证据以及调控序列的广泛分化。这些演化过程产生的多样性可用于改良栽培大麦。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03494-1 Chromosome-scale genome sequences from across the barley genus Hordeum reveal large structural variation, evidence of ancient genetic exchange and extensive divergence of regulatory sequences. These evolutionary processes have generated diversity that could be used to improve cultivated barley.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03494-1"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "05c9f3d02b90",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 53
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 54,
       "title": "A powerful HIV vaccine is finally within reach — thanks to these super antibodies",
       "title_zh": "强大的HIV疫苗终于触手可及——得益于这些超级抗体",
       "url": "https://www.nature.com/articles/d41586-026-03718-4",
@@ -3295,334 +3540,18 @@
         "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03718-4 Potent immune responses against diverse HIV strains have ignited the field, but major hurdles remain.",
         "dedupe_key": "https://www.nature.com/articles/d41586-026-03718-4"
       },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
+      "days_on_board": 2,
+      "is_new": false,
+      "rank_delta": -34,
       "cluster_id": "0d144a4226dc",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-25T11:28:51.570961+00:00",
           "rank": 20
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 21,
-      "title": "The world has a golden chance to improve HIV prevention: don’t squander it",
-      "title_zh": "世界有绝佳机会改善HIV预防：不要错失",
-      "url": "https://www.nature.com/articles/d41586-026-03809-2",
-      "hot_value": null,
-      "summary_zh": "《自然》，在线发表：2026年11月25日；doi:10.1038/d41586-026-03809-2 一种有效HIV药物的仿制药已获批，HIV疫苗也即将到来。现在绝不是资助者放松油门的时候。",
-      "thumbnail": null,
-      "published_at": "2026-11-25T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03809-2 Generic versions of an effective HIV drug have been approved, and an HIV vaccine is on the horizon. Now is no time for funders to take their foot off the pedal.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03809-2"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "5e832cab5660",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 21
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 46,
-      "title": "Fight AI slop without punishing legitimate researchers",
-      "title_zh": "打击AI垃圾而不惩罚合法研究人员",
-      "url": "https://www.nature.com/articles/d41586-026-03824-3",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年11月24日；doi:10.1038/d41586-026-03824-3 打击AI垃圾而不惩罚合法研究人员",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03824-3 Fight AI slop without punishing legitimate researchers",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03824-3"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -25,
-      "cluster_id": "a9745d2953f0",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 21
         },
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 46
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 47,
-      "title": "Richard of Wallingford and his Rectangulus",
-      "title_zh": "沃灵福德的理查德和他的Rectangulus",
-      "url": "https://www.nature.com/articles/d41586-026-03725-5",
-      "hot_value": null,
-      "summary_zh": "《自然》，在线发表：2026年11月24日；doi:10.1038/d41586-026-03725-5 将三角学引入英格兰的人的生平，以及CERN新建成加速器上的实验开始，尽在我们每周对《自然》档案的回顾中。",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03725-5 The life of the man who brought trigonometry to England, and experiments begin on a newly completed accelerator at CERN, in our weekly dip into Nature’s archive.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03725-5"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "1b0c76c560f7",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 47
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 48,
-      "title": "The science on AI consciousness must acknowledge uncertainty",
-      "title_zh": "关于AI意识的科学必须承认不确定性",
-      "url": "https://www.nature.com/articles/d41586-026-03822-5",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年11月24日；doi:10.1038/d41586-026-03822-5 关于AI意识的科学必须承认不确定性",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03822-5 The science on AI consciousness must acknowledge uncertainty",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03822-5"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -26,
-      "cluster_id": "129a8bbb8162",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 22
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 48
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 49,
-      "title": "Himalayan disasters demand biodiversity conservation across borders",
-      "title_zh": "喜马拉雅灾害需要跨境生物多样性保护",
-      "url": "https://www.nature.com/articles/d41586-026-03825-2",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年11月24日；doi:10.1038/d41586-026-03825-2 喜马拉雅灾害需要跨境生物多样性保护",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03825-2 Himalayan disasters demand biodiversity conservation across borders",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03825-2"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -26,
-      "cluster_id": "e8103abdc6c2",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 23
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 49
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 50,
-      "title": "Submission caps aren’t enough to tackle AI slop",
-      "title_zh": "投稿上限不足以解决AI垃圾",
-      "url": "https://www.nature.com/articles/d41586-026-03823-4",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年11月24日；doi:10.1038/d41586-026-03823-4 投稿上限不足以解决AI垃圾",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03823-4 Submission caps aren’t enough to tackle AI slop",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03823-4"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -26,
-      "cluster_id": "0194d36ccf58",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 24
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 50
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 51,
-      "title": "The brain keeps the score: how trauma leaves molecular scars in cells",
-      "title_zh": "大脑会记分：创伤如何在细胞中留下分子疤痕",
-      "url": "https://www.nature.com/articles/d41586-026-03821-6",
-      "hot_value": null,
-      "summary_zh": "《自然》，在线发表：2026年11月24日；doi:10.1038/d41586-026-03821-6 大型尸检研究识别出与创伤后应激障碍相关的大脑表观遗传变化。",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03821-6 Large post-mortem study identifies epigenetic changes in the brain linked to post-traumatic stress disorder.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03821-6"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "5efd7b498d5e",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 51
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 52,
-      "title": "Pakistani astronaut to become first foreign visitor to China’s space station",
-      "title_zh": "巴基斯坦宇航员将成为中国空间站首位外国访客",
-      "url": "https://www.nature.com/articles/d41586-026-03829-y",
-      "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年11月24日；doi:10.1038/d41586-026-03829-y Muhammad Zeeshan Ali本周将乘坐中国飞船飞往天宫舱。",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03829-y Muhammad Zeeshan Ali is flying this week to the Tiangong module aboard a Chinese spacecraft.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03829-y"
-      },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -27,
-      "cluster_id": "d13115627591",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 25
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 52
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 53,
-      "title": "Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists",
-      "title_zh": "当心，AlphaFold：Claude和ChatGPT的新生物学技能令科学家惊叹",
-      "url": "https://www.nature.com/articles/d41586-026-03836-z",
-      "hot_value": null,
-      "summary_zh": "《自然》，在线发表：2026年11月24日；doi:10.1038/d41586-026-03836-z Anthropic和OpenAI的语言模型可以设计蛋白质并预测其序列和结构——这些能力此前仅在专门AI工具中见到。",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03836-z Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously seen only in specialized AI tools.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03836-z"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "4db746ba40a0",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 53
-        }
-      ]
-    },
-    {
-      "source": "feed",
-      "rank": 54,
-      "title": "How acidic compounds in human sweat open a mosquito ion channel",
-      "title_zh": "人类汗液中的酸性化合物如何打开蚊子离子通道",
-      "url": "https://www.nature.com/articles/d41586-026-03381-9",
-      "hot_value": null,
-      "summary_zh": "《自然》，在线发表：2026年11月24日；doi:10.1038/d41586-026-03381-9 蚊子受体与人类皮肤酸结合的结构可能启发抑制携带疟疾的蚊子被人类吸引的策略。",
-      "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed_name": "Nature",
-        "tab": "papers",
-        "route": "https://www.nature.com/nature.rss",
-        "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03381-9 Structures of a mosquito receptor bound to acids from human skin could inspire tactics to stifle the attraction of malaria-carrying mosquitoes to humans.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03381-9"
-      },
-      "days_on_board": 1,
-      "is_new": true,
-      "rank_delta": "new",
-      "cluster_id": "6d0ce05be40b",
-      "cluster_size": 1,
-      "rank_history": [
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 54
         }
       ]
@@ -3630,29 +3559,29 @@
     {
       "source": "feed",
       "rank": 55,
-      "title": "Blend public cash and private innovation to unlock drug development",
-      "title_zh": "混合公共资金和私人创新以解锁药物开发",
-      "url": "https://www.nature.com/articles/d41586-026-03723-7",
+      "title": "Can Beijing scale up its smart-city ambitions?",
+      "title_zh": "北京能否扩大其智慧城市雄心？",
+      "url": "https://www.nature.com/articles/d41586-026-03470-9",
       "hot_value": null,
-      "summary_zh": "《自然》，在线发表：2026年11月24日；doi:10.1038/d41586-026-03723-7 常见健康问题缺乏药物和治疗方法，因为行业认为投资风险太大。以下是有助于改善的情况。",
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03470-9 这座全球领先的科学城市正在大规模测试AI和智能交通，但将其各创新枢纽之间的数据联通仍是一项挑战。",
       "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
+      "published_at": "2026-11-25T00:00:00+00:00",
       "extra": {
         "feed_name": "Nature",
         "tab": "papers",
         "route": "https://www.nature.com/nature.rss",
         "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03723-7 Common health conditions lack medicines and treatments because industry finds them too risky to invest in. Here’s what would help.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03723-7"
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03470-9 The world’s leading science city is testing AI and intelligent transport at scale, but linking data across its innovation hubs remains a challenge.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03470-9"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "22e4dfed6350",
+      "cluster_id": "0d2c8773699f",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 55
         }
       ]
@@ -3660,29 +3589,29 @@
     {
       "source": "feed",
       "rank": 56,
-      "title": "‘The worst COP ever’ offers a chance to learn from failure",
-      "title_zh": "“史上最差COP”提供了从失败中学习的机会",
-      "url": "https://www.nature.com/articles/d41586-026-03810-9",
+      "title": "From sketch to publication-ready flowchart: how AI tools can bridge the gap",
+      "title_zh": "从草图到可发表流程图：AI工具如何弥合差距",
+      "url": "https://www.nature.com/articles/d41586-026-03513-1",
       "hot_value": null,
-      "summary_zh": "《自然》，在线发表：2026年11月24日；doi:10.1038/d41586-026-03810-9 COP31未达成协议而结束，但基于共识的方法对于解决全球问题至关重要，而“失败”可以导致未来谈判中的果断行动。",
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03513-1 Ensar Aydemir解释说，使用生成式AI是将手绘科学图表转换为数字格式的实用方法，且无需完全交出控制权。",
       "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
+      "published_at": "2026-11-25T00:00:00+00:00",
       "extra": {
         "feed_name": "Nature",
         "tab": "papers",
         "route": "https://www.nature.com/nature.rss",
         "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03810-9 COP31 ended without agreement, but consensus-based approaches are essential to solve global issues, and ‘failures’ can lead to decisive action at future talks.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03810-9"
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03513-1 The use of generative AI is a practical way to translate hand-drawn scientific diagrams into digital formats without handing over total control, explains Ensar Aydemir.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03513-1"
       },
       "days_on_board": 1,
       "is_new": true,
       "rank_delta": "new",
-      "cluster_id": "813bc87264ad",
+      "cluster_id": "a8492be49d65",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 56
         }
       ]
@@ -3690,33 +3619,29 @@
     {
       "source": "feed",
       "rank": 57,
-      "title": "AI is ‘the end of mathematics as we know it’ — where does the field go next?",
-      "title_zh": "AI是“我们所知数学的终结”——该领域下一步走向何方？",
-      "url": "https://www.nature.com/articles/d41586-026-03719-3",
+      "title": "The world’s leading science cities are changing — here’s why",
+      "title_zh": "全球领先的科学城市正在发生变化——原因如下",
+      "url": "https://www.nature.com/articles/d41586-026-03466-5",
       "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年11月24日；doi:10.1038/d41586-026-03719-3 数学家们正为这样一个未来做准备：他们的职业可能大部分被委托给机器。",
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03466-5 Nature Index数据显示，随着智能技术改变城市中心的运作方式并加剧人才竞争，哪些城市在研究方面正在取得进展。",
       "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
+      "published_at": "2026-11-25T00:00:00+00:00",
       "extra": {
         "feed_name": "Nature",
         "tab": "papers",
         "route": "https://www.nature.com/nature.rss",
         "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03719-3 Mathematicians are bracing for a future when their profession could be mostly delegated to machines.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03719-3"
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03466-5 Nature Index data reveal the cities that are gaining ground in research, as smart technologies transform how urban centres operate and compete for talent.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03466-5"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -31,
-      "cluster_id": "1f62a121552a",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "9a0df7d03f59",
       "cluster_size": 1,
       "rank_history": [
         {
-          "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 26
-        },
-        {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
           "rank": 57
         }
       ]
@@ -3724,34 +3649,314 @@
     {
       "source": "feed",
       "rank": 58,
-      "title": "Menopause can speed up brain ageing — hormone therapy might protect it",
-      "title_zh": "更年期会加速大脑衰老——激素疗法或可保护大脑",
-      "url": "https://www.nature.com/articles/d41586-026-03667-y",
+      "title": "Gut microbes can adapt to our ageing bodies",
+      "title_zh": "肠道微生物能适应我们衰老的身体",
+      "url": "https://www.nature.com/articles/d41586-026-03268-9",
       "hot_value": null,
-      "summary_zh": "Nature，在线发表：2026年11月24日；doi:10.1038/d41586-026-03667-y 研究正在揭示更年期如何影响阿尔茨海默病的进展。",
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03268-9 一项对超过10,000人的研究揭示了人类衰老过程中肠道细菌出现的特定突变，但与疾病相关的突变很少。",
       "thumbnail": null,
-      "published_at": "2026-11-24T00:00:00+00:00",
+      "published_at": "2026-11-25T00:00:00+00:00",
       "extra": {
         "feed_name": "Nature",
         "tab": "papers",
         "route": "https://www.nature.com/nature.rss",
         "translate": true,
-        "description": "Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03667-y Studies are revealing how menopause can also affect the progression of Alzheimer’s disease.",
-        "dedupe_key": "https://www.nature.com/articles/d41586-026-03667-y"
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03268-9 A study of more than 10,000 individuals reveals specific mutations in gut bacteria that arise during human ageing, but few mutations associated with disease.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03268-9"
       },
-      "days_on_board": 2,
-      "is_new": false,
-      "rank_delta": -31,
-      "cluster_id": "430ab48ac4c8",
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "d593b5d2d67a",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 58
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 59,
+      "title": "China’s AI-powered smart-city model is going global",
+      "title_zh": "中国AI驱动的智慧城市模式正在走向全球",
+      "url": "https://www.nature.com/articles/d41586-026-03473-6",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03473-6 中国正在利用AI和大数据连接其城市和农村地区。如今，其智慧城市技术正引起国际兴趣。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03473-6 China is using AI and big data to connect its cities and rural regions. Now, its smart-city technologies are attracting international interest.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03473-6"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "2c6b8530b5b0",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 59
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 60,
+      "title": "Pockets in compacted DNA tune gene activation",
+      "title_zh": "压缩DNA中的口袋调控基因激活",
+      "url": "https://www.nature.com/articles/d41586-026-03492-3",
+      "hot_value": null,
+      "summary_zh": "Nature，在线发表：2026年11月25日；doi:10.1038/d41586-026-03492-3 特定基因的随机激活是神经元回路正常形成所必需的。相反的作用力作用于失活DNA以平衡这一过程。",
+      "thumbnail": null,
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature",
+        "tab": "papers",
+        "route": "https://www.nature.com/nature.rss",
+        "translate": true,
+        "description": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03492-3 The stochastic activation of specific genes is needed for the proper formation of neuronal circuits. Opposing forces act on inactive DNA to balance this process.",
+        "dedupe_key": "https://www.nature.com/articles/d41586-026-03492-3"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7cbb62150e4e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 60
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 69,
+      "title": "Author Correction: GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors",
+      "title_zh": "作者更正：GHT-SELEX表明许多人类转录因子具有出乎意料的高内在序列特异性和复杂的DNA结合",
+      "url": "https://www.nature.com/articles/s41592-026-03416-z",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月24日；doi:10.1038/s41592-026-03416-z 作者更正：GHT-SELEX表明许多人类转录因子具有出乎意料的高内在序列特异性和复杂的DNA结合",
+      "thumbnail": null,
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 24 November 2026; doi:10.1038/s41592-026-03416-z Author Correction: GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03416-z"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "46b74cb1ffb9",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 69
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 70,
+      "title": "ISOMPRA enables the disambiguation of transcriptional and post-transcriptional effects of genetic variants",
+      "title_zh": "ISOMPRA能够区分遗传变异的转录和转录后效应",
+      "url": "https://www.nature.com/articles/s41592-026-03302-8",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月24日；doi:10.1038/s41592-026-03302-8 ISOMPRA是一种在大规模并行报告基因检测中评估调控元件转录和转录后效应的新方法。该方法可用于体内或体外，以理解与疾病相关的变异。",
+      "thumbnail": null,
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 24 November 2026; doi:10.1038/s41592-026-03302-8 ISOMPRA is a new method for assessing transcriptional and post-transcriptional effects of regulatory elements in a massively parallel reporter assay. This method can be used in vivo or in vitro to understand variants associated with disease.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03302-8"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "7a6270e880fd",
       "cluster_size": 1,
       "rank_history": [
         {
           "run_at": "2026-11-24T12:38:49.216151+00:00",
-          "rank": 27
+          "rank": 28
         },
         {
-          "run_at": "2026-11-25T11:28:51.570961+00:00",
-          "rank": 58
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 70
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 73,
+      "title": "Tracking individual birds by their song",
+      "title_zh": "通过鸣声追踪个体鸟类",
+      "url": "https://www.nature.com/articles/s41592-026-03406-1",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月23日；doi:10.1038/s41592-026-03406-1 一种分析声景录音的自动化方法，可区分同物种个体鸟类之间鸣声结构的差异。这代表了一种新的、非侵入性的工具，用于在整个景观中监测鸟类。",
+      "thumbnail": null,
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 23 November 2026; doi:10.1038/s41592-026-03406-1 An automated approach to analyzing soundscape recordings distinguishes differences in song structure between individual birds of the same species. This represents a new, non-invasive tool for monitoring birds across the landscape.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03406-1"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "051b5531152c",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-24T12:38:49.216151+00:00",
+          "rank": 63
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 73
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 74,
+      "title": "Computational methods for cell–cell communication via single cells",
+      "title_zh": "通过单细胞进行细胞间通信的计算方法",
+      "url": "https://www.nature.com/articles/s41592-026-03287-4",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月20日；doi:10.1038/s41592-026-03287-4 本综述探讨了细胞间通信算法方法的多样性。",
+      "thumbnail": null,
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 20 November 2026; doi:10.1038/s41592-026-03287-4 This Review examines the diversity of algorithmic methods for cell–cell communication.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03287-4"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "9ee3549bbd3e",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-22T09:55:40.106894+00:00",
+          "rank": 41
+        },
+        {
+          "run_at": "2026-11-23T10:55:28.794729+00:00",
+          "rank": 65
+        },
+        {
+          "run_at": "2026-11-24T12:38:49.216151+00:00",
+          "rank": 72
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 74
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 75,
+      "title": "A two-platform blueprint for modeling human brain development",
+      "title_zh": "用于建模人类大脑发育的双平台蓝图",
+      "url": "https://www.nature.com/articles/s41592-026-03327-z",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月20日；doi:10.1038/s41592-026-03327-z 本视角文章讨论了人类大脑发育的建模方法以及实验和生物学障碍与伦理考量。",
+      "thumbnail": null,
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 20 November 2026; doi:10.1038/s41592-026-03327-z This Perspective discusses modeling approaches for human brain development as well as experimental and biological barriers and ethical considerations.",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03327-z"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "bd5ce46af7b2",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-22T09:55:40.106894+00:00",
+          "rank": 42
+        },
+        {
+          "run_at": "2026-11-23T10:55:28.794729+00:00",
+          "rank": 66
+        },
+        {
+          "run_at": "2026-11-24T12:38:49.216151+00:00",
+          "rank": 73
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 75
+        }
+      ]
+    },
+    {
+      "source": "feed",
+      "rank": 76,
+      "title": "Space-map is a tool that integrates tissue slices into detailed 3D cell maps",
+      "title_zh": "Space-map是一个将组织切片整合为详细3D细胞图谱的工具",
+      "url": "https://www.nature.com/articles/s41592-026-03309-1",
+      "hot_value": null,
+      "summary_zh": "Nature Methods，在线发表：2026年11月19日；doi:10.1038/s41592-026-03309-1 我们开发了一个工具，可从经过RNA或蛋白质分析的连续切片重建三维组织图谱。通过对齐多个切片的信息，Space-map减少了累积畸变并保留了肠道微观解剖结构，同时处理数百万细胞测量数据的效率更高",
+      "thumbnail": null,
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "extra": {
+        "feed_name": "Nature Methods",
+        "tab": "papers",
+        "route": "https://www.nature.com/nmeth.rss",
+        "translate": true,
+        "description": "Nature Methods, Published online: 19 November 2026; doi:10.1038/s41592-026-03309-1 We developed a tool that reconstructs three-dimensional tissue maps from serial sections profiled for RNA or proteins. By aligning information from across multiple sections, Space-map reduced cumulative distortion and preserved intestinal microanatomy, while handling millions of cell measurements more efficiently th",
+        "dedupe_key": "https://www.nature.com/articles/s41592-026-03309-1"
+      },
+      "days_on_board": 1,
+      "is_new": true,
+      "rank_delta": "new",
+      "cluster_id": "371700f0a8e1",
+      "cluster_size": 1,
+      "rank_history": [
+        {
+          "run_at": "2026-11-22T09:55:40.106894+00:00",
+          "rank": 49
+        },
+        {
+          "run_at": "2026-11-23T10:55:28.794729+00:00",
+          "rank": 67
+        },
+        {
+          "run_at": "2026-11-24T12:38:49.216151+00:00",
+          "rank": 74
+        },
+        {
+          "run_at": "2026-11-26T11:03:25.435709+00:00",
+          "rank": 76
         }
       ]
     }
